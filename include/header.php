@@ -1,3 +1,36 @@
+<div class="topbar">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-9">
+        <div class="topbar-left-side">
+        <ul>
+        <li><i class="fas fa-phone-alt"></i> <a href="tel:+13454567877">+1-3454-5678-77</a></li>
+        <li><i class="fas fa-clock"></i> Mon To Fri 9:00am To 6:00pm</li>
+        <li><i class="fas fa-map-marker-alt"></i> <a href="../../maps/search/2976 sunrise road las vegas/@36.1246738,-115.4551869,10z/data=!3m1!4b1-2.html">2976 Sunrise Avenue, Las Vegas, USA</a></li>
+        </ul>
+        </div>
+        </div>
+        <div class="col-lg-3">
+        <div class="topbar-right-side">
+        <div class="account">
+        <a href="profile-authentication.html"><i class="fas fa-user"></i> Login</a>
+        </div>
+        <div class="language-select option-select-area">
+        <i class="fas fa-globe"></i>
+        <select>
+        <option value="1">English</option>
+        <option value="2">العربيّة</option>
+        <option value="3">Dutch</option>
+        <option value="4">Thai</option>
+        <option value="5">简体中</option>
+        </select>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</div>
 <div class="header-area">
     <div class="navbar-area">
     
@@ -79,3 +112,4 @@
     </div>
     </div>
     </div>
+</div>
