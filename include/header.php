@@ -56,12 +56,38 @@
                                         class="fas fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Services <i
-                                                class="fas fa-angle-right"></i></a>
-
-                                    </li>
-                                    <li class="nav-item"><a href="service-details.php" class="nav-link">Service
-                                            Details</a></li>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Pancard </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Gumasta</a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Gozette </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Gst Registration </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Income Tax Return File </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Passport</a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Udhyog Aadhar</a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">FSSAI License</a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Rent Agreement </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax Registation </a>
+                                            </li>
                                 </ul>
                             </li>
 
