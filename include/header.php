@@ -58,8 +58,11 @@
    
     </li>
     <li class="nav-item">
-    <a href="Services.php" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-down"></i></a>
-    
+    <a href="#" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-down"></i></a>
+    <ul class="dropdown-menu">
+    <li class="nav-item">
+    <a href="Services.php" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-right"></i></a>
+   
     </li>
     <li class="nav-item"><a href="service-details.php" class="nav-link">Service Details</a></li>
     </ul>
