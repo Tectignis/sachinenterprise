@@ -1,4 +1,23 @@
-﻿<!DOCTYPE html>
+﻿<?php 
+include("include/config.php"); 
+
+if(isset($_POST['save'])){
+
+ 
+    $name=$_POST['name'];
+    $phonenumber=$_POST['phonenumber'];
+    $email=$_POST['email'];
+    $description=$_POST['description'];
+    $service=$_POST['service'];
+    
+    
+  
+    $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`description`,`service`) 
+    VALUES ('$name','$phonenumber','$email','$description','$service')");
+  }
+
+?>
+<!DOCTYPE html>
 <html lang="zxx">
 
 <head>
@@ -93,52 +112,33 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="sidebar-content pt-30">
-                        <div class="sidebar-card search-box">
-                            <form>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search Here.." required="">
-                                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="sidebar-card categories mt-30">
-                            <h3>Categories</h3>
-                            <ul>
-                                <li><a class="active" href="service-details.html"><i
-                                            class="fas fa-angle-double-right"></i> Residential</a></li>
-                                <li><a href="service-details.html"><i class="fas fa-angle-double-right"></i>
-                                        Commercial</a></li>
-                                <li><a href="service-details.html"><i class="fas fa-angle-double-right"></i>
-                                        Construction</a></li>
-                                <li><a href="service-details.html"><i class="fas fa-angle-double-right"></i> Windows</a>
-                                </li>
-                                <li><a href="service-details.html"><i class="fas fa-angle-double-right"></i> Carpet</a>
-                                </li>
-                                <li><a href="service-details.html"><i class="fas fa-angle-double-right"></i>
-                                        Furniture</a></li>
-                            </ul>
-                        </div>
+                       
+                  
                         <div class="sidebar-card calculate-area mt-30">
-                            <h3>Calculate</h3>
-                            <form>
-                                <input type="text" class="form-control" placeholder="Your Email">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected="" disabled="">Square Meters</option>
-                                    <option value="1">800 sqm</option>
-                                    <option value="2">1200 sqm</option>
-                                    <option value="3">1250+ sqm</option>
+                            <h3>Enquiry Form</h3>
+                            <form method="post">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                <input type="tel" class="form-control" name="phonenumber" placeholder="Your Mobile" minlength="10" maxlength="10">
+                                <input type="text" class="form-control" name="email" placeholder="Your Email">
+                                <textarea type="text" class="form-control" name="description" placeholder="Description"></textarea>
+                                <select class="form-select" name="service" aria-label="Default select example">
+                                    <option selected="" disabled="">Services</option>
+                                    <option>Pancard</option>
+                                    <option >Gumasta</option>
+                                    <option>Gozette</option>
+                                    <option >Gst Registration</option>
+                                    <option>Income Tax Return File</option>
+                                    <option >Passport</option>
+                                    <option >Udhyog Aadhar</option>
+                                    <option >FSSAI License</option>
+                                    <option >Rent Agreement</option>
+                                    <option >ISO Certificate</option>
+                                    <option>Professional Tax Registation</option>
                                 </select>
-                                <button class="default-button" type="submit"><span>Calculate</span></button>
+                                <button class="default-button" name="save" type="submit"><span>Submit</span></button>
                             </form>
                         </div>
-                        <div class="sidebar-card mt-30 opening-card">
-                            <h3>Opening Hours</h3>
-                            <ul>
-                                <li><span>Mon-Thurs</span> <span>2:00AM - 5:00PM</span></li>
-                                <li><span>Fri-Sat</span> <span>2:00AM - 3:00PM</span></li>
-                                <li><span>Sun</span> <span>Closed</span></li>
-                            </ul>
-                        </div>
+                    
                     </div>
                 </div>
             </div>
