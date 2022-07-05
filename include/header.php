@@ -5,8 +5,7 @@
         <div class="topbar-left-side">
         <ul>
         <li><i class="fas fa-phone-alt"></i> <a href="tel:+13454567877">+1-3454-5678-77</a></li>
-        <li><i class="fas fa-clock"></i> Mon To Fri 9:00am To 6:00pm</li>
-        <li><i class="fas fa-map-marker-alt"></i> <a href="../../maps/search/2976 sunrise road las vegas/@36.1246738,-115.4551869,10z/data=!3m1!4b1-2.html">2976 Sunrise Avenue, Las Vegas, USA</a></li>
+        
         </ul>
         </div>
         </div>
@@ -15,16 +14,7 @@
         <div class="account">
         <a href="profile-authentication.html"><i class="fas fa-user"></i> Login</a>
         </div>
-        <div class="language-select option-select-area">
-        <i class="fas fa-globe"></i>
-        <select>
-        <option value="1">English</option>
-        <option value="2">العربيّة</option>
-        <option value="3">Dutch</option>
-        <option value="4">Thai</option>
-        <option value="5">简体中</option>
-        </select>
-        </div>
+        
         </div>
         </div>
         </div>
@@ -54,12 +44,19 @@
     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
     <ul class="navbar-nav">
     <li class="nav-item plus-icon">
-    <a href="index.php" class="nav-link dropdown-toggle active">Home <i class="fas fa-angle-down"></i></a>
+    <a href="index.php" class="nav-link dropdown-toggle active">Home </a>
+   
+    </li>
+    <li class="nav-item plus-icon">
+    <a href="about.php" class="nav-link dropdown-toggle active">About Us</a>
    
     </li>
     <li class="nav-item">
-    <a href="Services.php" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-down"></i></a>
-    
+    <a href="#" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-down"></i></a>
+    <ul class="dropdown-menu">
+    <li class="nav-item">
+    <a href="Services.php" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-right"></i></a>
+   
     </li>
     <li class="nav-item"><a href="service-details.php" class="nav-link">Service Details</a></li>
     </ul>
