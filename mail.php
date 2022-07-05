@@ -33,7 +33,7 @@
         if ($success) {
             # Set a 200 (okay) response code.
             http_response_code(200);
-            echo "<script>alert('Thank You! Your message has been sent.')</script>";
+            echo "<script>alert('Thank You! Your message has been sent.'); window.location='contact.php';</script>";
         } else {
             # Set a 500 (internal server error) response code.
             http_response_code(500);
