@@ -63,21 +63,19 @@
                     <div class="about-text-area">
                         <div class="default-section-title">
                             <h6>ABOUT US</h6>
-                            <h3>We Have 25 Years Of Experience In This Field</h3>
+                            <h3>We Have 5 + Years Of Experience In This Field</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo incididunt. Quis ipsum
-                            suspendisse commodo viverra maecenass.</p>
+                        <p>SACHIN ENTERPRISE SERVICES is an Indian company established in 2016 headquartered in New
+                            Mumbai, India.</p>
+
                         <div class="about-list">
                             <ul>
-                                <li><i class="far fa-check-square"></i> Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.</li>
-                                <li><i class="far fa-check-square"></i> Quis ipsum suspendisse commodo viverra
-                                    maecenass.</li>
-                                <li><i class="far fa-check-square"></i> sed do eiusmod tempor incididunt ut labore et
-                                    dolore magna aliqua. </li>
-                                <li><i class="far fa-check-square"></i> Quis ipsum suspendisse ultrices gravida.</li>
+                                <li><i class="far fa-check-square"></i>Welcome to the official website of SACHIN
+                                    ENTERPRISE SERVICES.</li>
+                                <li><i class="far fa-check-square"></i>The purpose of this portal is to facilitate the
+                                    listing of online services provided by various government entities under one
+                                    platform.</li>
+
                             </ul>
                         </div>
                         <a class="default-button" href="about.html"><span>Read More</span></a>
@@ -113,15 +111,14 @@
     </div>
 
 
-    <div class="features features-bg features-bg-4 pt-100">
+    <div class="features features-bg pt-100">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-4 col-xl-12 col-lg-12 col-md-12 col-12">
                     <div class="default-section-title">
                         <h6>FEATURES SERVICES</h6>
-                        <h3>We Provide Best Features To clean Your Home And Office</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tempor incididunt ut laabore et
-                            dolore magna aliqua quis suspendisse ultrices gravida risus commodo.</p>
+                        <h3>We provides all government Services across the india..</h3>
+
                     </div>
                 </div>
                 <div class="col-xxl-8 col-xl-12 col-lg-12 col-md-12 col-12">
@@ -137,8 +134,8 @@
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>Send A Message</h4>
-                                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam.</p>
+                                        <h4>APPLY</h4>
+                                        <p>You can Apply for our several services.</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,8 +149,8 @@
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>Schedule Cleaning</h4>
-                                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam.</p>
+                                        <h4>UPDATE</h4>
+                                        <p>You can Update your Documents.</p>
                                     </div>
                                 </div>
                             </div>
@@ -167,9 +164,10 @@
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>Providing Service</h4>
-                                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam.</p>
+                                        <h4>RENEW</h4>
+                                        <p>You can Renew your Documents.</p>
                                     </div>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
@@ -178,13 +176,14 @@
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
-                                            <i class="flaticon-bag"></i>
+                                            <i class="flaticon-support-1"></i>
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>Finish The Job</h4>
-                                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam.</p>
+                                        <h4>RENEW</h4>
+                                        <p>You can Renew your Documents.</p>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -195,102 +194,7 @@
     </div>
 
 
-    <div class="team about-team pt-100">
-        <div class="container">
-            <div class="default-section-title default-section-title-middle">
-                <h6>OUR TEAM</h6>
-                <h3>Our Leadership Team</h3>
-            </div>
-            <div class="section-content">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="team-card">
-                            <img src="assets/images/team/t1.jpg" alt="image">
-                            <div class="team-text-area">
-                                <h4>Sophia Arther</h4>
-                                <p>Financial Officer</p>
-                                <div class="team-social-icons">
-                                    <ul>
-                                        <li><a href="../../index-35.htm" target="_blank"><i
-                                                    class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="../../index-36.htm" target="_blank"><i
-                                                    class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="../../index-37.htm" target="_blank"><i
-                                                    class="fab fa-twitter"></i></a></li>
-                                        <li><a href="../../index-38.htm" target="_blank"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="team-card">
-                            <img src="assets/images/team/t2.jpg" alt="image">
-                            <div class="team-text-area">
-                                <h4>Michel Gery</h4>
-                                <p>Customer Officer</p>
-                                <div class="team-social-icons">
-                                    <ul>
-                                        <li><a href="../../index-35.htm" target="_blank"><i
-                                                    class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="../../index-36.htm" target="_blank"><i
-                                                    class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="../../index-37.htm" target="_blank"><i
-                                                    class="fab fa-twitter"></i></a></li>
-                                        <li><a href="../../index-38.htm" target="_blank"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="team-card">
-                            <img src="assets/images/team/t3.jpg" alt="image">
-                            <div class="team-text-area">
-                                <h4>Pery Henry</h4>
-                                <p>Operating Officer</p>
-                                <div class="team-social-icons">
-                                    <ul>
-                                        <li><a href="../../index-35.htm" target="_blank"><i
-                                                    class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="../../index-36.htm" target="_blank"><i
-                                                    class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="../../index-37.htm" target="_blank"><i
-                                                    class="fab fa-twitter"></i></a></li>
-                                        <li><a href="../../index-38.htm" target="_blank"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="team-card">
-                            <img src="assets/images/team/t4.jpg" alt="image">
-                            <div class="team-text-area">
-                                <h4>Milton Hence</h4>
-                                <p>Staff Officer</p>
-                                <div class="team-social-icons">
-                                    <ul>
-                                        <li><a href="../../index-35.htm" target="_blank"><i
-                                                    class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="../../index-36.htm" target="_blank"><i
-                                                    class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="../../index-37.htm" target="_blank"><i
-                                                    class="fab fa-twitter"></i></a></li>
-                                        <li><a href="../../index-38.htm" target="_blank"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 
 
     <div class="testimonial ptb-100">
