@@ -25,7 +25,7 @@
 
 
 
-
+<?php include("include/header.php"); ?>
 
 
 <div class="error ptb-100">
@@ -154,11 +154,7 @@
 </div>
 
 
-<div class="copyright bg-000000">
-<div class="container">
-<p>Copyright &copy; 2021. <strong>ANWA</strong> All Rights Reserved By <a target="_blank" href="../../index-39.htm">HiBootstrap</a></p>
-</div>
-</div>
+<?php include("include/footer.php"); ?>
 
 
 <div class="popup">
