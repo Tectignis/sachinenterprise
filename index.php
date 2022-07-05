@@ -289,7 +289,87 @@ include("include/config.php");
     </div>
 
 
-
+    <div class="pricing pricing-1 pt-100 shape-bg">
+        <div class="container">
+            <div class="default-section-title default-section-title-middle">
+                <h6>OUR PRICING PLAN</h6>
+                <h3>Simple And Affordable Plan</h3>
+            </div>
+            <div class="setion-content">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="pricing-card">
+                            <div class="pricing-card-header">
+                                <h3>Basic Plan</h3>
+                                <div class="price">
+                                    <h2><sup>$</sup>49<sub>/ per Month</sub></h2>
+                                </div>
+                            </div>
+                            <div class="pricing-text-area">
+                                <div class="service-price-list">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
+                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
+                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
+                                        <li><i class="fas fa-times"></i> Floor cleaning.</li>
+                                        <li><i class="fas fa-times"></i> Waiting area cleaning.</li>
+                                    </ul>
+                                </div>
+                                <a class="default-button default-button-2" href="pricing.html"><span>Order
+                                        Plan</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="pricing-card pricing-active">
+                            <div class="pricing-card-header">
+                                <h3>Premimum Plan</h3>
+                                <div class="price">
+                                    <h2><sup>$</sup>69<sub>/ per Month</sub></h2>
+                                </div>
+                            </div>
+                            <div class="pricing-text-area">
+                                <div class="service-price-list">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
+                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
+                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
+                                        <li><i class="fas fa-check"></i> Floor cleaning.</li>
+                                        <li><i class="fas fa-times"></i> Waiting area cleaning.</li>
+                                    </ul>
+                                </div>
+                                <a class="default-button default-button-2" href="pricing.html"><span>Order
+                                        Plan</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="pricing-card">
+                            <div class="pricing-card-header">
+                                <h3>Excellent Plan</h3>
+                                <div class="price">
+                                    <h2><sup>$</sup>89<sub>/ per Month</sub></h2>
+                                </div>
+                            </div>
+                            <div class="pricing-text-area">
+                                <div class="service-price-list">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
+                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
+                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
+                                        <li><i class="fas fa-check"></i> Floor cleaning.</li>
+                                        <li><i class="fas fa-check"></i> Waiting area cleaning.</li>
+                                    </ul>
+                                </div>
+                                <a class="default-button default-button-2" href="pricing.html"><span>Order
+                                        Plan</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="testimonial ptb-100">
@@ -378,87 +458,7 @@ include("include/config.php");
     </div>
 
 
-    <div class="pricing pricing-1 pt-100 shape-bg">
-        <div class="container">
-            <div class="default-section-title default-section-title-middle">
-                <h6>OUR PRICING PLAN</h6>
-                <h3>Simple And Affordable Plan</h3>
-            </div>
-            <div class="setion-content">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="pricing-card">
-                            <div class="pricing-card-header">
-                                <h3>Basic Plan</h3>
-                                <div class="price">
-                                    <h2><sup>$</sup>49<sub>/ per Month</sub></h2>
-                                </div>
-                            </div>
-                            <div class="pricing-text-area">
-                                <div class="service-price-list">
-                                    <ul>
-                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
-                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
-                                        <li><i class="fas fa-times"></i> Floor cleaning.</li>
-                                        <li><i class="fas fa-times"></i> Waiting area cleaning.</li>
-                                    </ul>
-                                </div>
-                                <a class="default-button default-button-2" href="pricing.html"><span>Order
-                                        Plan</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="pricing-card pricing-active">
-                            <div class="pricing-card-header">
-                                <h3>Premimum Plan</h3>
-                                <div class="price">
-                                    <h2><sup>$</sup>69<sub>/ per Month</sub></h2>
-                                </div>
-                            </div>
-                            <div class="pricing-text-area">
-                                <div class="service-price-list">
-                                    <ul>
-                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
-                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Floor cleaning.</li>
-                                        <li><i class="fas fa-times"></i> Waiting area cleaning.</li>
-                                    </ul>
-                                </div>
-                                <a class="default-button default-button-2" href="pricing.html"><span>Order
-                                        Plan</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="pricing-card">
-                            <div class="pricing-card-header">
-                                <h3>Excellent Plan</h3>
-                                <div class="price">
-                                    <h2><sup>$</sup>89<sub>/ per Month</sub></h2>
-                                </div>
-                            </div>
-                            <div class="pricing-text-area">
-                                <div class="service-price-list">
-                                    <ul>
-                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
-                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Floor cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Waiting area cleaning.</li>
-                                    </ul>
-                                </div>
-                                <a class="default-button default-button-2" href="pricing.html"><span>Order
-                                        Plan</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
 
 
