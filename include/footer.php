@@ -8,10 +8,8 @@
 <div class="footer-social-icons">
 <span>Follow Us:</span>
 <ul>
-<li><a href="../../index-35.htm" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-<li><a href="../../index-36.htm" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a href="../../index-37.htm" target="_blank"><i class="fab fa-twitter"></i></a></li>
-<li><a href="../../index-38.htm" target="_blank"><i class="fab fa-instagram"></i></a></li>
+<li><a href="https://www.facebook.com/tectignisofficial/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="https://www.instagram.com/tectignisofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 </ul>
 </div>
 </div>
@@ -22,17 +20,17 @@
 <div class="footer-content-card">
 <i class="fas fa-map-marker-alt"></i>
 <h5>Location:</h5>
-<p><a href="../../maps/search/2976 sunrise road las vegas/@36.1246738,-115.4551869,10z/data=!3m1!4b1-2.html">2976 Sunrise Avenue, Las Vegas</a></p>
+<p><a href="#">Shop No. 02 Bajali Darshan Apartment Plot No. 28 Sec-11 Kamothe - 410209</a></p>
 </div>
 <div class="footer-content-card">
 <i class="fas fa-envelope"></i>
 <h5>Email:</h5>
-<p><a href="/cdn-cgi/l/email-protection#53202623233c212713323d24327d303c3e"><span class="__cf_email__" data-cfemail="86f5f3f6f6e9f4f2c6e7e8f1e7a8e5e9eb">[email&#160;protected]</span></a></p>
+<p><a href="#"><span class="__cf_email__" data-cfemail="86f5f3f6f6e9f4f2c6e7e8f1e7a8e5e9eb">support@tectignis.university</span></a></p>
 </div>
 <div class="footer-content-card">
 <i class="fas fa-mobile-alt"></i>
 <h5>Phone:</h5>
-<p><a href="tel:+13454567877">+1-3454-5678-77</a></p>
+<p><a href="tel:+91 99877 05688">+91 99877 05688</a></p>
 </div>
 </div>
 </div>
@@ -40,11 +38,10 @@
 <div class="footer-links footer-quick-links">
 <h3>Quick Links</h3>
 <ul>
-<li><a href="about.html" target="_blank"><i class="fas fa-angle-right"></i> <span>About</span></a></li>
-<li><a href="services.html" target="_blank"><i class="fas fa-angle-right"></i> <span>Our Services</span></a></li>
-<li><a href="team.html" target="_blank"><i class="fas fa-angle-right"></i> <span>Our Team</span></a></li>
-<li><a href="blog.html" target="_blank"><i class="fas fa-angle-right"></i> <span>Our Blog</span></a></li>
-<li><a href="contact.html" target="_blank"><i class="fas fa-angle-right"></i> <span>Contact</span></a></li>
+<li><a href="index.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Home</span></a></li>
+<li><a href="about.php" target="_blank"><i class="fas fa-angle-right"></i> <span>About</span></a></li>
+<li><a href="services.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Services</span></a></li>
+<li><a href="contact.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Contact</span></a></li>
 </ul>
 </div>
 </div>
