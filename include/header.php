@@ -48,7 +48,7 @@
 
                             </li>
                             <li class="nav-item plus-icon">
-                                <a href="about.php" class="nav-link dropdown-toggle active">About Us</a>
+                                <a href="about.php" class="nav-link dropdown-toggle">About Us</a>
 
                             </li>
                             <li class="nav-item">
