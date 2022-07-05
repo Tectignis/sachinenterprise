@@ -4,7 +4,7 @@
         <div class="col-lg-9">
         <div class="topbar-left-side">
         <ul>
-        <li><i class="fas fa-phone-alt"></i> <a href="tel:+13454567877">+1-3454-5678-77</a></li>
+        <li><i class="fas fa-envelope"></i> <a href="tel:+91 99877 05688">+91 99877 05688</a></li>
         
         </ul>
         </div>
@@ -12,7 +12,7 @@
         <div class="col-lg-3">
         <div class="topbar-right-side">
         <div class="account">
-        <a href="profile-authentication.html"><i class="fas fa-user"></i> Login</a>
+        <a href="profile-authentication.php"><i class="fas fa-user"></i> Login</a>
         </div>
         
         </div>
@@ -27,7 +27,7 @@
     <div class="main-responsive-nav">
     <div class="container">
     <div class="mobile-nav">
-    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo"></a>
+    <a href="index.php" class="logo"><img src="assets/images/logo.png" alt="logo"></a>
     <ul class="menu-sidebar menu-small-device">
     <li><button class="popup-button"><i class="fas fa-search"></i></button></li>
     </ul>

@@ -30,8 +30,8 @@
 <div class="uni-banner-text">
 <h1>Terms & Conditions</h1>
 <ul>
-<li><a href="index.html">Home</a></li>
-<li>Terms & Conditions</li>
+<li><a href="index.php">Home</a></li>
+<li><a href="index.php">Terms & Conditions</a></li>
 </ul>
 </div>
 </div>
@@ -71,54 +71,14 @@
 </div>
 
 
-<div class="newsletter newsletter-1">
-<div class="container">
-<div class="newsletter-content-area">
-<div class="row align-items-center">
-<div class="col-lg-4 col-md-12 col-sm-12 col-12">
-<div class="default-section-title">
-<h6>YOUR CLEANING COST</h6>
-<h3>Calculate</h3>
-</div>
-</div>
-<div class="col-lg-8 col-md-12 col-sm-12 col-12">
-<form>
-<div class="row align-items-center justify-content-center">
-<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-<div class="news-input-card">
-<input type="text" class="form-control" placeholder="Your Email">
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-<div class="news-input-card">
-<select class="form-select" aria-label="Default select example">
-<option selected="" disabled="">Square Meters </option>
-<option value="1">Below 500sqm</option>
-<option value="2">500 to 1000sqm</option>
-<option value="3">1000+ sqm</option>
-</select>
-</div>
-</div>
-<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-<div class="news-input-card">
-<button class="default-button"><span>Calculate</span></button>
-</div>
-</div>
-</div>
-</form>
-</div>
-</div>
- </div>
-</div>
-</div>
-
+<?php include("newsletter.php"); ?>
 
 <div class="footer footer-2 ptb-100 bg-000000">
 <div class="container">
 <div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
 <div class="footer-logo-area">
-<a href="index.html"><img src="assets/images/white-logo.png" alt="image"></a>
+<a href="index.php"><img src="assets/images/white-logo.png" alt="image"></a>
 <p>Lorem ipsum dolor sit amet, consec tetur elit eiusmod tempor incididunt labore dolore magna aliqua consec tetur adipis cing elite sed do labor.</p>
 <div class="footer-social-icons">
 <span>Follow Us:</span>
