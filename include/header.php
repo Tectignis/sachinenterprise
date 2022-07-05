@@ -48,7 +48,7 @@
     <div class="main-nav">
     <div class="container">
     <nav class="navbar navbar-expand-md navbar-light">
-    <a class="navbar-brand" href="index.html"> 
+    <a class="navbar-brand" href="index.php"> 
     <img src="assets/images/logo.png" alt="logo">
     </a>
     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -58,25 +58,19 @@
    
     </li>
     <li class="nav-item">
-    <a href="#" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-down"></i></a>
-    <ul class="dropdown-menu">
-    <li class="nav-item">
-    <a href="#" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-right"></i></a>
-    <ul class="dropdown-menu">
-    <li class="nav-item"><a href="services.html" class="nav-link">Services 01</a></li>
-    <li class="nav-item"><a href="services-2.html" class="nav-link">Services 02</a></li>
-    </ul>
+    <a href="Services.php" class="nav-link dropdown-toggle">Services <i class="fas fa-angle-down"></i></a>
+    
     </li>
-    <li class="nav-item"><a href="service-details.html" class="nav-link">Service Details</a></li>
+    <li class="nav-item"><a href="service-details.php" class="nav-link">Service Details</a></li>
     </ul>
     </li>
    
-    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+    <li class="nav-item"><a href="contact.php" class="nav-link">Contact Us</a></li>
     </ul>
     <div class="menu-sidebar menu-sidebar-1">
     <ul>
     <li><button class="popup-button"><i class="fas fa-search"></i></button></li>
-    <li><a class="default-button" href="contact.html"><span>Get Started</span></a></li>
+    <li><a class="default-button" href="contact.php"><span>Get Started</span></a></li>
     </ul>
     </div>
     </div>
