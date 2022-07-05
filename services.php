@@ -51,8 +51,8 @@ include("include/config.php");
                 <h3>We Provide Best Service</h3>
             </div>
             <div class="section-content">
-            <div class="row">
-                 <?php 
+                <div class="row">
+                    <?php 
                         
                         $sql=mysqli_query($conn,"select * from `services`");
                          while($arr=mysqli_fetch_array($sql)){
@@ -83,7 +83,7 @@ include("include/config.php");
     </div>
 
 
-<?php include("newsletter.php"); ?>
+    <?php include("newsletter.php"); ?>
 
     <div class="footer footer-2 ptb-100 bg-000000">
         <div class="container">

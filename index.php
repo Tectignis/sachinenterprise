@@ -255,10 +255,10 @@ include("include/config.php");
                 <h6>OUR SERVICES</h6>
                 <h3>We Provide Best Service</h3>
             </div>
-           
+
             <div class="section-content">
                 <div class="row">
-                 <?php 
+                    <?php 
                         
                         $sql=mysqli_query($conn,"select * from `services`");
                          while($arr=mysqli_fetch_array($sql)){
@@ -283,7 +283,7 @@ include("include/config.php");
 
                     <?php  } ?>
                 </div>
-             
+
             </div>
         </div>
     </div>

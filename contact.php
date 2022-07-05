@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +24,7 @@
 
 <body>
 
-<?php include("include/header.php"); ?>
+    <?php include("include/header.php"); ?>
 
 
     <div class="uni-banner">
@@ -84,7 +85,7 @@
                             <div class="bd-form details-text-area" id="bd-form">
                                 <h3>Send Your Message</h3>
                                 <form class="contact__form form-row" method="POST" action="mail.php">
-                                    <div class="row">   
+                                    <div class="row">
                                         <div class="col-12">
                                             <div class="alert alert-success contact__msg" style="display: none"
                                                 role="alert">
@@ -103,7 +104,7 @@
                                                 id="email" name="email">
                                         </div>
                                         <div class="col-md-12">
-                                        <input type="text" class="form-control" placeholder="Subject" required=""
+                                            <input type="text" class="form-control" placeholder="Subject" required=""
                                                 id="subject" name="subject">
                                         </div>
                                         <div class="col-md-12">
