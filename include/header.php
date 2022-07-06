@@ -78,12 +78,18 @@
                                             <li class="nav-item">
                                         <a href="tds-return.php" class="nav-link dropdown-toggle">TDS Return</a>
                                             </li>
+
+                                            <li class="nav-item">
+                                        <a href="tdsreturn-rivision.php" class="nav-link dropdown-toggle">TDS Return Revision </a>
+                                            </li>
+                                            
                                             <li class="nav-item">
                                         <a href="pf-return.php" class="nav-link dropdown-toggle">PF Return </a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="esi-return.php" class="nav-link dropdown-toggle">ESI Return </a>
                                             </li>
+                                            
                                 </ul>
                             </li>
                             <li class="nav-item">
