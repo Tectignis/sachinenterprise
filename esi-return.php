@@ -114,21 +114,37 @@ include("include/config.php");
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <p>Employees’ State Insurance(ESI):</p>
-          <p>
-          Employee State Insurance is a self-financing social security scheme and health insurance plan for Indian workers, offering medical and disablement benefits. Governed by the ESI Act, 1948, it is managed by Employees’ State Insurance Corporation (ESIC) under the Ministry of Labour and Employment. ESIC is expected to manage the fund as per the rules and regulations set forth by the Act.
-           </p>
-           <p>Applicability of ESI:</p>
-           <p>The ESIC is applicable on all the establishments having 10 or more workers and is beneficial to all the employees earning Rs.15, 000/- or less per month as wages, employer must contribute 3.25 percent and employee must contributes 0.75 percent towards ESI.</p>
-           <p>Due date for filing ESI Return:</p>
-           <p>The employer needs to pay ESI return on a monthly basis, and the due dates are also fixed as follows:
-            </p>
-            <p>The due date for ESI return filing is 15th of subsequent month.</p>
-            <p>
-            Why Ebizfiling as your service provider for ESI return?
-            </p>
-            <p>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing ESI Returns is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from ESI returns, Ebizfiling.com also helps you to file Income Tax Returns, TDS Returns, GST Returns and PF Returns easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</p>
+                <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                    
+                        <h5>Employees’ State Insurance(ESI):</h5>
+                        
+         <label> Employee State Insurance is a self-financing social security scheme and health insurance plan for Indian workers, offering medical and disablement benefits. Governed by the ESI Act, 1948, it is managed by Employees’ State Insurance Corporation (ESIC) under the Ministry of Labour and Employment. ESIC is expected to manage the fund as per the rules and regulations set forth by the Act.
+</label>
+</div>
+</div>
+             <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+           <h5>Applicability of ESI:</h5>
+           <label>The ESIC is applicable on all the establishments having 10 or more workers and is beneficial to all the employees earning Rs.15, 000/- or less per month as wages, employer must contribute 3.25 percent and employee must contributes 0.75 percent towards ESI.</label>
+            </div>
+            </div>
+                   <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+           <h5>Due date for filing ESI Return:</h5>
+           <label>The employer needs to pay ESI return on a monthly basis, and the due dates are also fixed as follows:
+                </label>
+            <lable>The due date for ESI return filing is 15th of subsequent month.</label>
+            </div>
+            </div> 
+
+                    <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+            <h5>
+            Why Ebizfiling as your service provider for ESI return?</h5>
+          
+            <label>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing ESI Returns is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from ESI returns, Ebizfiling.com also helps you to file Income Tax Returns, TDS Returns, GST Returns and PF Returns easily. 
+                You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</label>
                     </div>
                    
                 </div>
