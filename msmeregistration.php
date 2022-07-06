@@ -108,7 +108,7 @@ include("include/config.php");
     <div class="pricing pricing-1 pt-10 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>MSME/Udhyog Aadhar Registration</h3>
+                <h3>MSME/Udyog Aadhar Registration</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">

@@ -65,7 +65,7 @@
                                         <a href="epfregistration.php" class="nav-link dropdown-toggle">EPF Registration</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="msmeregistration.php" class="nav-link dropdown-toggle">MSME/Udhyog Aadhar Registration</a>
+                                        <a href="msmeregistration.php" class="nav-link dropdown-toggle">MSME/Udyog Aadhar Registration</a>
                                             </li>
                                 </ul>
                             </li>
