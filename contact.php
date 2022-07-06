@@ -128,6 +128,7 @@
         <iframe class="g-map" src=""></iframe>
     </div>
 
+    <?php include("include/newsletter.php"); ?>
     <?php include("include/footer.php"); ?>
 
 

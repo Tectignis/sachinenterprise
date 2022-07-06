@@ -1,6 +1,8 @@
-﻿<?php 
-include("include/config.php"); 
+<?php
+include("include/config.php");
+
 ?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -28,64 +30,105 @@ include("include/config.php");
 <body>
 
 
+
     <?php include("include/header.php"); ?>
 
 
-    <div class="uni-banner">
-        <div class="container">
-            <div class="uni-banner-text">
-                <h1>Our Services</h1>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>Services</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+
+   
 
 
-    <div class="service ptb-100">
+
+
+    
+
+
+    
+
+
+    <!-- <div class="booking booking-1">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-lg-10">
+<div class="booking-content">
+<div class="default-section-title">
+<h3>Book A Service</h3>
+</div>
+<div class="section-content">
+<form>
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+<div class="booking-form-content">
+<input type="text" class="form-control" placeholder="Your Name">
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+<div class="booking-form-content">
+<input type="Email" class="form-control" placeholder="Email Address">
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+<div class="booking-form-content">
+<input type="text" class="form-control" placeholder="Zip Code">
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+<div class="booking-form-content">
+<input type="text" class="form-control" placeholder="Mobile Number">
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+<div class="booking-form-content">
+<select class="form-select" aria-label="Default select example">
+<option selected="" disabled="">Choose A Service</option>
+<option value="1">Room Cleaning</option>
+<option value="2">Office Cleaning</option>
+<option value="3">Ground Cleaning</option>
+</select>
+</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+<div class="booking-form-content">
+<button class="default-button" type="submit"><span>Submit Details</span></button>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+
+
+    
+
+
+    <div class="pricing pricing-1 pt-100 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h6>OUR SERVICES</h6>
-                <h3>We Provide Best Service</h3>
+                <h3>GST Modification</h3>
             </div>
-            <div class="section-content">
-                <div class="row">
-                    <?php 
-                        
-                        $sql=mysqli_query($conn,"select * from `services`");
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
+            <div class="setion-content">
+                <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.html"><?php echo $arr['image'];?></a>
-                            </div>
-                            <div class="service-card-text">
-                                <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
-                                    <i class="flaticon-residential"></i>
-                                </div>
-                                <h4><a href="service-details.html"><?php echo $arr['title'];?></a></h4>
-                                <p><?php echo $arr['description'];?></p>
-                                <a class="read-more-btn" href="service-details.html">Apply</a>
-                            </div>
+                        <label for="">After receipt of GST Registration Certificate, if you wish to modify any fields such as name, address, email ID, contact details, you need to apply for GST Modification request.
+                    GST Modification is divided into two parts: Core Fields and Non-Core Fields. Core Field changes require supporting documents to be attached while applying. Non-Core Fields can be updated without submitting any proofs.
+                    Non-Core Fields include email ID, Phone number, any minor changes, while Core Fields include Change in Address, Add a place of Business etc.You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</label>
                         </div>
-                    </div>
-
-                    <?php  } ?>
+                   
                 </div>
-                <a class="mt-30 default-button default-button-3 pag-btn" href="services.html"><span>Load More</span></a>
             </div>
         </div>
     </div>
 
 
-    <?php include("include/newsletter.php"); ?>
+   
 
-<?php include("include/footer.php"); ?>
+
+    <?php include("include/newsletter.php");?>
+    <?php include("include/footer.php"); ?>
 
 
     <div class="popup">

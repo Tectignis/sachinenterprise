@@ -170,6 +170,7 @@
     </div>
 
 
+    <?php include("include/newsletter.php"); ?>
     <?php include("include/footer.php"); ?>
 
 

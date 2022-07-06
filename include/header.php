@@ -39,21 +39,55 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="index.php">
-                        <img src="assets/images/logo.png" alt="logo">
+                        <img src="assets/images/companylogo/SE_logo.png" alt="logo" style="height: 75px; width: 75px;">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item plus-icon">
-                                <a href="index.php" class="nav-link dropdown-toggle active">Home </a>
-
-                            </li>
-                            <li class="nav-item plus-icon">
-                                <a href="about.php" class="nav-link dropdown-toggle">About Us</a>
-
+                                <a href="index.php" class="nav-link dropdown-toggle ">Home </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Services <i
-                                        class="fas fa-angle-down"></i></a>
+                                <a href="#" class="nav-link dropdown-toggle">Registration<i  class="fas fa-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="gstregistration.php" class="nav-link dropdown-toggle">GST Registration </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="gstmodification.php" class="nav-link dropdown-toggle">GST Modification</a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">GST Cancellation </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="esicregistration.php" class="nav-link dropdown-toggle">ESIC Registration </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="epfregistration.php" class="nav-link dropdown-toggle">EPF Registration</a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="msmeregistration.php" class="nav-link dropdown-toggle">MSME/Udhyog Aadhar Registration</a>
+                                            </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item plus-icon">
+                                <a href="#" class="nav-link dropdown-toggle ">Returns<i  class="fas fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">GST Return </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">TDS Return</a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">PF Return </a>
+                                            </li>
+                                            <li class="nav-item">
+                                        <a href="#" class="nav-link dropdown-toggle">ESI Return </a>
+                                            </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">Services<i  class="fas fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Pancard </a>
@@ -90,7 +124,9 @@
                                             </li>
                                 </ul>
                             </li>
-
+                            <li class="nav-item plus-icon">
+                                <a href="about.php" class="nav-link dropdown-toggle">About Us</a>
+                            </li>
                             <li class="nav-item"><a href="contact.php" class="nav-link">Contact Us</a></li>
                         </ul>
                         <div class="menu-sidebar menu-sidebar-1">
