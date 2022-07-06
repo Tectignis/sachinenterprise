@@ -137,17 +137,29 @@ include("include/config.php");
                         
             <div class="row justify-content-center pt-3">
                             <div class="col-8">
-                        <b>Important Points relating to Provident Fund:</b><br>
+                        <h5>Important Points relating to Provident Fund:</h5><br>
                         <b>PF Return : </b> Provident fund return must be filed by all entities having PF registration every month. PF return is due on the <b> 25th of each month.</b> Further, a final PF return is due on the 25th of April for the year ended on 31st March.<br>
                             <b>PF Payment : </b> Provident Fund (PF) payments are due on the 15th of each month. The employer must deposit a total of 12% or 10% of the employee wages towards PF on or before this date every month. For most entities, the PF rate of 12% would be applicable.<br>
                           <b>  UAN : </b> The Employee Provident Fund has launched the Unified Portal to streamline and simplify all aspects of provident fund for both employers and employees. Employees who have the newly allotted UAN can use the Unified Portal for various services.</label><br>
-  
-                            <p>Due date for Filing PF Returns:</p>
-                            <p>The due date for Monthly Challan remittance to Bank for PF is 15th of Every Month
-                                The due date for Monthly PF returns is 15th of subsequent month
-                                The due date for yearly returns is 30th April every year.</p>
-                                <p>Why Ebizfiling as your service provider for filing PF returns?</p>
-                                <p>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing PF Returns is easy, seamless, cheaper and quicker with EbizFiling.com! Apart from PF returns, Ebizfiling.com also helps you to file Income Tax Returns, TDS Returns, GST Returns and ESI Returns easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</p>
+                    </div>
+                    </div>
+                          
+                        <div class="row justify-content-center pt-3">
+                            <div class="col-8">
+                            <h5>Due date for Filing PF Returns:</h5>
+                            <label>The due date for Monthly Challan remittance to Bank for PF is 15th of Every Month</label><br>
+                              <label>  The due date for Monthly PF returns is 15th of subsequent month</label><br>
+                              <label>  The due date for yearly returns is 30th April every year.</label><br>
+                              <br>
+                        </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                            <div class="col-8">
+                                <h5>Why Ebizfiling as your service provider for filing PF returns?</h5>
+                                
+                                
+                                <label>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing PF Returns is easy, seamless, cheaper and quicker with EbizFiling.
+                                 com! Apart from PF returns, Ebizfiling.com also helps you to file  Income Tax Returns, TDS Returns, GST Returns and ESI Returns easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</label>
 
                     </div>
                    
