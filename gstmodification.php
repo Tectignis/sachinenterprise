@@ -105,17 +105,25 @@ include("include/config.php");
     
 
 
-    <div class="pricing pricing-1 pt-100 shape-bg">
+    <div class="pricing pricing-1  shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3>GST Modification</h3>
             </div>
             <div class="setion-content">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <label for="">After receipt of GST Registration Certificate, if you wish to modify any fields such as name, address, email ID, contact details, you need to apply for GST Modification request.
-                    GST Modification is divided into two parts: Core Fields and Non-Core Fields. Core Field changes require supporting documents to be attached while applying. Non-Core Fields can be updated without submitting any proofs.
-                    Non-Core Fields include email ID, Phone number, any minor changes, while Core Fields include Change in Address, Add a place of Business etc.You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</label>
+                <div class="row justify-content-center pt-5">
+                    <div class="col-8 ">
+                        <label for="">After receipt of GST Registration Certificate, if you wish to modify any fields such as name, address, email ID, contact details, you need to apply for GST Modification request.</label>
+                    </div>
+                    </div>
+                    <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                    <label>GST Modification is divided into two parts: Core Fields and Non-Core Fields. Core Field changes require supporting documents to be attached while applying. Non-Core Fields can be updated without submitting any proofs.</label>
+                    </div>
+                    </div>
+                    <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                    <label>Non-Core Fields include email ID, Phone number, any minor changes, while Core Fields include Change in Address, Add a place of Business etc.You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</label>
                         </div>
                    
                 </div>

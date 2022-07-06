@@ -105,37 +105,83 @@ include("include/config.php");
     
 
 
-    <div class="pricing pricing-1 pt-10 shape-bg">
+    <div class="pricing pricing-1  shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3>ESIC Registration</h3>
             </div>
             <div class="setion-content">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <p>Employee State Insurance Corporation or ESIC Registration is a self-financing social security and health insurance scheme which provides medical benefit, sickness benefit, maternity benefit and various other benefits such as funeral expenses, free supply of physical aids etc. to the employees and their family.</p>
-                        <p>Any factory or business establishment having 10 or more than 10 employees, irrespective of salary, have to register with ESIC. ESI contributions must be made for all employees having a salary of less than Rs.21,000 per month. Employees with less than Rs. 21,000 monthly wages get health and sickness benefits through this statutory scheme. The state government also contribute 1/8th share cost of the medical benefit. </p>
-                        <p><b>Who needs to register for ESI? (What establishments need ESI registration?)</b> </p>
-                        <p>The following establishments having 10 or more employees attracts ESI coverage.</p>
-                        <p>1.Shops
-                        <br>
-                           2.Hotels or restaurants not having any manufacturing activity, but only engaged in ‘sales’
-                        <br>
-                          3.Cinemas including preview theaters
-                        <br>
-                          4.Road Motor Transport Establishments
-                        <br>
-                          5.News paper establishments
-                        <br>
-                         6.Private Educational Institutions (those run by individuals, trustees, societies or other organizations and Medical Institutions including Corporate, Joint Sector, trust, charitable, and private ownership hospitals, nursing homes, diagnostic centers, pathological labs)
-                        </p>
-                        <p><b>Rate of Contribution towards ESIC:</b></p>
-                        <p>Currently, the employee’s contribution rate towards ESIC (w.e.f. 01.07.2019) is 0.75% of the wages and that of the employer’s is 3.25% of the wages paid/payable in respect of the employees in every wage period.
-                            However, this rate keeps on changing from time to time. </p>
-                            <p><b>Contribution Period and Benefit Period</b></p>
-                        <p>There are two contribution periods each of six months duration and two corresponding benefit periods also of six months duration.
-                            ESIC registration is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
-                            EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from an ESI Registration, EbizFiling.com also helps you with PF Registration, PF Returns, ESI Returns, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</p>
+                <div class="row justify-content-center pt-5">
+                    <div class="col-8">
+                        <label>Employee State Insurance Corporation or ESIC Registration is a self-financing social security and health insurance scheme which provides medical benefit, sickness benefit, maternity benefit and various other benefits such as funeral expenses, free supply of physical aids etc. to the employees and their family.</label>
+                        </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label>Any factory or business establishment having 10 or more than 10 employees, irrespective of salary, have to register with ESIC. ESI contributions must be made for all employees having a salary of less than Rs.21,000 per month. Employees with less than Rs. 21,000 monthly wages get health and sickness benefits through this statutory scheme. The state government also contribute 1/8th share cost of the medical benefit. </label>
+                        </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label><b>Who needs to register for ESI? (What establishments need ESI registration?)</b></label>
+                        </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label>The following establishments having 10 or more employees attracts ESI coverage.</label>
+                        </div>
+                        </div>
+                        <div class="row justify-content-center">
+                    <div class="col-8">
+                        <label><b>1.</b>Shops</label>
+                        </div>
+                        </div>
+                        <div class="row justify-content-center ">
+                    <div class="col-8">
+                             <label><b>2.</b>Hotels or restaurants not having any manufacturing activity, but only engaged in ‘sales’</lable>
+                           </div>
+                        </div>
+                        <div class="row justify-content-center ">
+                    <div class="col-8">
+                    <label><b>3.</b>Cinemas including preview theaters</label>
+                    </div>
+                        </div>
+                        <div class="row justify-content-center">
+                    <div class="col-8">
+                    <label><b>4.</b>Road Motor Transport Establishments</label>
+                          </div>
+                        </div>
+                        <div class="row justify-content-center">
+                    <div class="col-8">
+                    <label><b>4.</b>News paper establishments</label>
+                    </div>
+                        </div>
+                        <div class="row justify-content-center">
+                    <div class="col-8">
+                    <label><b>6.</b>Private Educational Institutions (those run by individuals, trustees, societies or other organizations and Medical Institutions including Corporate, Joint Sector, trust, charitable, and private ownership hospitals, nursing homes, diagnostic centers, pathological labs)</label>
+                         </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label><b>Rate of Contribution towards ESIC:</b></label>
+                        </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label>Currently, the employee’s contribution rate towards ESIC (w.e.f. 01.07.2019) is <b>0.75%</b> of the wages and that of the <b>employer’s is 3.25% </b>of the wages paid/payable in respect of the employees in every wage period.
+                            However, this rate keeps on changing from time to time. </label>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                            <label><b>Contribution Period and Benefit Period</b></label>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label>There are two contribution periods each of <b>six months</b> duration and two corresponding benefit periods also of six months duration.
+                       ESIC registration is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
+                            EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from an ESI Registration, EbizFiling.com also helps you with PF Registration,  PF Returns, ESI Returns, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  0964320320 or email info@ebizfiling.com for free consultation.</label>
                           </div>
                 </div>
             </div>
