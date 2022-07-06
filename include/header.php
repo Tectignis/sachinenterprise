@@ -73,16 +73,16 @@
                                 <a href="#" class="nav-link dropdown-toggle ">Returns<i  class="fas fa-angle-down"></i> </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">GST Return </a>
+                                        <a href="gst-return.php" class="nav-link dropdown-toggle">GST Return </a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">TDS Return</a>
+                                        <a href="tds-return.php" class="nav-link dropdown-toggle">TDS Return</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">PF Return </a>
+                                        <a href="pf-return.php" class="nav-link dropdown-toggle">PF Return </a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">ESI Return </a>
+                                        <a href="esi-return.php" class="nav-link dropdown-toggle">ESI Return </a>
                                             </li>
                                 </ul>
                             </li>

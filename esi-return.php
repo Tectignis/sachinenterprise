@@ -108,53 +108,30 @@ include("include/config.php");
     <div class="pricing pricing-1 pt-100 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>GST Return Filing</h3>
-                <h4>All you need to know about GST return filing</h4>
+                <h3>What is an ESI Return?</h3>
+                <br>
+                <h4>All you need to know</h4>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center">
-                    <div class="col-8">
-                        <label>GST return filing is completely an online process in India. GST filing is very easy and quick process. However, it is necessary that returns are filed correctly and error-free to ensure that GST credit can be passed onto the next stage. All you need is GST website login credentials to get started. Once your GST registration is done, to file GST return is mandatory. Non-filing of of the same entail heavy penalties.</label>
-                </div>
-            </div>
-                    <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-        
-            <label>  All registered persons under GST are required to file various returns. Main returns to be filed are GSTR-3B (which is a monthly summary) and GSTR 1 (details of outward supplies).</label>
-            </div>
-            </div>
-                <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-              <label> GSTR 3B is to be filed every month by 20th. However, the government has recently introduced QRMP Scheme according to which if the turnover for a business for previous year is up to 5 crores, you can pay your GST on monthly basis and file your GSTR 3B quarterly.</label>
-              </div>
-            </div>
-                    <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-            <label> Suggested read: QRMP- Quarterly Return filing & Monthly Payment of Taxes – A Scheme for small Taxpayers.</label>
-            </div>
-            </div>
-                     <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-             <label>  Finally, an annual GST return GSTR 9 must be filed by all GST registered entities on/before the 31st of December.</label>
-             </div>
-            </div>
-                    <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-         <label>GSTR 4 is to be filed if you have opted for composition scheme. The registered entities will be required to file GST returns even if the entity has not done any business during any period.</label>
-         </div>
-        </div>
-                    <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-           <label>Additionally there’s yearly GSTR 9C to be filed, which is GST Annual Audit. It is a reconciliation statement which needs to be certified by a practising Chartered Accountants.</label>
-           </div>
-        </div>
-                     <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-          <label>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing online GST Returns is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from online return filing under GST services, Ebizfiling.com also helps you to file Income Tax Returns, TDS Returns, PF Returns and ESI Returns easily.  Contact Ebizfiling to know about GST Return filing process. Inquire for GST return filing service provider for Online GST return, Find out when to file GST return. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.
-            </label>
-            </div>
-        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <p>Employees’ State Insurance(ESI):</p>
+          <p>
+          Employee State Insurance is a self-financing social security scheme and health insurance plan for Indian workers, offering medical and disablement benefits. Governed by the ESI Act, 1948, it is managed by Employees’ State Insurance Corporation (ESIC) under the Ministry of Labour and Employment. ESIC is expected to manage the fund as per the rules and regulations set forth by the Act.
+           </p>
+           <p>Applicability of ESI:</p>
+           <p>The ESIC is applicable on all the establishments having 10 or more workers and is beneficial to all the employees earning Rs.15, 000/- or less per month as wages, employer must contribute 3.25 percent and employee must contributes 0.75 percent towards ESI.</p>
+           <p>Due date for filing ESI Return:</p>
+           <p>The employer needs to pay ESI return on a monthly basis, and the due dates are also fixed as follows:
+            </p>
+            <p>The due date for ESI return filing is 15th of subsequent month.</p>
+            <p>
+            Why Ebizfiling as your service provider for ESI return?
+            </p>
+            <p>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing ESI Returns is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from ESI returns, Ebizfiling.com also helps you to file Income Tax Returns, TDS Returns, GST Returns and PF Returns easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</p>
+                    </div>
                    
+                </div>
             </div>
         </div>
     </div>
