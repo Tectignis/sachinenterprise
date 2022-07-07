@@ -253,7 +253,7 @@ include("include/config.php");
         <div class="container pt-4">
             <h2 style="text-align:center">GST Return Cost </h2>
             <h5 style="text-align:center">Choose Your Package</h5>
-    <div class="card-body" style="padding-left: 300px;">
+    <div class="card-body" style="padding-left:330px;">
         <div class="row ">
             <div class="col-3">
             <div class="card " >

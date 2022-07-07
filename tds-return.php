@@ -297,9 +297,9 @@ include("include/config.php");
     <div class="row">
         <div class="container pt-4">
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
-    <div class="card-body">
+    <div class="card-body" style="padding-left:300px;">
         <div class="row ">
-            <div class="col-4">
+            <div class="col-3">
             <div class="card " >
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
@@ -320,8 +320,8 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-4">
-            <div class="card " >
+            <div class="col-3">
+            <div class="card">
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
                 <h3 class="text-danger"><strong >₹ 5999/-</strong></h3>
@@ -347,8 +347,8 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-4">
-            <div class="card " >
+            <div class="col-3">
+            <div class="card">
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 8999/-</strong></h3>
@@ -373,7 +373,8 @@ include("include/config.php");
               </form>
             </div>
             </div>
-        </div>
+            </div>
+          </div>
     </div>
     </div>
 </div>
