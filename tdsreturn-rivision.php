@@ -108,9 +108,9 @@ include("include/config.php");
     <div class="pricing pricing-1 pt-100 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>TDS Returns Revision</h3>
+                <h3>TDS Returns Revision File</h3>
                 <br>
-                <h4>All you need to know</h4>
+                <h4>Your need to know</h4>
             </div>
             <div class="setion-content">
                 
@@ -149,7 +149,7 @@ include("include/config.php");
           
 <div class="row justify-content-center pt-3">
                     <div class="col-8">
-            <label>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing TDS Return Revision is easy, seamless, error-free, cheapest and quickest with EbizFiling.com! You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</label>
+            <label>sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing TDS Return Revision is easy, seamless, error-free, cheapest and quickest with sachinenterprise.in! You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.</label>
                     </div>
                    
                 </div>
