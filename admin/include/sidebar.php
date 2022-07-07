@@ -18,17 +18,6 @@
           </div>
         </div>
 
-        <!-- SidebarSearch Form -->
-        <div class="form-inline">
-          <div class="input-group" data-widget="sidebar-search">
-            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-sidebar">
-                <i class="fas fa-search fa-fw"></i>
-              </button>
-            </div>
-          </div>
-        </div>
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
@@ -37,23 +26,15 @@
                with font-awesome or any other icon font library -->
             <li class="nav-item">
               <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <i class="nav-icon fas fa-tachometer-alt text-red"></i>
                 <p>
                   Dashboard
                 </p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="serviceform.php" class="nav-link">
-                <i class="nav-icon fas fa-th"></i>
-                <p>
-                 Service Form
-                </p>
-              </a>
-            </li>
-            <li class="nav-item">
               <a href="servicetable.php" class="nav-link">
-                <i class="nav-icon fas fa-th"></i>
+                <i class="nav-icon fas fa-users text-green"></i>
                 <p>
                  Enquires
                 </p>
@@ -61,36 +42,36 @@
             </li>
             <li class="nav-item">
               <a href="sales.php" class="nav-link">
-                <i class="nav-icon fas fa-copy"></i>
+                <i class="nav-icon fas fa-store text-red"></i>
                 <p>
                Sales
                 </p>
               </a>
             </li>
             <li class="nav-item">
-        <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-table"></i>
-          <p>
+             <a href="#" class="nav-link">
+             <i class="nav-icon fas fa-user-cog text-blue"></i>
+             <p>
             Setting
-            <i class="fas fa-angle-left right"></i>
-          </p>
-        </a>
+              <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>  
         <ul class="nav nav-treeview">
           <li class="nav-item">
             <a href="generalsetting.php" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="nav-icon fas fa-cogs text-pink"></i>
               <p>General Setting</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="paymentaccount.php" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="nav-icon fas fa-file-invoice text-blue"></i>
               <p>Payment Account</p>
             </a>
           </li>
             <li class="nav-item">
             <a href="googleanalytics.php" class="nav-link">
-              <i class="far fa-circle nav-icon"></i>
+              <i class="nav-icon fas fa-sun text-yellow"></i>
               <p>Google Analytics</p>
             </a>
           </li>
