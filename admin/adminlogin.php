@@ -1,9 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>   </title>
-
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Login</title>
         <!-- Font Awesome -->
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -65,12 +65,12 @@ border-bottom-right-radius: .3rem;
 
                   <div class="form-outline mb-4">
                     <input type="email" id="form2Example11" class="form-control"
-                      placeholder="Phone number or email address" />
-                    <label class="form-label" for="form2Example11">Username</label>
+                      placeholder="Enter Email address" />
+                    <label class="form-label" for="form2Example11">Email</label>
                   </div>
 
                   <div class="form-outline mb-4">
-                    <input type="password" id="form2Example22" class="form-control" />
+                    <input type="password" id="form2Example22" class="form-control" placeholder="Enter Password" />
                     <label class="form-label" for="form2Example22">Password</label>
                   </div>
 
