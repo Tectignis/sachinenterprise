@@ -136,25 +136,25 @@ include("include/config.php");
                             <ul>
                                 <li><button class="popup-button"><i class="fas fa-search"></i></button></li>
                                <!-- Button trigger modal -->
-                               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                               <button type="button" class="default-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
  Enquiry
 </button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Enquiry Form</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
+   
+      
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="sidebar-content pt-30">
+              
                        
                   
-                        <div class="sidebar-card calculate-area mt-30">
-                        
+                        <div class="sidebar-card calculate-area mt-30 modal-body">
+                 
+  
+                        <h5 class="modal-title" id="exampleModalLabel">Enquiry Form</h5>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+
                             <form method="post">
                                 <input type="text" class="form-control" name="name" placeholder="Your Name">
                                 <input type="tel" class="form-control" name="phonenumber" placeholder="Your Mobile" minlength="10" maxlength="10">
@@ -177,16 +177,15 @@ include("include/config.php");
                                 <button class="default-button" name="save" type="submit"><span>Submit</span></button>
                             </form>
                         </div>
-                    
-                    </div>
+                 
                 </div>
         </div>
-      </div>
+    </div>
       <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div> -->
-    </div>
+  
   </div>
 </div>
                                 
