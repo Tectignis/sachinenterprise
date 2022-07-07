@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin Login</title>
+    <title>Forget Password</title>
         <!-- Font Awesome -->
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -61,7 +61,7 @@ border-bottom-right-radius: .3rem;
                 </div><br>
 
                 <form>
-                  <p align="center">Please login to your account</p><br>
+                  <p align="center">Forget Password</p><br>
 
                   <div class="form-outline mb-4">
                     <input type="email" id="form2Example11" class="form-control"
@@ -69,23 +69,27 @@ border-bottom-right-radius: .3rem;
                     <label class="form-label" for="form2Example11">Email</label>
                   </div>
 
-                  <div class="form-outline mb-4">
-                    <input type="password" id="form2Example22" class="form-control" placeholder="Enter Password" />
-                    <label class="form-label" for="form2Example22">Password</label>
-                  </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
-                      in</button>
-                    <a class="text-muted" href="forgetpassword.php">Forgot password?</a>
+                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Submit</button>
+                    <a class="text-muted" href="adminlogin.php">Login Your Account</a>
                   </div>
+
                 </form>
 
               </div>
             </div>
             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
               <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                <h4 class="mb-4">Welcome to SACHIN ENTERPRISE</h4>
+          	<h2>Forgot your password?</h2>
+          <p>Change your password in three easy steps. This will help you to secure your password!</p>
+          <ol class="list-unstyled">
+            <li>1. Enter your email address below.</li>
+            <li>2. Our system will send you a temporary link</li>
+            <li>3. Use the link to reset your password</li>
+          </ol>
+
+        
               </div>
             </div>
           </div>
