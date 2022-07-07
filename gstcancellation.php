@@ -35,27 +35,27 @@ include("include/config.php");
 
     <?php include("include/header.php"); ?>
 
-    <div class="row">
-        <div class="container">
-    <div class="card-body">
-        <div class="row ">
-            <div class="col-4 pt-5">
-                <h2 class="title title-bg-danger">Cancel</h2>
-                <h4 class="subtitle">GST Registation</h4>
+    <div class="container">
+      <div class="card" style="border:none">
+        <div class="card-body">
+        <div class="row">
+          <div class="col-4">
+                <h2 class="title">Cancel</h2>
+                <h4 class="subtitle">GST  Registation</h4>
                 <p></p>
                 <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
                 </div>
-            <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
+                <div class="col-4">
+                   <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
             <div class="col-4">
-            <div class="card card-primary">
+            <div class="card">
               <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
               </div>
-              <form>
-                <div class="card-body">
+              <form action="">
+              <div class="card-body">
                   <div class="form-group pt-2">
                     <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
                   </div>
@@ -67,18 +67,22 @@ include("include/config.php");
                   </div>
                 </div>
                 <!-- /.card-body -->
-                <div class="card-footer" style="background-color:white; text-align:center">
+                <div class="card-footer" style="background:white; border:none; text-align:center">
                   <button type="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
               </form>
-            </div>
-            </div>
+              </div>
         </div>
-    </div>
+          
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
 
-    <div class="row">
+    
         <div class="container">
+        <div class="row">
             <div class="default-section-title default-section-title-middle">
                 <h3 class="pt-5">GST Cancellation</h3>
             </div>
@@ -98,37 +102,33 @@ include("include/config.php");
             </div>
         </div>
     </div>
+    
 
-    <div class="row">
-        <div class="container">
-            <h2 style="text-align:center">Simple Prices | No Surprises</h2>
-    <div class="card-body">
-        <div class="row ">
-            <div class="col-4">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+    <div class="container">
+      <h2 style="text-align:center">Simple Prices | No Surprises</h2>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-4 ">
+            <div class="card">
+            <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 1499/-</strong></h3>
                 <label for="">(All Inclusive)</label>
-              </div>
-              <form>
-                <div class="card-body">
+            </div>
+            <div class="card-body">
                   <div class="form-group pt-2">
                     <label for="">&#8226; GST Cancellation Application</label>
                   </div>
                 </div>
-                <!-- /.card-body -->
-                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                 <!-- /.card-body -->
+                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
                   <button type="submit" class="btn btn-warning">Check Out</button>
                 </div>
-              </form>
             </div>
-            </div>
-</div>
-</div>
-</div>
-</div>
-
+          </div>
+        </div>
+      </div>
+      </div>
 
     <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>

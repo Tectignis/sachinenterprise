@@ -35,55 +35,50 @@ include("include/config.php");
 
     <?php include("include/header.php"); ?>
 
-
-
-    <div class="row">
-        <div class="container">
-    <div class="card-body">
-        <div class="row ">
-            <div class="col-4 pt-5">
-                    <h2 class="title">Get</h2>
-                    <h4 class="subtitle">MSME Registation</h4>
-                    <p></p>
-                    <label for="">Claim your access to Government Subsidies, Priority Lending and a quick start up. Register for MSME/Udyog Aadhar at <strong>INR 1499/- only.</strong></label>
-            </div>
-            <div class="col-4">
+    <div class="container">
+      <div class="card" style="border:none">
+        <div class="card-body">
+        <div class="row">
+          <div class="col-4 pt-5">
+                <h2 class="title">Get</h2>
+                <h4 class="subtitle">MSME Registation</h4>
+                <p></p>
+                <label for="">Claim your access to Government Subsidies, Priority Lending and a quick start up. Register for MSME/Udyog Aadhar at <strong>INR 1499/- only.</strong></label>
+                </div>
+                <div class="col-4">
                 <img src="../../sachinenterprise/assets/images/employee images/images_12-3.jpg" alt="">
             </div>
-    <div class="col-4">
-        <div class="card " >
-                    <div class="card-header text-center" style="background-color:red; color:white">
-                        <h4 class="card-title">Start With Confidence</h4>
-                        <h6>CA/CS Assisted | 4.8/5 Rating</h6>
-                    </div>
-              <form>
-                <div class="card-body">
-                    <div class="form-group pt-2">
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
-                    </div>
-                    <div class="form-group pt-2">
-                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
-                    </div>
-                    <div class="form-group pt-2">
-                            <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
-                    </div>
+            <div class="col-4">
+            <div class="card">
+              <div class="card-header text-center" style="background-color:red; color:white">
+                <h4 class="card-title">Start With Confidence</h4>
+                <h6>CA/CS Assisted | 4.8/5 Rating</h6>
+              </div>
+              <form >
+              <div class="card-body">
+                  <div class="form-group pt-2">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                  </div>
+                  <div class="form-group pt-2">
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                  </div>
+                  <div class="form-group pt-2">
+                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  </div>
                 </div>
-                    <!-- /.card-body -->
-                    <div class="card-footer" style="background:white; border-radius:none; text-align:center">
-                            <button type="submit" class="btn btn-warning">GET STARTED</button>
-                    </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
+                </div>
               </form>
+              </div>
         </div>
-    </div>
+          
+          </div>
         </div>
+      </div>
+      </div>
     </div>
-    </div>
-</div>
-
-
-
-
-
 
     <div class="pricing pricing-1 pt-10 shape-bg">
         <div class="container">
@@ -161,76 +156,79 @@ include("include/config.php");
         </div>
     </div>
 
-    <div class="row">
-        <div class="container">
-                   <h2 style="text-align:center">MSME Registration Fees</h2>
-         <div class="card-body">
-        <div class="row ">
-            <div class="col-4">
-                 <div class="card " >
-                         <div class="card-header text-center" style="background-color:#000080; color:white">
-                        <h4 class="card-title">ESSENTIAL</h4>
-                        <h3 class="text-danger"><strong >₹ 1499/-</strong></h3>
-                        <label for="">(All Inclusive)</label>
-                    </div>
-              <form>
-                <div class="card-body">
-                        <div class="form-group pt-2">
-                            <label for="">&#8226; SSI/MSME Registration</label>
-                        </div>
+    <div class="container">
+      <h2 style="text-align:center">MSME Registration Fees</h2>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+            <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ESSENTIAL</h4>
+                <h3 class="text-danger"><strong >₹ 1499/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+            </div>
+            <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226; SSI/MSME Registration</label>
+                  </div>
                 </div>
-                <!-- /.card-body -->
-                        <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                          <button type="submit" class="btn btn-warning">Check Out</button>
-                         </div>
-              </form>
+                 <!-- /.card-body -->
+                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
             </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+            <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ENHANCED</h4>
+                <h3 class="text-danger"><strong >₹ 1999/-</strong></h3>
+                <label for="">(All Inclusive)</label>
             </div>
-            <div class="col-4">
-            <div class="card " >
-                    <div class="card-header text-center" style="background-color:#000080; color:white">
-                        <h4 class="card-title">ENHANCED</h4>
-                        <h3 class="text-danger"><strong >₹ 1999/-</strong></h3>
-                        <label for="">(All Inclusive)</label>
-                    </div>
-              <form>
-                         <div class="card-body">
-                            <div class="form-group pt-2">
-                                <label for="">&#8226; eXpress SSI/MSME Registration (within 24 hours)</label>
-                            </div>
-                        </div>
-                <!-- /.card-body -->
-                         <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                            <button type="submit" class="btn btn-warning">Check Out</button>
-                        </div>
-              </form>
+            <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226;  Registration (employees lPFess than 20)</label>
+                  </div>
+                </div>
+                 <!-- /.card-body -->
+                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
             </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+            <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ULTIMATE</h4>
+                <h3 class="text-danger"><strong >₹ 8899/-</strong></h3>
+                <label for="">(All Inclusive)</label>
             </div>
-            <div class="col-4">
-            <div class="card " >
-                    <div class="card-header text-center" style="background-color:#000080; color:white">
-                         <h4 class="card-title">ULTIMATE</h4>
-                         <h3 class="text-danger"><strong >₹ 8899/-</strong></h3>
-                        <label for="">(All Inclusive)</label>
-                    </div>
-              
-                     <div class="card-body">
-                         <div class="form-group pt-2">
-                            <label for="">&#8226; eXpress SSI/MSME Registration (within 24 hours)</label>
-                            <label for="">&#8226; eXpress Trademark (1 application 1 class) (start ups, proprietorship & small business)</label>
-                        </div>
-                     </div>
-                <!-- /.card-body -->
-                        <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                            <button type="submit" class="btn btn-warning">Check Out</button>
-                        </div>
-              </form>
+            <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226; eXpress SSI/MSME Registration (within 24 hours)</label>
+                    <label for="">&#8226; eXpress Trademark (1 application 1 class) (start ups, proprietorship & small business)</label>
+
+                  </div>
+                </div>
+                 <!-- /.card-body -->
+                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
             </div>
-            </div>
+          </div>
         </div>
-    </div>
-    </div>
-  
+      </div>
+      </div>
+   
+
+    
+
+
+
+
+    
+
+   
 
    
 
