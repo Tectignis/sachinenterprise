@@ -80,7 +80,7 @@ if(isset($_POST['dnkidno1'])){
 	$sql=mysqli_query($conn,"SELECT * FROM leads where id='".$_POST['dnkidno1']."'");
 	$arr=mysqli_fetch_array($sql);
 	echo '<div class="modal-header">
-             
+             <h3>'.$arr['services'].'</h3>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
