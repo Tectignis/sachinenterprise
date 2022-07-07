@@ -37,7 +37,6 @@ include("include/config.php");
 
     <div class="row">
         <div class="container">
-        <div class="card">
     <div class="card-body">
         <div class="row ">
             <div class="col-4 pt-5">
@@ -51,7 +50,7 @@ include("include/config.php");
             </div>
             <div class="col-4">
             <div class="card card-primary">
-              <div class="card-header text-center">
+              <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
               </div>
@@ -68,16 +67,14 @@ include("include/config.php");
                   </div>
                 </div>
                 <!-- /.card-body -->
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">GET STARTED</button>
+                <div class="card-footer" style="background-color:white; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
               </form>
             </div>
             </div>
         </div>
     </div>
-    </div>
-
     </div>
 
     <div class="row">
@@ -102,8 +99,35 @@ include("include/config.php");
         </div>
     </div>
 
-
-   
+    <div class="row">
+        <div class="container">
+            <h2 style="text-align:center">Simple Prices | No Surprises</h2>
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4">
+            <div class="card " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ESSENTIAL</h4>
+                <h3 class="text-danger"><strong >₹ 1499/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226; GST Cancellation Application</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+</div>
+</div>
+</div>
+</div>
 
 
     <?php include("include/newsletter.php");?>
