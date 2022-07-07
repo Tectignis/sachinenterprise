@@ -253,7 +253,6 @@ include("include/config.php");
     </div>
 
     <div class="row">
-    
         <div class="container pt-4">
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
