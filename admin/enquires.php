@@ -100,7 +100,7 @@ if(isset($_GET['gen'])){
                                                 <td> <?php echo $arr['services'];?></td>
                                                 <td> <?php echo $arr['description'];?></td>
                                                 <td>
-                                                  <a href="servicetable.php?gen=<?php echo $arr['id'];?>">
+                                                  <a href="enquires.php?gen=<?php echo $arr['id'];?>">
                                                 <button class="btn btn-primary" name="submit" >Convert To Sales</button>
                                              
                          </a>
