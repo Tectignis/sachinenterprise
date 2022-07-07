@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 include("include/config.php");
 if(isset($_POST['submit'])){
   $select_logo = $_POST['select_logo'];
@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
     echo"<script>alert('Not Updated');</script>";
   }
 }
-?>
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -91,10 +91,7 @@ if(isset($_POST['submit'])){
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
-          <?php
-          $sql=mysqli_query($conn,"select * from general_settings");
-          while($arr=mysqli_fetch_array($sql)){
-          ?>
+       
           <div class="row">
             <div class="col-12">
               <form method="POST">
@@ -109,7 +106,7 @@ if(isset($_POST['submit'])){
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Select Logo</label>
-             <input type="file" class="form-control" value="<?php echo $arr['select_logo'];?>" name="select_logo" id="exampleInputEmail1" placeholder="Enter email">
+             <input type="file" class="form-control" value="" name="select_logo" id="exampleInputEmail1" placeholder="Enter email">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1" class="col-12">Existing Favicon</label>
@@ -117,57 +114,39 @@ if(isset($_POST['submit'])){
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Select Favicon</label>
-                    <input type="file" class="form-control" name="select_favicon" id="exampleInputEmail1" value="<?php echo $arr['select_favicon'];?>" placeholder="Enter email">
+                    <input type="file" class="form-control" name="select_favicon" id="exampleInputEmail1" value="" placeholder="Enter email">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputtext1">Sidebar Header</label>
-                    <input type="te" class="form-control" name="sidebar_header" id="exampleInputtext1" value="<?php echo $arr['sidebar_header'];?>" placeholder="text">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputtext1">Sidebar Header Icon</label>
-                    <input type="text" class="form-control" name="sidebar_header_icon" id="exampleInputtext1" value="<?php echo $arr['sidebar_header_icon'];?>" placeholder="text">
+                    <input type="te" class="form-control" name="sidebar_header" id="exampleInputtext1" value="" placeholder="text">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputtext1">Email For Send Contact Message</label>
-                    <input type="text" value="<?php echo $arr['contact_email_message'];?>" class="form-control" name="contact_email_message" id="exampleInputtext1" placeholder="text">
+                    <input type="text" value="" class="form-control" name="contact_email_message" id="exampleInputtext1" placeholder="text">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputtext1">Address</label>
-                    <textarea class="form-control" value="<?php echo $arr['address'];?>" name="address" id="exampleInputtext1" placeholder="text"></textarea>
+                    <textarea class="form-control" value="" name="address" id="exampleInputtext1" placeholder="text"></textarea>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputtext1">Contact Phone</label>
-                    <input type="text" value="<?php echo $arr['contact_phone'];?>" class="form-control" name="contact_phone" id="exampleInputtext1" placeholder="text">
+                    <input type="text" value="" class="form-control" name="contact_phone" id="exampleInputtext1" placeholder="text">
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputtext1">Contact Email</label>
-                    <input type="email" value="<?php echo $arr['contact_email'];?>" class="form-control" name="contact_email" id="exampleInputtext1" placeholder="text">
+                    <input type="email" value="" class="form-control" name="contact_email" id="exampleInputtext1" placeholder="text">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputtext1">Google Map Embed Code</label>
-                    <textarea class="form-control" value="<?php echo $arr['google_map'];?>" name="google_map" id="exampleInputtext1" placeholder="text"></textarea>
+                    <textarea class="form-control" value="" name="google_map" id="exampleInputtext1" placeholder="text"></textarea>
                   </div>
-                  <div class="form-group">
-                    <label for="exampleInputtext1">Time Zone</label>
-                    <select class="form-control" value="<?php echo $arr['time_zone'];?>" id="exampleInputtext1" name="time_zone" placeholder="text">
-                                            <option>Select</option>
-
-                      <option>skjefnlfnsdfn</option>
-                      <option>skjefnlfnsdfn</option>
-                      <option>skjefnlfnsdfn</option>
-
-
-                    </select>
-
-                  </div>
-                 
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
-                  <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                  <button type="update" name="update" class="btn btn-primary">Update</button>
                 </div>
-                <?php } ?>
+                
               </div>
             </div>
             </form>

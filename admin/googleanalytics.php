@@ -1,29 +1,10 @@
-<?php
-include"include/config.php";
-
- if(isset($_POST['submit'])){
- $google_code = $_POST['google_code'];
-
- $status = $_POST['status'];
-  
-  $query="UPDATE google_analytics SET google_code='$google_code',status='$status'";
-  $result=mysqli_query($conn,$query);
-  if($result){
-    echo"<script>alert('Successfully Updated');</script>";
-  }
-  else{
-    echo"<script>alert('Not Updated');</script>";
-  }
-}
-
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Admin | Google Analytics</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -71,12 +52,12 @@ include"include/config.php";
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Dashboard</h1>
+              <h1 class="m-0">Google Analytics</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Dashboard v1</li>
+                <li class="breadcrumb-item active"> Google Analytics</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -92,11 +73,6 @@ include"include/config.php";
               <div class="card-header">
                 <h3 class="card-title">Payment Settings</h3>
               </div>
-              <?php
-              $sql = "SELECT * FROM google_analytics";
-              $result = mysqli_query($conn, $sql);
-              $arr = mysqli_fetch_assoc($result);
-              ?>
 
               <div class="card-body">
                 <div class="row">
@@ -116,7 +92,7 @@ include"include/config.php";
                       <div class="col-6">
                         <div class="form-group">
                           <label class="control-label">Allow Google Analytics</label>
-                          <select onchange='checkIfYes()' class="select form-control" value="<?php echo $arr['status'] ?>" id="defect" name="status">
+                          <select onchange='checkIfYes()' class="select form-control" value="" id="defect" name="status">
                             <option id="No" value="0">No</option>
                             <option id="Yes" value="1">Yes</option>
                           </select>
@@ -128,7 +104,7 @@ include"include/config.php";
                           <div class="form-group">
                             <label class="control-label" for="desc">Analytics Tracking Code</label>
                             <input type="text" class="form-control" name="google_code" id="exampleInputtext1"
-                              value="<?php echo $arr['google_code'] ?>" placeholder="Bank Details">
+                              value="" placeholder="Analytics Tracking Code">
 
                           </div>
                         </div>

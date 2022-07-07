@@ -1,29 +1,10 @@
-<?php
-include"include/config.php";
 
- if(isset($_POST['submit'])){
- $r_key = $_POST['r_key'];
- $secrete_key = $_POST['secrete_key'];
- $api_key = $_POST['api_key'];
- $auth_token = $_POST['auth_token'];
- $status = $_POST['status'];
-  
-  $query="UPDATE payment SET r_key='$r_key',secrete_key='$secrete_key',api_key='$api_key',auth_token='$auth_token',status='$status'";
-  $result=mysqli_query($conn,$query);
-  if($result){
-    echo"<script>alert('Successfully Updated');</script>";
-  }
-  else{
-    echo"<script>alert('Not Updated');</script>";
-  }
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Admin | Payment Account</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -69,12 +50,12 @@ include"include/config.php";
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0">Payment Account</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard v1</li>
+              <li class="breadcrumb-item active">Payment Account</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -83,11 +64,7 @@ include"include/config.php";
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <?php
-    $sql="SELECT * FROM payment";
-    $result=mysqli_query($conn,$sql);
-    $arr=mysqli_fetch_assoc($result);
-    ?>
+ 
 
     <section class="content">
         <div class="container-fluid">
@@ -103,13 +80,13 @@ include"include/config.php";
                   <div class="col-6">
                   <div class="form-group">
                     <label for="exampleInputtext1">Razopay Key</label>
-                    <input type="text" class="form-control" name="r_key"id="exampleInputtext1" value="<?php echo $arr['r_key'] ?>"placeholder="text">
+                    <input type="text" class="form-control" name="r_key"id="exampleInputtext1" value=""placeholder="text">
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="form-group">
                     <label for="exampleInputtext1">Razorpay Secrete Key</label>
-                    <input type="text" class="form-control" name="secrete_key"id="exampleInputtext1"value="<?php echo $arr['secrete_key'] ?>" placeholder="text">
+                    <input type="text" class="form-control" name="secrete_key"id="exampleInputtext1"value="" placeholder="text">
                   </div>
                   </div>
                   </div>
@@ -118,13 +95,13 @@ include"include/config.php";
   <div class="col-6">
                   <div class="form-group">
                     <label for="exampleInputtext1">API Key</label>
-                    <input type="text" class="form-control" name="api_key" id="exampleInputtext1"value="<?php echo $arr['api_key'] ?>" placeholder="text">
+                    <input type="text" class="form-control" name="api_key" id="exampleInputtext1"value="" placeholder="text">
                   </div>
                   </div>
                    <div class="col-6">
                   <div class="form-group">
                     <label for="exampleInputtext1">Auth Token</label>
-                    <input type="text" class="form-control" name="auth_token" value="<?php echo $arr['auth_token'] ?>" id="exampleInputtext1" placeholder="text">
+                    <input type="text" class="form-control" name="auth_token" value="" id="exampleInputtext1" placeholder="text">
                   </div>
                   </div>
                   </div>
