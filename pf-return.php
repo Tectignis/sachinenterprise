@@ -25,6 +25,37 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+    <style>
+        .card-header{
+            background-color:#FF7F50;
+        }
+        .card-primary{
+                color:#FFFFFF;
+               
+        }
+        .card-footer{
+       background-color:#000080;
+        }
+        .main-title{
+            color:#FF6600;
+        }
+        .main-title1{
+            color:#000080;
+        }
+        .card-header11{
+            background-color:#000080;
+        }
+        .card-title{
+            color:#FF7F50;
+        }
+        .card-body11{
+            color:black;
+        }
+        /* .button-footer{
+            color:#FF6600;
+        } */
+        
+        </style>
 </head>
 
 <body>
@@ -34,16 +65,6 @@ include("include/config.php");
     <?php include("include/header.php"); ?>
 
 
-
-   
-
-
-
-
-    
-
-
-    
 
 
     <!-- <div class="booking booking-1">
@@ -100,6 +121,71 @@ include("include/config.php");
 </div>
 </div>
 </div> -->
+      
+<div class="container">
+            <div class="card-body">
+                <div class="row">
+				<div class="col-5">
+                        <h3 class="main-title">Your File</h3>
+                    <h4 class="main-title1">GST Return File</h4>
+                    <p>File error-free GST Return File and in-time. Get your GST return filings done through experts sachinenterprise.in 
+                        Prices start at <strong>INR <span class="package__price">499</span>/- only.</strong></p>
+
+                </div>
+
+                <div class="col-4">
+                <img src="../../sachinenterprise\assets\images\return-img/pfimg.jpg" alt="sachinenterprise, sachinenterprise.in">
+                </div>
+
+                               
+                                <div class="col-3">
+                                <div class="card card-primary">
+                                    <div class="card-header">
+                                    <h3 class="text-center">Start With Confidence</h3>
+                                    <h4 class="text-center">CA/CS Assisted | 4.8/5 Rating</h4>
+                            </div>
+                            <!-- /.card-header -->
+                            <!-- form start -->
+                            <form action="post">
+                                <div class="card-body">
+                                
+                                <div class="form-group pt-2">
+                                    
+                                    <input type="name" class="form-control" id="exampleInputname1" placeholder="Name">
+                                </div>
+                                <div class="form-group pt-2">
+                                    
+                                    <input type="email" class="form-control" id="exampleInputemail1" placeholder="Email">
+                                </div>
+                                <div class="form-group pt-2">
+                                    
+                                    <input type="phone" class="form-control" id="exampleInputphone1" placeholder="Phone">
+                                </div>
+                                </div>
+                                
+                                <!-- /.card-body -->
+
+                                <div class="card-footer">
+      <a href="#" class="btn btn-primary">GET STARTED</a>
+    </div>
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+    </div>
+</div>
+</div>
+</div>
+
 
 
     
@@ -168,6 +254,81 @@ include("include/config.php");
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="container pt-4">
+            <h2 style="text-align:center">Simple Prices | No Surprises</h2>
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4">
+            <div class="card " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ESSENTIAL</h4>
+                <h3 class="text-danger"><strong >₹ 999/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226;1 PF Return (ECR) upto 10 employees
+</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ENHANCED</h4>
+                <h3 class="text-danger"><strong >₹ 8999/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226;One Year PF Returns (ECR) upto 20 employees</label>
+                   
+                 </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ULTIMATE</h4>
+                <h3 class="text-danger"><strong >₹ 13999/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226; One Year PF Returns (ECR) upto 50 employees</label>
+
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
 
 
    
