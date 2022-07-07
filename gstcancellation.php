@@ -23,6 +23,8 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
@@ -32,6 +34,51 @@ include("include/config.php");
 
 
     <?php include("include/header.php"); ?>
+
+    <div class="row">
+        <div class="container">
+        <div class="card">
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4 pt-5">
+                <h2 class="title title-bg-danger">Cancel</h2>
+                <h4 class="subtitle">GST Registation</h4>
+                <p></p>
+                <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
+                </div>
+            <div class="col-4">
+                <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
+            </div>
+            <div class="col-4">
+            <div class="card card-primary">
+              <div class="card-header text-center">
+                <h4 class="card-title">Start With Confidence</h4>
+                <h6>CA/CS Assisted | 4.8/5 Rating</h6>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                  </div>
+                  <div class="form-group pt-2">
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                  </div>
+                  <div class="form-group pt-2">
+                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">GET STARTED</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
 
     <div class="row">
         <div class="container">

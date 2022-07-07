@@ -110,7 +110,7 @@ include("include/config.php");
             <div class="default-section-title default-section-title-middle">
                 <h3>What is a Provident Fund Return?</h3>
                 <br>
-                <h4>All you need to know</h4>
+                <h4>Your need to know</h4>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center">
@@ -155,11 +155,12 @@ include("include/config.php");
                         </div>
                         <div class="row justify-content-center pt-3">
                             <div class="col-8">
-                                <h5>Why Ebizfiling as your service provider for filing PF returns?</h5>
+                                <h5>Why sachinenterprise as your service provider for filing PF returns?</h5>
                                 
                                 
-                                <label>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing PF Returns is easy, seamless, cheaper and quicker with EbizFiling.
-                                 com! Apart from PF returns, Ebizfiling.com also helps you to file  Income Tax Returns, TDS Returns, GST Returns and ESI Returns easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation.</label>
+                                <label>sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management 
+                                consultancy services to clients in India and abroad. Filing PF Returns is easy, seamless, cheaper and quicker with sachinenterprise.in! Apart from PF returns, sachinenterprise.in also helps you to file  Income Tax Returns, <a target="_blank" class="text-danger" href="http:tds-return.php"> TDS returns </a>, <a target="_blank" class="text-danger" href="http:gst-return.php"> GST Returns </a> and
+                                 <a target="_blank" class="text-danger" href="http:esi-return.php"> ESI Returns </a> easily. You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.</label>
 
                     </div>
                    
