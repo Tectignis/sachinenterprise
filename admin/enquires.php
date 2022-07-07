@@ -15,7 +15,7 @@ if(isset($_GET['gen'])){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | DataTables</title>
+  <title>Admin | Enquires</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -46,12 +46,12 @@ if(isset($_GET['gen'])){
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>DataTables</h1>
+            
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">DataTables</li>
+              <li class="breadcrumb-item active">Enquires</li>
             </ol>
           </div>
         </div>
@@ -68,7 +68,7 @@ if(isset($_GET['gen'])){
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">DataTable with default features</h3>
+                <h3 class="card-title">New Enquires</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -100,8 +100,9 @@ if(isset($_GET['gen'])){
                                                 <td> <?php echo $arr['services'];?></td>
                                                 <td> <?php echo $arr['description'];?></td>
                                                 <td>
-                                                  <a href="servicetable.php?gen=<?php echo $arr['id'];?>">
+                                                  <a href="enquires.php?gen=<?php echo $arr['id'];?>">
                                                 <button class="btn btn-primary" name="submit" >Convert To Sales</button>
+                                             
                          </a>
                                               </td>
                                                 

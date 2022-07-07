@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | DataTables</title>
+  <title>Admin | Sales</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -46,12 +46,12 @@ if(isset($_POST['submit'])){
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1>DataTables</h1>
+              
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">DataTables</li>
+                <li class="breadcrumb-item active">Sales</li>
               </ol>
             </div>
           </div>
@@ -68,7 +68,7 @@ if(isset($_POST['submit'])){
 
               <div class="card">
                 <div class="card-header">
-                  <h3 class="card-title">DataTable with default features</h3>
+                  <h3 class="card-title">New Sales</h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
@@ -122,13 +122,50 @@ if(isset($_POST['submit'])){
                           <div  <?php
                             if($status=='Closed'){?> style="display:none"; <?php }
                             ?>>
+                          <button class="btn btn-sm btn-primary dnkediti" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-eye"></i></button>  
                            
                          <button class="btn btn-sm btn-primary dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-circle"></i></button>
-                                            </div>
+                        </div>
                           <button class="btn btn-sm btn-primary dnkd" data-id='<?php echo $arr['id']; ?>'
                             data-toggle="modal" data-target="#dnk1"><i class="fas fa-edit"></i></button>
-                            <button class="btn btn-sm btn-primary dnkediti" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-eye"></i></button>
+                            
+                            
                         </td>
+
+                        <td>
+                          <table>
+                          <tbody>
+                          <tr>
+                          <td class="p-2">
+                            <a href="" class="btn btn-default btn-xs" data-tt="tooltip" title="" data-original-title="View">
+                              <i class="fas fa-eye"></i>
+                            </a>
+                          </td>
+                          <td class="p-2">
+                            <a href="" class="btn btn-info btn-xs" data-tt="tooltip" title="" data-original-title="Edit">
+                              <i class="fas fa-edit"></i>
+                            </a>  
+                          </td>
+                          <td class="p-2">
+                            <a href="" class="btn bg-orange btn-xs" data-tt="tooltip" title="" data-original-title="Payment">
+                            <i class="fa-solid fa-file"></i>
+                            </a>
+                          </td>
+                          <td class="p-2">
+		                        <a href="#" data-toggle="modal" data-target="#delete_quotation" data-tt="tooltip" title="" class="btn btn-danger btn-xs delete_quotation" data-original-title="Delete Quotation">
+		                          <i class="fas fa-trash"></i>
+		                        </a>
+													</td>
+                        
+                        </tr>
+                      
+                      </tbody>
+                    </table>
+                  
+                  
+                  
+                  
+            </td>
 
 
                       </tr>
