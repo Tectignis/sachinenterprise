@@ -119,7 +119,12 @@ if(isset($_POST['submit'])){
                                               </td>
                                                 
                         <td>
+                          <div  <?php
+                            if($status=='Closed'){?> style="display:none"; <?php }
+                            ?>>
+                           
                          <button class="btn btn-sm btn-primary dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-circle"></i></button>
+                                            </div>
                           <button class="btn btn-sm btn-primary dnkd" data-id='<?php echo $arr['id']; ?>'
                             data-toggle="modal" data-target="#dnk1"><i class="fas fa-edit"></i></button>
                             <button class="btn btn-sm btn-primary dnkediti" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-eye"></i></button>
