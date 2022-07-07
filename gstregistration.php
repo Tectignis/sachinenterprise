@@ -36,7 +36,7 @@ include("include/config.php");
     <div class="row">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>GST Registration</h3>
+                <h3 class="pt-5">GST Registration</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
@@ -100,8 +100,8 @@ include("include/config.php");
 </div>
 </div>
                         <div class="row justify-content-center pt-3">
-                        <div class="col-8">
-                        <label> EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from a GST Registration, EbizFiling.com also helps you with free GST Advisory, GST Return filing, TDS Returns filing, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for online gst registration and GST Registration services. Find out here how to get GST number, how to apply for GST in India and documents required for GST registration. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com!</label>
+                        <div class="col-8 pb-5">
+                        <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from a GST Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in </a> also helps you with free GST Advisory, <a target="_blank" href="gst-return.php" class="text-danger">GST Return filing</a>, <a target="_blank" href="tds-return.php" class="text-danger">TDS Returns filing</a> and a host of other services easily. You may get in touch with our compliance manager on <a href="tel:9987705688" class="text-danger">9987705688</a> or email <a href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for online gst registration and GST Registration services. Find out here how to get GST number, how to apply for GST in India and documents required for GST registration. GST Registration in India is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> !</label>
                         </div>
                     </div>
                 </div>

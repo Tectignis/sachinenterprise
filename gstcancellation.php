@@ -33,99 +33,23 @@ include("include/config.php");
 
     <?php include("include/header.php"); ?>
 
-
-
-   
-
-
-
-
-    
-
-
-    
-
-
-    <!-- <div class="booking booking-1">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-10">
-<div class="booking-content">
-<div class="default-section-title">
-<h3>Book A Service</h3>
-</div>
-<div class="section-content">
-<form>
-<div class="row">
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Your Name">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="Email" class="form-control" placeholder="Email Address">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Zip Code">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Mobile Number">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<select class="form-select" aria-label="Default select example">
-<option selected="" disabled="">Choose A Service</option>
-<option value="1">Room Cleaning</option>
-<option value="2">Office Cleaning</option>
-<option value="3">Ground Cleaning</option>
-</select>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<button class="default-button" type="submit"><span>Submit Details</span></button>
-</div>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div> -->
-
-
-    
-
-
-    <div class="pricing pricing-1  shape-bg">
+    <div class="row">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3 class="pt-5">GST Modification</h3>
+                <h3 class="pt-5">GST Cancellation</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
-                    <div class="col-8 ">
-                        <label for="">After receipt of <a target="_blank" href="gstregistration.php" class="text-danger">GST Registration</a> Certificate, if you wish to modify any fields such as name, address, email ID, contact details, you need to apply for GST Modification request.</label>
-                    </div>
-                    </div>
-                    <div class="row justify-content-center pt-3">
                     <div class="col-8">
-                    <label>GST Modification is divided into two parts: Core Fields and Non-Core Fields. Core Field changes require supporting documents to be attached while applying. Non-Core Fields can be updated without submitting any proofs.</label>
+                        <label>In case you want to cancel your GST registration because GST is not applicable to you or because you are closing down your business or profession. Or there is some other valid reason due to which you want to <b>cancel your GST registration</b>, ebizfiling will help you with an end-to-end advisory.</label>
                     </div>
                     </div>
-                    <div class="row justify-content-center pt-3">
-                    <div class="col-8 pb-5">
-                    <label>Non-Core Fields include email ID, Phone number, any minor changes, while Core Fields include Change in Address, Add a place of Business etc.You may get in touch with our compliance manager on <a target="_blank" href="tel:9987705688" class="text-danger">9987705688 </a> or email <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
+                <div class="row justify-content-center pt-3">
+                        <div class="col-8 pb-5">
+                            <label>To cancel a GST registration, an application must be submitted on the GST Common Portal in FORM GST REG-16 along with the required information. On submission of an application for cancellation of GST registration, the GST officer is required to verify the application and issue an order in FORM GST REG-19, within 30 days from the date of application.</label>
                         </div>
-                   
+                        </div>
+                        
                 </div>
             </div>
         </div>

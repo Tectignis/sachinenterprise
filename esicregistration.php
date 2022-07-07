@@ -108,7 +108,7 @@ include("include/config.php");
     <div class="pricing pricing-1  shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>ESIC Registration</h3>
+                <h3 class="pt-5">ESIC Registration</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
@@ -178,10 +178,10 @@ include("include/config.php");
                             </div>
                         </div>
                         <div class="row justify-content-center pt-3">
-                    <div class="col-8">
+                    <div class="col-8 pb-5">
                         <label>There are two contribution periods each of <b>six months</b> duration and two corresponding benefit periods also of six months duration.
-                       ESIC registration is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
-                            EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from an ESI Registration, EbizFiling.com also helps you with PF Registration,  PF Returns, ESI Returns, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  0964320320 or email info@ebizfiling.com for free consultation.</label>
+                        <a target="_blank" href="esicregistration.php" class="text-danger">ESIC registration</a> is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
+                            EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_blank" href="tel:9987705688" class="text-danger"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
                           </div>
                 </div>
             </div>

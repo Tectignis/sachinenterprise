@@ -108,7 +108,7 @@ include("include/config.php");
     <div class="pricing pricing-1 pt-10 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>MSME/Udyog Aadhar Registration</h3>
+                <h3 class="pt-5">MSME/Udyog Aadhar Registration</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
@@ -172,8 +172,8 @@ include("include/config.php");
                     </div>
                         </div>
                              <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-                            <label>EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Registering for SSI/MSME is easy, seamless, cheapest and quickest with EbizFiling.com!</label>
+                    <div class="col-8 pb-5">
+                            <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Registering for SSI/MSME is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a>!</label>
                             </div>
                         </div>
                         

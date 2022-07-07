@@ -108,7 +108,7 @@ include("include/config.php");
     <div class="pricing pricing-1 pt-10 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>EPF Registration</h3>
+                <h3 class="pt-5">EPF Registration</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
@@ -177,8 +177,8 @@ include("include/config.php");
                             </div>
                         </div>
                         <div class="row justify-content-center pt-3">
-                    <div class="col-8">
-                            <label>Ebizfiling is a group of intellectuals. The entire team of Ebizfiling consists of Highly qualified CA, CS, Lawyers and business administrators. Ebizfiling would be a one stop destination for your EPF (Employee’s Provident Fund) registration in India. We also provide services like Start up advisory, Secretarial compliance services, PAN / TAN application, DIN registration, ESI registration GST registration, Trademark registration, GST / Income tax return filing and many more. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for free consultation and to know more about the services provided by us.</label>
+                    <div class="col-8 pb-5">
+                            <label>Ebizfiling is a group of intellectuals. The entire team of Ebizfiling consists of Highly qualified CA, CS, Lawyers and business administrators. Ebizfiling would be a one stop destination for your EPF (Employee’s Provident Fund) registration in India. We also provide services like Start up advisory, Secretarial compliance services, PAN / TAN application, DIN registration, <a target="_blank" href="esicregistration.php" class="text-danger">ESI registration</a> GST registration, Trademark registration, GST / Income tax return filing and many more. You may get in touch with our compliance manager on <a target="_blank" href="tel:9987705688" class="text-danger">9987705688</a> or email <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation and to know more about the services provided by us.</label>
                         </div>
                 </div>
             </div>

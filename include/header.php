@@ -37,7 +37,7 @@
 
         <div class="main-nav">
             <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light">
+                <nav class="navbar navbar-expand-md navbar-light ">
                     <a class="navbar-brand" href="index.php">
                         <img src="assets/images/companylogo/SE_logo.png" alt="logo" style="height: 75px; width: 75px;">
                     </a>
@@ -46,9 +46,9 @@
                             <li class="nav-item plus-icon">
                                 <a href="index.php" class="nav-link dropdown-toggle ">Home </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ">
                                 <a href="#" class="nav-link dropdown-toggle">Registration<i  class="fas fa-angle-down"></i></a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu ">
                                     <li class="nav-item">
                                         <a href="gstregistration.php" class="nav-link dropdown-toggle">GST Registration </a>
                                             </li>
@@ -56,7 +56,7 @@
                                         <a href="gstmodification.php" class="nav-link dropdown-toggle">GST Modification</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">GST Cancellation </a>
+                                        <a href="gstcancellation.php" class="nav-link dropdown-toggle">GST Cancellation </a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="esicregistration.php" class="nav-link dropdown-toggle">ESIC Registration </a>
@@ -65,7 +65,8 @@
                                         <a href="epfregistration.php" class="nav-link dropdown-toggle">EPF Registration</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="msmeregistration.php" class="nav-link dropdown-toggle">MSME/Udyog Aadhar Registration</a>
+                                        <a href="msmeregistration.php" class="nav-link dropdown-toggle">MSME / Udyog <br>
+                                            Aadhar Registration</a>
                                             </li>
                                 </ul>
                             </li>
@@ -126,7 +127,8 @@
                                         <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate </a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax Registation </a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
+                                         Registation </a>
                                             </li>
                                 </ul>
                             </li>
