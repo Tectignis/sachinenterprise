@@ -110,7 +110,11 @@ if(isset($_POST['save'])){
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur commodo.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+               
+                <div class="modal fade" id="exampleModal">
+      <div class="modal-dialog">
+        <div class="modal-content body2">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <div class="sidebar-content pt-30">
                        
                   
@@ -141,6 +145,11 @@ if(isset($_POST['save'])){
                     
                     </div>
                 </div>
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
             </div>
         </div>
     </div>
@@ -159,7 +168,7 @@ if(isset($_POST['save'])){
                 </div>
             </form>
         </div>
-    </div>
+    </div>    
 
     <div class="go-top"><img src="assets/images/png/002-top.png" alt=""></div>
 
@@ -189,6 +198,8 @@ if(isset($_POST['save'])){
     <script src="assets/js/jquery.barfiller.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    
+
 </body>
 
 </html>

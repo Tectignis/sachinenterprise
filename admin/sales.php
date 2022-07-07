@@ -1,10 +1,10 @@
 <?php
-include("include/config.php");
+include("../include/config.php");
 
 if(isset($_POST['submit'])){
   $amount=$_POST['amount'];
   $aid=$_POST['aid'];
-  $sql=mysqli_query($conn,"UPDATE `service` SET `amount`='$amount' WHERE id='$aid'");
+  $sql=mysqli_query($conn,"UPDATE `leads` SET `amount`='$amount' WHERE id='$aid'");
 
 }
 ?>
@@ -89,7 +89,7 @@ if(isset($_POST['submit'])){
                     <tbody>
                       <?php 
                         
-                        $sql=mysqli_query($conn,"select * from `service` where is_sales='1'");
+                        $sql=mysqli_query($conn,"select * from `leads` where is_sales='1'");
                      $count=1;
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
@@ -102,7 +102,21 @@ if(isset($_POST['submit'])){
                         <td> <?php echo $arr['description'];?></td>
                       
                                                
-                                                <td> <?php echo $arr['status'];?></td>
+                                                <td> 
+                                               <?php
+                                                $status=$arr['status'];
+                                                if($status=='Open'){
+                                                    echo '<span class="badge badge-success">Open</span>';
+                                                }
+                                                else if($status=='In Process'){
+                                                    echo '<span class="badge badge-danger">In Proccess</span>';
+                                                }else if($status=='Hold On'){
+                                                   echo '<span class="badge badge-warning">Hold On</span>';
+                                                }else if($status=='Closed'){
+                                                    echo '<span class="badge badge-secondary">Closed</span>';
+                                                }
+                                                ?>    
+                                              </td>
                                                 
                         <td>
                          <button class="btn btn-sm btn-primary dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-circle"></i></button>

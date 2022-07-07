@@ -1,8 +1,8 @@
 <?php
-include("include/config.php");
+include("../include/config.php");
 
 if(isset($_POST['dnkidno'])){
-	$sql=mysqli_query($conn,"SELECT * FROM service where id='".$_POST['dnkidno']."'");
+	$sql=mysqli_query($conn,"SELECT * FROM leads where id='".$_POST['dnkidno']."'");
 	$arr=mysqli_fetch_array($sql);
 	echo '<div class="modal-header">
              
@@ -64,23 +64,20 @@ if(isset($_POST['dnkidno'])){
 
 
 
-include("include/config.php");
+include("../include/config.php");
 
 if(isset($_POST['save'])){
 
   $id=$_POST['id'];
   $status=$_POST['status'];
-
-  $sql=mysqli_query($conn,"UPDATE `service` SET `status`='$status' where id='$id'" );
+  $sql=mysqli_query($conn,"UPDATE `leads` SET `status`='$status' where id='$id'" );
   header("location:sales.php");
- 
 }
 
 
 
-
 if(isset($_POST['dnkidno1'])){
-	$sql=mysqli_query($conn,"SELECT * FROM service where id='".$_POST['dnkidno1']."'");
+	$sql=mysqli_query($conn,"SELECT * FROM leads where id='".$_POST['dnkidno1']."'");
 	$arr=mysqli_fetch_array($sql);
 	echo '<div class="modal-header">
              
@@ -149,7 +146,7 @@ if(isset($_POST['dnkidno1'])){
                 <option value="" disabled selected hidden>select</option>
                 <option value="Open">Open</option>
                 <option value="In Process">In Process</option>
-                <option value="On Hold">On Hold</option>
+                <option value="Hold On">On Hold</option>
                 <option value="Closed">Closed</option>
                 
                
@@ -162,6 +159,7 @@ if(isset($_POST['dnkidno1'])){
     </div>
     <div class="modal-footer justify-content-between">
       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <button type="submit" class="btn btn-primary" name="save" >Save</button>
     </div>      
                        
             </form>';

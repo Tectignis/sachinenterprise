@@ -1,8 +1,8 @@
 <?php
-include("include/config.php");
+include("../include/config.php");
 if(isset($_GET['gen'])){
   $id=mysqli_real_escape_string($conn,$_GET['gen']);
-  $sql=mysqli_query($conn,"update service set `is_sales`='1' where id='$id'");
+  $sql=mysqli_query($conn,"update leads set `is_sales`='1' where id='$id'");
   if($sql==1){
    header("location:sales.php");
   }
@@ -88,7 +88,7 @@ if(isset($_GET['gen'])){
                                         <tbody>
                                         <?php 
                         
-                        $sql=mysqli_query($conn,"select * from `service`where is_sales='0'");
+                        $sql=mysqli_query($conn,"select * from `leads`where is_sales='0'");
                      $count=1;
                          while($arr=mysqli_fetch_array($sql)){
                         ?>

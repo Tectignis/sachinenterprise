@@ -1,5 +1,5 @@
 <?php
-include("include/config.php");
+include("../include/config.php");
 
 if(isset($_POST['submit'])){
 
@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
   $services=$_POST['services'];
   $description=$_POST['description'];
 
-$sql=mysqli_query($conn,"INSERT INTO `service`(`name`,`mobile_no`,`email`,`services`,`description`) 
+$sql=mysqli_query($conn,"INSERT INTO `leads`(`name`,`mobile_no`,`email`,`services`,`description`) 
   VALUES ('$name','$mobile_no','$email','$services','$description')");
 
 if($sql==1){
