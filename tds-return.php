@@ -108,9 +108,9 @@ include("include/config.php");
     <div class="pricing pricing-1 pt-100 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>TDS Returns Filing</h3>
+                <h3>TDS Returns File</h3>
            
-                <h4>All you need to know</h4>
+                <h4>Your need to know</h4>
             </div>
 
                 <div class="setion-content">
@@ -176,13 +176,13 @@ include("include/config.php");
 
             <div class="row justify-content-center pt-3">
                     <div class="col-8">
-            <b>TDS return Form 24Q:</b><label> Statement for tax deducted at source from salaries</label><br>
-            <b>TDS return Form 26Q:</b><label> Statement for tax deducted at source on all payments other than salaries.</label><br>
-            <b>TDS return Form 27Q:</b><label> Statement for tax deduction on income received from interest,dividends, or any other sum payable to non residents.</label><br>
-            <b>TDS return Form 27EQ:</b><label> Statement of collection of tax at source.</label><br>
+            <b>TDS return Form 24Q: </b> Statement for tax deducted at source from salaries<br>
+            <b>TDS return Form 26Q: </b>  Statement for tax deducted at source on all payments other than salaries.<br>
+            <b>TDS return Form 27Q:</b>Statement for tax deduction on income received from interest,dividends, or any other sum payable to non residents.<br>
+            <b>TDS return Form 27EQ:</b> Statement of collection of tax at source.<br>
             </div>
             </div>
-            <div class="row justify-content-center pt-3">
+                 <div class="row justify-content-center pt-3">
                     <div class="col-8">
           <label>  So If you are a deductor and has made payments to resident Indians with regards to any of above, you should file Form 24Q (TDS on salary payments) and Form 26Q (TDS on payments other than salaries) on a quarterly basis. If you have made any payments to non-residents, you are required to file Form 27Q on a quarterly basis.
             Form 16A and Form 16 (TDS Certificates) can only be generated if you have correctly filed your TDS Returns.</label>
@@ -190,9 +190,9 @@ include("include/config.php");
             </div>
                  <div class="row justify-content-center pt-3">
                     <div class="col-8">
-           <label> EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing TDS Returns is easy, seamless, cheapest
-             and quickest with EbizFiling.com! Apart from TDS returns, Ebizfiling.com also helps you to file <span class="text-danger"> GST Returns, Income Tax Returns,</span> PF Returns and ESI Returns easily. You may get in touch with Ebizfiling compliance manager 
-             on <span class="tect-danger">09643203209</span> or email <span class="text-danger"> info@ebizfiling.com </span> for free consultation.</label>
+           <label> sachinenterprise.in! is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing TDS Returns is easy, seamless, cheapest
+             and quickest with sachinenterprise.in! Apart from TDS returns, sachinenterprise.in! also helps you to file <a target="_blank" class="text-danger" href="http:gst-return.php"> GST Returns </a>, Income Tax Returns, PF Returns and ESI Returns easily. You may get in touch with sachinenterprise compliance manager 
+             on <a class="text-danger" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.</label>
                     </div>
                    
                 </div>
