@@ -23,6 +23,10 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+                    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
@@ -33,10 +37,56 @@ include("include/config.php");
 
     <?php include("include/header.php"); ?>
 
+    
+            <div class="row">
+        <div class="container">
+        <div class="card">
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4">
+                <h2 class="title title-bg-danger">Cancel</h2>
+                <h4 class="subtitle">GST Registation</h4>
+                <p></p>
+                <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
+                </div>
+            <div class="col-4">
+                <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
+            </div>
+            <div class="col-4">
+            <div class="card card-primary">
+              <div class="card-header text-center">
+                <h4 class="card-title">Start With Confidence</h4>
+                <h6>CA/CS Assisted | 4.8/5 Rating</h6>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                  </div>
+                  <div class="form-group pt-2">
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                  </div>
+                  <div class="form-group pt-2">
+                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">GET STARTED</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
     <div class="row">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>GST Registration</h3>
+                <h3 class="pt-5">GST Registration</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
@@ -100,8 +150,8 @@ include("include/config.php");
 </div>
 </div>
                         <div class="row justify-content-center pt-3">
-                        <div class="col-8">
-                        <label> EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from a GST Registration, EbizFiling.com also helps you with free GST Advisory, GST Return filing, TDS Returns filing, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on 09643203209 or email info@ebizfiling.com for online gst registration and GST Registration services. Find out here how to get GST number, how to apply for GST in India and documents required for GST registration. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com!</label>
+                        <div class="col-8 pb-5">
+                        <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from a GST Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in </a> also helps you with free GST Advisory, <a target="_blank" href="gst-return.php" class="text-danger">GST Return filing</a>, <a target="_blank" href="tds-return.php" class="text-danger">TDS Returns filing</a> and a host of other services easily. You may get in touch with our compliance manager on <a href="tel:9987705688" class="text-danger">9987705688</a> or email <a href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for online gst registration and GST Registration services. Find out here how to get GST number, how to apply for GST in India and documents required for GST registration. GST Registration in India is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> !</label>
                         </div>
                     </div>
                 </div>
