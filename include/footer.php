@@ -3,7 +3,7 @@
 <div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
 <div class="footer-logo-area">
-<a href="index.html"><img src="assets/images/white-logo.png" alt="image"></a>
+<a href="index.html"><img src="assets/images/companylogo/SE_logo0001.png" alt="image" style="height:55px; width:55px"></a>
 <p>Lorem ipsum dolor sit amet, consec tetur elit eiusmod tempor incididunt labore dolore magna aliqua consec tetur adipis cing elite sed do labor.</p>
 <div class="footer-social-icons">
 <span>Follow Us:</span>
@@ -25,7 +25,7 @@
 <div class="footer-content-card">
 <i class="fas fa-envelope"></i>
 <h5>Email:</h5>
-<p><a href="#"><span class="__cf_email__" data-cfemail="86f5f3f6f6e9f4f2c6e7e8f1e7a8e5e9eb">support@tectignis.university</span></a></p>
+<p><a href="#"><span class="__cf_email__" data-cfemail="86f5f3f6f6e9f4f2c6e7e8f1e7a8e5e9eb">support@sachinenterprise.in</span></a></p>
 </div>
 <div class="footer-content-card">
 <i class="fas fa-mobile-alt"></i>
@@ -39,6 +39,8 @@
 <h3>Quick Links</h3>
 <ul>
 <li><a href="index.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Home</span></a></li>
+<li><a href="#" target="_blank"><i class="fas fa-angle-right"></i> <span>Registration</span></a></li>
+<li><a href="#" target="_blank"><i class="fas fa-angle-right"></i> <span>Returns</span></a></li>
 <li><a href="about.php" target="_blank"><i class="fas fa-angle-right"></i> <span>About</span></a></li>
 <li><a href="services.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Services</span></a></li>
 <li><a href="contact.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Contact</span></a></li>
@@ -62,7 +64,7 @@
 
 <div class="copyright bg-000000">
     <div class="container">
-        <p>Copyright &copy; 2021. <strong>ANWA</strong> All Rights Reserved By <a target="_blank"
-                href="../../index-39.htm">HiBootstrap</a></p>
+        <p>Copyright &copy; 2021. <strong>TECTIGNIS IT SOLUTION</strong> All Rights Reserved By <a target="_blank"
+                href="https://tectignis.in/">tectignis.in </a></p>
     </div>
 </div>
