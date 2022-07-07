@@ -85,7 +85,7 @@ border-bottom-right-radius: .3rem;
             </div>
             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
               <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                <h4 class="mb-4">Welcome to SACHIN ENTERPRISE</h4>
+                <h5 class="mb-4">Welcome to SACHIN ENTERPRISE</h5>
               </div>
             </div>
           </div>
