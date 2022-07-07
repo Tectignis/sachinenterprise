@@ -71,7 +71,7 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box">
-              <span class="info-box-icon bg-info elevation-1"><i class="fa-light fa-envelope-open"></i></span>
+              <span class="info-box-icon bg-info elevation-1"><i class="fa fa-envelope-open-text"></i></span>
               <div class="info-box-content">
                 <span class="info-box-text">Open</span>
                 <span class="info-box-number">
@@ -85,7 +85,7 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-thumbs-up"></i></span>
+              <span class="info-box-icon bg-danger elevation-1"><i class="fa fa-spinner"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">In Process</span>
@@ -102,7 +102,7 @@
 
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
+              <span class="info-box-icon bg-success elevation-1"><i class="fa fa-pause"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">On Hold</span>
@@ -115,7 +115,7 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
+              <span class="info-box-icon bg-warning elevation-1"><i class="fa fa-check"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Closed</span>
