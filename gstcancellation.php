@@ -23,7 +23,7 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
@@ -41,16 +41,16 @@ include("include/config.php");
     <div class="card-body">
         <div class="row ">
             <div class="col-4 pt-5">
-                <h2 class="title">Modify</h2>
+                <h2 class="title title-bg-danger">Cancel</h2>
                 <h4 class="subtitle">GST Registation</h4>
                 <p></p>
-                <label for="">Wish to update any details in GST Registration Certificate? Get details modified through us. Prices starting at<strong> INR 499/- only.</strong></label>
+                <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
                 </div>
             <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/images_18-3.jpg" alt="">
+                <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
             <div class="col-4">
-            <div class="card">
+            <div class="card card-primary">
               <div class="card-header text-center">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
@@ -80,30 +80,23 @@ include("include/config.php");
 
     </div>
 
-   
-
-
-    <div class="pricing pricing-1  shape-bg">
+    <div class="row">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3 class="pt-5">GST Modification</h3>
+                <h3 class="pt-5">GST Cancellation</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
-                    <div class="col-8 ">
-                        <label for="">After receipt of <a target="_blank" href="gstregistration.php" class="text-danger">GST Registration</a> Certificate, if you wish to modify any fields such as name, address, email ID, contact details, you need to apply for GST Modification request.</label>
-                    </div>
-                    </div>
-                    <div class="row justify-content-center pt-3">
                     <div class="col-8">
-                    <label>GST Modification is divided into two parts: Core Fields and Non-Core Fields. Core Field changes require supporting documents to be attached while applying. Non-Core Fields can be updated without submitting any proofs.</label>
+                        <label>In case you want to cancel your GST registration because GST is not applicable to you or because you are closing down your business or profession. Or there is some other valid reason due to which you want to <b>cancel your GST registration</b>, ebizfiling will help you with an end-to-end advisory.</label>
                     </div>
                     </div>
-                    <div class="row justify-content-center pt-3">
-                    <div class="col-8 pb-5">
-                    <label>Non-Core Fields include email ID, Phone number, any minor changes, while Core Fields include Change in Address, Add a place of Business etc.You may get in touch with our compliance manager on <a target="_blank" href="tel:9987705688" class="text-danger">9987705688 </a> or email <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
+                <div class="row justify-content-center pt-3">
+                        <div class="col-8 pb-5">
+                            <label>To cancel a GST registration, an application must be submitted on the GST Common Portal in FORM GST REG-16 along with the required information. On submission of an application for cancellation of GST registration, the GST officer is required to verify the application and issue an order in FORM GST REG-19, within 30 days from the date of application.</label>
                         </div>
-                   
+                        </div>
+                        
                 </div>
             </div>
         </div>

@@ -122,6 +122,7 @@ if(isset($_POST['submit'])){
                           <div  <?php
                             if($status=='Closed'){?> style="display:none"; <?php }
                             ?>>
+                            
                            
                          <button class="btn btn-sm btn-primary dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-circle"></i></button>
                                             </div>

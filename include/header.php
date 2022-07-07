@@ -42,7 +42,7 @@ include("include/config.php");
 
         <div class="main-nav">
             <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light">
+                <nav class="navbar navbar-expand-md navbar-light ">
                     <a class="navbar-brand" href="index.php">
                         <img src="assets/images/companylogo/SE_logo.png" alt="logo" style="height: 75px; width: 75px;">
                     </a>
@@ -51,9 +51,9 @@ include("include/config.php");
                             <li class="nav-item plus-icon">
                                 <a href="index.php" class="nav-link dropdown-toggle ">Home </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item ">
                                 <a href="#" class="nav-link dropdown-toggle">Registration<i  class="fas fa-angle-down"></i></a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu ">
                                     <li class="nav-item">
                                         <a href="gstregistration.php" class="nav-link dropdown-toggle">GST Registration </a>
                                             </li>
@@ -61,7 +61,7 @@ include("include/config.php");
                                         <a href="gstmodification.php" class="nav-link dropdown-toggle">GST Modification</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggle">GST Cancellation </a>
+                                        <a href="gstcancellation.php" class="nav-link dropdown-toggle">GST Cancellation </a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="esicregistration.php" class="nav-link dropdown-toggle">ESIC Registration </a>
@@ -70,7 +70,8 @@ include("include/config.php");
                                         <a href="epfregistration.php" class="nav-link dropdown-toggle">EPF Registration</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="msmeregistration.php" class="nav-link dropdown-toggle">MSME/Udyog Aadhar Registration</a>
+                                        <a href="msmeregistration.php" class="nav-link dropdown-toggle">MSME / Udyog <br>
+                                            Aadhar Registration</a>
                                             </li>
                                 </ul>
                             </li>
@@ -119,6 +120,8 @@ include("include/config.php");
                                         <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate</a>
                                             </li>
                                             <li class="nav-item">
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
+                                         Registation </a>
                                         <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax</a>
                                             </li>
                                             
@@ -133,25 +136,25 @@ include("include/config.php");
                             <ul>
                                 <li><button class="popup-button"><i class="fas fa-search"></i></button></li>
                                <!-- Button trigger modal -->
-                               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                               <button type="button" class="default-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
  Enquiry
 </button>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Enquiry Form</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
+   
+      
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="sidebar-content pt-30">
+              
                        
                   
-                        <div class="sidebar-card calculate-area mt-30">
-                        
+                        <div class="sidebar-card calculate-area mt-30 modal-body">
+                 
+  
+                        <h5 class="modal-title" id="exampleModalLabel">Enquiry Form</h5>
+                        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+
                             <form method="post">
                                 <input type="text" class="form-control" name="name" placeholder="Your Name">
                                 <input type="tel" class="form-control" name="phonenumber" placeholder="Your Mobile" minlength="10" maxlength="10">
@@ -174,16 +177,15 @@ include("include/config.php");
                                 <button class="default-button" name="save" type="submit"><span>Submit</span></button>
                             </form>
                         </div>
-                    
-                    </div>
+                 
                 </div>
         </div>
-      </div>
+    </div>
       <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div> -->
-    </div>
+  
   </div>
 </div>
                                 

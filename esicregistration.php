@@ -23,6 +23,8 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
@@ -33,73 +35,50 @@ include("include/config.php");
 
     <?php include("include/header.php"); ?>
 
+    <div class="row">
+        <div class="container">
+        <div class="card">
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4 pt-5">
+                <h2 class="title title-bg-danger">Apply</h2>
+                <h4 class="subtitle">ESI Registration</h4>
+                <p></p>
+                <label for="">Extend medical benefits to your employees. Register for ESIC. Prices start from <strong>INR 5999/- only.</strong></label>
+                </div>
+            <div class="col-4">
+                <img src="../../sachinenterprise/assets/images/employee images/images_11.jpg" alt="">
+            </div>
+            <div class="col-4">
+            <div class="card card-primary">
+              <div class="card-header text-center">
+                <h4 class="card-title">Start With Confidence</h4>
+                <h6>CA/CS Assisted | 4.8/5 Rating</h6>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                  </div>
+                  <div class="form-group pt-2">
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                  </div>
+                  <div class="form-group pt-2">
+                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">GET STARTED</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
-
-   
-
-
-
-
-    
-
-
-    
-
-
-    <!-- <div class="booking booking-1">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-10">
-<div class="booking-content">
-<div class="default-section-title">
-<h3>Book A Service</h3>
-</div>
-<div class="section-content">
-<form>
-<div class="row">
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Your Name">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="Email" class="form-control" placeholder="Email Address">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Zip Code">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Mobile Number">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<select class="form-select" aria-label="Default select example">
-<option selected="" disabled="">Choose A Service</option>
-<option value="1">Room Cleaning</option>
-<option value="2">Office Cleaning</option>
-<option value="3">Ground Cleaning</option>
-</select>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<button class="default-button" type="submit"><span>Submit Details</span></button>
-</div>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div> -->
+    </div>
 
 
     
@@ -108,7 +87,7 @@ include("include/config.php");
     <div class="pricing pricing-1  shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3>ESIC Registration</h3>
+                <h3 class="pt-5">ESIC Registration</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
@@ -178,10 +157,10 @@ include("include/config.php");
                             </div>
                         </div>
                         <div class="row justify-content-center pt-3">
-                    <div class="col-8">
+                    <div class="col-8 pb-5">
                         <label>There are two contribution periods each of <b>six months</b> duration and two corresponding benefit periods also of six months duration.
-                       ESIC registration is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
-                            EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from an ESI Registration, EbizFiling.com also helps you with PF Registration,  PF Returns, ESI Returns, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  0964320320 or email info@ebizfiling.com for free consultation.</label>
+                        <a target="_blank" href="esicregistration.php" class="text-danger">ESIC registration</a> is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
+                            EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_blank" href="tel:9987705688" class="text-danger"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
                           </div>
                 </div>
             </div>
