@@ -125,7 +125,7 @@ include("include/config.php");
     <div class="container">
             <div class="card-body">
                 <div class="row">
-				<div class="col-4">
+				<div class="col-3">
                         <h3 class="main-title">Your File</h3>
                     <h4 class="main-title1">GST Return File</h4>
                     <p>File error-free GST Return File and in-time. Get your GST return filings done through experts sachinenterprise.in 
@@ -138,7 +138,7 @@ include("include/config.php");
                 </div>
 
                                
-                <div class="col-4">
+                <div class="col-3">
             <div class="card ">
             <div class=" shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
