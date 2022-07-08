@@ -132,7 +132,7 @@ include("include/config.php");
 </div>
 </div> -->
 
-      
+<div class="shadow p-3 mb-5 bg-white rounded">
 <div class="container">
             <div class="card-body">
                 <div class="row">
@@ -176,11 +176,12 @@ include("include/config.php");
                                 
                                 <!-- /.card-body -->
 
-                                <div class="card-footer">
-      <a href="#" class="btn btn-primary">GET STARTED</a>
-    </div>
+                                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
+                </div>
                             </form>
                             </div>
+      </div>
                         </div>
                     </div>
                 </div>         

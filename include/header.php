@@ -102,16 +102,16 @@ include("include/config.php");
                                 <a href="#" class="nav-link dropdown-toggle">Services<i  class="fas fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Pancard </a>
+                                        <a href="pancard-service.php" class="nav-link dropdown-toggle">Pancard </a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">ITR</a>
+                                        <a href="itr-service.php" class="nav-link dropdown-toggle">ITR</a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Passport</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">FSSAI License</a>
+                                        <a href="fassai-service.php" class="nav-link dropdown-toggle">FSSAI License</a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Rent Agreement</a>
@@ -122,7 +122,7 @@ include("include/config.php");
                                             <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
                                          Registation </a>
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax</a>
+                                        
                                             </li>
                                             
                                 </ul>
