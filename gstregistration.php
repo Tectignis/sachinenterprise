@@ -37,29 +37,27 @@ include("include/config.php");
 
     <?php include("include/header.php"); ?>
 
-    
-            <div class="row">
-        <div class="container">
-        <div class="card">
-    <div class="card-body">
-        <div class="row ">
-            <div class="col-4">
-                <h2 class="title title-bg-danger">Cancel</h2>
-                <h4 class="subtitle">GST Registation</h4>
+    <div class="container">
+      <div class="card" style="border:none">
+        <div class="card-body">
+        <div class="row">
+          <div class="col-4">
+                <h2 class="title">Get Online</h2>
+                <h5 class="subtitle">GST  Registation</h5>
                 <p></p>
                 <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
                 </div>
-            <div class="col-4">
+                <div class="col-4">
                 <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
             <div class="col-4">
-            <div class="card card-primary">
-              <div class="card-header text-center">
+            <div class="card ">
+              <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
               </div>
-              <form>
-                <div class="card-body">
+              <form action="">
+              <div class="card-body">
                   <div class="form-group pt-2">
                     <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
                   </div>
@@ -71,19 +69,20 @@ include("include/config.php");
                   </div>
                 </div>
                 <!-- /.card-body -->
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">GET STARTED</button>
+                <div class="card-footer" style="background:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
               </form>
-            </div>
-            </div>
+              </div>
         </div>
+          
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
-    </div>
-
-    </div>
-
-    <div class="row">
+        
+   
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3 class="pt-5">GST Registration</h3>
@@ -147,8 +146,8 @@ include("include/config.php");
                         <div class="row justify-content-center">
                         <div class="col-8">
                         <label><b>4.</b>Seamless flow of Input tax credit from suppliers to recipients at the national level</label>
-</div>
-</div>
+                        </div>
+                        </div>
                         <div class="row justify-content-center pt-3">
                         <div class="col-8 pb-5">
                         <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from a GST Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in </a> also helps you with free GST Advisory, <a target="_blank" href="gst-return.php" class="text-danger">GST Return filing</a>, <a target="_blank" href="tds-return.php" class="text-danger">TDS Returns filing</a> and a host of other services easily. You may get in touch with our compliance manager on <a href="tel:9987705688" class="text-danger">9987705688</a> or email <a href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for online gst registration and GST Registration services. Find out here how to get GST number, how to apply for GST in India and documents required for GST registration. GST Registration in India is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> !</label>
@@ -157,7 +156,88 @@ include("include/config.php");
                 </div>
             </div>
         </div>
+  
+
+
+
+
+
+
+    <div class="container">
+            <h2 style="text-align:center">Simple Prices | No Surprises</h2>
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4">
+            <div class="card " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ESSENTIAL</h4>
+                <h3 class="text-danger"><strong >₹ 1999/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                  <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ENHANCED</h4>
+                <h3 class="text-danger"><strong>₹ 3299/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                  <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</label>
+                  <label for="">&#8226; GST Returns for first three months (upto 10 entries)</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ULTIMATE</h4>
+                <h3 class="text-danger"><strong >₹ 8099/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                  <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company </label>
+                    <label for="">&#8226; GST Returns for one year (upto 100 entries)</label>
+
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
     </div>
+    </div>
+</div>
+
+    
+       
+
 
 
    

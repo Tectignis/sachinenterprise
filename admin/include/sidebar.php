@@ -33,7 +33,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="servicetable.php" class="nav-link">
+              <a href="enquires.php" class="nav-link">
                 <i class="nav-icon fas fa-users text-green"></i>
                 <p>
                  Enquires
