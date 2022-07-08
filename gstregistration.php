@@ -51,7 +51,7 @@ include("include/config.php");
                 <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
             <div class="col-4">
-            <div class="card">
+            <div class="card ">
               <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
