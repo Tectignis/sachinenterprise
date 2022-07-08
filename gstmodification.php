@@ -42,6 +42,7 @@ echo 'connection failed';
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
+    
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
@@ -51,7 +52,7 @@ echo 'connection failed';
     <?php include("include/header.php"); ?>
 
     
-    <div class="shadow">
+    <div class="shadow-lg">
     <div class="container">
       <div class="card" style="border:none">
         <div class="card-body">
