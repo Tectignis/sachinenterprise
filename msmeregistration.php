@@ -51,7 +51,7 @@ echo 'connection failed';
 
 
     <?php include("include/header.php"); ?>
-
+    <div class="shadow">                                
     <div class="container">
       <div class="card" style="border:none">
         <div class="card-body">
@@ -67,6 +67,7 @@ echo 'connection failed';
             </div>
             <div class="col-4">
             <div class="card">
+              <div class="shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
@@ -89,8 +90,9 @@ echo 'connection failed';
                 </div>
               </form>
               </div>
+          </div>
         </div>
-          
+        </div>
           </div>
         </div>
       </div>
@@ -172,13 +174,12 @@ echo 'connection failed';
             </div>
         </div>
     </div>
-
-    <div class="container">
+    <div class="container pb-5">
       <h2 style="text-align:center">MSME Registration Fees</h2>
       <div class="card-body">
         <div class="row">
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 1499/-</strong></h3>
@@ -196,7 +197,7 @@ echo 'connection failed';
             </div>
           </div>
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
                 <h3 class="text-danger"><strong >₹ 1999/-</strong></h3>
@@ -214,7 +215,7 @@ echo 'connection failed';
             </div>
           </div>
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 8899/-</strong></h3>

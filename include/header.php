@@ -124,12 +124,18 @@ include("include/config.php");
                                         <a href="Services.php" class="nav-link dropdown-toggle">Rent Agreement</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate</a>
+                                        <a href="isocertificate.php" class="nav-link dropdown-toggle">ISO Certificate</a>
                                             </li>
                                             <li class="nav-item">
+<<<<<<< HEAD
+                                        <a href="professionaltaxregi.php" class="nav-link dropdown-toggle">Professional Tax <br>
+                                         Registration </a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax</a>
+=======
                                         <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
                                          Registation </a>
                                         
+>>>>>>> 5ffe3857c5ac7dcb4ea5cb6952d0b60be82886fc
                                             </li>
                                             
                                 </ul>
