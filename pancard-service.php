@@ -30,8 +30,84 @@ include("include/config.php");
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     
 </head>
+<style>
+    
+    a:hover,a:focus{
+        text-decoration: none;
+        outline: none;
+    }
+    #accordion .panel{
+        border: none;
+        border-radius: 3px;
+        box-shadow: none;
+        margin-bottom: 15px;
+    }
+    #accordion .panel-heading{
+        padding: 0;
+        border: none;
+        border-radius: 3px;
+    }
+    #accordion .panel-title a{
+        display: block;
+        padding: 12px 15px;
+        background: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        color: #f81ac1;
+        border: 1px solid #ececec;
+        box-shadow: 0 0 10px rgba(0,0,0,.05);
+        position: relative;
+        transition: all 0.5s ease 0s;
+    }
+    #accordion .panel-title a.collapsed{
+        box-shadow: none;
+        color: #676767;
+    }
+    #accordion .panel-title a:before,
+    #accordion .panel-title a.collapsed:before{
+        content: "\f067";
+        font-family: "Font Awesome 5 Free";
+        width: 25px;
+        height: 25px;
+        line-height: 28px;
+        font-size: 15px;
+        font-weight: 900;
+        color: #f81ac1;
+        text-align: center;
+        position: absolute;
+        top: 8px;
+        right: 15px;
+        transform: rotate(135deg);
+        transition: all 0.3s ease 0s;
+    }
+    #accordion .panel-title a.collapsed:before{
+        color: #676767;
+        transform: rotate(0);
+    }
+    #accordion .panel-title a:after{
+        content: "";
+        width: 1px;
+        height: 100%;
+        background: #ececec;
+        position: absolute;
+        top: 0;
+        right: 55px;
+    }
+    #accordion .panel-body{
+        padding: 10px 15px 15px;
+        border: none;
+        font-size: 15px;
+        color: #615f5f;
+        line-height: 27px;
+    }
+      </style>
+
 
 <body>
 
@@ -165,179 +241,88 @@ include("include/config.php");
 </div>
 </div>
 
- <div class="row justify-content-center pt-3">
-                        <div class="col-8 pb-5">
-                            <h3>FAQ</h3>
-                            <!--<h4>What are the benefits of having a PAN Card?</h4>
-                            <label>There are several benefits of having a PAN card.</label>
-							
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                          <label> 1. Filing Income Tax Return</label>
-                            </div>
-                            </div>
 
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                          <label>     2. Tax deduction </label>
+                <div class="container pb-5">
+            <h3 class="pt-5 text-center" >FREQUENTLY ASKED QUESTIONS</h3>
+        <div class="row">
+            <div class="col-md-12 pt-3">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is a PAN Card?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                              <p>PAN Card or Permanent Account Number card is a ten-character alphanumeric identifier physical card issued by the income tax department to individuals. This card includes the name, date of birth, and photograph of the person and serves as an identity proof of the person. This card is valid for a lifetime and is unaffected by any change in address. PAN card is essential for all taxpayers and is required for financial transactions and is also used to track the inflow and outflow of money.</p>
                             </div>
-                            </div>
-
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                               <label>3. Claim Tax Refund </label>
-                            </div>
-                            </div>
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                             <label>  4. Open a Demat Account </label>
-                            </div>
-                            </div>
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                             <label>  5. Purchase and Sale of property</label>
-                            </div>
-                            </div>
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                              <label> 6. Buying vehicles, company’s shares, securities</label>
-                            </div>
-                            </div>
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                           <label>    7. Financial transaction of more than Rs. 50,000.</label>
                         </div>
                     </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What are the benefits of having a PAN Card?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                              <p>1.  Filing Income Tax Return</p>
+                              <p>2.  Tax deduction</p>
+                              <p>3.  Claim Tax Refund</p>
+                              <p>4.  Open a Demat Account</p>
+                              <p>5.  Purchase and Sale of property</p>
+                              <p>6.  Buying vehicles, company’s shares, securities</p>
+                              <p>7.  Financial transaction of more than Rs. 50,000</p>
                             </div>
-                            </div> 
-
-              <div class="row justify-content-center">
-                        <div class="col-8">
-                            <h4>What are the documents required for a PAN Card?</h4>
-                        <label>To apply for PAN Card, individuals or companies require submitting some documents along with Form 49A or 49AA. Find below the list of documents that are required while applying for a PAN Card:</label>
-                        <h6>Individual Applicant</h6>
-                        <div class="row justify-content-center">
-                        <div class="col-8">
-                           <label> 1. Identity proof like Aadhaar, Voter ID, Driving License</label>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="col-8">
-                           <label> 2. Address proof  </label>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What are the documents required for a PAN Card?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                              <p>An ISO certification only certifies standards , it has got nothing to do with permits and licenses. Even though you might have an ISO certification, you still need government and authority permission, permits and licenses to work your business.</p>
+                            </div>
                         </div>
                     </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                WHY DOES MY COMPANY NEED AN ISO STANDARD ?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body">
+                              <p> Individual Applicant</p>
+                              <p>  1. Identity proof like Aadhaar, Voter ID, Driving License</p>
+                              <p>  2. Address proof  </p>
+                              <p>  Indian Companies </p>
+                              <p>   1. Registration Certificate copy  </p>
+                              <p>   Firms and Limited Liability Partnerships  </p>
+                              <p>   1. Registration Certificate copy  </p>
+                              <p>   2. Partnership Deed copy  </p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                        
                 </div>
-                </div> 
-
-               <div class="row justify-content-center">
-                        <div class="col-8">
-                            <h6>Indian Companies</h6>
-                        <div class="row justify-content-center">
-                        <div class="col-8">
-                           <label> 1.Registration Certificate copy</label>
-                           <label>Firms and Limited Liability Partnerships</label>
-                            </div>
-                            </div>
-                            <div class="row justify-content-center">
-                        <div class="col-8">
-                           <label>1. Registration Certificate copy</label>
-                            </div>
-                            </div>
-                           <div class="row justify-content-center">
-                        <div class="col-8">
-                           <label>2. Partnership Deed copy</label>
-                        </div>
-                    </div> -->
-                    </div>
-                </div>
-                
-                <div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        What is a PAN Card?
-        </button>
-      </h5>
+            </div>
+        </div>
     </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-      PAN Card or Permanent Account Number card is a ten-character alphanumeric identifier physical card issued by the income tax department to individuals. This card includes the name, date of birth, and photograph of the person and serves as an identity proof of the person. This card is valid for a lifetime and is unaffected by any change in address. PAN card is essential for all taxpayers and is required for financial transactions and is also used to track the inflow and outflow of money.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        What are the benefits of having a PAN Card?
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-    1.  Filing Income Tax Return
-      </div>
-
-      <div class="card-body">
-    2. Tax deduction
-      </div>
-      <div class="card-body">
-    3. Claim Tax Refund
-      </div>
-      <div class="card-body">
-    4. Open a Demat Account
-      </div>
-      <div class="card-body">
-    5. Purchase and Sale of property
-      </div>
-      <div class="card-body">
-    6. Buying vehicles, company’s shares, securities
-      </div>
-      <div class="card-body">
-    7. Financial transaction of more than Rs. 50,000
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        What are the documents required for a PAN Card?
-</button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-      Individual Applicant
-      </div>
-      <div class="card-body">
-      1. Identity proof like Aadhaar, Voter ID, Driving License
-      </div>
-      <div class="card-body">
-      2. Address proof  
-      </div>
-      <div class="card-body">
-      Indian Companies
-      </div>
-      <div class="card-body">
-      1. Registration Certificate copy
-      </div>
-      <div class="card-body">
-      Firms and Limited Liability Partnerships
-      </div>
-      <div class="card-body">
-      1. Registration Certificate copy
-      </div>
-      <div class="card-body">
-     2. Partnership Deed copy
-      </div>
-      
-    </div>
-  </div>
-</div>
-                
+                                
  
              
                                     
