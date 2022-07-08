@@ -23,8 +23,9 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
                     <!-- bootstrap link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+   
     <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
     <title>Anwa - Cleaning Company HTML Template</title>
@@ -248,55 +249,97 @@ include("include/config.php");
                         </div>
                     </div> -->
                     </div>
-                </div> 
-                <div class="card">
-  <div class="card-header text-center">
-    <span>FAQ & Knowledgebase</span>
-  </div>
-  <div class="card-body">
-    <div class="flex flex-column mb-5 mt-4 faq-section">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header" id="heading-1">
-                <h5 class="mb-0">
-                  <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                  What is a PAN Card?
-                                    </a>
-                </h5>
-              </div>
-              <div id="collapse-1" class="collapse show" data-parent="#accordion" aria-labelledby="heading-1">
-                <div class="card-body">
-                PAN Card or Permanent Account Number card is a ten-character alphanumeric identifier physical card issued by the income tax department to individuals. This card includes the name, date of birth, and photograph of the person and serves as an identity proof of the person. This card is valid for a lifetime and is unaffected by any change in address. PAN card is essential for all taxpayers and is required for financial transactions and is also used to track the inflow and outflow of money.
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="heading-2">
-                <h5 class="mb-0">
-                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                                      How to get this trade copier?
-                                    </a>
-                </h5>
-              </div>
-              <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
-                <div class="card-body">
-                  After subscription you will get our special trade copier. If you want to use this copier for business purpose or other commercial pupose then directly contact with www.fxcopier.co.uk.
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        
+                
+                <div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What is a PAN Card?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      PAN Card or Permanent Account Number card is a ten-character alphanumeric identifier physical card issued by the income tax department to individuals. This card includes the name, date of birth, and photograph of the person and serves as an identity proof of the person. This card is valid for a lifetime and is unaffected by any change in address. PAN card is essential for all taxpayers and is required for financial transactions and is also used to track the inflow and outflow of money.
       </div>
     </div>
   </div>
-</div>          
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What are the benefits of having a PAN Card?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+    1.  Filing Income Tax Return
+      </div>
+
+      <div class="card-body">
+    2. Tax deduction
+      </div>
+      <div class="card-body">
+    3. Claim Tax Refund
+      </div>
+      <div class="card-body">
+    4. Open a Demat Account
+      </div>
+      <div class="card-body">
+    5. Purchase and Sale of property
+      </div>
+      <div class="card-body">
+    6. Buying vehicles, company’s shares, securities
+      </div>
+      <div class="card-body">
+    7. Financial transaction of more than Rs. 50,000
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        What are the documents required for a PAN Card?
+</button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+      Individual Applicant
+      </div>
+      <div class="card-body">
+      1. Identity proof like Aadhaar, Voter ID, Driving License
+      </div>
+      <div class="card-body">
+      2. Address proof  
+      </div>
+      <div class="card-body">
+      Indian Companies
+      </div>
+      <div class="card-body">
+      1. Registration Certificate copy
+      </div>
+      <div class="card-body">
+      Firms and Limited Liability Partnerships
+      </div>
+      <div class="card-body">
+      1. Registration Certificate copy
+      </div>
+      <div class="card-body">
+     2. Partnership Deed copy
+      </div>
+      
+    </div>
+  </div>
+</div>
+                
  
-                    
-               
+             
                                     
                 </div>
             </div>
@@ -306,14 +349,6 @@ include("include/config.php");
         
    
    
-    
-       
-
-
-
-   
-
-
     <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>
 
