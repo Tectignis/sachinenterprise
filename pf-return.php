@@ -121,11 +121,11 @@ include("include/config.php");
 </div>
 </div>
 </div> -->
-      
-<div class="container">
+<div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="container">
             <div class="card-body">
                 <div class="row">
-				<div class="col-5">
+				<div class="col-3">
                         <h3 class="main-title">Your File</h3>
                     <h4 class="main-title1">GST Return File</h4>
                     <p>File error-free GST Return File and in-time. Get your GST return filings done through experts sachinenterprise.in 
@@ -138,38 +138,33 @@ include("include/config.php");
                 </div>
 
                                
-                                <div class="col-3">
-                                <div class="card card-primary">
-                                    <div class="card-header">
-                                    <h3 class="text-center">Start With Confidence</h3>
-                                    <h4 class="text-center">CA/CS Assisted | 4.8/5 Rating</h4>
-                            </div>
-                            <!-- /.card-header -->
-                            <!-- form start -->
-                            <form action="post">
-                                <div class="card-body">
-                                
-                                <div class="form-group pt-2">
-                                    
-                                    <input type="name" class="form-control" id="exampleInputname1" placeholder="Name">
-                                </div>
-                                <div class="form-group pt-2">
-                                    
-                                    <input type="email" class="form-control" id="exampleInputemail1" placeholder="Email">
-                                </div>
-                                <div class="form-group pt-2">
-                                    
-                                    <input type="phone" class="form-control" id="exampleInputphone1" placeholder="Phone">
-                                </div>
-                                </div>
-                                
-                                <!-- /.card-body -->
+                <div class="col-3">
+            <div class="card ">
+            <div class=" shadow bg-white rounded">
+              <div class="card-header text-center" style="background-color:red; color:white">
+                <h4 class="card-title">Get the Pan Registetration</h4>
+                <h6>CA/CS Assisted | 4.8/5 Rating</h6>
+              </div>
+              <form action="">
+              <div class="card-body">
+                  <div class="form-group pt-2">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                  </div>
+                  <div class="form-group pt-2">
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                  </div>
+                  <div class="form-group pt-2">
+                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
+                </div>
 
-                                <div class="card-footer">
-      <a href="#" class="btn btn-primary">GET STARTED</a>
-    </div>
                             </form>
                             </div>
+    </div>
                         </div>
                     </div>
                 </div>         

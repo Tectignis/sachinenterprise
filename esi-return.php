@@ -1,6 +1,23 @@
 <?php
 include("include/config.php");
 
+if(isset($_POST['submit'])){
+
+ 
+    $name=$_POST['name'];
+    $phonenumber=$_POST['phonenumber'];
+    $email=$_POST['email'];
+   
+  
+  $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
+    VALUES ('$name','$phonenumber','$email')");
+  
+  if($sql==1){
+  header("location:esi-return.php");
+  }
+  else
+  echo 'connection failed';
+  }
 ?>
 
 <!DOCTYPE html>
@@ -131,7 +148,7 @@ include("include/config.php");
 </div>
 </div>
 </div> -->
-
+<div class="shadow p-3 mb-5 bg-white rounded">
 <div class="container">
             <div class="card-body">
                 <div class="row">
@@ -156,30 +173,36 @@ include("include/config.php");
                             </div>
                             <!-- /.card-header -->
                             <!-- form start -->
-                            <form action="post">
+                            <form method="post">
                                 <div class="card-body">
                                 
                                 <div class="form-group pt-2">
                                     
-                                    <input type="name" class="form-control" id="exampleInputname1" placeholder="Name">
+                                    <input type="name" class="form-control" name="name" id="exampleInputname1" placeholder="Name">
                                 </div>
                                 <div class="form-group pt-2">
                                     
-                                    <input type="email" class="form-control" id="exampleInputemail1" placeholder="Email">
+                                    <input type="email" class="form-control" name="email" id="exampleInputemail1" placeholder="Email">
                                 </div>
                                 <div class="form-group pt-2">
                                     
-                                    <input type="phone" class="form-control" id="exampleInputphone1" placeholder="Phone">
+                                    <input type="phone" class="form-control" name="phonenumber" id="exampleInputphone1" placeholder="Phone">
                                 </div>
                                 </div>
                                 
                                 <!-- /.card-body -->
 
-                                <div class="card-footer">
-      <a href="#" class="btn btn-primary">GET STARTED</a>
-    </div>
+<<<<<<< HEAD
+                                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
+=======
+                               <div class="card-footer" style="background:white; border:none; text-align:center">
+                  <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
+>>>>>>> d54bbbe8d2695c2e7a3739aaffc892598ed4e49c
+                </div>
                             </form>
                             </div>
+    </div>
                         </div>
                     </div>
                 </div>         

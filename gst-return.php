@@ -124,7 +124,7 @@ include("include/config.php");
 </div>
 </div> -->
 
-            
+<div class="shadow p-3 mb-5 bg-white rounded">
             <div class="container">
             <div class="card-body">
                 <div class="row">
@@ -168,11 +168,12 @@ include("include/config.php");
                                 
                                 <!-- /.card-body -->
 
-                                <div class="card-footer">
-      <a href="#" class="btn btn-primary">GET STARTED</a>
-    </div>
+                                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
+                </div>
                             </form>
                             </div>
+      </div>
                         </div>
                     </div>
                 </div>         
@@ -250,12 +251,13 @@ include("include/config.php");
     </div>
 
     <div class="row">
+
         <div class="container pt-4">
             <h2 style="text-align:center">GST Return Cost </h2>
             <h5 style="text-align:center">Choose Your Package</h5>
-    <div class="card-body" style="padding-left:330px;">
+    <div class="card-body" style="padding-left:300px;">
         <div class="row ">
-            <div class="col-3">
+            <div class="col-4">
             <div class="card " >
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
@@ -264,6 +266,7 @@ include("include/config.php");
               </div>
               <form>
                 <div class="card-body">
+                  
                   <div class="form-group pt-2">
                     <label for="">&#8226; Filing of one NIL GST return (GSTR 3B or GSTR 1)</label>
                   </div>
@@ -275,7 +278,7 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
             <div class="card " >
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
@@ -295,7 +298,7 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
             <div class="card " >
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>

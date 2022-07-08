@@ -1,6 +1,23 @@
 <?php
 include("include/config.php");
 
+if(isset($_POST['submit'])){
+
+ 
+  $name=$_POST['name'];
+  $phonenumber=$_POST['phonenumber'];
+  $email=$_POST['email'];
+ 
+
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
+  VALUES ('$name','$phonenumber','$email')");
+
+if($sql==1){
+header("location:tds-return.php");
+}
+else
+echo 'connection failed';
+}
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +43,8 @@ include("include/config.php");
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
     <style>
-        .card-header{
+
+.card-header{
             background-color:#FF7F50;
         }
         .card-primary{
@@ -51,6 +69,8 @@ include("include/config.php");
         .card-body11{
             color:black;
         }
+        
+        
         /* .button-footer{
             color:#FF6600;
         } */
@@ -131,9 +151,10 @@ include("include/config.php");
 </div>
 </div>
 </div> -->
-
+ <div class="shadow p-3 mb-5 bg-white rounded">
 <div class="container">
             <div class="card-body">
+           
                 <div class="row">
 				<div class="col-5">
                         <h3 class="main-title">Your File</h3>
@@ -156,29 +177,36 @@ include("include/config.php");
                             </div>
                             <!-- /.card-header -->
                             <!-- form start -->
-                            <form action="post">
+                            <form method="post">
                                 <div class="card-body">
                                 
                                 <div class="form-group pt-2">
                                     
-                                    <input type="name" class="form-control" id="exampleInputname1" placeholder="Name">
+                                    <input type="name" class="form-control" name="name" id="exampleInputname1" placeholder="Name">
                                 </div>
                                 <div class="form-group pt-2">
                                     
-                                    <input type="email" class="form-control" id="exampleInputemail1" placeholder="Email">
+                                    <input type="email" class="form-control" name="email" id="exampleInputemail1" placeholder="Email">
                                 </div>
                                 <div class="form-group pt-2">
                                     
-                                    <input type="phone" class="form-control" id="exampleInputphone1" placeholder="Phone">
+                                    <input type="phone" class="form-control" name="phonenumber" id="exampleInputphone1" placeholder="Phone">
                                 </div>
                                 </div>
                                 
                                 <!-- /.card-body -->
 
-                                <div class="card-footer">
-      <a href="#" class="btn btn-primary">GET STARTED</a>
-    </div>
+<<<<<<< HEAD
+                                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
+                  
+=======
+                                <div class="card-footer" style="background:white; border:none; text-align:center">
+                  <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
+>>>>>>> d54bbbe8d2695c2e7a3739aaffc892598ed4e49c
+                </div>
                             </form>
+      
                             </div>
                         </div>
                     </div>
@@ -186,20 +214,12 @@ include("include/config.php");
             </div>
         </div>
     </div>
- </div>
+ 
 
 
+   
 
-
-    </div>
-</div>
-</div>
-</div>
-
-    
-
-
-    <div class="pricing pricing-1 pt-100 shape-bg">
+<div class="pricing pricing-1 pt-100 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3>TDS Returns File</h3>
@@ -293,14 +313,15 @@ include("include/config.php");
             </div>
         </div>
     </div>
-
-    <div class="row">
+        
+    <div class="row">    X
         <div class="container pt-4">
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
-    <div class="card-body" style="padding-left:300px;">
+    <div class="card-body"  style="padding-left:350px;">
         <div class="row ">
-            <div class="col-3">
-            <div class="card " >
+            <div class="col-4">
+            <div class="card ">
+            
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 999/-</strong></h3>
@@ -320,7 +341,7 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
             <div class="card">
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
@@ -347,7 +368,7 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-3">
+            <div class="col-4">
             <div class="card">
               <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
@@ -377,10 +398,28 @@ include("include/config.php");
           </div>
     </div>
     </div>
-</div>
-</div>
+   
+   
 
 
+    <?php include("include/newsletter.php");?>
+    <?php include("include/footer.php"); ?>
+
+
+    <div class="popup">
+        <div class="popup-content">
+            <button class="close-btn" id="popup-close"><i class="fas fa-times"></i></button>
+            <form>
+                <div class="input-group search-box">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+   
    
 
 
@@ -431,3 +470,6 @@ include("include/config.php");
 </body>
 
 </html>
+              
+    
+              
