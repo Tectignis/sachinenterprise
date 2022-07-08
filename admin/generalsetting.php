@@ -17,8 +17,18 @@ if(isset($_POST['update'])){
   $loc="logo/".$select_favicon;
   move_uploaded_file($filedett,$loc);
   
-  if(!empty(($_FILES['select_logo']['tmp_name']))){
-  $sql="UPDATE `general_setting` SET select_logo='$select_logo',`select_favicon`='$select_favicon',`sidebar_header`='$sidebar_header',`contact_email_message`='$contact_email_message',`address`='$address',`contact_phone`='$contact_phone',`contact_email`='$contact_email',`google_map`='$google_map' where id='1'";
+if(!empty(($_FILES['select_logo']['tmp_name']))){
+  $sql="UPDATE `general_setting` SET select_logo='$select_logo',`sidebar_header`='$sidebar_header',`contact_email_message`='$contact_email_message',`address`='$address',`contact_phone`='$contact_phone',`contact_email`='$contact_email',`google_map`='$google_map' where id='1'";
+  if(mysqli_query($conn, $sql)){
+    echo"<script>alert('Successfully Updated');</script>";
+  }
+  else{
+    echo"<script>alert('Not Updated');</script>";
+
+}
+}
+if(!empty(($_FILES['select_favicon']['tmp_name']))){
+  $sql="UPDATE `general_setting` SET select_favicon='$select_favicon',`sidebar_header`='$sidebar_header',`contact_email_message`='$contact_email_message',`address`='$address',`contact_phone`='$contact_phone',`contact_email`='$contact_email',`google_map`='$google_map' where id='1'";
   if(mysqli_query($conn, $sql)){
     echo"<script>alert('Successfully Updated');</script>";
   }
