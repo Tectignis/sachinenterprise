@@ -177,7 +177,8 @@ if(isset($_POST['submit'])){
                                 <div class="card-body">
                                 
                                 <div class="form-group pt-2">
-                                    
+                      
+                                
                                     <input type="name" class="form-control" name="name" id="exampleInputname1" placeholder="Name">
                                 </div>
                                 <div class="form-group pt-2">
@@ -192,13 +193,8 @@ if(isset($_POST['submit'])){
                                 
                                 <!-- /.card-body -->
 
-<<<<<<< HEAD
                                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
                   <button type="submit" class="btn btn-warning">GET STARTED</button>
-=======
-                               <div class="card-footer" style="background:white; border:none; text-align:center">
-                  <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
->>>>>>> d54bbbe8d2695c2e7a3739aaffc892598ed4e49c
                 </div>
                             </form>
                             </div>
@@ -214,12 +210,7 @@ if(isset($_POST['submit'])){
 
 
 
-    </div>
-</div>
-</div>
-</div>
-
-
+   
 
     
 
