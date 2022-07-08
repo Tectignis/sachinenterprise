@@ -1,25 +1,41 @@
-<!-- <?php
-include("include/config.php");
-if(isset($_POST['submit'])){
-  $select_logo = $_POST['select_logo'];
-  $select_favicon = $_POST['select_favicon'];
-  $sidebar_header = $_POST['sidebar_header'];
-  $sidebar_header_icon = $_POST['sidebar_header_icon'];
-  $contact_email_message = $_POST['contact_email_message'];
-  $address = $_POST['address'];
-  $contact_phone = $_POST['contact_phone'];
-  $contact_email = $_POST['contact_email'];
-  $google_map = $_POST['google_map'];
-  $time_zone = $_POST['time_zone'];
+<?php
+include("../include/config.php");
+if(isset($_POST['update'])){
+  $select_logo = $_FILES['select_logo']['name'];
+  $select_favicon = $_FILES['select_favicon']['name'];
+  $filedet=$_FILES['select_logo']['tmp_name'];
+  $loc="logo/".$select_logo;
+  move_uploaded_file($filedet,$loc);
+  $filedett=$_FILES['select_favicon']['tmp_name'];
+  $loc1="logo".$select_favicon;
+  move_uploaded_file($filedett,$loc1);
+  $sidebar_header=$_POST['sidebar_header'];
+ 
+  $contact_email_message=$_POST['contact_email_message'];
+  $address=$_POST['address'];
+  $contact_phone=$_POST['contact_phone'];
+  $contact_email=$_POST['contact_email'];
+  $google_map=$_POST['google_map'];
+
   
-  
-  $sql="UPDATE `general_settings` SET select_logo='$select_logo',select_favicon='$select_favicon',sidebar_header='$sidebar_header',      sidebar_header_icon='$sidebar_header_icon', contact_email_message='$contact_email_message', address='$address',contact_phone='$contact_phone',contact_email='$contact_email', google_map='$google_map', time_zone='$time_zone'";
+  if(empty(($_FILES['select_logo']['tmp_name'])) && empty(($_FILES['select_logo']['tmp_name']))){
+  $sql="UPDATE `general_setting` SET select_logo='$select_logo' where id='1'";
   if(mysqli_query($conn, $sql)){
     echo"<script>alert('Successfully Updated');</script>";
   }
   else{
     echo"<script>alert('Not Updated');</script>";
   }
+
+  if(empty(($_FILES['select_favicon']['tmp_name'])) && empty(($_FILES['select_favicon']['tmp_name']))){
+    $sql="UPDATE `general_setting` SET select_favicon='$select_logo' where id='1'";
+    if(mysqli_query($conn, $sql)){
+      echo"<script>alert('Successfully Updated');</script>";
+    }
+    else{
+      echo"<script>alert('Not Updated');</script>";
+    }
+}
 }
 ?> -->
 <!DOCTYPE html>
@@ -94,26 +110,39 @@ if(isset($_POST['submit'])){
        
           <div class="row">
             <div class="col-12">
-              <form method="POST">
+              <form method="POST" enctype="multipart/form-data">
              <div class="card card-primary">
                 <div class="card-header">
                   <h3 class="card-title">General Settings</h3>
                 </div>
                 <div class="card-body">
+                <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from `general_setting` where id='1'");
+                     $count=1;
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
                   <div class="form-group">
+                 
                     <label for="exampleInputEmail1" class="col-12">Existing Logo</label>
-                    <img src="#">
+                    <img src="logo/<?php echo $arr['select_logo'];?>" alt="select_favicon"  width="100" height="100">
                   </div>
+                  
                   <div class="form-group">
                     <label for="exampleInputEmail1">Select Logo</label>
+                    <!-- <img src="logo/<?php echo $arr['select_logo'];?>" alt="select_favicon"  width="100" height="100"> -->
              <input type="file" class="form-control" value="" name="select_logo" id="exampleInputEmail1" placeholder="Enter email">
                   </div>
+                  <?php   } ?>
                   <div class="form-group">
+                
                     <label for="exampleInputEmail1" class="col-12">Existing Favicon</label>
-                    <img src="#">
+                    <img src="logo/<?php echo $arr['select_favicon'];?>" alt="select_favicon"  width="100" height="100">
                   </div>
+                 
                   <div class="form-group">
                     <label for="exampleInputEmail1">Select Favicon</label>
+                    
                     <input type="file" class="form-control" name="select_favicon" id="exampleInputEmail1" value="" placeholder="Enter email">
                   </div>
                   <div class="form-group">

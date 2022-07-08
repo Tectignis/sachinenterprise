@@ -1,3 +1,35 @@
+
+<?php
+session_start();
+include("../include/config.php");
+if(isset($_POST['login'])){
+$email=$_POST['email'];
+$password1=$_POST['password'];
+
+$sql=mysqli_query($conn,"select * from admin_login where email='$email'");
+$row=mysqli_fetch_array($sql);
+
+if($row>0){
+    $email=$row['email'];
+    $password=$row['password'];
+    $hashpassword=password_verify($password1,$password);
+    if($hashpassword){
+      $_SESSION['id']=$row['id'];
+      $_SESSION['name']=$row['name'];
+        $_SESSION['email']=$email;
+        $_SESSION['password']=$password;
+        header("location:index.php");
+    }else{
+        echo "<script>alert('Password is incorrect');</script>";
+    }
+}
+else{
+    echo "<script>alert('Invalid Email Id');</script>";
+}
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -60,23 +92,23 @@ border-bottom-right-radius: .3rem;
                     style="width: 100px;" alt="logo"><h6>SACHIN ENTERPRISE</h6>
                 </div><br>
 
-                <form>
+                <form method="post">
                   <p align="center">Please login to your account</p><br>
 
                   <div class="form-outline mb-4">
-                    <input type="email" id="form2Example11" class="form-control"
-                      placeholder="Enter Email address" />
-                    <label class="form-label" for="form2Example11">Email</label>
+                    <input type="email" id="email" class="form-control"
+                    name="email"
+                      placeholder="Enter Email address">
+                    <label class="form-label" >Email</label>
                   </div>
 
                   <div class="form-outline mb-4">
-                    <input type="password" id="form2Example22" class="form-control" placeholder="Enter Password" />
-                    <label class="form-label" for="form2Example22">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Enter Password">
+                    <label class="form-label">Password</label>
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
-                      in</button>
+                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="login" name="login" id="login" value="login">Login</button>
                     <a class="text-muted" href="forgetpassword.php">Forgot password?</a>
                   </div>
                 </form>
