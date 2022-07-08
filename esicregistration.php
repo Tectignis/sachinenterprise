@@ -87,7 +87,7 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background:white; border:none; text-align:center">
-                  <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
+                  <button type="submit" name="submit" class="btn btn-primary">GET STARTED</button>
                 </div>
               </form>
               </div>

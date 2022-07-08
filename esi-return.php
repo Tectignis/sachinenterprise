@@ -192,7 +192,7 @@ if(isset($_POST['submit'])){
                                 
                                 <!-- /.card-body -->
 
-                                <div class="card-footer" style="background:white; border:none; text-align:center">
+                               <div class="card-footer" style="background:white; border:none; text-align:center">
                   <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
                             </form>

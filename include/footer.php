@@ -9,7 +9,7 @@
 <div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
 <div class="footer-logo-area">
-<a href="index.php"><img src="<?php echo $arr['select_logo'];?>" alt="image" style="height:55px; width:55px"></a>
+<a href="index.php"><img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="image" style="height:55px; width:55px"></a>
 <p>Lorem ipsum dolor sit amet, consec tetur elit eiusmod tempor incididunt labore dolore magna aliqua consec tetur adipis cing elite sed do labor.</p>
 <div class="footer-social-icons">
 <span>Follow Us:</span>
