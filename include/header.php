@@ -117,11 +117,11 @@ include("include/config.php");
                                         <a href="Services.php" class="nav-link dropdown-toggle">Rent Agreement</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate</a>
+                                        <a href="isocertificate.php" class="nav-link dropdown-toggle">ISO Certificate</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
-                                         Registation </a>
+                                        <a href="professionaltaxregi.php" class="nav-link dropdown-toggle">Professional Tax <br>
+                                         Registration </a>
                                         <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax</a>
                                             </li>
                                             

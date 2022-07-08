@@ -32,26 +32,27 @@ include("include/config.php");
 </head>
 
 <body>
-
-
-
     <?php include("include/header.php"); ?>
-
+    
+    <div class="shadow">
     <div class="container">
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4">
-                <h2 class="title">Get Online</h2>
-                <h5 class="subtitle">GST  Registation</h5>
+          <div class="col-4 pt-5">
+                <h2 class="title ">Get Online</h2>
+                <h5 class="subtitle  ">GST  Registation</h5>
                 <p></p>
-                <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
+                <div class="text-box">
+                  <label for="">Make your business GST Compliant. Never lose on GST input credit ever. Obtain your <strong>GST Registration</strong> Online at  <strong>INR 1999/- only.</strong></label>
+                </div>
                 </div>
                 <div class="col-4">
                 <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
             <div class="col-4">
             <div class="card ">
+            <div class=" shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
@@ -74,8 +75,8 @@ include("include/config.php");
                 </div>
               </form>
               </div>
-        </div>
-          
+              </div>
+              </div>
           </div>
         </div>
       </div>
@@ -163,13 +164,13 @@ include("include/config.php");
 
 
 
-    <div class="container">
+    <div class="container pb-5">
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
         <div class="row ">
             <div class="col-4">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class="card h-100">
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 1999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
@@ -188,8 +189,8 @@ include("include/config.php");
             </div>
             </div>
             <div class="col-4">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class=" card h-100" >
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
                 <h3 class="text-danger"><strong>₹ 3299/-</strong></h3>
                 <label for="">(All Inclusive)</label>
@@ -208,18 +209,18 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-4">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class="col-4 ">
+            <div class=" card  h-100" >
+              <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 8099/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
               <form>
                 <div class="card-body">
-                  <div class="form-group pt-2">
-                  <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company </label>
-                    <label for="">&#8226; GST Returns for one year (upto 100 entries)</label>
+                  <div class="form-group ">
+                  <label class="card-text">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company </label>
+                    <label class="card-text">&#8226; GST Returns for one year (upto 100 entries)</label>
 
                   </div>
                 </div>

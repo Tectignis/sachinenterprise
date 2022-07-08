@@ -34,12 +34,12 @@ include("include/config.php");
 
 
     <?php include("include/header.php"); ?>
-
+  <div class="shadow">
     <div class="container">
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 pt-5">
                 <h2 class="title">Cancel</h2>
                 <h4 class="subtitle">GST  Registation</h4>
                 <p></p>
@@ -50,6 +50,7 @@ include("include/config.php");
             </div>
             <div class="col-4">
             <div class="card">
+              <div class="shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
@@ -72,8 +73,9 @@ include("include/config.php");
                 </div>
               </form>
               </div>
+              </div>
         </div>
-          
+</div>
           </div>
         </div>
       </div>
@@ -104,7 +106,7 @@ include("include/config.php");
     </div>
     
 
-    <div class="container">
+    <div class="container pb-5">
       <h2 style="text-align:center">Simple Prices | No Surprises</h2>
       <div class="card-body">
         <div class="row">
