@@ -7,6 +7,16 @@ if(isset($_POST['submit'])){
   $sql=mysqli_query($conn,"UPDATE `leads` SET `amount`='$amount' WHERE id='$aid'");
 
 }
+
+if(isset($_GET['delid'])){
+  $id=mysqli_real_escape_string($conn,$_GET['delid']);
+  $sql=mysqli_query($conn,"delete from leads where id='$id'");
+  
+
+  if($sql=1){
+      header("location:sales.php");
+  }
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -118,45 +128,37 @@ if(isset($_POST['submit'])){
                                                 ?>    
                                               </td>
                                                 
-                        <td>
-                          <div  <?php
-                            if($status=='Closed'){?> style="display:none"; <?php }
-                            ?>>
-                          <button class="btn btn-sm btn-primary dnkediti" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-eye"></i></button>  
-                           
-                         <button class="btn btn-sm btn-primary dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-circle"></i></button>
-                        </div>
-                          <button class="btn btn-sm btn-primary dnkd" data-id='<?php echo $arr['id']; ?>'
-                            data-toggle="modal" data-target="#dnk1"><i class="fas fa-edit"></i></button>
-                            
-                            
-                        </td>
+                       
 
                         <td>
                           <table>
                           <tbody>
                           <tr>
                           <td class="p-2">
-                            <a href="" class="btn btn-default btn-xs" data-tt="tooltip" title="" data-original-title="View">
-                              <i class="fas fa-eye"></i>
-                            </a>
+                          <div  <?php
+                            if($status=='Closed'){?> style="display:none"; <?php }
+                            ?>>
+                            <button class="btn btn-default btn-xs dnkediti" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-eye"></i></button> 
+                                              </td>
+                                              <td class="p-2">
+                            <button class="btn bg-orange btn-xs dnkd" data-id='<?php echo $arr['id']; ?>'
+                            data-toggle="modal" data-target="#dnk1"><i class="fa-solid fa-file"></i></button>
+                                              </td>
+                                              <td class="p-2">
+                            <a href="sales.php?delid=<?php echo $arr['id']; ?>"><button
+                                                            type="button" class="btn btn-danger btn-xs delete_quotation"
+                                                            onclick="ConfirmDelete()" style="color: aliceblue"> <i
+                                                                class="fas fa-trash"></i> </button></a>
                           </td>
+                          
                           <td class="p-2">
-                            <a href="" class="btn btn-info btn-xs" data-tt="tooltip" title="" data-original-title="Edit">
-                              <i class="fas fa-edit"></i>
-                            </a>  
+                           
+                            <button class="btn btn-info btn-xs dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-edit"></i></button>
                           </td>
-                          <td class="p-2">
-                            <a href="" class="btn bg-orange btn-xs" data-tt="tooltip" title="" data-original-title="Payment">
-                            <i class="fa-solid fa-file"></i>
-                            </a>
-                          </td>
-                          <td class="p-2">
-		                        <a href="#" data-toggle="modal" data-target="#delete_quotation" data-tt="tooltip" title="" class="btn btn-danger btn-xs delete_quotation" data-original-title="Delete Quotation">
-		                          <i class="fas fa-trash"></i>
-		                        </a>
-													</td>
-                        
+                                              </div>
+                          
+                          
+                         
                         </tr>
                       
                       </tbody>

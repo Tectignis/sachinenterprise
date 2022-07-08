@@ -2,42 +2,33 @@
 include("../include/config.php");
 if(isset($_POST['update'])){
   $select_logo = $_FILES['select_logo']['name'];
-  $select_favicon = $_FILES['select_favicon']['name'];
   $filedet=$_FILES['select_logo']['tmp_name'];
   $loc="logo/".$select_logo;
   move_uploaded_file($filedet,$loc);
-  $filedett=$_FILES['select_favicon']['tmp_name'];
-  $loc1="logo".$select_favicon;
-  move_uploaded_file($filedett,$loc1);
+
   $sidebar_header=$_POST['sidebar_header'];
- 
   $contact_email_message=$_POST['contact_email_message'];
   $address=$_POST['address'];
   $contact_phone=$_POST['contact_phone'];
   $contact_email=$_POST['contact_email'];
   $google_map=$_POST['google_map'];
-
+  $select_favicon = $_FILES['select_favicon']['name'];
+  $filedett=$_FILES['select_favicon']['tmp_name'];
+  $loc="logo/".$select_favicon;
+  move_uploaded_file($filedett,$loc);
   
-  if(empty(($_FILES['select_logo']['tmp_name'])) && empty(($_FILES['select_logo']['tmp_name']))){
-  $sql="UPDATE `general_setting` SET select_logo='$select_logo' where id='1'";
+  if(!empty(($_FILES['select_logo']['tmp_name']))){
+  $sql="UPDATE `general_setting` SET select_logo='$select_logo',`select_favicon`='$select_favicon',`sidebar_header`='$sidebar_header',`contact_email_message`='$contact_email_message',`address`='$address',`contact_phone`='$contact_phone',`contact_email`='$contact_email',`google_map`='$google_map' where id='1'";
   if(mysqli_query($conn, $sql)){
     echo"<script>alert('Successfully Updated');</script>";
   }
   else{
     echo"<script>alert('Not Updated');</script>";
-  }
 
-  if(empty(($_FILES['select_favicon']['tmp_name'])) && empty(($_FILES['select_favicon']['tmp_name']))){
-    $sql="UPDATE `general_setting` SET select_favicon='$select_logo' where id='1'";
-    if(mysqli_query($conn, $sql)){
-      echo"<script>alert('Successfully Updated');</script>";
-    }
-    else{
-      echo"<script>alert('Not Updated');</script>";
-    }
 }
 }
-?> -->
+}
+?> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -134,6 +125,12 @@ if(isset($_POST['update'])){
              <input type="file" class="form-control" value="" name="select_logo" id="exampleInputEmail1" placeholder="Enter email">
                   </div>
                   <?php   } ?>
+                  <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from `general_setting` where id='1'");
+                     $count=1;
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
                   <div class="form-group">
                 
                     <label for="exampleInputEmail1" class="col-12">Existing Favicon</label>
@@ -145,6 +142,7 @@ if(isset($_POST['update'])){
                     
                     <input type="file" class="form-control" name="select_favicon" id="exampleInputEmail1" value="" placeholder="Enter email">
                   </div>
+                  <?php   } ?>
                   <div class="form-group">
                     <label for="exampleInputtext1">Sidebar Header</label>
                     <input type="te" class="form-control" name="sidebar_header" id="exampleInputtext1" value="" placeholder="text">
@@ -224,5 +222,4 @@ if(isset($_POST['update'])){
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="dist/js/pages/dashboard.js"></script>
 </body>
-
 </html>

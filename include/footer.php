@@ -1,9 +1,15 @@
+<?php 
+      include("include/config.php");                  
+                        $sql=mysqli_query($conn,"select * from `general_setting`");
+                    
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
 <div class="footer footer-2 ptb-100 bg-000000">
 <div class="container">
 <div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
 <div class="footer-logo-area">
-<a href="index.html"><img src="assets/images/companylogo/SE_logo0001.png" alt="image" style="height:55px; width:55px"></a>
+<a href="index.php"><img src="<?php echo $arr['select_logo'];?>" alt="image" style="height:55px; width:55px"></a>
 <p>Lorem ipsum dolor sit amet, consec tetur elit eiusmod tempor incididunt labore dolore magna aliqua consec tetur adipis cing elite sed do labor.</p>
 <div class="footer-social-icons">
 <span>Follow Us:</span>
@@ -20,17 +26,17 @@
 <div class="footer-content-card">
 <i class="fas fa-map-marker-alt"></i>
 <h5>Location:</h5>
-<p><a href="#">Shop No. 02 Bajali Darshan Apartment Plot No. 28 Sec-11 Kamothe - 410209</a></p>
+<p><a href="#"><?php echo $arr['address'];?></a></p>
 </div>
 <div class="footer-content-card">
 <i class="fas fa-envelope"></i>
 <h5>Email:</h5>
-<p><a href="#"><span class="__cf_email__" data-cfemail="86f5f3f6f6e9f4f2c6e7e8f1e7a8e5e9eb">support@sachinenterprise.in</span></a></p>
+<p><a href="#"><span class="__cf_email__" ><?php echo $arr['contact_email'];?></span></a></p>
 </div>
 <div class="footer-content-card">
 <i class="fas fa-mobile-alt"></i>
 <h5>Phone:</h5>
-<p><a href="tel:+91 99877 05688">+91 99877 05688</a></p>
+<p><a href="tel:+91 99877 05688"><?php echo $arr['contact_phone'];?></a></p>
 </div>
 </div>
 </div>
@@ -60,7 +66,7 @@
 </div>
 </div>
 </div>
-
+<?php } ?>
 
 <div class="copyright bg-000000">
     <div class="container">
