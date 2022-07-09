@@ -42,33 +42,35 @@ echo 'connection failed';
     <link rel="stylesheet" href="assets/css/responsive.css">
                     <!-- bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
 
 <body>
-
-
-
     <?php include("include/header.php"); ?>
-
+    
+    <div class="shadow-lg">
     <div class="container">
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4">
-                <h2 class="title">Get Online</h2>
-                <h5 class="subtitle">GST  Registation</h5>
+          <div class="col-4 pt-5">
+                <h2 class="title ">Get Online</h2>
+                <h5 class="subtitle  ">GST  Registation</h5>
                 <p></p>
-                <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
+                <div class="text-box">
+                  <label for="">Make your business GST Compliant. Never lose on GST input credit ever. Obtain your <strong>GST Registration</strong> Online at  <strong>INR 1999/- only.</strong></label>
+                </div>
                 </div>
                 <div class="col-4">
                 <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
             <div class="col-4">
             <div class="card ">
+            <div class=" shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
@@ -109,8 +111,8 @@ echo 'connection failed';
                 </div>
               </form>
               </div>
-        </div>
-          
+              </div>
+              </div>
           </div>
         </div>
       </div>
@@ -198,13 +200,13 @@ echo 'connection failed';
 
 
 
-    <div class="container">
+    <div class="container pb-5">
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
         <div class="row ">
             <div class="col-4">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class="card h-100">
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 1999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
@@ -223,8 +225,8 @@ echo 'connection failed';
             </div>
             </div>
             <div class="col-4">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class=" card h-100" >
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
                 <h3 class="text-danger"><strong>₹ 3299/-</strong></h3>
                 <label for="">(All Inclusive)</label>
@@ -243,18 +245,18 @@ echo 'connection failed';
               </form>
             </div>
             </div>
-            <div class="col-4">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class="col-4 ">
+            <div class=" card  h-100" >
+              <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 8099/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
               <form>
                 <div class="card-body">
-                  <div class="form-group pt-2">
-                  <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company </label>
-                    <label for="">&#8226; GST Returns for one year (upto 100 entries)</label>
+                  <div class="form-group ">
+                  <label class="card-text">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company </label>
+                    <label class="card-text">&#8226; GST Returns for one year (upto 100 entries)</label>
 
                   </div>
                 </div>

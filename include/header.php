@@ -43,16 +43,9 @@ include("include/config.php");
         <div class="main-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light ">
-                <?php 
-      include("include/config.php");                  
-                        $sql=mysqli_query($conn,"select * from `general_setting`");
-                    
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
                     <a class="navbar-brand" href="index.php">
-                        <img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="logo" style="height: 75px; width: 75px;">
+                        <img src="assets/images/companylogo/SE_logo.png" alt="logo" style="height: 75px; width: 75px;">
                     </a>
-                    <?php } ?>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item plus-icon">
@@ -127,9 +120,8 @@ include("include/config.php");
                                         <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
-                                         Registation </a>
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax</a>
+                                        <a href="professionaltaxregi.php" class="nav-link dropdown-toggle">Professional Tax <br>
+                                         Registration </a>
                                             </li>
                                             
                                 </ul>

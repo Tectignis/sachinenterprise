@@ -51,31 +51,43 @@ echo 'connection failed';
 
 
     <?php include("include/header.php"); ?>
-
+    <div class="shadow ">
     <div class="container">
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4">
-                <h2 class="title">Apply</h2>
-                <h4 class="subtitle">PF Registation</h4>
-                <p></p>
-                <label for="">Extend Social Security to your employees. Register for Provident Fund. Prices starting <strong>INR 5999/- only.</strong></label>
+                 <div class="col-4 pt-5">
+                  <h2 class="title">Apply</h2>
+                  <h4 class="subtitle">PF Registation</h4>
+                  <p></p>
+                  <label for="">Extend Social Security to your employees. Register for Provident Fund. Prices starting <strong>INR 5999/- only.</strong></label>
                 </div>
                 <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/images_33-3.jpg" alt="">
-            </div>
+                     <img src="../../sachinenterprise/assets/images/employee images/images_33-3.jpg" alt="">
+                 </div>
             <div class="col-4">
             <div class="card">
-              <div class="card-header text-center" style="background-color:red; color:white">
-                <h4 class="card-title">Start With Confidence</h4>
-                <h6>CA/CS Assisted | 4.8/5 Rating</h6>
-              </div>
-              <form method="post">
-              <div class="card-body">
-                  <div class="form-group pt-2">
-                    <input type="text" class="form-control" name="name" id="exampleInputEmail1" placeholder="Name">
+              <div class="shadow bg-white rounded">
+                  <div class="card-header text-center" style="background-color:red; color:white">
+                    <h4 class="card-title">Start With Confidence</h4>
+                    <h6>CA/CS Assisted | 4.8/5 Rating</h6>
                   </div>
+              <form action="">
+              <div class="card-body">
+                    <div class="form-group pt-2">
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                    </div>
+                    <div class="form-group pt-2">
+                       <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                    </div>
+                    <div class="form-group pt-2">
+                      <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                    </div>
+                   <!-- /.card-body -->
+                  <div class="card-footer" style="background:white; border:none; text-align:center">
+                        <button type="submit" class="btn btn-warning">GET STARTED</button>
+                  </div>
+<<<<<<< HEAD
                   <div class="form-group pt-2">
                     <input type="email" class="form-control" name="email" id="exampleInputPassword1" placeholder="Email">
                   </div>
@@ -104,10 +116,13 @@ echo 'connection failed';
                 <div class="card-footer" style="background:white; border:none; text-align:center">
                   <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
+=======
+>>>>>>> 03633d26c36d5a7124eab3dbd2fd4d07f7c6c934
               </form>
               </div>
+              </div>
         </div>
-          
+        </div>
           </div>
         </div>
       </div>
@@ -204,12 +219,12 @@ echo 'connection failed';
 
 
     
-      <div class="container">
+      <div class="container pb-5">
       <h2 style="text-align:center">Simple Prices | No Surprises</h2>
       <div class="card-body">
         <div class="row">
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 5999/-</strong></h3>
@@ -227,7 +242,7 @@ echo 'connection failed';
             </div>
           </div>
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
                 <h3 class="text-danger"><strong >₹ 12999/-</strong></h3>
@@ -247,7 +262,7 @@ echo 'connection failed';
             </div>
           </div>
           <div class="col-4">
-            <div class="card">
+            <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 19999/-</strong></h3>
