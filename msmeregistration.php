@@ -7,13 +7,13 @@ if(isset($_POST['submit'])){
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
- 
+  $service=$_POST['service'];
 
-$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
-  VALUES ('$name','$phonenumber','$email')");
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
+  VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
-header("location:msmeregistration.php");
+header("location:gstregistration.php");
 }
 else
 echo 'connection failed';
@@ -82,6 +82,23 @@ echo 'connection failed';
                   <div class="form-group pt-2">
                   <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
                   </div>
+                  <div class="form-group pt-2">
+                
+                <select required class="form-control" name="service" id="servicesid" >
+                       <option value="" disabled selected hidden>Select Service:</option>
+                       <option>Pancard</option>
+                       <option>Gumasta</option>
+                       <option>Gozette</option>
+                       <option>Gst Registration</option>
+                       <option>Income Tax Return File</option>
+                       <option>Passport</option>
+                       <option>Udhyog Aadhar</option>
+                       <option>FSSAI License</option>
+                       <option>Rent Agreement</option>
+                       <option>ISO Certificate</option>
+                       <option>Professional Tax Registation</option>
+                       </select> 
+             </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background:white; border:none; text-align:center">
