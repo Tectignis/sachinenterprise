@@ -165,7 +165,7 @@ include("include/config.php");
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a Call</button>
                 </div>
               </form>
             </div>
@@ -186,7 +186,7 @@ include("include/config.php");
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a Call</button>
                 </div>
               </form>
             </div>
@@ -208,7 +208,7 @@ include("include/config.php");
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a Call</button>
                 </div>
               </form>
             </div>
