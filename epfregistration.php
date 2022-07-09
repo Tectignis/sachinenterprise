@@ -75,13 +75,13 @@ echo 'connection failed';
               <form action="">
               <div class="card-body">
                     <div class="form-group pt-2">
-                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
                     </div>
                     <div class="form-group pt-2">
-                       <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                       <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" required>
                     </div>
                     <div class="form-group pt-2">
-                      <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                      <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10" required>
                     </div>
                    <!-- /.card-body -->
                   <div class="card-footer" style="background:white; border:none; text-align:center">
