@@ -87,7 +87,6 @@ echo 'connection failed';
                   <div class="card-footer" style="background:white; border:none; text-align:center">
                         <button type="submit" class="btn btn-warning">GET STARTED</button>
                   </div>
-<<<<<<< HEAD
                   <div class="form-group pt-2">
                     <input type="email" class="form-control" name="email" id="exampleInputPassword1" placeholder="Email">
                   </div>
@@ -116,8 +115,6 @@ echo 'connection failed';
                 <div class="card-footer" style="background:white; border:none; text-align:center">
                   <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
-=======
->>>>>>> 03633d26c36d5a7124eab3dbd2fd4d07f7c6c934
               </form>
               </div>
               </div>
