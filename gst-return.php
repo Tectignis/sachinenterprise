@@ -23,6 +23,10 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+                    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
@@ -32,76 +36,58 @@ include("include/config.php");
 
 
     <?php include("include/header.php"); ?>
+    <div class="shadow">
+    <div class="container">
+      <div class="card" style="border:none">
+        <div class="card-body">
+        <div class="row">
+          <div class="col-4 pt-5">
+                <h2 class="title ">Your File</h2>
+                <h5 class="subtitle ">GST Return File</h5>
+                <p></p>
+                <div class="text-box">
+                <p>File error-free GST Return File and in-time. Get your GST return filings done through experts sachinenterprise.in 
+                        Prices start at <strong>INR <span class="package__price">499</span>/- only.</strong></p>
+                </div>
+                </div>
+                <div class="col-4">
+                <img src="../../sachinenterprise/assets/images/return-img/img.png" alt="sachinenterprise, sachinenterprise.in">
+                </div>
+            <div class="col-4">
+            <div class="card ">
+            <div class=" shadow bg-white rounded">
+              <div class="card-header text-center" style="background-color:red; color:white">
+                <h4 class="card-title">Start With Confidence</h4>
+                <h6>CA/CS Assisted | 4.8/5 Rating</h6>
+              </div>
+              <form action="">
+              <div class="card-body">
+                  <div class="form-group pt-2">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                  </div>
+                  <div class="form-group pt-2">
+                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                  </div>
+                  <div class="form-group pt-2">
+                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">GET STARTED</button>
+                </div>
 
+              </form>
+              </div>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
 
-
-   
-
-
-
-
-    
-
-
-    
-
-
-    <!-- <div class="booking booking-1">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-10">
-<div class="booking-content">
-<div class="default-section-title">
-<h3>Book A Service</h3>
-</div>
-<div class="section-content">
-<form>
-<div class="row">
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Your Name">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="Email" class="form-control" placeholder="Email Address">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Zip Code">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Mobile Number">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<select class="form-select" aria-label="Default select example">
-<option selected="" disabled="">Choose A Service</option>
-<option value="1">Room Cleaning</option>
-<option value="2">Office Cleaning</option>
-<option value="3">Ground Cleaning</option>
-</select>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<button class="default-button" type="submit"><span>Submit Details</span></button>
-</div>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div> -->
-
-        <div class="pricing pricing-1 pt-100 shape-bg">
+    <div class="pricing pricing-1 pt-100 shape-bg">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3>GST Return File</h3>
@@ -159,11 +145,82 @@ include("include/config.php");
         </div>
     </div>
 
+    <div class="container pb-5">
+            <h2 style="text-align:center">GST Return Cost</h2>
+            <h5 style="text-align:center">Choose Your Package</h5>
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4">
+            <div class="card card-group " >
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ESSENTIAL</h4>
+                <h3 class="text-danger"><strong >₹ 499/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                  <label for="">&#8226; Filing of one NIL GST return (GSTR 3B or GSTR 1)</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class=" card card-group" >
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ENHANCED</h4>
+                <h3 class="text-danger"><strong>₹ 2499/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                  <label for="">&#8226; GST Annual Return (GSTR 9 or 9A or 9B)</label>
+                  
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class=" card card-group" >
+              <div class=" card card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ULTIMATE</h4>
+                <h3 class="text-danger"><strong >₹ 6399/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group ">
+                  <label class="card-text">&#8226; GST Returns for one year (all returns included)</label>
+                 
 
-   
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
 
 
-    <?php include("include/newsletter.php");?>
+
+  <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>
 
 

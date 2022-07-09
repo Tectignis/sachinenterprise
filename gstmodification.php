@@ -1,6 +1,23 @@
 <?php
 include("include/config.php");
 
+if(isset($_POST['submit'])){
+
+ 
+  $name=$_POST['name'];
+  $phonenumber=$_POST['phonenumber'];
+  $email=$_POST['email'];
+ 
+
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
+  VALUES ('$name','$phonenumber','$email')");
+
+if($sql==1){
+header("location:gstmodification.php");
+}
+else
+echo 'connection failed';
+}
 ?>
 
 <!DOCTYPE html>
@@ -31,57 +48,55 @@ include("include/config.php");
 
 <body>
 
-
-
     <?php include("include/header.php"); ?>
 
-    <div class="row">
-        <div class="container">
-        <div class="card">
-    <div class="card-body">
-        <div class="row ">
-            <div class="col-4 pt-5">
+    
+    <div class="shadow">
+    <div class="container">
+      <div class="card" style="border:none">
+        <div class="card-body">
+        <div class="row">
+          <div class="col-4 pt-5">
                 <h2 class="title">Modify</h2>
-                <h4 class="subtitle">GST Registation</h4>
+                <h4 class="subtitle">GST  Registation</h4>
                 <p></p>
                 <label for="">Wish to update any details in GST Registration Certificate? Get details modified through us. Prices starting at<strong> INR 499/- only.</strong></label>
                 </div>
-            <div class="col-4">
+                <div class="col-4">
                 <img src="../../sachinenterprise/assets/images/employee images/images_18-3.jpg" alt="">
             </div>
             <div class="col-4">
             <div class="card">
-              <div class="card-header text-center">
+            <div class=" shadow bg-white rounded">
+              <div class="card-header text-center" style="background-color:red; color:white">
                 <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
               </div>
-              <form>
-                <div class="card-body">
+              <form method="post">
+              <div class="card-body">
                   <div class="form-group pt-2">
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                    <input type="text" class="form-control" name="name"  id="exampleInputEmail1" placeholder="Name">
                   </div>
                   <div class="form-group pt-2">
-                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                    <input type="email" class="form-control" name="email" id="exampleInputPassword1" placeholder="Email">
                   </div>
                   <div class="form-group pt-2">
-                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
                   </div>
                 </div>
                 <!-- /.card-body -->
-                <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">GET STARTED</button>
+                <div class="card-footer" style="background:white; border:none; text-align:center">
+                  <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
               </form>
-            </div>
-            </div>
+              </div>
+          </div>
         </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
-    </div>
-
-    </div>
-
-   
-
 
     <div class="pricing pricing-1  shape-bg">
         <div class="container">
@@ -109,8 +124,75 @@ include("include/config.php");
         </div>
     </div>
 
-
-   
+    
+        <div class="container pb-5">
+            <h2 style="text-align:center">Simple Prices | No Surprises</h2>
+    <div class="card-body">
+        <div class="row ">
+            <div class="col-4">
+            <div class="card h-100" >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ESSENTIAL</h4>
+                <h3 class="text-danger"><strong >₹ 499/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226; GST Modification in Non-Core Fields like email ID, Phone number, any minor changes</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card h-100" >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ENHANCED</h4>
+                <h3 class="text-danger"><strong >₹ 1499/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226; GST Modification in Core Fields like Change in Address, Add a place of Business</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+            <div class="col-4">
+            <div class="card h-100 " >
+              <div class="card-header text-center" style="background-color:#000080; color:white">
+                <h4 class="card-title">ULTIMATE</h4>
+                <h3 class="text-danger"><strong >₹ 1799/-</strong></h3>
+                <label for="">(All Inclusive)</label>
+              </div>
+              <form>
+                <div class="card-body">
+                  <div class="form-group pt-2">
+                    <label for="">&#8226; Any other GST Modification involving approvals</label>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer" style="background-color:white; border:none; text-align:center">
+                  <button type="submit" class="btn btn-warning">Check Out</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
 
 
     <?php include("include/newsletter.php");?>

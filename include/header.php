@@ -120,7 +120,9 @@ include("include/config.php");
                                         <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>Registation </a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
+                                         Registation </a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax</a>
                                             </li>
                                             
                                 </ul>
