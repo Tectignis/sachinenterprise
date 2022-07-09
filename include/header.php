@@ -121,12 +121,7 @@ include("include/config.php");
                                             </li>
                                             <li class="nav-item">
                                         <a href="professionaltaxregi.php" class="nav-link dropdown-toggle">Professional Tax <br>
-<<<<<<< HEAD
                                          Registration </a>
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
-=======
->>>>>>> d67fcdbe31ac89ac58a425be43cea8de38efd9da
-                                         Registation </a>
                                             </li>
                                             
                                 </ul>
