@@ -14,7 +14,7 @@ $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`ser
   VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
-header("location:gstregistration.php");
+header("location:esi-return.php");
 }
 else
 echo 'connection failed';

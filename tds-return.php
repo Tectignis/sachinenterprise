@@ -13,7 +13,7 @@ $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`ser
   VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
-header("location:gstregistration.php");
+header("location:tds-return.php");
 }
 else
 echo 'connection failed';
