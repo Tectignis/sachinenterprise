@@ -33,6 +33,14 @@
               </a>
             </li>
             <li class="nav-item">
+              <a href="getacall.php" class="nav-link">
+                <i class="nav-icon fas fa-mobile text-pink"></i>
+                <p>
+                 Get a Call
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
               <a href="enquires.php" class="nav-link">
                 <i class="nav-icon fas fa-users text-green"></i>
                 <p>
