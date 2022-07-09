@@ -6,10 +6,10 @@ if(isset($_POST['submit'])){
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
-  $service=$_POST['service'];
+ 
 
-$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
-  VALUES ('$name','$phonenumber','$email','$service')");
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
+  VALUES ('$name','$phonenumber','$email')");
 
 if($sql==1){
 header("location:gstregistration.php");
@@ -58,7 +58,7 @@ echo 'connection failed';
         <div class="card-body">
         <div class="row">
           <div class="col-4 pt-5">
-                <h2 class="title ">Get Online</h2>
+                <h2 class="title color">Get Online</h2>
                 <h5 class="subtitle  ">GST  Registation</h5>
                 <p></p>
                 <div class="text-box">
@@ -86,25 +86,7 @@ echo 'connection failed';
                   <div class="form-group pt-2">
                   <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10" required>
                   </div>
-                  <div class="form-group pt-2">
-                
-                <select required class="form-control" name="service" id="servicesid" >
-                       <option value="" disabled selected hidden>Select Service:</option>
-                       <option>Pancard</option>
-                       <option>Gumasta</option>
-                       <option>Gozette</option>
-                       <option>Gst Registration</option>
-                       <option>Income Tax Return File</option>
-                       <option>Passport</option>
-                       <option>Udhyog Aadhar</option>
-                       <option>FSSAI License</option>
-                       <option>Rent Agreement</option>
-                       <option>ISO Certificate</option>
-                       <option>Professional Tax Registation</option>
-                       </select> 
-             </div>
                 </div>
-               
                 <!-- /.card-body -->
                 <div class="card-footer" style="background:white; border:none; text-align:center">
                   <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
@@ -187,7 +169,7 @@ echo 'connection failed';
                         </div>
                         <div class="row justify-content-center pt-3">
                         <div class="col-8 pb-5">
-                        <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. GST Registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from a GST Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in </a> also helps you with free GST Advisory, <a target="_blank" href="gst-return.php" class="text-danger">GST Return filing</a>, <a target="_blank" href="tds-return.php" class="text-danger">TDS Returns filing</a> and a host of other services easily. You may get in touch with our compliance manager on <a href="tel:9987705688" class="text-danger">9987705688</a> or email <a href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for online gst registration and GST Registration services. Find out here how to get GST number, how to apply for GST in India and documents required for GST registration. GST Registration in India is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> !</label>
+                        <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. GST Registration in India is easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from a GST Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in </a> also helps you with free GST Advisory, <a target="_blank" href="gst-return.php" class="text-danger">GST Return filing</a>, <a target="_blank" href="tds-return.php" class="text-danger">TDS Returns filing</a> and a host of other services easily. You may get in touch with our compliance manager on <a href="tel:9987705688" class="text-danger">9987705688</a> or email <a href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for online gst registration and GST Registration services. Find out here how to get GST number, how to apply for GST in India and documents required for GST registration. GST Registration in India is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> !</label>
                         </div>
                     </div>
                 </div>
@@ -211,7 +193,6 @@ echo 'connection failed';
                 <h3 class="text-danger"><strong >₹ 1999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
                   <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</label>
@@ -219,9 +200,8 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
-              </form>
             </div>
             </div>
             <div class="col-4">
@@ -231,7 +211,6 @@ echo 'connection failed';
                 <h3 class="text-danger"><strong>₹ 3299/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
                   <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</label>
@@ -240,9 +219,8 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
-              </form>
             </div>
             </div>
             <div class="col-4 ">
@@ -252,7 +230,6 @@ echo 'connection failed';
                 <h3 class="text-danger"><strong >₹ 8099/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group ">
                   <label class="card-text">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited Company </label>
@@ -262,9 +239,8 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
-              </form>
             </div>
             </div>
         </div>

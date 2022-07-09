@@ -7,10 +7,10 @@ if(isset($_POST['submit'])){
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
-  $service=$_POST['service'];
+ 
 
-$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
-  VALUES ('$name','$phonenumber','$email','$service')");
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
+  VALUES ('$name','$phonenumber','$email')");
 
 if($sql==1){
 header("location:gstmodification.php");
@@ -18,7 +18,6 @@ header("location:gstmodification.php");
 else
 echo 'connection failed';
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -86,7 +85,6 @@ echo 'connection failed';
                   <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10" required>
                   </div>
                   <div class="form-group pt-2">
-                
                 <select required class="form-control" name="service" id="servicesid" >
                        <option value="" disabled selected hidden>Select Service:</option>
                        <option>Pancard</option>
@@ -163,7 +161,7 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
               </form>
             </div>
@@ -183,7 +181,7 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
               </form>
             </div>
@@ -195,7 +193,6 @@ echo 'connection failed';
                 <h3 class="text-danger"><strong >₹ 1799/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
                     <label for="">&#8226; Any other GST Modification involving approvals</label>
@@ -203,9 +200,8 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
-              </form>
             </div>
             </div>
         </div>

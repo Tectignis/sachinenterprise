@@ -198,21 +198,21 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                          <p>Every person engaged actively or otherwise in any profession, trade, callings or employment and falling under one or the other of the classes mentioned in the second column of Schedule I appended to Profession Tax Act, is liable to pay Profession Tax.</p>
+                          <label>Every person engaged actively or otherwise in any profession, trade, callings or employment and falling under one or the other of the classes mentioned in the second column of Schedule I appended to Profession Tax Act, is liable to pay Profession Tax.</label>
                            </div>
                     </div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingTwo">
                         <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                             WHAT ARE THE CATEGORIES PERSON LIABLE FOR PROFESSION TAX ?
                             </a>
                         </h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
-                          <p>The categories of persons liable for Profession Tax are any individual, a Hindu Undivided Family, firm, company, corporation or other corporate body, any society, club or association.</p>
+                          <label>The categories of persons liable for Profession Tax are any individual, a Hindu Undivided Family, firm, company, corporation or other corporate body, any society, club or association.</label>
                         </div>
                     </div>
                 </div>
@@ -226,7 +226,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <div class="panel-body">
-                          <p> An employer liable to pay Profession Tax is assessed under Profession Tax Act.</p>
+                          <label> An employer liable to pay Profession Tax is assessed under Profession Tax Act.</p>
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="panel-body">
-                          <p>Every employer is liable to deduct Profession Tax (as per the Schedule to the Profession Tax Act) from the salary/wages paid to his employees & to pay the Profession Tax so deducted.</p>
+                          <p>Every employer is liable to deduct Profession Tax (as per the Schedule to the Profession Tax Act) from the salary/wages paid to his employees & to pay the Profession Tax so deducted.</label>
                         </div>
                     </div>
                 </div>
@@ -254,7 +254,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
                         <div class="panel-body">
-                          <p>Every employer who is liable to pay Profession Tax on behalf of his employees, whom he pays salary/ wages in the taxable limit, is liable to obtain a Certificate of Registration.</p>
+                          <p>Every employer who is liable to pay Profession Tax on behalf of his employees, whom he pays salary/ wages in the taxable limit, is liable to obtain a Certificate of Registration.</label>
                         </div>
                     </div>
                 </div>
@@ -268,7 +268,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                         <div class="panel-body">
-                          <p>The date of liability will be the date on which the employer disburses salary/wages to any of his employees in the taxable limit, for the first time.</p>
+                          <p>The date of liability will be the date on which the employer disburses salary/wages to any of his employees in the taxable limit, for the first time.</label>
                         </div>
                     </div>
                 </div>
@@ -282,7 +282,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
                         <div class="panel-body">
-                          <p>"Salary" or "Wage" includes pay, dearness allowance and all other remunerations received by any person on regular basis, whether payable in cash or in kind, and also includes perquisites, and profits in lieu of salary, as defined in section 17 of the Income tax Act, 1961 (43 of 1961); the expression "on regular basis" shall mean for a period exceeding 180 days in a year.</p>
+                          <label>"Salary" or "Wage" includes pay, dearness allowance and all other remunerations received by any person on regular basis, whether payable in cash or in kind, and also includes perquisites, and profits in lieu of salary, as defined in section 17 of the Income tax Act, 1961 (43 of 1961); the expression "on regular basis" shall mean for a period exceeding 180 days in a year.</label>
                         </div>
                     </div>
                 </div>
@@ -296,7 +296,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                         <div class="panel-body">
-                          <p> Generally, after a few working days of registration, the user-id and password (for filling return electronically) can be obtained from the concerned Profession Tax authority, on production of original RC.</p>
+                          <label> Generally, after a few working days of registration, the user-id and password (for filling return electronically) can be obtained from the concerned Profession Tax authority, on production of original RC.</label>
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                         <div class="panel-body">
-                          <p>The registration number is permanent unless the certificate is cancelled.</p>
+                          <label>The registration number is permanent unless the certificate is cancelled.</label>
                         </div>
                     </div>
                 </div>
@@ -324,7 +324,7 @@ a:hover,a:focus{
                     </div>
                     <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
                         <div class="panel-body">
-                          <p>In this case, you will not be able to generate Demat certificate in on-line process.</p>
+                          <label>In this case, you will not be able to generate Demat certificate in on-line process.</label>
                         </div>
                     </div>
                 </div>

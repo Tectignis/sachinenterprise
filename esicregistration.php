@@ -195,7 +195,7 @@ echo 'connection failed';
                     <div class="col-8 pb-5">
                         <label>There are two contribution periods each of <b>six months</b> duration and two corresponding benefit periods also of six months duration.
                         <a target="_blank" href="esicregistration.php" class="text-danger">ESIC registration</a> is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
-                            EbizFiling.com is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with EbizFiling.com! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_blank" href="tel:9987705688" class="text-danger"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
+                            sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_blank" href="tel:9987705688" class="text-danger"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
                           </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
@@ -240,7 +240,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
@@ -260,7 +260,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
