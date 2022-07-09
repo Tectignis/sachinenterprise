@@ -37,70 +37,62 @@ a:hover,a:focus{
     text-decoration: none;
     outline: none;
 }
+
 #accordion .panel{
     border: none;
     border-radius: 3px;
     box-shadow: none;
     margin-bottom: 15px;
 }
+
 #accordion .panel-heading{
     padding: 0;
     border: none;
     border-radius: 3px;
 }
+
 #accordion .panel-title a{
     display: block;
-    padding: 12px 15px;
-    background: #fff;
+    padding: 12px 15px 12px 50px;
+    background: linear-gradient(to bottom, #fefefe, #cdcdcd);
+    border: 1px solid #c3c3c3;
+    border-radius: 3px;
     font-size: 18px;
     font-weight: bold;
-    color: #f81ac1;
-    border: 1px solid #ececec;
-    box-shadow: 0 0 10px rgba(0,0,0,.05);
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
     position: relative;
-    transition: all 0.5s ease 0s;
 }
-#accordion .panel-title a.collapsed{
-    box-shadow: none;
-    color: #676767;
-}
-#accordion .panel-title a:before,
-#accordion .panel-title a.collapsed:before{
-    content: "\f067";
+
+#accordion .panel-title a:before{
+    content: "\f068";
     font-family: "Font Awesome 5 Free";
     width: 25px;
     height: 25px;
-    line-height: 28px;
-    font-size: 15px;
+    line-height: 25px;
+    border-radius: 50%;
+    background: #929191;
+    font-size: 12px;
     font-weight: 900;
-    color: #f81ac1;
+    color: #fdfbfb;
     text-align: center;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+    text-shadow: none;
     position: absolute;
     top: 8px;
     right: 15px;
-    transform: rotate(135deg);
-    transition: all 0.3s ease 0s;
 }
-#accordion .panel-title a.collapsed:before{
-    color: #676767;
-    transform: rotate(0);
-}
-#accordion .panel-title a:after{
-    content: "";
-    width: 1px;
-    height: 100%;
-    background: #ececec;
-    position: absolute;
-    top: 0;
-    right: 55px;
-}
+
+#accordion .panel-title a.collapsed:before{ content: "\f067"; }
 #accordion .panel-body{
-    padding: 10px 15px 15px;
-    border: none;
+    padding: 10px 15px;
     font-size: 15px;
-    color: #615f5f;
+    color: #222;
     line-height: 27px;
+    border: none;
 }
+
+  </style>
   </style>
 
 <body>

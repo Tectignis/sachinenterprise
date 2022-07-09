@@ -53,16 +53,23 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-12 col-md-6 col-sm-12 col-12">
                                     <div class="contact-card">
+
+                                    <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from `general_setting`");
+                     $count=1;
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
                                         <i class="fas fa-map-marker-alt"></i>
                                         <h4>Our Location</h4>
-                                        <p>Shop No. 02 Bajali Darshan Apartment Plot No. 28 Sec-11 Kamothe - 410209</p>
+                                        <p><?php echo $arr['address'];?></p>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-6 col-sm-12 col-12">
                                     <div class="contact-card">
                                         <i class="fas fa-phone-alt"></i>
                                         <h4>Our Phone</h4>
-                                        <p><a href="tel:+91 99877 05688">+91 99877 05688</a></p>
+                                        <p><?php echo $arr['contact_phone'];?></p>
 
                                     </div>
                                 </div>
@@ -70,10 +77,9 @@
                                     <div class="contact-card">
                                         <i class="far fa-envelope"></i>
                                         <h4>Our Email</h4>
-                                        <p><a
-                                                href="support@tectignis.university"><span>support@tectignis.university</span></a>
+                                        <p><?php echo $arr['contact_email'];?></a>
                                         </p>
-
+                                <?php } ?>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +90,7 @@
                         <div class="contact-page-form-area">
                             <div class="bd-form details-text-area" id="bd-form">
                                 <h3>Send Your Message</h3>
-                                <form class="contact__form form-row" method="POST" action="mail.php">
+                                <form action="contactDB.php" method="POST" >
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="alert alert-success contact__msg" style="display: none"
@@ -103,16 +109,20 @@
                                             <input type="email" class="form-control" placeholder="Email" required=""
                                                 id="email" name="email">
                                         </div>
-                                        <div class="col-md-12">
+                                        <div class="col-md-6">
                                             <input type="text" class="form-control" placeholder="Subject" required=""
                                                 id="subject" name="subject">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="tel" class="form-control" placeholder="Phone Number" required=""
+                                                id="phonenumber" name="phonenumber" minlength="10" maxlength="10">
                                         </div>
                                         <div class="col-md-12">
                                             <textarea rows="5" class="form-control" id="message" name="message"
                                                 placeholder="Message" required=""></textarea>
                                         </div>
                                         <div class="col-md-12">
-                                            <button class="default-button" type="submit"><span>Send
+                                            <button class="default-button" type="submit" name="save"><span>Send
                                                     Message</span></button>
                                         </div>
                                     </div>
