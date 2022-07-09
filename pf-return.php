@@ -23,39 +23,12 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+                    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
     <title>Anwa - Cleaning Company HTML Template</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
-    <style>
-        .card-header{
-            background-color:#FF7F50;
-        }
-        .card-primary{
-                color:#FFFFFF;
-               
-        }
-        .card-footer{
-       background-color:#000080;
-        }
-        .main-title{
-            color:#FF6600;
-        }
-        .main-title1{
-            color:#000080;
-        }
-        .card-header11{
-            background-color:#000080;
-        }
-        .card-title{
-            color:#FF7F50;
-        }
-        .card-body11{
-            color:black;
-        }
-        /* .button-footer{
-            color:#FF6600;
-        } */
-        
-        </style>
 </head>
 
 <body>
@@ -63,86 +36,27 @@ include("include/config.php");
 
 
     <?php include("include/header.php"); ?>
-
-
-
-
-    <!-- <div class="booking booking-1">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-10">
-<div class="booking-content">
-<div class="default-section-title">
-<h3>Book A Service</h3>
-</div>
-<div class="section-content">
-<form>
-<div class="row">
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Your Name">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="Email" class="form-control" placeholder="Email Address">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Zip Code">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Mobile Number">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<select class="form-select" aria-label="Default select example">
-<option selected="" disabled="">Choose A Service</option>
-<option value="1">Room Cleaning</option>
-<option value="2">Office Cleaning</option>
-<option value="3">Ground Cleaning</option>
-</select>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<button class="default-button" type="submit"><span>Submit Details</span></button>
-</div>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div> -->
-<div class="shadow p-3 mb-5 bg-white rounded">
+    <div class="shadow">
     <div class="container">
-            <div class="card-body">
-                <div class="row">
-				<div class="col-3">
-                        <h3 class="main-title">Your File</h3>
-                    <h4 class="main-title1">GST Return File</h4>
-                    <p>File error-free GST Return File and in-time. Get your GST return filings done through experts sachinenterprise.in 
-                        Prices start at <strong>INR <span class="package__price">499</span>/- only.</strong></p>
-
+      <div class="card" style="border:none">
+        <div class="card-body">
+        <div class="row">
+          <div class="col-4 pt-5">
+                <h2 class="title ">File Your</h2>
+                <h5 class="subtitle  ">Pf Returns</h5>
+                <p></p>
+                <div class="text-box">
+                  <label for="">File error-free PF Returns and in-time. File your PF returns through experts sachinenterprise. Prices start at  <strong>INR 999/- only.</strong></label>
                 </div>
-
+                </div>
                 <div class="col-4">
-                <img src="../../sachinenterprise\assets\images\return-img/pfimg.jpg" alt="sachinenterprise, sachinenterprise.in">
-                </div>
-
-                               
-                <div class="col-3">
+                <img src="../../sachinenterprise\assets\images\return-img/pfimg.jpg" alt="sachinenterprise">
+            </div>
+            <div class="col-4">
             <div class="card ">
             <div class=" shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
-                <h4 class="card-title">Get the Pan Registetration</h4>
+                <h4 class="card-title">Start With Confidence</h4>
                 <h6>CA/CS Assisted | 4.8/5 Rating</h6>
               </div>
               <form action="">
@@ -162,32 +76,21 @@ include("include/config.php");
                   <button type="submit" class="btn btn-warning">GET STARTED</button>
                 </div>
 
-                            </form>
-                            </div>
-    </div>
-                        </div>
-                    </div>
-                </div>         
-            </div>
+              </form>
+              </div>
+              </div>
+              </div>
+          </div>
         </div>
+      </div>
+      </div>
     </div>
- </div>
-
-
-
-
-    </div>
-</div>
-</div>
-</div>
-
-
-
+        
+        
+   
     
-
-
-    <div class="pricing pricing-1 pt-100 shape-bg">
-        <div class="container">
+    
+        <div class="container pt-5">
             <div class="default-section-title default-section-title-middle">
                 <h3>What is a Provident Fund Return?</h3>
                 <br>
@@ -250,14 +153,16 @@ include("include/config.php");
         </div>
     </div>
 
-    <div class="row">
-        <div class="container pt-4">
+    
+  
+
+    <div class="container pt-5">
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
-    <div class="card-body" style="padding-left:300px;">
+    <div class="card-body">
         <div class="row ">
-            <div class="col-3">
-            <div class="card">
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class="col-4">
+            <div class="card card-group " >
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
@@ -265,8 +170,8 @@ include("include/config.php");
               <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226;1 PF Return (ECR) upto 10 employees
-</label>
+                  <label for="">&#8226;1 PF Return (ECR) upto 10 employees</label>
+                    
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -276,19 +181,18 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-3">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class="col-4">
+            <div class=" card card-group" >
+              <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
-                <h3 class="text-danger"><strong >₹ 8999/-</strong></h3>
+                <h3 class="text-danger"><strong>₹ 8999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
               <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226;One Year PF Returns (ECR) upto 20 employees</label>
-                   
-                 </div>
+                  <label for="">&#8226;One Year PF Returns (ECR) upto 20 employees</label>
+                  </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
@@ -297,17 +201,18 @@ include("include/config.php");
               </form>
             </div>
             </div>
-            <div class="col-3">
-            <div class="card " >
-              <div class="card-header text-center" style="background-color:#000080; color:white">
+            <div class="col-4">
+            <div class=" card card-group" >
+              <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 13999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
               <form>
                 <div class="card-body">
-                  <div class="form-group pt-2">
-                    <label for="">&#8226; One Year PF Returns (ECR) upto 50 employees</label>
+                  <div class="form-group ">
+                  <label for="">&#8226; One Year PF Returns (ECR) upto 50 employees</label>
+
 
                   </div>
                 </div>
@@ -321,8 +226,10 @@ include("include/config.php");
         </div>
     </div>
     </div>
-</div>
-</div>
+
+
+    
+       
 
 
 

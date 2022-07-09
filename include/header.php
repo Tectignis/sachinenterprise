@@ -43,16 +43,9 @@ include("include/config.php");
         <div class="main-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light ">
-                <?php 
-      include("include/config.php");                  
-                        $sql=mysqli_query($conn,"select * from `general_setting`");
-                    
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
                     <a class="navbar-brand" href="index.php">
-                        <img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="logo" style="height: 75px; width: 75px;">
+                        <img src="assets/images/companylogo/SE_logo.png" alt="logo" style="height: 75px; width: 75px;">
                     </a>
-                    <?php } ?>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item plus-icon">
@@ -109,27 +102,30 @@ include("include/config.php");
                                 <a href="#" class="nav-link dropdown-toggle">Services<i  class="fas fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="pancard-service.php" class="nav-link dropdown-toggle">Pancard </a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">Pancard </a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="itr-service.php" class="nav-link dropdown-toggle">ITR</a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">ITR</a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Passport</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="fassai-service.php" class="nav-link dropdown-toggle">FSSAI License</a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">FSSAI License</a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Rent Agreement</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="isocertificate.php" class="nav-link dropdown-toggle">ISO Certificate</a>
+                                        <a href="Services.php" class="nav-link dropdown-toggle">ISO Certificate</a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="professionaltaxregi.php" class="nav-link dropdown-toggle">Professional Tax <br>
+<<<<<<< HEAD
                                          Registration </a>
                                         <a href="Services.php" class="nav-link dropdown-toggle">Professional Tax <br>
+=======
+>>>>>>> d67fcdbe31ac89ac58a425be43cea8de38efd9da
                                          Registation </a>
                                             </li>
                                             
