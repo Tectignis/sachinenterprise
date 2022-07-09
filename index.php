@@ -305,119 +305,38 @@ include("include/config.php");
             </div>
             <div class="section-content">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from `services`");
+                    
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <div class="service-card">
                             <div class="service-img">
-                                <a href="service-details.html"><img src="assets/images/service/s1.jpg" alt="image"></a>
+                                <a href="service-details.html"><img src="admin/logo/<?php echo $arr['image'];?>" alt="image"></a>
                             </div>
-                            <div class="service-card-text">
+                        
+                              <div class="service-card-text">
+
                                 <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
+                                    <img src="admin/logo/<?php echo $arr['logo'];?>" height="80px" width="80px">
+                                    
                                     <i class="flaticon-residential"></i>
                                 </div>
-                                <h4><a href="service-details.html">Residential Cleaning</a></h4>
-                                <p>Lorem ipsum dolor amet consectetur adipiscing sed do eiusmod tempor incididunt magna
-                                    labore. magna aliqua dolor sit amet.</p>
+                                <h4><a href="service-details.html"><?php echo $arr['title'];?></a></h4>
+                                <p><?php echo $arr['description'];?></p>
                                 <a class="read-more-btn" href="service-details.html">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.html"><img src="assets/images/service/s2.jpg" alt="image"></a>
-                            </div>
-                            <div class="service-card-text">
-                                <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
-                                    <i class="flaticon-shopping-cart-of-horizontal-lines-design"></i>
-                                </div>
-                                <h4><a href="service-details.html">Commercial Cleaning</a></h4>
-                                <p>Lorem ipsum dolor amet consectetur adipiscing sed do eiusmod tempor incididunt magna
-                                    labore. magna aliqua dolor sit amet.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.html"><img src="assets/images/service/s3.jpg" alt="image"></a>
-                            </div>
-                            <div class="service-card-text">
-                                <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
-                                    <i class="flaticon-brickwall"></i>
-                                </div>
-                                <h4><a href="service-details.html">Construction Cleaning</a></h4>
-                                <p>Lorem ipsum dolor amet consectetur adipiscing sed do eiusmod tempor incididunt magna
-                                    labore. magna aliqua dolor sit amet.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.html"><img src="assets/images/service/s4.jpg" alt="image"></a>
-                            </div>
-                            <div class="service-card-text">
-                                <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
-                                    <i class="flaticon-window"></i>
-                                </div>
-                                <h4><a href="service-details.html">Windows Cleaning</a></h4>
-                                <p>Lorem ipsum dolor amet consectetur adipiscing sed do eiusmod tempor incididunt magna
-                                    labore. magna aliqua dolor sit amet.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.html"><img src="assets/images/service/s5.jpg" alt="image"></a>
-                            </div>
-                            <div class="service-card-text">
-                                <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
-                                    <i class="flaticon-carpet"></i>
-                                </div>
-                                <h4><a href="service-details.html">Carpet Cleaning</a></h4>
-                                <p>Lorem ipsum dolor amet consectetur adipiscing sed do eiusmod tempor incididunt magna
-                                    labore. magna aliqua dolor sit amet.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.html"><img src="assets/images/service/s6.jpg" alt="image"></a>
-                            </div>
-                            <div class="service-card-text">
-                                <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
-                                    <i class="flaticon-armchair"></i>
-                                </div>
-                                <h4><a href="service-details.html">Furniture Cleaning</a></h4>
-                                <p>Lorem ipsum dolor amet consectetur adipiscing sed do eiusmod tempor incididunt magna
-                                    labore. magna aliqua dolor sit amet.</p>
-                                <a class="read-more-btn" href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+                    <?php  } ?>     
+           
         </div>
-   
+        
         </div>
+       
     </div>
 
 
