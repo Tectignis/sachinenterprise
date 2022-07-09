@@ -60,7 +60,7 @@ echo 'connection failed';
                 <h2 class="title">Cancel</h2>
                 <h4 class="subtitle">GST  Registation</h4>
                 <p></p>
-                <label for="">Easily cancel your GST Registration. Get cancellation done through ebizfiling. Prices start at <strong>INR 1499/- only.</strong></label>
+                <label for="">Easily cancel your GST Registration. Get cancellation done through sachinenterprise. Prices start at <strong>INR 1499/- only.</strong></label>
                 </div>
                 <div class="col-4">
                    <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
@@ -125,7 +125,7 @@ echo 'connection failed';
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
                     <div class="col-8">
-                        <label>In case you want to cancel your GST registration because GST is not applicable to you or because you are closing down your business or profession. Or there is some other valid reason due to which you want to <b>cancel your GST registration</b>, ebizfiling will help you with an end-to-end advisory.</label>
+                        <label>In case you want to cancel your GST registration because GST is not applicable to you or because you are closing down your business or profession. Or there is some other valid reason due to which you want to <b>cancel your GST registration</b>, sachinenterprise will help you with an end-to-end advisory.</label>
                     </div>
                     </div>
                 <div class="row justify-content-center pt-3">
@@ -158,7 +158,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>

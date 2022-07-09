@@ -51,20 +51,21 @@ echo 'connection failed';
 
 
     <?php include("include/header.php"); ?>
+
     <div class="shadow ">
     <div class="container">
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-                 <div class="col-4 pt-5">
-                  <h2 class="title">Apply</h2>
-                  <h4 class="subtitle">PF Registation</h4>
-                  <p></p>
-                  <label for="">Extend Social Security to your employees. Register for Provident Fund. Prices starting <strong>INR 5999/- only.</strong></label>
-                </div>
+                   <div class="col-4 pt-5">
+                    <h2 class="title">Apply</h2>
+                    <h4 class="subtitle">PF Registation</h4>
+                    <p></p>
+                    <label for="">Extend Social Security to your employees. Register for Provident Fund. Prices starting <strong>INR 5999/- only.</strong></label>
+                  </div>
                 <div class="col-4">
                      <img src="../../sachinenterprise/assets/images/employee images/images_33-3.jpg" alt="">
-                 </div>
+                </div>
             <div class="col-4">
             <div class="card">
               <div class="shadow bg-white rounded">
@@ -73,7 +74,7 @@ echo 'connection failed';
                     <h6>CA/CS Assisted | 4.8/5 Rating</h6>
                   </div>
               <form action="">
-              <div class="card-body">
+                <div class="card-body">
                     <div class="form-group pt-2">
                       <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
                     </div>
@@ -81,21 +82,10 @@ echo 'connection failed';
                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" required>
                     </div>
                     <div class="form-group pt-2">
-                      <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10" required>
+                        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10" required>
                     </div>
-                   <!-- /.card-body -->
-                  <div class="card-footer" style="background:white; border:none; text-align:center">
-                        <button type="submit" class="btn btn-warning">GET STARTED</button>
-                  </div>
-                  <div class="form-group pt-2">
-                    <input type="email" class="form-control" name="email" id="exampleInputPassword1" placeholder="Email">
-                  </div>
-                  <div class="form-group pt-2">
-                  <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
-                  </div>
-                  <div class="form-group pt-2">
-                
-                <select required class="form-control" name="service" id="servicesid" >
+                    <div class="form-group pt-2">
+                      <select required class="form-control" name="service" id="servicesid" >
                        <option value="" disabled selected hidden>Select Service:</option>
                        <option>Pancard</option>
                        <option>Gumasta</option>
@@ -109,12 +99,13 @@ echo 'connection failed';
                        <option>ISO Certificate</option>
                        <option>Professional Tax Registation</option>
                        </select> 
-             </div>
-                </div>
-                <!-- /.card-body -->
-                <div class="card-footer" style="background:white; border:none; text-align:center">
-                  <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
-                </div>
+                 </div>
+              </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer" style="background:white; border:none; text-align:center">
+                            <button type="submit" class="btn btn-warning">GET STARTED</button>
+                    </div>
+              
               </form>
               </div>
               </div>
@@ -234,7 +225,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
@@ -254,7 +245,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
@@ -274,7 +265,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>

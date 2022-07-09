@@ -209,7 +209,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
@@ -227,7 +227,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
@@ -247,7 +247,7 @@ echo 'connection failed';
                 </div>
                  <!-- /.card-body -->
                  <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Check Out</button>
+                  <button type="submit" class="btn btn-warning">Get a call</button>
                 </div>
             </div>
           </div>
