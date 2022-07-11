@@ -9,6 +9,7 @@ if(isset($_GET['gen'])){
 
 
 }
+$sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phonenumber,leads.email,leads.services,leads.description from callback inner join leads on callback.id =leads.id ");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +26,8 @@ if(isset($_GET['gen'])){
   <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 </head>
@@ -82,55 +85,40 @@ if(isset($_GET['gen'])){
                                                  <th>Service</th>
                                                 <th>Discription</th>
                                                 <th>Action</th>
-                                                
+                                                <th></th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                         <?php 
                         
-                        $sql=mysqli_query($conn,"select * from `leads`where is_sales='0'");
+                       
                      $count=1;
-                         while($arr=mysqli_fetch_array($sql)){
+                         while($arr=mysqli_fetch_array($sql2)){
                         ?>
                                             <tr>
                                                 <td> <?php echo $count;?> </td>
                                                 <td> <?php echo $arr['name'];?> </td>
-                                                <td> <?php echo $arr['mobile_no'];?></td>
+                                                <td> <?php echo $arr['phonenumber'];?></td>
                                                 <td> <?php echo $arr['email'];?></td>
                                                 <td> <?php echo $arr['services'];?></td>
                                                 <td> <?php echo $arr['description'];?></td>
                                                 <td>
-                                                  <a href="enquires.php?gen=<?php echo $arr['id'];?>">
+                                                  <a href="enquires.php?gen=<?php echo $arr['did'];?>">
                                                 <button class="btn btn-primary" name="submit" >Convert To Sales</button>
                                              
                          </a>
                                               </td>
-                                              <td style="">
-                          <table>
-                          <tbody>
-                          <tr>
-                          <td class="p-2">
-                          <div>
-                            <button class="btn btn-default btn-xs dnkediti" data-id="2"><i class="fas fa-eye"></i></button> 
-                                              </div></td>
-                                              <td class="p-2">
-                            <button class="btn bg-orange btn-xs dnkd" data-id="2" data-toggle="modal" data-target="#dnk1"><i class="fa-solid fa-file"></i></button>
-                                              </td>
-                                              <td class="p-2">
-                           
-                           <button class="btn btn-info btn-xs dnkediti1" data-id="2"><i class="fas fa-edit"></i></button>
-                         </td>                  
-                                              <td class="p-2">
-                            <a href="sales.php?delid=2"><button type="button" class="btn btn-danger btn-xs delete_quotation" onclick="ConfirmDelete()" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
-                        </tr>
-                      
-                      </tbody>
-                    </table>
-                  
-                  
-                  
-                  
-            </td>
+                                              
+                          <td>
+                            
+                              
+                            <a class="btn btn-default btn-xs usereditid" data-id="<?php echo $arr['did'] ?>" type="button" data-toggle="modal" data-target="#myModal" ><i class="fas fa-eye"></i></a> 
+                                             
+                            <a class="btn bg-orange btn-xs dnkd" data-id="2" data-toggle="modal" data-target="#dnk1"><i class="fa-solid fa-file"></i></a>
+                                             
+                           <a class="btn btn-info btn-xs dnkediti1" data-id="2"><i class="fas fa-edit"></i></a>
+                          <a href="sales.php?delid=2"><button type="button" class="btn btn-danger btn-xs delete_quotation" onclick="ConfirmDelete()" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
+                       </td>
                                                 
                                                
                                                                                 </tr>
@@ -152,6 +140,26 @@ if(isset($_GET['gen'])){
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+
+  <!-- Modal -->
+  <div class="modal fade closemaual" id="dnkModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h4 class="modal-title">Get a Call</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <form method="post" action="modalform22.php">
+      <div class="modal-body body1">
+      </div>
+    <div class="modal-footer">
+    
+      
+    </div>
+  </form>
+  </div>
+  </div>
+</div>
   <?php include("include/footer.php"); ?>
 
 
@@ -199,5 +207,24 @@ if(isset($_GET['gen'])){
     });
   });
 </script>
+<script>
+          $(document).ready(function(){
+          $('.usereditid').click(function(){
+            let dnk = $(this).data('id');
+
+            $.ajax({
+            url: 'modalform22.php',
+            type: 'post',
+            data: {dnk: dnk},
+            success: function(response1){ 
+              $('.body1').html(response1);
+              $('#dnkModal').modal('show'); 
+            }
+          });
+          });
+
+
+          });
+          </script>
 </body>
 </html>

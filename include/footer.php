@@ -56,7 +56,7 @@
 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
 <div class="footer-links footer-newsletter">
  <h3>Subscribe</h3>
-<p>Subscribe To Our Newsletter To Get Our Update News!</p>
+<p>Subscribe To Our Get a Call To Get Our Update News!</p>
 <form>
 <input type="text" class="form-control" placeholder="Your Email">
 <button class="default-button" type="submit"><span>Send</span></button>
