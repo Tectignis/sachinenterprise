@@ -136,8 +136,9 @@ include("include/config.php");
                                 <li><button class="popup-button"><i class="fas fa-search"></i></button></li>
                                <!-- Button trigger modal -->
                                <button type="button" class="default-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
- Enquiry
+                               <span>Enquiry</span>
 </button>
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
