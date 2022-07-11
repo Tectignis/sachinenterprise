@@ -71,16 +71,17 @@ if(isset($_POST['dnk'])){
 include("../include/config.php");
 
 if(isset($_POST['save'])){
-
-  $id=$_POST['id'];
-  $email=$_POST['email'];
-  $service=$_POST['service'];
+	$id=$_POST['id'];
+	$email=$_POST['email'];
+	$service=$_POST['service'];
   $description=$_POST['description'];
-  $sql=mysqli_query($conn,"UPDATE `leads` SET `email`='$email' `service`='$service' `description`='description' where id='$id'" );
-  header("location:sales.php");
-
+  $sql=mysqli_query($conn,"UPDATE `leads` SET `email`='$email' `service`='$service' `description`='$description' where id='$id'" );
+  if($sql==1){
+		header("location:sales.php");
+	}else{
+		echo "Something went wrong";
+	}
 }
-
 if(isset($_POST['dnkidno1'])){
 	$sql=mysqli_query($conn,"SELECT * FROM leads where id='".$_POST['dnkidno1']."'");
 	$arr=mysqli_fetch_array($sql);
@@ -90,19 +91,53 @@ if(isset($_POST['dnkidno1'])){
               </button>
   </div>
 
-  <form method="post" action="modalform.php">
-<input type="hidden" value="'.$_POST['dnkidno1'].'" name="id">
+  <form method="post" action="modalform22.php">
+           
+<div class="modal-body body1">
 
 
+<div class="row">   
+<div class="col-4">
+<b> Email :</b><br>
+</div>
+<div class="col-8">
+<input type="text" class="form-control" name="email">
+</div>
+</div>
 
+<div class="row">   
+                 <div class="col-4">
+                <b> service :</b><br>
+                </div>
+                <div class="col-8">
+				<input type="hidden" name="serviceid" value="'.$arr['id'].'">
+                
+                </div>
+                </div>
+                
 
-
-
-
-
-
-
-
-
+</div>
+</div>
+</div>
+<div class="modal-footer justify-content-between">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="submit" class="btn btn-primary" name="save" >Save</button>
+</div>      
+               
+    </form>';
+}
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
