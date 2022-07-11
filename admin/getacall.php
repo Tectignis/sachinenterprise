@@ -90,9 +90,7 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                                         </thead>
                                         <tbody>
                                         <?php 
-                        
-                       
-                     $count=1;
+                         $count=1;
                          while($arr=mysqli_fetch_array($sql2)){
                         ?>
                                             <tr>
@@ -116,10 +114,13 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                                              
                             <a class="btn bg-orange btn-xs dnkd" data-id="2" data-toggle="modal" data-target="#dnk1"><i class="fa-solid fa-file"></i></a>
                                              
-                           <a class="btn btn-info btn-xs dnkediti1" data-id="2"><i class="fas fa-edit"></i></a>
+                           <a class="btn btn-info btn-xs dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-edit"></i></a>
                           <a href="sales.php?delid=2"><button type="button" class="btn btn-danger btn-xs delete_quotation" onclick="ConfirmDelete()" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
                        </td>
-                                                
+                       
+                           
+                           
+                                          
                                                
                                                                                 </tr>
                                                                                 <?php $count++;   } ?>
