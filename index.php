@@ -46,7 +46,7 @@ include("include/config.php");
                         <h1>Enroll to avail benefits from our site</h1>
                         <p>Online services are now available at our site , which is the one stop source for all
                             government services. </p>
-                        <a class="default-button" href="services.html"><span>Our Services</span></a>
+                        <a class="default-button" href="services.php"><span>Our Services</span></a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -71,8 +71,7 @@ include("include/config.php");
                         </div>
                         <div class="about-img-2">
                             <img src="assets/images/about/a1-2.jpg" alt="image">
-                            <a class="video-popup" href="../../watch-9.html?v=0qNsC-NLuhM"><i
-                                    class="flaticon-play-button"></i></a>
+                          
                         </div>
                     </div>
                 </div>
@@ -95,7 +94,7 @@ include("include/config.php");
 
                             </ul>
                         </div>
-                        <a class="default-button" href="about.html"><span>Read More</span></a>
+                        <a class="default-button" href="about.php"><span>Read More</span></a>
                         <div class="fun-facts-area">
                             <div class="row justify-content-center">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
@@ -278,7 +277,7 @@ include("include/config.php");
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="service-card">
                             <div class="service-img">
-                                <a href="service-details.html"><?php echo $arr['image'];?></a>
+                                <a href="service-details.php"><?php echo $arr['image'];?></a>
                             </div>
                             <div class="service-card-text">
                                 <div class="service-card-icon">
@@ -286,9 +285,9 @@ include("include/config.php");
                                     <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
                                     <i class="flaticon-residential"></i>
                                 </div>
-                                <h4><a href="service-details.html"><?php echo $arr['title'];?></a></h4>
+                                <h4><a href="service-details.php"><?php echo $arr['title'];?></a></h4>
                                 <p><?php echo $arr['description'];?></p>
-                                <a class="read-more-btn" href="service-details.html">Apply</a>
+                                <a class="read-more-btn" href="service-details.php">Apply</a>
                             </div>
                         </div>
                     </div>
@@ -300,7 +299,7 @@ include("include/config.php");
             <div class="service ptb-100">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h6>OUR SERVICES</h6>
+            <h6>OUR SERVICES</h6>
                 <h3>We Provide Best Service</h3>
             </div>
             <div class="section-content">
@@ -314,7 +313,7 @@ include("include/config.php");
                     <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <div class="service-card">
                             <div class="service-img">
-                                <a href="service-details.html"><img src="admin/logo/<?php echo $arr['image'];?>" alt="image"></a>
+                                <a href="service-details.php"><img src="admin/logo/<?php echo $arr['image'];?>" alt="image"></a>
                             </div>
                         
                               <div class="service-card-text">
@@ -324,9 +323,9 @@ include("include/config.php");
                                     
                                     <i class="flaticon-residential"></i>
                                 </div>
-                                <h4><a href="service-details.html"><?php echo $arr['title'];?></a></h4>
+                                <h4><a href="service-details.php"><?php echo $arr['title'];?></a></h4>
                                 <p><?php echo $arr['description'];?></p>
-                                <a class="read-more-btn" href="service-details.html">Read More</a>
+                                <a class="read-more-btn" href="service-details.php">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -340,87 +339,7 @@ include("include/config.php");
     </div>
 
 
-    <div class="pricing pricing-1 pt-100 shape-bg">
-        <div class="container">
-            <div class="default-section-title default-section-title-middle">
-                <h6>OUR PRICING PLAN</h6>
-                <h3>Simple And Affordable Plan</h3>
-            </div>
-            <div class="setion-content">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="pricing-card">
-                            <div class="pricing-card-header">
-                                <h3>Basic Plan</h3>
-                                <div class="price">
-                                    <h2><sup>$</sup>49<sub>/ per Month</sub></h2>
-                                </div>
-                            </div>
-                            <div class="pricing-text-area">
-                                <div class="service-price-list">
-                                    <ul>
-                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
-                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
-                                        <li><i class="fas fa-times"></i> Floor cleaning.</li>
-                                        <li><i class="fas fa-times"></i> Waiting area cleaning.</li>
-                                    </ul>
-                                </div>
-                                <a class="default-button default-button-2" href="pricing.html"><span>Order
-                                        Plan</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="pricing-card pricing-active">
-                            <div class="pricing-card-header">
-                                <h3>Premimum Plan</h3>
-                                <div class="price">
-                                    <h2><sup>$</sup>69<sub>/ per Month</sub></h2>
-                                </div>
-                            </div>
-                            <div class="pricing-text-area">
-                                <div class="service-price-list">
-                                    <ul>
-                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
-                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Floor cleaning.</li>
-                                        <li><i class="fas fa-times"></i> Waiting area cleaning.</li>
-                                    </ul>
-                                </div>
-                                <a class="default-button default-button-2" href="pricing.html"><span>Order
-                                        Plan</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="pricing-card">
-                            <div class="pricing-card-header">
-                                <h3>Excellent Plan</h3>
-                                <div class="price">
-                                    <h2><sup>$</sup>89<sub>/ per Month</sub></h2>
-                                </div>
-                            </div>
-                            <div class="pricing-text-area">
-                                <div class="service-price-list">
-                                    <ul>
-                                        <li><i class="fas fa-check"></i> Custom schedules everyday.</li>
-                                        <li><i class="fas fa-check"></i> Desks and workstations cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Washrooms cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Floor cleaning.</li>
-                                        <li><i class="fas fa-check"></i> Waiting area cleaning.</li>
-                                    </ul>
-                                </div>
-                                <a class="default-button default-button-2" href="pricing.html"><span>Order
-                                        Plan</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 
    
     <div class="testimonial ptb-100">
@@ -503,10 +422,10 @@ include("include/config.php");
         <div class="popup-content">
             <button class="close-btn" id="popup-close"><i class="fas fa-times"></i></button>
             <form>
-                <div class="input-group search-box">
+                <!-- <div class="input-group search-box">
                     <input type="text" class="form-control" placeholder="Search">
                     <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                </div>
+                </div> -->
             </form>
         </div>
     </div>
