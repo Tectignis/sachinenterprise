@@ -132,73 +132,94 @@ echo 'connection failed';
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">
                     <div class="col-8">
-                        <label>Provident Fund (PF) is one of the main platform of savings in India for nearly all people working in Government, Private or Public sector organizations. It is implemented by the Employees Provident Fund Organization (EPFO) of India. Registration has to be done within One month from the date of hiring 20th employees. PF is the best way to provide social security to the employees.</label>
-                        </div>
-                        </div>
-                        <div class="row justify-content-center pt-3">
+                        <label>Provident Fund (PF) is one of the main platform of savings in India for nearly all people
+                            working in Government, Private or Public sector organizations. It is implemented by the
+                            Employees Provident Fund Organization (EPFO) of India. Registration has to be done within
+                            One month from the date of hiring 20th employees. PF is the best way to provide social
+                            security to the employees.</label>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
                     <div class="col-8">
-                        <label>Provident Fund PF is largely an employee benefit scheme prescribed by the Government which provides facilities to the employees of an organization about medical assistance, retirement, education of children, insurance support and housing. It is created with the purpose to provide financial security and stability to employees. </label>
-                        </div>
-                        </div>
-                        <div class="row justify-content-center pt-3">
+                        <label>Provident Fund PF is largely an employee benefit scheme prescribed by the Government
+                            which provides facilities to the employees of an organization about medical assistance,
+                            retirement, education of children, insurance support and housing. It is created with the
+                            purpose to provide financial security and stability to employees. </label>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
                     <div class="col-8">
                         <label><b>Contribution towards EPF</b></label>
-                        </div>
-                        </div>
-                        <div class="row justify-content-center pt-3">
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
                     <div class="col-8">
                         <label><b>1.</b> ontribution to EPF is to be done by both Employer and Employee.</label>
-                        </div>
-                        </div>
-                        <div class="row justify-content-center ">
-                    <div class="col-8">
-                    <label><b>2.</b> Employer deducts his employees’ share of EPF from his salary.</label>
                     </div>
-                        </div>
-                        <div class="row justify-content-center ">
+                </div>
+                <div class="row justify-content-center ">
                     <div class="col-8">
-                    <label><b>3.</b>Employer needs to deposit the amount of his contribution of EPF along with employees deducted share.</label>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center ">
+                        <label><b>2.</b> Employer deducts his employees’ share of EPF from his salary.</label>
+                    </div>
+                </div>
+                <div class="row justify-content-center ">
                     <div class="col-8">
-                    <label><b>4.</b>The Employer’s contribution to EPF would be 12% and that of employee’s would be 12%.</label>
-                          </div>
-                        </div>
-                          <div class="row justify-content-center pt-3">
+                        <label><b>3.</b>Employer needs to deposit the amount of his contribution of EPF along with
+                            employees deducted share.</label>
+                    </div>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-8">
+                        <label><b>4.</b>The Employer’s contribution to EPF would be 12% and that of employee’s would be
+                            12%.</label>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
                     <div class="col-8">
                         <label><b>Why is it necessary to contribute in EPF?</b></label>
-                        </div>
-                        </div>
-                        <div class="row justify-content-center pt-3">
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
                     <div class="col-8">
                         <label><b>1.</b>The PF contribution by an employer will be tax-free.</label>
-                        </div>
-                        </div>
-                        <div class="row justify-content-center ">
-                    <div class="col-8">
-                            <label><b>2.</b>The amount including the amount interest will be exempt from tax on withdrawal after a specific period.</label>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                    <div class="col-8">
-                    <label><b>3.</b>Organizations can also enroll themselves voluntarily under PF laws.</label>
                     </div>
-                        </div>
-                             <div class="row justify-content-center pt-3">
+                </div>
+                <div class="row justify-content-center ">
                     <div class="col-8">
-                            <label><b>Note:</b> Any delay in registration of EPF (Employee Provident Fund) may result in a penalty.</label>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center pt-3">
+                        <label><b>2.</b>The amount including the amount interest will be exempt from tax on withdrawal
+                            after a specific period.</label>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
                     <div class="col-8">
-                            <label><b>Why Ebizfiling as your service provider for EPF (Employee’s Provident Fund) registration?</b></label>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center pt-3">
+                        <label><b>3.</b>Organizations can also enroll themselves voluntarily under PF laws.</label>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label><b>Note:</b> Any delay in registration of EPF (Employee Provident Fund) may result in a
+                            penalty.</label>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
+                    <div class="col-8">
+                        <label><b>Why Ebizfiling as your service provider for EPF (Employee’s Provident Fund)
+                                registration?</b></label>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-3">
                     <div class="col-8 pb-5">
-                            <label>Ebizfiling is a group of intellectuals. The entire team of Ebizfiling consists of Highly qualified CA, CS, Lawyers and business administrators. Ebizfiling would be a one stop destination for your EPF (Employee’s Provident Fund) registration in India. We also provide services like Start up advisory, Secretarial compliance services, PAN / TAN application, DIN registration, <a target="_blank" href="esicregistration.php" class="text-danger">ESI registration</a> GST registration, Trademark registration, GST / Income tax return filing and many more. You may get in touch with our compliance manager on <a target="_blank" href="tel:9987705688" class="text-danger">9987705688</a> or email <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation and to know more about the services provided by us.</label>
-                        </div>
+                        <label>Ebizfiling is a group of intellectuals. The entire team of Ebizfiling consists of Highly
+                            qualified CA, CS, Lawyers and business administrators. Ebizfiling would be a one stop
+                            destination for your EPF (Employee’s Provident Fund) registration in India. We also provide
+                            services like Start up advisory, Secretarial compliance services, PAN / TAN application, DIN
+                            registration, <a target="_blank" href="esicregistration.php" class="text-danger">ESI
+                                registration</a> GST registration, Trademark registration, GST / Income tax return
+                            filing and many more. You may get in touch with our compliance manager on <a target="_blank"
+                                href="tel:9987705688" class="text-danger">9987705688</a> or email <a target="_blank"
+                                href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a>
+                            for free consultation and to know more about the services provided by us.</label>
+                    </div>
                 </div>
             </div>
         </div>
