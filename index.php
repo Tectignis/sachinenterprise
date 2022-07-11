@@ -46,7 +46,7 @@ include("include/config.php");
                         <h1>Enroll to avail benefits from our site</h1>
                         <p>Online services are now available at our site , which is the one stop source for all
                             government services. </p>
-                        <a class="default-button" href="services.html"><span>Our Services</span></a>
+                        <a class="default-button" href="services.php"><span>Our Services</span></a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -94,7 +94,7 @@ include("include/config.php");
 
                             </ul>
                         </div>
-                        <a class="default-button" href="about.html"><span>Read More</span></a>
+                        <a class="default-button" href="about.php"><span>Read More</span></a>
                         <div class="fun-facts-area">
                             <div class="row justify-content-center">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
@@ -422,10 +422,10 @@ include("include/config.php");
         <div class="popup-content">
             <button class="close-btn" id="popup-close"><i class="fas fa-times"></i></button>
             <form>
-                <div class="input-group search-box">
+                <!-- <div class="input-group search-box">
                     <input type="text" class="form-control" placeholder="Search">
                     <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                </div>
+                </div> -->
             </form>
         </div>
     </div>
