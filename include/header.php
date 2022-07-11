@@ -105,13 +105,13 @@ include("include/config.php");
                                         <a href="Services.php" class="nav-link dropdown-toggle">Pancard </a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">ITR</a>
+                                        <a href="itr-service.php" class="nav-link dropdown-toggle">ITR</a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Passport</a>
                                             </li>
                                             <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">FSSAI License</a>
+                                        <a href="fassai-service.php" class="nav-link dropdown-toggle">FSSAI License</a>
                                             </li>
                                             <li class="nav-item">
                                         <a href="Services.php" class="nav-link dropdown-toggle">Rent Agreement</a>
