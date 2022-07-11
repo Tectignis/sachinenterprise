@@ -39,7 +39,7 @@ if(isset($_POST['dnkd'])){
                 </div>
                 <div class="col-8">
                 <p> 
-                <textarea type="text" name="description" id="descriptionid" value="'.$arr['description'].'"class="form-control"></textarea></p>
+                <textarea type="text" name="description" id="descriptionid" class="form-control">"'.$arr['description'].'"</textarea></p>
                 </div>
                 </div>
 
