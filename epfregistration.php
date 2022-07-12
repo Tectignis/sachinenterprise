@@ -64,7 +64,7 @@ echo 'connection failed';
                     <label for="">Extend Social Security to your employees. Register for Provident Fund. Prices starting <strong>INR 5999/- only.</strong></label>
                   </div>
                 <div class="col-4">
-                     <img src="../../sachinenterprise/assets/images/employee images/images_33-3.jpg" alt="">
+                     <img src="assets/images/employee images/images_33-3.jpg" alt="">
                 </div>
             <div class="col-4">
             <div class="card">

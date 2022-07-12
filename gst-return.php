@@ -68,7 +68,7 @@ echo 'connection failed';
                 </div>
                 </div>
                 <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/return-img/img.png" alt="sachinenterprise, sachinenterprise.in">
+                <img src="assets/images/return-img/img.png" alt="sachinenterprise, sachinenterprise.in">
                 </div>
             <div class="col-4">
             <div class="card ">

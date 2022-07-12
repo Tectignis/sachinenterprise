@@ -63,7 +63,7 @@ echo 'connection failed';
                 <label for="">Claim your access to Government Subsidies, Priority Lending and a quick start up. Register for MSME/Udyog Aadhar at <strong>INR 1499/- only.</strong></label>
                 </div>
                 <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/images_12-3.jpg" alt="">
+                <img src="assets/images/employee images/images_12-3.jpg" alt="">
             </div>
             <div class="col-4">
             <div class="card">

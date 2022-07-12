@@ -112,7 +112,7 @@ a:hover,a:focus{
                 <label for="">Online professional tax registration</label>
                 </div>
                 <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/CAF-Header-image.png" alt="">
+                <img src="assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
             <div class="col-4">
             <div class="card ">

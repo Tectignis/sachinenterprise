@@ -65,7 +65,7 @@ echo 'connection failed';
                 Prices starting at<strong> INR 499/- only.</strong></label>
             </div>
             <div class="col-4">
-              <img src="../../sachinenterprise/assets/images/employee images/images_18-3.jpg" alt="">
+              <img src="assets/images/employee images/images_18-3.jpg" alt="">
             </div>
             <div class="col-4">
               <div class="card">

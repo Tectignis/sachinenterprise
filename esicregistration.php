@@ -65,7 +65,7 @@ echo 'connection failed';
                 <label for="">Extend medical benefits to your employees. Register for ESIC. Prices start from <strong>INR 5999/- only.</strong></label>
                 </div>
                 <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/images_11.jpg" alt="">
+                <img src="assets/images/employee images/images_11.jpg" alt="">
             </div>
             <div class="col-4">
             <div class="card">
