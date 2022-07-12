@@ -111,7 +111,7 @@ include("include/config.php");
                                         class="fas fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Pancard </a>
+                                        <a href="pancard-service.php" class="nav-link dropdown-toggle">Pancard </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="itr-service.php" class="nav-link dropdown-toggle">ITR</a>
