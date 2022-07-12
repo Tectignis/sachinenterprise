@@ -56,16 +56,16 @@ echo 'connection failed';
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4 pt-5">
+          <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                 <h2 class="title">Cancel</h2>
                 <h4 class="subtitle">GST  Registation</h4>
                 <p></p>
                 <label for="">Easily cancel your GST Registration. Get cancellation done through sachinenterprise. Prices start at <strong>INR 1499/- only.</strong></label>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                    <img src="assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">
               <div class="shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
@@ -144,7 +144,7 @@ echo 'connection failed';
       <h2 style="text-align:center">Simple Prices | No Surprises</h2>
       <div class="card-body">
         <div class="row">
-          <div class="col-4 ">
+          <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>

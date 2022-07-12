@@ -5,7 +5,7 @@ include("include/config.php");
 <div class="topbar">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9">
+            <div class="col-sm-7 col-md-7 col-lg-7 col-7">
                 <div class="topbar-left-side">
                     <ul>
                         <li><i class="fas fa-phone-alt"></i> <a href="tel:+919987705688">+919987705688</a></li>
@@ -13,7 +13,7 @@ include("include/config.php");
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-5 col-md-5 col-lg-5 col-5">
                 <div class="topbar-right-side">
                     <div class="account">
                         <a href="profile-authentication.html"><i class="fas fa-user"></i> Login</a>

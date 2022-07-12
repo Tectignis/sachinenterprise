@@ -57,17 +57,17 @@ echo 'connection failed';
       <div class="card" style="border:none">
         <div class="card-body">
           <div class="row">
-            <div class="col-4 pt-5">
+            <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
               <h2 class="title">Modify</h2>
               <h4 class="subtitle">GST Registation</h4>
               <p></p>
               <label for="">Wish to update any details in GST Registration Certificate? Get details modified through us.
                 Prices starting at<strong> INR 499/- only.</strong></label>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4 col-md-4 col-lg-4">
               <img src="assets/images/employee images/images_18-3.jpg" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
               <div class="card">
                 <div class=" shadow bg-white rounded">
                   <div class="card-header text-center" style="background-color:red; color:white">
@@ -157,7 +157,7 @@ echo 'connection failed';
     <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
       <div class="row ">
-        <div class="col-4">
+        <div class="col-sm-12 col-md-12 col-lg-4 py-2">
           <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ESSENTIAL</h4>
@@ -179,7 +179,7 @@ echo 'connection failed';
             </form>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-12 col-lg-4 py-2">
           <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ENHANCED</h4>
@@ -201,7 +201,7 @@ echo 'connection failed';
             </form>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-12 col-lg-4  py-2">
           <div class="card h-100 ">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ULTIMATE</h4>
