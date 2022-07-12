@@ -129,10 +129,9 @@ if(isset($_GET['delid'])){
                                               <button class="btn btn-info btn-xs dnkd1" data-toggle="modal" data-target="#dnk1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-edit"></i></button>
 
                                               <td class="p-2">
-                                              <a href="s_table .php?delid=<?php echo $arr['id']; ?>"><button
+                                              <a href="s_table.php?delid=<?php echo $arr['id']; ?>"><button
                                                             type="button" class="btn btn-danger btn-xs delete_quotation"
-                                                            onclick="ConfirmDelete()" style="color: aliceblue"> <i
-                                                                class="fas fa-trash"></i> </button></a>
+                                                             style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
                         </tr>
                       
                       </tbody>
