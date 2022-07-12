@@ -227,5 +227,24 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
 
           });
           </script>
+
+<script>
+$(document).ready(function(){
+$('.dnkediti1').click(function(){
+  let dnkidno1 = $(this).data('id');
+
+  $.ajax({
+   url: 'modalform.php',
+   type: 'post',
+   data: {dnkidno1: dnkidno1},
+   success: function(response1){ 
+     $('.body2').html(response1);
+     $('#dnkModal2').modal('show'); 
+   }
+ });
+});
+});
+</script>
+
 </body>
 </html>
