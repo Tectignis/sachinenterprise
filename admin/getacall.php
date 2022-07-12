@@ -4,7 +4,7 @@ if(isset($_GET['gen'])){
   $id=mysqli_real_escape_string($conn,$_GET['gen']);
   $sql=mysqli_query($conn,"update leads set `is_sales`='1' where id='$id'");
   if($sql==1){
-   header("location:sales.php");
+   header("location:getacall.php");
   }
 
 
@@ -85,7 +85,7 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                                                  <th>Service</th>
                                                 <th>Discription</th>
                                                 <th>Action</th>
-                                                <th></th>
+                                                
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -100,19 +100,22 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                                                 <td> <?php echo $arr['email'];?></td>
                                                 <td> <?php echo $arr['services'];?></td>
                                                 <td> <?php echo $arr['description'];?></td>
-                                                <td>
+                                                <!-- <td>
                                                   <a href="enquires.php?gen=<?php echo $arr['did'];?>">
                                                 <button class="btn btn-primary" name="submit" >Convert To Sales</button>
                                              
                          </a>
                                               </td>
-                                              
+                                               -->
                           <td>
                             
                               
                             <a class="btn btn-default btn-xs usereditid" data-id="<?php echo $arr['did'] ?>" type="button" data-toggle="modal" data-target="#myModal" ><i class="fas fa-eye"></i></a> 
                                              
-                            <a class="btn bg-orange btn-xs dnkd" data-id="2" data-toggle="modal" data-target="#dnk1"><i class="fa-solid fa-file"></i></a>
+                            <!-- <a class="btn bg-orange btn-xs dnkd" data-id="2" data-toggle="modal" data-target="#dnk1"><i class="fa-solid fa-file"></i></a> -->
+
+                            <a href="enquires.php?gen=<?php echo $arr['did'];?>">
+                                                <button class="btn bg-orange btn-xs dnkd" data-toggle="modal" data-target="#dnk1" name="submit" ><i class="fa-solid fa-file"></i></button></a>
                                              
                            <a class="btn btn-info btn-xs dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-edit"></i></a>
                           <a href="sales.php?delid=2"><button type="button" class="btn btn-danger btn-xs delete_quotation" onclick="ConfirmDelete()" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
@@ -234,7 +237,7 @@ $('.dnkediti1').click(function(){
   let dnkidno1 = $(this).data('id');
 
   $.ajax({
-   url: 'modalform.php',
+   url: 'modalform22.php',
    type: 'post',
    data: {dnkidno1: dnkidno1},
    success: function(response1){ 
