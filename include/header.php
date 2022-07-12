@@ -179,12 +179,12 @@ include("include/config.php");
             <div class="sidebar-card calculate-area mt-30 modal-body">
                 <h5 class="modal-title" id="exampleModalLabel">Enquiry Form</h5>
                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
-                <form method="post">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                <form action="enquiryDB.php" method="post">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
                     <input type="tel" class="form-control" name="phonenumber" placeholder="Your Mobile" minlength="10"
-                        maxlength="10">
-                    <input type="text" class="form-control" name="email" placeholder="Your Email">
-                    <textarea type="text" class="form-control" name="description" placeholder="Description"></textarea>
+                        maxlength="10" required>
+                    <input type="text" class="form-control" name="email" placeholder="Your Email" required>
+                    <textarea type="text" class="form-control" name="description" placeholder="Description" required></textarea>
                     <select class="form-select" name="service" aria-label="Default select example">
                         <option selected="" disabled="">Services</option>
                         <option>Pancard</option>
