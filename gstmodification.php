@@ -119,7 +119,7 @@ echo 'connection failed';
     </div>
   </div>
 
-  <div class="pricing pricing-1  shape-bg">
+  <div class="pricing pricing-1">
     <div class="container">
       <div class="default-section-title default-section-title-middle">
         <h3 class="pt-5">GST Modification</h3>
