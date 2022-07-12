@@ -179,19 +179,18 @@ echo 'connection failed';
         </div>
     </div>
 
-    <div class="container pb-5">
+    <div class="container pt-5 pb-5">
             <h2 style="text-align:center">GST Return Cost</h2>
             <h5 style="text-align:center">Choose Your Package</h5>
     <div class="card-body">
         <div class="row ">
             <div class="col-4">
-            <div class="card card-group " >
+            <div class="card h-100" >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 499/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
                   <label for="">&#8226; Filing of one NIL GST return (GSTR 3B or GSTR 1)</label>
@@ -199,52 +198,44 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a Call</button>
+                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
-              </form>
             </div>
             </div>
             <div class="col-4">
-            <div class=" card card-group" >
+            <div class=" card h-100" >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
                 <h3 class="text-danger"><strong>₹ 2499/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
                   <label for="">&#8226; GST Annual Return (GSTR 9 or 9A or 9B)</label>
-                  
                   </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a Call</button>
+                  <button type="submit" class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
-              </form>
             </div>
             </div>
             <div class="col-4">
-            <div class=" card card-group" >
+            <div class=" card  h-100" >
               <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 6399/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group ">
                   <label class="card-text">&#8226; GST Returns for one year (all returns included)</label>
-                 
-
                   </div>
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a Call</button>
+                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
-              </form>
             </div>
             </div>
         </div>

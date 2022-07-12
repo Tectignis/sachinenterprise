@@ -229,13 +229,12 @@ echo 'connection failed';
     <div class="card-body">
         <div class="row ">
             <div class="col-4">
-            <div class="card card-group " >
+            <div class="card h-100 " >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
                 <h3 class="text-danger"><strong >₹ 999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
               <div class="form-group pt-2">
               <label for="">&#8226; Filing of one NIL TDS return (TDS 3B or TDS 1)</label>
@@ -243,19 +242,17 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a Call</button>
+                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
-              </form>
             </div>
             </div>
             <div class="col-4">
-            <div class=" card card-group" >
+            <div class=" card h-100" >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
                 <h3 class="text-danger"><strong>₹ 5999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group pt-2">
                   <label for="">&#8226;TDS Returns for 1st Quarter</label>
@@ -269,19 +266,17 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a Call</button>
+                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" >Get a Call</button>
                 </div>
-              </form>
             </div>
             </div>
             <div class="col-4">
-            <div class=" card card-group" >
+            <div class=" card h-100" >
               <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
                 <h3 class="text-danger"><strong >₹ 8999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
-              <form>
                 <div class="card-body">
                   <div class="form-group ">
                   <label for="">&#8226; TDS Returns for 1st Quarter</label>
@@ -295,9 +290,8 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a Call</button>
+                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
-              </form>
             </div>
             </div>
         </div>
@@ -305,13 +299,7 @@ echo 'connection failed';
     </div>
 </div>
            
-    
-       
-
-
-
-   
-
+  
 
     <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>

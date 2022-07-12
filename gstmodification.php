@@ -161,7 +161,7 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a call</button>
+                  <button type="submit" class="btn btn-warning" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a call</button>
                 </div>
               </form>
             </div>
@@ -181,7 +181,7 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a call</button>
+                  <button type="submit" class="btn btn-warning" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a call</button>
                 </div>
               </form>
             </div>
@@ -200,7 +200,7 @@ echo 'connection failed';
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning">Get a call</button>
+                  <button type="submit" class="btn btn-warning" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a call</button>
                 </div>
             </div>
             </div>
