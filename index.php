@@ -12,6 +12,7 @@ include("include/config.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin/plugins/fontawesome-free/css/all.min.css">
 
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -304,33 +305,34 @@ include("include/config.php");
             </div>
             <div class="section-content">
                 <div class="row">
+                    
                 <?php 
                         
                         $sql=mysqli_query($conn,"select * from `services`");
                     
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.php"><img src="admin/logo/<?php echo $arr['image'];?>" alt="image"></a>
-                            </div>
-                        
-                              <div class="service-card-text">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+<div class="service-card">
+<div class="service-img">
+<a href="service-details.html"><img src="admin/logo/<?php echo $arr['image'];?>" alt="image"></a>
+</div>
+<div class="service-card-text">
+<div class="service-card-icon">
+<img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
+<img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
+<i class="<?php echo $arr['logo'];?>"></i>
+</div>
+<h4><a href="service-details.html"><?php echo $arr['title'];?></a></h4>
+<p><?php echo $arr['description'];?></p>
+<a class="read-more-btn" href="service-details.html">Apply</a>
+</div>
+</div>
+</div>
+<?php  } ?>   
+                    
 
-                                <div class="service-card-icon">
-                                    <img src="admin/logo/<?php echo $arr['logo'];?>" height="80px" width="80px">
-                                    
-                                    <i class="flaticon-residential"></i>
-                                </div>
-                                <h4><a href="service-details.php"><?php echo $arr['title'];?></a></h4>
-                                <p><?php echo $arr['description'];?></p>
-                                <a class="read-more-btn" href="service-details.php">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <?php  } ?>     
+                    
            
         </div>
         

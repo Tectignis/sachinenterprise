@@ -4,9 +4,12 @@ include("../include/config.php");
 if(isset($_POST['subm'])){
 $id=$_POST['id'];
   $logo=$_POST['logo'];
-  $image=$_POST['image'];
   $title=$_POST['title'];
   $description=$_POST['description'];
+  $image=$_FILES['image']['name'];
+  $dnk=$_FILES['image']['tmp_name'];
+    $loc="logo/".$image;
+    move_uploaded_file($dnk,$loc);
   $sql=mysqli_query($conn,"UPDATE `services` SET `logo`='$logo',`image`='$image',`title`='$title',`description`='$description' WHERE id='$id'");
 
 }
@@ -109,7 +112,7 @@ if(isset($_GET['delid'])){
                         ?>
                                             <tr>
                                                 <td> <?php echo $count;?> </td>
-                                                <td> <img src="logo/<?php echo $arr['logo'];?>" width="50" height="50"> </td>
+                                                <td><i class="flaticon-residential"></i></td>
                                                 <td> <img src="logo/<?php echo $arr['image'];?>" width="50" height="50"> </td>
                                                 <td> <?php echo $arr['title'];?></td>
                                                 
@@ -121,7 +124,7 @@ if(isset($_GET['delid'])){
                           <tr>
                           <td class="p-2">
                           <div>
-                            <button class="btn btn-default btn-xs dnkediti" data-id="2"><i class="fas fa-eye"></i></button> 
+                            <button class="btn btn-default btn-xs dnkediti" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-eye"></i></button> 
                                               </div></td>
                                               
                                               <td class="p-2">
@@ -171,7 +174,7 @@ if(isset($_GET['delid'])){
                <span aria-hidden="true">&times;</span>
              </button>
            </div>
-     <form method="post">
+     <form method="post" enctype="multipart/form-data">
            <div class="modal-body body1">
 
               
@@ -254,5 +257,11 @@ $('.dnkd1').click(function(){
 });
 });
 </script>
+
+
+
+
+
+
 </body>
 </html>

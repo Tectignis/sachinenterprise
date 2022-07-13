@@ -11,7 +11,7 @@ if(isset($_POST['dnkd'])){
                 </div>
                 <input type="hidden" class="form-control" value="'.$arr['id'].'" name="id" >
                 <div class="col-8">
-                <p> <input type="file" class="form-control" value="'.$arr['logo'].'" name="logo" ></p>
+                <p> <input type="text" class="form-control" value="'.$arr['logo'].'" name="logo" ></p>
                 </div>
                 </div>
 
