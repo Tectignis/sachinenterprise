@@ -2,10 +2,11 @@
 include("../include/config.php"); 
 
 if(isset($_POST['submit'])){
-    $logo = $_FILES['logo']['name'];
-    $filedet=$_FILES['logo']['tmp_name'];
-    $loc="logo/".$select_logo;
-    move_uploaded_file($filedet,$loc);
+    // $logo = $_FILES['logo']['name'];
+    // $filedet=$_FILES['logo']['tmp_name'];
+    // $loc="logo/".$select_logo;
+    // move_uploaded_file($filedet,$loc);
+    $logo=$_POST['logo'];
  
     $image=$_FILES['image']['name'];
     $title=$_POST['title'];
@@ -108,7 +109,7 @@ if(isset($_POST['submit'])){
                 <!-- Color Picker -->
                 <div class="form-group">
                   <label>Select Logo :</label>
-                  <input type="file" class="form-control" value="" name="logo" >
+                  <input type="text" class="form-control" value="" name="logo" >
                 </div>
                 <!-- /.form group -->
                 <div class="form-group">
