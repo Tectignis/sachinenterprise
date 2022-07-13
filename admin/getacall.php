@@ -9,7 +9,7 @@ if(isset($_GET['gen'])){
 
   if(isset($_GET['delid'])){
     $id=mysqli_real_escape_string($conn,$_GET['delid']);
-    $sql=mysqli_query($conn,"delete from leads where id='$id'");
+    $sql=mysqli_query($conn,"delete from enquiry where id='$id'");
     
   
     if($sql=1){
@@ -100,7 +100,7 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                                         </thead>
                                         <tbody>
                                         <?php 
-                                        $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phonenumber,leads.email,leads.services,leads.description from callback inner join leads on callback.id =leads.id ");
+                                        $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phonenumber,enquiry.email,enquiry.service,enquiry.description from callback inner join enquiry on callback.id =enquiry.id ");
                          $count=1;
                          while($arr=mysqli_fetch_array($sql2)){
                         ?>
@@ -109,7 +109,7 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                                                 <td> <?php echo $arr['name'];?> </td>
                                                 <td> <?php echo $arr['phonenumber'];?></td>
                                                 <td> <?php echo $arr['email'];?></td>
-                                                <td> <?php echo $arr['services'];?></td>
+                                                <td> <?php echo $arr['service'];?></td>
                                                 <td> <?php echo $arr['description'];?></td>
                                                 <!-- <td>
                                                   <a href="enquires.php?gen=<?php echo $arr['did'];?>">
@@ -133,7 +133,7 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                            <a class="btn btn-info btn-xs dnkediti1" data-id="<?php echo $arr['did']?>" type="button" data-toggle="modal"  data-target="#myModal"><i class="fas fa-edit"></i></a> 
                           
                           
-                           <a href="getacall.php?"><button type="button" class="btn btn-danger btn-xs delete_quotation" onclick="ConfirmDelete()" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
+                           <a href="getacall.php"><button type="button"  class="btn btn-danger btn-xs delete_quotation" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
                        </td>
                         </tr>
                           <?php $count++;   } ?>
