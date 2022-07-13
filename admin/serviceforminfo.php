@@ -10,6 +10,7 @@ if(isset($_POST['submit'])){
  
     $image=$_FILES['image']['name'];
     $title=$_POST['title'];
+    $link=$_POST['link'];
     $description=$_POST['description'];
     $extension=substr( $image,strlen( $image)-4,strlen( $image));
     $all_extension = array(".jpg","jpeg",".png","gif");
@@ -28,8 +29,8 @@ if(isset($_POST['submit'])){
     
     
   
-  $sql=mysqli_query($conn,"INSERT INTO `services`(`logo`,`image`,`title`,`description`) 
-    VALUES ('$logo','$image','$title','$description')");
+  $sql=mysqli_query($conn,"INSERT INTO `services`(`logo`,`image`,`title`,`link``description`) 
+    VALUES ('$logo','$image','$title','$link','$description')");
   
   if($sql==1){
   header("location:s_table.php");
@@ -122,7 +123,10 @@ if(isset($_POST['submit'])){
                   <input type="text" name="title"  class="form-control">
                 </div>
                 <!-- /.form group -->
-                
+                <div class="form-group">
+                  <label>Apply Link :</label>
+                  <input type="text" name="link"  class="form-control">
+                </div>
                 <!-- time Picker -->
                 <div class="form-group">
                   <label>Discription :</label>
