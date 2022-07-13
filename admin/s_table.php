@@ -112,7 +112,7 @@ if(isset($_GET['delid'])){
                         ?>
                                             <tr>
                                                 <td> <?php echo $count;?> </td>
-                                                <td><i class="flaticon-residential"></i></td>
+                                                <td><i class="<?php echo $arr['logo'];?>"></i></td>
                                                 <td> <img src="logo/<?php echo $arr['image'];?>" width="50" height="50"> </td>
                                                 <td> <?php echo $arr['title'];?></td>
                                                 

@@ -52,7 +52,7 @@ include("include/config.php");
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="main-banner-img">
-                        <img src="assets/images/banner/banner-1.png" alt="image">
+                        <img src="assets/images/banner/img2.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -68,10 +68,10 @@ include("include/config.php");
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="about-img-area">
                         <div class="about-img-1">
-                            <img src="assets/images/about/a1-1.png" alt="image">
+                            <img src="assets/images/about/img.png" alt="image">
                         </div>
                         <div class="about-img-2">
-                            <img src="assets/images/about/a1-2.jpg" alt="image">
+                            <!-- <img src="assets/images/about/img1.png" alt="image"> -->
                           
                         </div>
                     </div>
