@@ -121,7 +121,7 @@ echo 'connection failed';
       </div>
     </div>
 
-    <div class="pricing pricing-1 pt-100 shape-bg">
+    <div class="pricing pricing-1 pt-100 ">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3>GST Return File</h3>

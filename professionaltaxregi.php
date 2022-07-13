@@ -105,16 +105,16 @@ a:hover,a:focus{
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4 pt-5">
+          <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                 <h2 class="title ">Professional</h2>
                 <h5 class="subtitle">Tax  Registation</h5>
                 <p></p>
                 <label for="">Online professional tax registration</label>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                 <img src="assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card ">
             <div class=" shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
