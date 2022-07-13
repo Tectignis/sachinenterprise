@@ -315,9 +315,9 @@ include("include/config.php");
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12">
 <div class="service-card">
 <div class="service-img">
-<a href="service-details.html"><img src="admin/logo/<?php echo $arr['image'];?>" alt="image"></a>
+<a href="service-details.html"><img src="admin/logo/<?php echo $arr['image'];?>" style="height:350px; width:420px;" alt="image"></a>
 </div>
-<div class="service-card-text">
+<div class="service-card-text"style="height:350px; width:420px;">
 <div class="service-card-icon">
 <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
 <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">

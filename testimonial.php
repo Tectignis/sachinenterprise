@@ -30,26 +30,26 @@
     <div class="uni-banner">
         <div class="container">
             <div class="uni-banner-text">
-                <h1>Testimonials</h1>
+                <h1>s</h1>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li>Testimonials</li>
+                    <li>s</li>
                 </ul>
             </div>
         </div>
     </div>
 
 
-    <div class="testimonial ptb-100">
+    <div class=" ptb-100">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h6>Testimonials</h6>
+                <h6>s</h6>
                 <h3>What Our Client Say About Us</h3>
             </div>
             <div class="section-content">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
+                        <div class="-card">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
                                 <ul>
@@ -63,9 +63,9 @@
                             </div>
                             <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
                                 incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc1.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
+                            <div class="-footer">
+                                <img src="assets/images//tc1.jpg" alt="image">
+                                <div class="-footer-intro">
                                     <h4>Jhon Abraham</h4>
                                     <p>Manager, Elan</p>
                                 </div>
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
+                        <div class="-card">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
                                 <ul>
@@ -87,9 +87,9 @@
                             </div>
                             <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
                                 incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc2.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
+                            <div class="-footer">
+                                <img src="assets/images//tc2.jpg" alt="image">
+                                <div class="-footer-intro">
                                     <h4>Sen Watson</h4>
                                     <p>Manager, Econ</p>
                                 </div>
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
+                        <div class="-card">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
                                 <ul>
@@ -111,9 +111,9 @@
                             </div>
                             <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
                                 incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc3.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
+                            <div class="-footer">
+                                <img src="assets/images//tc3.jpg" alt="image">
+                                <div class="-footer-intro">
                                     <h4>Alex Alina</h4>
                                     <p>Manager, Alox</p>
                                 </div>
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
+                        <div class="-card">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
                                 <ul>
@@ -135,9 +135,9 @@
                             </div>
                             <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
                                 incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc4.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
+                            <div class="-footer">
+                                <img src="assets/images//tc4.jpg" alt="image">
+                                <div class="-footer-intro">
                                     <h4>Jhon Doe</h4>
                                     <p>Manager, Elan</p>
                                 </div>
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
+                        <div class="-card">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
                                 <ul>
@@ -159,9 +159,9 @@
                             </div>
                             <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
                                 incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc5.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
+                            <div class="-footer">
+                                <img src="assets/images//tc5.jpg" alt="image">
+                                <div class="-footer-intro">
                                     <h4>Sen Herry</h4>
                                     <p>Manager, Bcon</p>
                                 </div>
@@ -169,7 +169,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
+                        <div class="-card">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
                                 <ul>
@@ -183,9 +183,9 @@
                             </div>
                             <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
                                 incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc6.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
+                            <div class="-footer">
+                                <img src="assets/images//tc6.jpg" alt="image">
+                                <div class="-footer-intro">
                                     <h4>Jacky Smith</h4>
                                     <p>Manager, Aloy</p>
                                 </div>
