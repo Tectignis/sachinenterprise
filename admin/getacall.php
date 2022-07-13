@@ -7,6 +7,16 @@ if(isset($_GET['gen'])){
    header("location:getacall.php");
   }
 
+  if(isset($_GET['delid'])){
+    $id=mysqli_real_escape_string($conn,$_GET['delid']);
+    $sql=mysqli_query($conn,"delete from leads where id='$id'");
+    
+  
+    if($sql=1){
+        header("location:getacall.php");
+    }
+    }
+
 
 }
 $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phonenumber,leads.email,leads.services,leads.description from callback inner join leads on callback.id =leads.id ");
@@ -90,6 +100,7 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                                         </thead>
                                         <tbody>
                                         <?php 
+                                        $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phonenumber,leads.email,leads.services,leads.description from callback inner join leads on callback.id =leads.id ");
                          $count=1;
                          while($arr=mysqli_fetch_array($sql2)){
                         ?>
@@ -110,26 +121,23 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                           <td>
                             
                               
-                            <a class="btn btn-default btn-xs usereditid" data-id="<?php echo $arr['did'] ?>" type="button" data-toggle="modal" data-target="#myModal" ><i class="fas fa-eye"></i></a> 
+                            <a class="btn btn-default btn-xs dnkediti" data-id="<?php echo $arr['did'] ?>" type="button" data-toggle="modal" data-target="#myModal" ><i class="fas fa-eye"></i></a> 
                                              
-                            <!-- <a class="btn bg-orange btn-xs dnkd" data-id="2" data-toggle="modal" data-target="#dnk1"><i class="fa-solid fa-file"></i></a> -->
+                            
 
                             <a href="enquires.php?gen=<?php echo $arr['did'];?>">
-                                                <button class="btn bg-orange btn-xs dnkd" data-toggle="modal" data-target="#dnk1" name="submit" ><i class="fa-solid fa-file"></i></button></a>
+                                                <button class="btn bg-orange btn-xs dnkd" data-toggle="modal" data-target="#dnk1" name="submit"><i class="fa-solid fa-file"></i></button></a>
                                              
-                           <a class="btn btn-info btn-xs dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-edit"></i></a>
-                          <a href="sales.php?delid=2"><button type="button" class="btn btn-danger btn-xs delete_quotation" onclick="ConfirmDelete()" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
+                           <!-- <a class="btn btn-info btn-xs dnkediti1" data-id='<?php echo $arr['id']; ?>'><i class="fas fa-edit"></i></a> -->
+
+                           <a class="btn btn-info btn-xs dnkediti1" data-id="<?php echo $arr['did']?>" type="button" data-toggle="modal"  data-target="#myModal"><i class="fas fa-edit"></i></a> 
+                          
+                          
+                           <a href="getacall.php?"><button type="button" class="btn btn-danger btn-xs delete_quotation" onclick="ConfirmDelete()" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
                        </td>
-                       
-                           
-                           
-                                          
-                                               
-                                                                                </tr>
-                                                                                <?php $count++;   } ?>
-                                             
-                                   
-                                    </table>
+                        </tr>
+                          <?php $count++;   } ?>
+                          </table>
               </div>
               <!-- /.card-body -->
             </div>
@@ -144,26 +152,26 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+  <div class="modal fade" id="dnkModal2">
+      <div class="modal-dialog">
+        <div class="modal-content body2">
 
-  <!-- Modal -->
-  <div class="modal fade closemaual" id="dnkModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    <div class="modal-header">
-        <h4 class="modal-title">Get a Call</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <!-- /.modal-content -->
       </div>
-      <form method="post" action="modalform22.php">
-      <div class="modal-body body1">
-      </div>
-    <div class="modal-footer">
-    
-      
+      <!-- /.modal-dialog -->
     </div>
-  </form>
-  </div>
-  </div>
-</div>
+    <div class="modal fade" id="dnkModal1">
+      <div class="modal-dialog">
+        <div class="modal-content body1">
+
+        </div>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
+
+
   <?php include("include/footer.php"); ?>
 
 
@@ -212,32 +220,29 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
   });
 </script>
 <script>
-          $(document).ready(function(){
-          $('.usereditid').click(function(){
-            let dnk = $(this).data('id');
+$(document).ready(function(){
+$('.dnkediti').click(function(){
+  let dnkidno = $(this).data('id');
 
-            $.ajax({
-            url: 'modalform22.php',
-            type: 'post',
-            data: {dnk: dnk},
-            success: function(response1){ 
-              $('.body1').html(response1);
-              $('#dnkModal').modal('show'); 
-            }
-          });
-          });
-
-
-          });
-          </script>
-
+  $.ajax({
+   url: 'modalform12.php',
+   type: 'post',
+   data: {dnkidno: dnkidno},
+   success: function(response1){ 
+     $('.body1').html(response1);
+     $('#dnkModal1').modal('show'); 
+   }
+ });
+});
+});
+</script>
 <script>
 $(document).ready(function(){
 $('.dnkediti1').click(function(){
   let dnkidno1 = $(this).data('id');
 
   $.ajax({
-   url: 'modalform22.php',
+   url: 'modalform12.php',
    type: 'post',
    data: {dnkidno1: dnkidno1},
    success: function(response1){ 
@@ -248,6 +253,8 @@ $('.dnkediti1').click(function(){
 });
 });
 </script>
+
+   
 
 </body>
 </html>
