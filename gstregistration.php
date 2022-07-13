@@ -214,19 +214,19 @@ echo 'connection failed';
       </div>
       <div class="row justify-content-center pt-3">
         <div class="col-8 pb-5">
-          <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a>
+          <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none"> sachinenterprise.in</a>
             is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance,
             advisory, and management consultancy services to clients in India and abroad. GST Registration in India is
             easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from a GST Registration, <a
-              target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in </a> also
-            helps you with free GST Advisory, <a target="_blank" href="gst-return.php" class="text-danger">GST Return
-              filing</a>, <a target="_blank" href="tds-return.php" class="text-danger">TDS Returns filing</a> and a host
+              target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none">sachinenterprise.in </a> also
+            helps you with free GST Advisory, <a target="_blank" href="gst-return.php" class="text-danger" style="text-decoration:none">GST Return
+              filing</a>, <a target="_blank" href="tds-return.php" class="text-danger" style="text-decoration:none">TDS Returns filing</a> and a host
             of other services easily. You may get in touch with our compliance manager on <a href="tel:9987705688"
-              class="text-danger">9987705688</a> or email <a href="mailto:info@sachinenterprise.in"
-              class="text-danger">info@sachinenterprise.in</a> for online gst registration and GST Registration
+              class="text-danger" style="text-decoration:none">9987705688</a> or email <a href="mailto:info@sachinenterprise.in"
+              class="text-danger" style="text-decoration:none">info@sachinenterprise.in</a> for online gst registration and GST Registration
             services. Find out here how to get GST number, how to apply for GST in India and documents required for GST
             registration. GST Registration in India is easy, seamless, cheapest and quickest with <a target="_blank"
-              href="http://demo.sachinenterprise.in" class="text-danger"> sachinenterprise.in</a> !</label>
+              href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none"> sachinenterprise.in</a> !</label>
         </div>
       </div>
     </div>
@@ -249,8 +249,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
               <div class="form-group pt-2">
-                <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited
-                  Company</label>
+                <ul>
+                  <li>GST Registration for Proprietorship or Partnership or LLP or Private Limited company </li>
+                  </ul>
               </div>
             </div>
             <!-- /.card-body -->
@@ -269,9 +270,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
               <div class="form-group pt-2">
-                <label for="">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private Limited
-                  Company</label>
-                <label for="">&#8226; GST Returns for first three months (upto 10 entries)</label>
+                <ul>
+                <li>GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</li>
+                <li> GST Returns for first three months (upto 10 entries)</li>
+                </ul>
               </div>
             </div>
             <!-- /.card-body -->
@@ -290,10 +292,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
               <div class="form-group ">
-                <label class="card-text">&#8226; GST Registration for Proprietorship or Partnership or LLP or Private
-                  Limited Company </label>
-                <label class="card-text">&#8226; GST Returns for one year (upto 100 entries)</label>
-
+                <ul>
+                <li> GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</li>
+                <li> GST Returns for one year (upto 100 entries)</li>
+                </ul>
               </div>
             </div>
             <!-- /.card-body -->

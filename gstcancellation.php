@@ -153,7 +153,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; GST Cancellation Application</label>
+                    <ul>
+                      <li> GST Cancellation Application.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
