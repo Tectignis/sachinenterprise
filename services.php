@@ -58,9 +58,9 @@ include("include/config.php");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
+                        <div class="service-card pt-5">
                             <div class="service-img">
-                                <a href="service-details.html"><?php echo $arr['image'];?></a>
+                                <a href="service-details.html"></a>
                             </div>
                             <div class="service-card-text">
                                 <div class="service-card-icon">
