@@ -5,12 +5,13 @@ if(isset($_POST['subm'])){
 $id=$_POST['id'];
   $logo=$_POST['logo'];
   $title=$_POST['title'];
+  $link=$_POST['link'];
   $description=$_POST['description'];
   $image=$_FILES['image']['name'];
   $dnk=$_FILES['image']['tmp_name'];
     $loc="logo/".$image;
     move_uploaded_file($dnk,$loc);
-  $sql=mysqli_query($conn,"UPDATE `services` SET `logo`='$logo',`image`='$image',`title`='$title',`description`='$description' WHERE id='$id'");
+  $sql=mysqli_query($conn,"UPDATE `services` SET `logo`='$logo',`image`='$image',`title`='$title',`link`='$link',`description`='$description' WHERE id='$id'");
 
 }
 
@@ -98,6 +99,7 @@ if(isset($_GET['delid'])){
                                                 <th>Logo</th>
                                                 <th>Image No</th>
                                                 <th>Title</th>
+                                                <th>Apply Link</th>
                                                  <th>Description</th>
                                                 <th>Action</th>
                                                 
@@ -115,7 +117,7 @@ if(isset($_GET['delid'])){
                                                 <td><i class="<?php echo $arr['logo'];?>"></i></td>
                                                 <td> <img src="logo/<?php echo $arr['image'];?>" width="50" height="50"> </td>
                                                 <td> <?php echo $arr['title'];?></td>
-                                                
+                                                <td> <?php echo $arr['link'];?></td>
                                                 <td> <?php echo $arr['description'];?></td>
                                                 
                                               <td style="">

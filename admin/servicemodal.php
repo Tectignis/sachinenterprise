@@ -34,6 +34,15 @@ if(isset($_POST['dnkd'])){
                 </div>
 
                 <div class="row">   
+                <div class="col-4">
+               <b> Apply Link :</b><br>
+               </div>
+               <div class="col-8">
+               <p> <input type="text" name="link" value="'.$arr['link'].'" class="form-control"></p>
+               </div>
+               </div>
+
+                <div class="row">   
                  <div class="col-4">
                 <b> Description :</b><br>
                 </div>
