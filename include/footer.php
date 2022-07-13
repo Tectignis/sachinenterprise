@@ -14,8 +14,8 @@
 <div class="footer-social-icons">
 <span>Follow Us:</span>
 <ul>
-<li><a href="https://www.facebook.com/tectignisofficial/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-<li><a href="https://www.instagram.com/tectignisofficial/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+<li><a href="https://www.facebook.com/tectignisofficial/" target="_blank" style="text-decoration:none"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="https://www.instagram.com/tectignisofficial/" target="_blank" style="text-decoration:none" ><i class="fab fa-instagram"></i></a></li>
 </ul>
 </div>
 </div>
@@ -26,17 +26,17 @@
 <div class="footer-content-card">
 <i class="fas fa-map-marker-alt"></i>
 <h5>Location:</h5>
-<p><a href="#"><?php echo $arr['address'];?></a></p>
+<p><a href="#" style="text-decoration:none"><?php echo $arr['address'];?></a></p>
 </div>
 <div class="footer-content-card">
 <i class="fas fa-envelope"></i>
 <h5>Email:</h5>
-<p><a href="#"><span class="__cf_email__" ><?php echo $arr['contact_email'];?></span></a></p>
+<p><a href="#" style="text-decoration:none"><span class="__cf_email__" ><?php echo $arr['contact_email'];?></span></a></p>
 </div>
 <div class="footer-content-card">
 <i class="fas fa-mobile-alt"></i>
 <h5>Phone:</h5>
-<p><a href="tel:+91 99877 05688"><?php echo $arr['contact_phone'];?></a></p>
+<p><a href="tel:+91 99877 05688" style="text-decoration:none"><?php echo $arr['contact_phone'];?></a></p>
 </div>
 </div>
 </div>
@@ -44,12 +44,12 @@
 <div class="footer-links footer-quick-links">
 <h3>Quick Links</h3>
 <ul>
-<li><a href="index.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Home</span></a></li>
-<li><a href="#" target="_blank"><i class="fas fa-angle-right"></i> <span>Registration</span></a></li>
-<li><a href="#" target="_blank"><i class="fas fa-angle-right"></i> <span>Returns</span></a></li>
-<li><a href="about.php" target="_blank"><i class="fas fa-angle-right"></i> <span>About</span></a></li>
-<li><a href="services.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Services</span></a></li>
-<li><a href="contact.php" target="_blank"><i class="fas fa-angle-right"></i> <span>Contact</span></a></li>
+<li><a href="index.php" target="_self" style="text-decoration:none"><i class="fas fa-angle-right"></i> <span>Home</span></a></li>
+<li><a href="gstregistration.php" target="_self" style="text-decoration:none"><i class="fas fa-angle-right"></i> <span>Registration</span></a></li>
+<li><a href="gst-return.php" target="_self" style="text-decoration:none"><i class="fas fa-angle-right"></i> <span>Returns</span></a></li>
+<li><a href="about.php" target="_self" style="text-decoration:none"><i class="fas fa-angle-right"></i> <span>About</span></a></li>
+<li><a href="services.php" target="_self" style="text-decoration:none"><i class="fas fa-angle-right"></i> <span>Services</span></a></li>
+<li><a href="contact.php" target="_self" style="text-decoration:none"><i class="fas fa-angle-right"></i> <span>Contact</span></a></li>
 </ul>
 </div>
 </div>
