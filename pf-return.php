@@ -177,8 +177,8 @@ echo 'connection failed';
                                 
                                 
                                 <label>sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management 
-                                consultancy services to clients in India and abroad. Filing PF Returns is easy, seamless, cheaper and quicker with sachinenterprise.in! Apart from PF returns, sachinenterprise.in also helps you to file  Income Tax Returns, <a target="_blank" class="text-danger" href="http:tds-return.php"> TDS returns </a>, <a target="_blank" class="text-danger" href="http:gst-return.php"> GST Returns </a> and
-                                 <a target="_blank" class="text-danger" href="http:esi-return.php"> ESI Returns </a> easily. You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.</label>
+                                consultancy services to clients in India and abroad. Filing PF Returns is easy, seamless, cheaper and quicker with sachinenterprise.in! Apart from PF returns, sachinenterprise.in also helps you to file  Income Tax Returns, <a target="_blank" class="text-danger" href="http:tds-return.php" style="text-decoration:none"> TDS returns </a>, <a target="_blank" class="text-danger" href="http:gst-return.php" style="text-decoration:none"> GST Returns </a> and
+                                 <a target="_blank" class="text-danger" href="http:esi-return.php" style="text-decoration:none"> ESI Returns </a> easily. You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688" style="text-decoration:none"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in" style="text-decoration:none">info@sachinenterprise.in</a> for free consultation.</label>
 
                     </div>
                    
@@ -203,8 +203,9 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                  <label for="">&#8226;1 PF Return (ECR) upto 10 employees</label>
-                    
+                    <ul>
+                    <li>1 PF Return (ECR) upto 10 employees</li>
+                  </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -222,7 +223,9 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                  <label for="">&#8226;One Year PF Returns (ECR) upto 20 employees</label>
+                    <ul>
+                  <li>One Year PF Returns (ECR) upto 20 employees</li>
+                  </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -240,7 +243,9 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group ">
-                  <label for="">&#8226; One Year PF Returns (ECR) upto 50 employees</label>
+                    <ul>
+                  <li> One Year PF Returns (ECR) upto 50 employees</li>
+                  </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -252,8 +257,7 @@ echo 'connection failed';
         </div>
     </div>
     </div>
-
-
+li>
     <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>
 
