@@ -39,7 +39,7 @@ if(isset($_POST['dnkidno'])){
       <b> Email :</b><br>
       </div>
       <div class="col-8">
-      <p>'.$row['em'].'</p>
+      <p>'.$row['email'].'</p>
       </div>
       </div>
   
@@ -48,7 +48,7 @@ if(isset($_POST['dnkidno'])){
       <b> Service :</b><br>
       </div>
       <div class="col-8">
-      <p> '.$row['ser'].' </p>
+      <p> '.$row['service'].' </p>
       </div>
       </div>
   
@@ -57,7 +57,7 @@ if(isset($_POST['dnkidno'])){
       <b> Description :</b><br>
       </div>
       <div class="col-8">
-      <p> '.$row['des'].' </p>
+      <p> '.$row['description'].' </p>
       </div>
       </div>
   </div>
@@ -71,20 +71,12 @@ if(isset($_POST['dnkidno'])){
 
 
 
-include("../include/config.php");
 
-if(isset($_POST['save'])){
-
-  $id=$_POST['id'];
-  $status=$_POST['status'];
-  $sql=mysqli_query($conn,"UPDATE `leads` SET `status`='$status' where id='$id'" );
-  header("location:getacall.php");
-}
 
 
 
 if(isset($_POST['dnkidno1'])){
-	$sql=mysqli_query($conn,"SELECT * FROM leads where id='".$_POST['dnkidno1']."'");
+	$sql=mysqli_query($conn,"SELECT * FROM enquiry where id='".$_POST['dnkidno1']."'");
 	$arr=mysqli_fetch_array($sql);
 	echo '<div class="modal-header">
     <h4 class="modal-title"></h4>
@@ -95,15 +87,18 @@ if(isset($_POST['dnkidno1'])){
             </div>
 
             <form method="post">
-            <input type="hidden" value="'.$_POST['dnkidno1'].'" name="id">    
+            
                     <div class="modal-body ">
 			<div class="container">
     <div class="row">   
+    
          <div class="col-4">
         <b> Email :</b><br>
         </div>
         <div class="col-8">
-        <input style="margin-bottom:10px;"type="text" class="for-control" id="email" name="email">
+          
+
+        <input style="margin-bottom:10px; type="text" class="for-control" id="email" value="'.$arr['email'].'" name="email">
         </div>
         </div>
 
@@ -112,7 +107,7 @@ if(isset($_POST['dnkidno1'])){
         <b> Service :</b><br>
         </div>
         <div class="col-8">
-        <input type="text" style="margin-bottom:10px;class="for-control" id="service" name="service">
+        <input type="text" style="margin-bottom:10px;class="for-control" id="service" value="'.$arr['service'].'" name="service">
         </div>
         </div>
 
@@ -121,7 +116,7 @@ if(isset($_POST['dnkidno1'])){
         <b> Description </b><br>
         </div>
         <div class="col-8">
-        <input type="text" style="margin-bottom:10px;class="for-control" id="description" name="description">
+        <input type="text" style="margin-bottom:10px; class="for-control" id="description" value="'.$arr['description'].'" name="description">
         </div>
         </div>
         
@@ -129,11 +124,18 @@ if(isset($_POST['dnkidno1'])){
     </div>
     </div>
     <div class="modal-footer justify-content-between">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary" name="compsubmit" >Submit</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal" name="close">Close</button>
+              <button type="submit" class="btn btn-primary" name="compsubmit" >Save</button>
             </div>
                        
             </form>';
 }
 
+if(isset($_POST['compsubmit'])){
+$id=$_POST['leadsid'];
+$email=$_POST['email'];
+$services=$_POST['service'];
+$description=$_POST['description'];
+$sql=mysqli_query($conn,"UPDATE `enquiry` SET `email`='$email',`service`='$services',`description`='$description' WHERE id='$id'");
+}
 ?>
