@@ -119,7 +119,7 @@ echo 'connection failed';
       </div>
     </div>
     
-    <div class="pricing pricing-1">
+    <div class="pricing pricing-li">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3 class="pt-5">ESIC Registration</h3>
@@ -194,8 +194,8 @@ echo 'connection failed';
                         <div class="row justify-content-center pt-3">
                     <div class="col-8 pb-5">
                         <label>There are two contribution periods each of <b>six months</b> duration and two corresponding benefit periods also of six months duration.
-                        <a target="_blank" href="esicregistration.php" class="text-danger">ESIC registration</a> is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
-                            sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_blank" href="tel:9987705688" class="text-danger"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
+                        <a target="_blank" href="esicregistration.php" class="text-danger" style="text-decoration:none">ESIC registration</a> is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
+                            sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger" style="text-decoration:none">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger" style="text-decoration:none">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_self" href="tel:9987705688" class="text-danger" style="text-decoration:none"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger" style="text-decoration:none">info@sachinenterprise.in</a> for free consultation.</label>
                           </div>
                 </div>
             </div>
@@ -215,7 +215,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; ESIC Registration (employees less than 20)</label>
+                    <ul>
+                    <li> ESIC Registration (employees less than 20). </li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -233,9 +235,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; ESIC Registration (employees less than 20)</label>
-                    <label for="">&#8226; ESIC Return (ECR) for 1 year</label>
-
+                    <ul>
+                    <li> ESIC Registration (employees less than 20).</li>
+                    <li> ESIC Return (ECR) for 1 year./li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -253,9 +256,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; ESIC Registration (employees less than 50)</label>
-                    <label for="">&#8226; ESIC Return (ECR) for 1 year</label>
-
+                    <ul>
+                    <li> ESIC Registration (employees less than 50).</li>
+                    <li> ESIC Return (ECR) for 1 year.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->

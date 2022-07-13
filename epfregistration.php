@@ -164,8 +164,9 @@ echo 'connection failed';
                 </div>
                 <div class="row justify-content-center ">
                     <div class="col-8">
-                        <label><b>3.</b>Employer needs to deposit the amount of his contribution of EPF along with
+                        <label><b>3.</b> Employer needs to deposit the amount of his contribution of EPF along with
                             employees deducted share.</label>
+                            
                     </div>
                 </div>
                 <div class="row justify-content-center ">
@@ -213,11 +214,11 @@ echo 'connection failed';
                             qualified CA, CS, Lawyers and business administrators. Ebizfiling would be a one stop
                             destination for your EPF (Employee’s Provident Fund) registration in India. We also provide
                             services like Start up advisory, Secretarial compliance services, PAN / TAN application, DIN
-                            registration, <a target="_blank" href="esicregistration.php" class="text-danger">ESI
+                            registration, <a target="_blank" href="esicregistration.php" class="text-danger" style="text-decoration:none">ESI
                                 registration</a> GST registration, Trademark registration, GST / Income tax return
-                            filing and many more. You may get in touch with our compliance manager on <a target="_blank"
-                                href="tel:9987705688" class="text-danger">9987705688</a> or email <a target="_blank"
-                                href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a>
+                            filing and many more. You may get in touch with our compliance manager on <a target="_self"
+                                href="tel:9987705688" class="text-danger" style="text-decoration:none">9987705688</a> or email <a target="_blank"
+                                href="mailto:info@sachinenterprise.in" class="text-danger" style="text-decoration:none">info@sachinenterprise.in</a>
                             for free consultation and to know more about the services provided by us.</label>
                     </div>
                 </div>
@@ -241,7 +242,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; PF Registration (employees less than 20)</label>
+                    <ul>
+                    <li> PF Registration (employees less than 20).</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -259,9 +262,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; PF Registration (employees less than 20)</label>
-                    <label for="">&#8226; PF Return (ECR) for 1 year</label>
-
+                    <ul>
+                    <li> Registration (employees less than 20).</li>
+                    <li> Return (ECR) for 1 year.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -279,9 +283,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; PF Registration (employees less than 50)</label>
-                    <label for="">&#8226; PF Return (ECR) for 1 year</label>
-
+                  <ul>
+                    <li> PF Registration (employees less than 50).</li>
+                    <li> PF Return (ECR) for 1 year.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->

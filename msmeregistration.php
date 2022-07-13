@@ -184,7 +184,7 @@ echo 'connection failed';
                         </div>
                              <div class="row justify-content-center pt-3">
                                 <div class="col-8 pb-5">
-                                    <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Registering for SSI/MSME is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a>!</label>
+                                    <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none">sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Registering for SSI/MSME is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none">sachinenterprise.in</a>!</label>
                                 </div>
                         </div>
                         
@@ -204,7 +204,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; SSI/MSME Registration</label>
+                    <ul>
+                    <li> SSI/MSME Registration.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -222,7 +224,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226;  Registration (employees lPFess than 20)</label>
+                    <ul>
+                       <li> Registration (employees lPFess than 20).</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -240,9 +244,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; eXpress SSI/MSME Registration (within 24 hours)</label>
-                    <label for="">&#8226; eXpress Trademark (1 application 1 class) (start ups, proprietorship & small business)</label>
-
+                  <ul>
+                    <li> eXpress SSI/MSME Registration (within 24 hours).</li>
+                    <li> eXpress Trademark (1 application 1 class) (start ups, proprietorship & small business).</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
