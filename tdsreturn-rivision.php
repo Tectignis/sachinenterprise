@@ -67,7 +67,7 @@ echo 'connection failed';
                 </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="../../sachinenterprise\assets\images\return-img\rivision.jpg" alt="sachinenterprise">
+                <img src="assets\images\return-img\rivision.jpg" alt="sachinenterprise">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card ">
@@ -240,7 +240,7 @@ echo 'connection failed';
                   <div class="form-group ">
                     <ul>
                     <li> Download of Justification File</li>
-                    <li> One TDS Return Revision upto 50 entries<li>
+                    <li> One TDS Return Revision upto 50 entries</li>
                     <li> Issue of Form 16A </li>
                     <li> Reply to Income Tax Notice</li>
                     </ul>
