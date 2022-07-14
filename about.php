@@ -69,7 +69,7 @@
                                     platform.</li>
                             </ul>
                         </div>
-                        <a class="default-button" href="about.html"><span>Read More</span></a>
+                        <a class="default-button" href="about.php"><span>Read More</span></a>
                         <div class="fun-facts-area">
                             <div class="row justify-content-center">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
