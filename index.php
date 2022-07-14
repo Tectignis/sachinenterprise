@@ -160,7 +160,7 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>UPDATE</h4>
-                                        <p>You can Update your Application.</p>
+                                        <p>You can Update your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>RENEW</h4>
-                                        <p>You can Renew your Application.</p>
+                                        <p>You can Renew your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>

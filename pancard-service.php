@@ -135,7 +135,7 @@ include("include/config.php");
                             <div class="card ">
                                 <div class=" shadow bg-white rounded">
                                     <div class="card-header text-center" style="background-color:red; color:white">
-                                        <h4 class="card-title">Get the Pan Registetration</h4>
+                                        <h4 class="card-title">Get the Pan Registration</h4>
                                         <h6>CA/CS Assisted | 4.8/5 Rating</h6>
                                     </div>
                                     <form action="">
