@@ -180,7 +180,7 @@ include("include/config.php");
         </div>
         <div class="setion-content">
             <div class="row justify-content-center pt-5">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">                                                                                             
+                <div class="col-lg-12 col-md-12 col-sm12 col-6">                                                                                             
                     <label for=""><i class="fas fa-check"></i> In case of delay in obtaining the registration
                         certificate, a penalty of ? 5 per day in case of the employer and ₹ 2 per day in case of a
                         non-employed individual shall be imposed.</label>
@@ -197,7 +197,7 @@ include("include/config.php");
                         professional tax payable.</label>
                        
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6 pt-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12 pt-5">
                     <img src="assets\images\employee images\penalty.jpg" alt="">
                 </div>
             </div>
