@@ -107,13 +107,6 @@ include("include/config.php");
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                     <div class="fun-facts-card">
-                                        <i class="flaticon-project-plan"></i>
-                                        <h2><span class="odometer" data-count="700">00</span><sup>+</sup></h2>
-                                        <p>Project Completed</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                                    <div class="fun-facts-card">
                                         <i class="flaticon-badge"></i>
                                         <h2><span class="odometer" data-count="30">00</span><sup>+</sup></h2>
                                         <p>Awards Win</p>
