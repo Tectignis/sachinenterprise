@@ -180,8 +180,8 @@ include("include/config.php");
         </div>
         <div class="setion-content">
             <div class="row justify-content-center pt-5">
-                <div class="col-6">                                                                                             
-                    <label for=""><ul><i class="fas fa-check"></i> In case of delay in obtaining the registration
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">                                                                                             
+                    <label for=""><i class="fas fa-check"></i> In case of delay in obtaining the registration
                         certificate, a penalty of ? 5 per day in case of the employer and ₹ 2 per day in case of a
                         non-employed individual shall be imposed.</label>
                     <label for=""><i class="fas fa-check"></i> In case of delay in payment of professional tax, a
@@ -195,9 +195,9 @@ include("include/config.php");
                     <label for=""><i class="fas fa-check"></i> If the information provided by the individual at the time
                         of enrolment is found incorrect or false, it shall attract the penalty of three times of the
                         professional tax payable.</label>
-                        <!-- </ul> -->
+                       
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6 pt-5">
                     <img src="assets\images\employee images\penalty.jpg" alt="">
                 </div>
             </div>
