@@ -353,7 +353,7 @@ include("include/config.php");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
 
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div class=" justify-content-center">
                                 <div class="testimonial-card">
                                     <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
