@@ -374,7 +374,7 @@ include("include/config.php");
                             </div>
                             <p><?php echo $arr['message'];?></p>
                             <div class="testimonial-footer">
-                            <?php echo $arr['image'];?>
+                            <img src="admin/logo/<?php echo $arr['image'];?>" style="height:60px; width:60px;" alt="image">
                                 <div class="testimonial-footer-intro">
                                     <h4><?php echo $arr['name'];?></h4>
                                     <p><?php echo $arr['position'];?></p>
