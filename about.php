@@ -36,7 +36,7 @@
             <div class="uni-banner-text">
                 <h1>About Us</h1>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>About Us</li>
                 </ul>
             </div>
@@ -86,13 +86,6 @@
                                         <i class="flaticon-support"></i>
                                         <h2><span class="odometer" data-count="300">00</span><sup>+</sup></h2>
                                         <p>Happy Clients</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                                    <div class="fun-facts-card">
-                                        <i class="flaticon-project-plan"></i>
-                                        <h2><span class="odometer" data-count="700">00</span><sup>+</sup></h2>
-                                        <p>Project Completed</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
@@ -150,7 +143,7 @@
                                     </div>
                                     <div class="features-card-text">
                                         <h4>UPDATE</h4>
-                                        <p>You can Update your Documents.</p>
+                                        <p>You can Update your Documents.<label class="invisible">Text invisible</label></p>
                                     </div>
                                 </div>
                             </div>
@@ -164,8 +157,8 @@
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
+                                        <h4>CHANGES</h4>
+                                        <p>You can changes your Application.</p>
                                     </div>
                                     
                                 </div>
@@ -181,7 +174,7 @@
                                     </div>
                                     <div class="features-card-text">
                                         <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
+                                        <p>You can renew your Application.<label class="invisible">Text invisible</label></p>
                                     </div>
                                     
                                 </div>
