@@ -339,10 +339,6 @@ include("include/config.php");
 
         </div>
 
-
-
-
-
         <div class="testimonial ptb-100">
             <div class="container">
                 <div class="default-section-title default-section-title-middle">
@@ -357,7 +353,7 @@ include("include/config.php");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
 
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                             <div class=" justify-content-center">
                                 <div class="testimonial-card">
                                     <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
