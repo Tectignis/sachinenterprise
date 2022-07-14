@@ -107,13 +107,6 @@ include("include/config.php");
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                                     <div class="fun-facts-card">
-                                        <i class="flaticon-project-plan"></i>
-                                        <h2><span class="odometer" data-count="700">00</span><sup>+</sup></h2>
-                                        <p>Project Completed</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                                    <div class="fun-facts-card">
                                         <i class="flaticon-badge"></i>
                                         <h2><span class="odometer" data-count="30">00</span><sup>+</sup></h2>
                                         <p>Awards Win</p>
@@ -167,7 +160,22 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>UPDATE</h4>
-                                        <p>You can Update your Documents.</p>
+                                        <p>You can Update your Application.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="features-card">
+                                    <div class="features-icon-area">
+                                        <div class="features-card-icons">
+                                            <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
+                                            <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
+                                            <i class="flaticon-support-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="features-card-text">
+                                        <h4>CHANGES</h4>
+                                        <p>You can changes your Application.</p>
                                     </div>
                                 </div>
                             </div>
@@ -182,22 +190,7 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card">
-                                    <div class="features-icon-area">
-                                        <div class="features-card-icons">
-                                            <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
-                                            <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
-                                            <i class="flaticon-support-1"></i>
-                                        </div>
-                                    </div>
-                                    <div class="features-card-text">
-                                        <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
+                                        <p>You can Renew your Application.</p>
                                     </div>
                                 </div>
                             </div>

@@ -166,7 +166,7 @@ echo 'connection failed';
           
 <div class="row justify-content-center pt-3">
                     <div class="col-8">
-            <label>sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing TDS Return Revision is easy, seamless, error-free, cheapest and quickest with sachinenterprise.in! You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.</label>
+            <label>sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing TDS Return Revision is easy, seamless, error-free, cheapest and quickest with sachinenterprise.in! You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688" style="text-decoration:none"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in" style="text-decoration:none">info@sachinenterprise.in</a> for free consultation.</label>
                     </div>
                    
                 </div>
@@ -194,8 +194,10 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                  <label for="">&#8226; Download of Justification File</label>
-                    <label for="">&#8226; One TDS Return Revision upto 10 entries</label>
+                    <ul>
+                  <li> Download of Justification File</li>
+                    <li> One TDS Return Revision upto 10 entries</li>
+                    </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -213,9 +215,11 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                  <label for="">&#8226; Download of Justification File</label>
-                    <label for="">&#8226; One TDS Return Revision upto 10 entries</label>
-                    <label for="">&#8226; Reply to Income Tax Notice</label>
+                    <ul>
+                    <li> Download of Justification File</li>
+                    <li> One TDS Return Revision upto 10 entries</li>
+                    <li> Reply to Income Tax Notice</li>
+                    </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -234,10 +238,12 @@ echo 'connection failed';
               <form>
                 <div class="card-body">
                   <div class="form-group ">
-                  <label for="">&#8226; Download of Justification File</label>
-                    <label for="">&#8226; One TDS Return Revision upto 50 entries</label>
-                    <label for="">&#8226; Issue of Form 16A </label>
-                    <label for="">&#8226; Reply to Income Tax Notice</label>
+                    <ul>
+                    <li> Download of Justification File</li>
+                    <li> One TDS Return Revision upto 50 entries<li>
+                    <li> Issue of Form 16A </li>
+                    <li> Reply to Income Tax Notice</li>
+                    </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -249,8 +255,7 @@ echo 'connection failed';
         </div>
     </div>
     </div>
-</div>
-   
+</div>li>   
 
 
     <?php include("include/newsletter.php");?>

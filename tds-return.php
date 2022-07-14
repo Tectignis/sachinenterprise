@@ -208,8 +208,8 @@ echo 'connection failed';
                  <div class="row justify-content-center pt-3">
                     <div class="col-8">
            <label> sachinenterprise.in! is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing TDS Returns is easy, seamless, cheapest
-             and quickest with sachinenterprise.in! Apart from TDS returns, sachinenterprise.in! also helps you to file <a target="_blank" class="text-danger" href="http:gst-return.php"> GST Returns </a>, Income Tax Returns, PF Returns and ESI Returns easily. You may get in touch with sachinenterprise compliance manager 
-             on <a class="text-danger" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.</label>
+             and quickest with sachinenterprise.in! Apart from TDS returns, sachinenterprise.in! also helps you to file <a target="_blank" class="text-danger" style="text-decoration:none" href="http:gst-return.php"> GST Returns </a>, Income Tax Returns, PF Returns and ESI Returns easily. You may get in touch with sachinenterprise compliance manager 
+             on <a class="text-danger" style="text-decoration:none" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" style="text-decoration:none" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.</label>
                     </div>
             </div>
                 </div>
@@ -237,7 +237,9 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
               <div class="form-group pt-2">
-              <label for="">&#8226; Filing of one NIL TDS return (TDS 3B or TDS 1)</label>
+                <ul>
+              <li> Filing of one NIL TDS return (TDS 3B or TDS 1)</label>
+              </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -255,13 +257,15 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                  <label for="">&#8226;TDS Returns for 1st Quarter</label>
-                    <label for="">&#8226;TDS Returns for 2nd Quarter</label>
-                    <label for="">&#8226;TDS Returns for 3rd Quarter</label>
-                    <label for="">&#8226;TDS Returns for 4th Quarter</label>
-                    <label for="">&#8226;Form 24Q, 26Q and 27Q (as applicable) upto 500 entries for 1 Year</label>
-                    <label for="">&#8226;Form 16A on a quarterly basis</label>
-                    <label for="">&#8226;Form 16 on an annual basis for upto 5 employees</label>
+                    <ul>
+                    <li>TDS Returns for 1st Quarter</li>
+                    <li>TDS Returns for 2nd Quarter</li>
+                    <li>TDS Returns for 3rd Quarter</li>
+                    <li>TDS Returns for 4th Quarter</li>
+                    <li>Form 24Q, 26Q and 27Q (as applicable) upto 500 entries for 1 Year</li>
+                    <li>Form 16A on a quarterly basis</li>
+                    <li>Form 16 on an annual basis for upto 5 employees</li>
+                    </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -279,13 +283,15 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group ">
-                  <label for="">&#8226; TDS Returns for 1st Quarter</label>
-                    <label for="">&#8226; TDS Returns for 2nd Quarter</label>
-                    <label for="">&#8226; TDS Returns for 3rd Quarter</label>
-                    <label for="">&#8226; TDS Returns for 4th Quarter</label>
-                    <label for="">&#8226; Form 24Q, 26Q and 27Q (as applicable) upto 1000 entries for 1 Year</label>
-                    <label for="">&#8226; Form 16A on a quarterly basis</label>
-                    <label for="">&#8226; Form 16 on an annual basis for upto 10 employees</label>
+                  <ul>
+                  <li> TDS Returns for 1st Quarter</li>
+                    <li> TDS Returns for 2nd Quarter</li>
+                    <lli> TDS Returns for 3rd Quarter</lli>
+                    <li> TDS Returns for 4th Quarter</lli>
+                    <li> Form 24Q, 26Q and 27Q (as applicable) upto 1000 entries for 1 Year</li>
+                    <lli> Form 16A on a quarterly basis</lli>
+                    <li> Form 16 on an annual basis for upto 10 employees</li>
+                    </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->

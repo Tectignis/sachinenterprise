@@ -117,7 +117,7 @@ include("include/config.php");
                                         <a href="itr-service.php" class="nav-link dropdown-toggle">ITR</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Passport</a>
+                                        <a href="passport.php" class="nav-link dropdown-toggle">Passport</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="fassai-service.php" class="nav-link dropdown-toggle">FSSAI License</a>
