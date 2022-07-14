@@ -64,8 +64,8 @@ echo 'connection failed';
         <div class="card-body">
           <div class="row">
             <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
-              <h2 class="title color">Get Online</h2>
-              <h5 class="subtitle">GST Registation</h5>
+              <h2 class="title color">Apply For Passport</h2>
+              <h5 class="subtitle">Passport Registation</h5>
               <p></p>
               <div class="text-box">
                 <label for="">Make your business GST Compliant. Never lose on GST input credit ever. Obtain your
@@ -79,7 +79,7 @@ echo 'connection failed';
               <div class="card ">
                 <div class=" shadow bg-white rounded">
                   <div class="card-header text-center" style="background-color:red; color:white">
-                    <h4 class="card-title">Start With Confidence</h4>
+                    <h4 class="card-title">Get Your Passport</h4>
                     <h6>CA/CS Assisted | 4.8/5 Rating</h6>
                   </div>
                   <form method="post">
@@ -235,82 +235,6 @@ echo 'connection failed';
 
 
   <!-- </div> -->
-
-  <div class="container pb-5">
-    <h2 style="text-align:center">Simple Prices | No Surprises</h2>
-    <div class="card-body">
-      <div class="row ">
-        <div class="col-sm-12 col-md-12 col-lg-4 py-2">
-          <div class="card h-100">
-            <div class="card card-header text-center" style="background-color:#000080; color:white">
-              <h4 class="card-title">ESSENTIAL</h4>
-              <h3 class="text-danger"><strong>₹ 1999/-</strong></h3>
-              <label for="">(All Inclusive)</label>
-            </div>
-            <div class="card-body">
-              <div class="form-group pt-2">
-                <ul>
-                  <li>GST Registration for Proprietorship or Partnership or LLP or Private Limited company </li>
-                  </ul>
-              </div>
-            </div>
-            <!-- /.card-body -->
-            <div class="card-footer" style="background-color:white; border:none; text-align:center">
-              <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
-                call</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-4 py-2">
-          <div class=" card h-100">
-            <div class="card card-header text-center" style="background-color:#000080; color:white">
-              <h4 class="card-title">ENHANCED</h4>
-              <h3 class="text-danger"><strong>₹ 3299/-</strong></h3>
-              <label for="">(All Inclusive)</label>
-            </div>
-            <div class="card-body">
-              <div class="form-group pt-2">
-                <ul>
-                <li>GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</li>
-                <li> GST Returns for first three months (upto 10 entries)</li>
-                </ul>
-              </div>
-            </div>
-            <!-- /.card-body -->
-            <div class="card-footer" style="background-color:white; border:none; text-align:center">
-              <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
-                call</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-4  py-2">
-          <div class=" card  h-100">
-            <div class=" card card-header text-center" style="background-color:#000080; color:white">
-              <h4 class="card-title">ULTIMATE</h4>
-              <h3 class="text-danger"><strong>₹ 8099/-</strong></h3>
-              <label for="">(All Inclusive)</label>
-            </div>
-            <div class="card-body">
-              <div class="form-group ">
-                <ul>
-                <li> GST Registration for Proprietorship or Partnership or LLP or Private Limited Company</li>
-                <li> GST Returns for one year (upto 100 entries)</li>
-                </ul>
-              </div>
-            </div>
-            <!-- /.card-body -->
-            <div class="card-footer" style="background-color:white; border:none; text-align:center">
-              <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
-                call</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
   <!-- </div> -->
 
 

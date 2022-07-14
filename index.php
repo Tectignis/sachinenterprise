@@ -12,6 +12,7 @@ include("include/config.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin/plugins/fontawesome-free/css/all.min.css">
 
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -51,7 +52,7 @@ include("include/config.php");
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="main-banner-img">
-                        <img src="assets/images/banner/banner-1.png" alt="image">
+                        <img src="assets/images/banner/img2.png" alt="image">
                     </div>
                 </div>
             </div>
@@ -67,11 +68,11 @@ include("include/config.php");
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="about-img-area">
                         <div class="about-img-1">
-                            <img src="assets/images/about/a1-1.png" alt="image">
+                            <img src="assets/images/about/undraw_operating_system_re_iqsc.svg" alt="image">
                         </div>
                         <div class="about-img-2">
-                            <img src="assets/images/about/a1-2.jpg" alt="image">
-                          
+                            <!-- <img src="assets/images/about/img1.png" alt="image"> -->
+
                         </div>
                     </div>
                 </div>
@@ -166,7 +167,23 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>UPDATE</h4>
-                                        <p>You can Update your Documents.</p>
+                                        <p>You can Update your Application.<label class="invisible">invisible</label>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="features-card">
+                                    <div class="features-icon-area">
+                                        <div class="features-card-icons">
+                                            <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
+                                            <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
+                                            <i class="flaticon-support-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="features-card-text">
+                                        <h4>CHANGES</h4>
+                                        <p>You can changes your Application.</p>
                                     </div>
                                 </div>
                             </div>
@@ -181,22 +198,7 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card">
-                                    <div class="features-icon-area">
-                                        <div class="features-card-icons">
-                                            <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
-                                            <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
-                                            <i class="flaticon-support-1"></i>
-                                        </div>
-                                    </div>
-                                    <div class="features-card-text">
-                                        <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
+                                        <p>You can Renew your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>
@@ -264,10 +266,10 @@ include("include/config.php");
 </div> -->
 
 
-   
-            
 
-            <!-- <div class="section-content">
+
+
+    <!-- <div class="section-content">
                 <div class="row">
                     <?php 
                         
@@ -296,94 +298,101 @@ include("include/config.php");
                 </div>
 
             </div> -->
-            <div class="service ptb-100">
+    <div class="service ptb-100">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-            <h6>OUR SERVICES</h6>
+                <h6>OUR SERVICES</h6>
                 <h3>We Provide Best Service</h3>
             </div>
             <div class="section-content">
                 <div class="row">
-                <?php 
+
+                    <?php 
                         
                         $sql=mysqli_query($conn,"select * from `services`");
                     
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.php"><img src="admin/logo/<?php echo $arr['image'];?>" alt="image"></a>
-                            </div>
-                        
-                              <div class="service-card-text">
-
+                            <!-- <div class="service-img">
+<a href="service-details.html"><img src="admin/logo/<?php echo $arr['image'];?>" style="height:350px; width:420px;" alt="image"></a>
+</div> -->
+                            <div class="service-card-text" style="height:400px; width:420px;">
                                 <div class="service-card-icon">
-                                    <img src="admin/logo/<?php echo $arr['logo'];?>" height="80px" width="80px">
-                                    
-                                    <i class="flaticon-residential"></i>
+                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
+                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
+                                    <i class="<?php echo $arr['logo'];?>"></i>
                                 </div>
-                                <h4><a href="service-details.php"><?php echo $arr['title'];?></a></h4>
-                                <p><?php echo $arr['description'];?></p>
-                                <a class="read-more-btn" href="service-details.php">Read More</a>
+                                <h4><a href="service-details.html"><?php echo $arr['title'];?></a></h4>
+                                <p style="
+    height: 120px;
+"><?php echo $arr['description'];?></p>
+                                <div style="margin-top: 40px;">
+                                    <a class="read-more-btn" href="<?php echo $arr['link'];?>">Apply</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-
-                    <?php  } ?>     
-           
-        </div>
-        
-        </div>
-       
-    </div>
+                    <?php  } ?>
 
 
-   
 
-   
-    <div class="testimonial ptb-100">
-        <div class="container">
-            <div class="default-section-title default-section-title-middle">
-                <h6>Testimonials</h6>
-                <h3>What Our Client Say About Us</h3>
+
+                </div>
+
             </div>
-            <div class="section-content">
-                <div class="row">
-            <?php 
+
+        </div>
+
+
+
+
+
+        <div class="testimonial ptb-100">
+            <div class="container">
+                <div class="default-section-title default-section-title-middle">
+                    <h6>Testimonials</h6>
+                    <h3>What Our Client Say About Us</h3>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <?php 
                         
                         $sql=mysqli_query($conn,"select * from `testimonial`");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
-                        
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class=" justify-content-center">
-                        <div class="testimonial-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
-                            </div>
-                            <p><?php echo $arr['message'];?></p>
-                            <div class="testimonial-footer">
-                            <?php echo $arr['image'];?>
-                                <div class="testimonial-footer-intro">
-                                    <h4><?php echo $arr['name'];?></h4>
-                                    <p><?php echo $arr['position'];?></p>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class=" justify-content-center">
+                                <div class="testimonial-card">
+                                    <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
+                                    <div class="stars">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="far fa-star"></i></li>
+                                            <li><span>4.0</span></li>
+                                        </ul>
+                                    </div>
+                                    <p><?php echo $arr['message'];?></p>
+                                    <div class="testimonial-footer">
+                                        <img src="admin/logo/<?php echo $arr['image'];?>"
+                                            style="height:60px; width:60px;" alt="image">
+                                        <div class="testimonial-footer-intro">
+                                            <h4><?php echo $arr['name'];?></h4>
+                                            <p><?php echo $arr['position'];?></p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        </div>
-                         </div>
-                    <?php  } ?>
-                    
-                         </div>
+                        <?php  } ?>
+
+                    </div>
                     <!-- <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="testimonial-card">
                             <i class="flaticon-right-quote"></i>

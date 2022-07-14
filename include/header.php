@@ -5,18 +5,18 @@ include("include/config.php");
 <div class="topbar">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9">
+            <div class="col-sm-7 col-md-7 col-lg-7 col-7">
                 <div class="topbar-left-side">
                     <ul>
-                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+919987705688">+919987705688</a></li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+919987705688" style="text-decoration:none">+919987705688</a></li>
 
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-sm-5 col-md-5 col-lg-5 col-5">
                 <div class="topbar-right-side">
                     <div class="account">
-                        <a href="profile-authentication.html"><i class="fas fa-user"></i> Login</a>
+                        <a href="profile-authentication.php" style="text-decoration:none"><i class="fas fa-user"></i> Login</a>
                     </div>
 
                 </div>
@@ -111,13 +111,13 @@ include("include/config.php");
                                         class="fas fa-angle-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Pancard </a>
+                                        <a href="pancard-service.php" class="nav-link dropdown-toggle">Pancard </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="itr-service.php" class="nav-link dropdown-toggle">ITR</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Passport</a>
+                                        <a href="passport.php" class="nav-link dropdown-toggle">Passport</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="fassai-service.php" class="nav-link dropdown-toggle">FSSAI License</a>

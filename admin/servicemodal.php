@@ -11,7 +11,7 @@ if(isset($_POST['dnkd'])){
                 </div>
                 <input type="hidden" class="form-control" value="'.$arr['id'].'" name="id" >
                 <div class="col-8">
-                <p> <input type="file" class="form-control" value="'.$arr['logo'].'" name="logo" ></p>
+                <p> <input type="text" class="form-control" value="'.$arr['logo'].'" name="logo" ></p>
                 </div>
                 </div>
 
@@ -32,6 +32,15 @@ if(isset($_POST['dnkd'])){
                 <p> <input type="text" name="title" value="'.$arr['title'].'" class="form-control"></p>
                 </div>
                 </div>
+
+                <div class="row">   
+                <div class="col-4">
+               <b> Apply Link :</b><br>
+               </div>
+               <div class="col-8">
+               <p> <input type="text" name="link" value="'.$arr['link'].'" class="form-control"></p>
+               </div>
+               </div>
 
                 <div class="row">   
                  <div class="col-4">

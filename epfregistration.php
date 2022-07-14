@@ -57,16 +57,16 @@ echo 'connection failed';
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-                   <div class="col-4 pt-5">
+                   <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                     <h2 class="title">Apply</h2>
                     <h4 class="subtitle">PF Registation</h4>
                     <p></p>
                     <label for="">Extend Social Security to your employees. Register for Provident Fund. Prices starting <strong>INR 5999/- only.</strong></label>
                   </div>
-                <div class="col-4">
-                     <img src="../../sachinenterprise/assets/images/employee images/images_33-3.jpg" alt="">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                     <img src="assets/images/employee images/images_33-3.jpg" alt="">
                 </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">
               <div class="shadow bg-white rounded">
                   <div class="card-header text-center" style="background-color:red; color:white">
@@ -124,7 +124,7 @@ echo 'connection failed';
 
     
 
-    <div class="pricing pricing-1 pt-10 shape-bg">
+    <div class="pricing pricing-1 pt-10">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3 class="pt-5">EPF Registration</h3>
@@ -164,8 +164,9 @@ echo 'connection failed';
                 </div>
                 <div class="row justify-content-center ">
                     <div class="col-8">
-                        <label><b>3.</b>Employer needs to deposit the amount of his contribution of EPF along with
+                        <label><b>3.</b> Employer needs to deposit the amount of his contribution of EPF along with
                             employees deducted share.</label>
+                            
                     </div>
                 </div>
                 <div class="row justify-content-center ">
@@ -213,11 +214,11 @@ echo 'connection failed';
                             qualified CA, CS, Lawyers and business administrators. Ebizfiling would be a one stop
                             destination for your EPF (Employee’s Provident Fund) registration in India. We also provide
                             services like Start up advisory, Secretarial compliance services, PAN / TAN application, DIN
-                            registration, <a target="_blank" href="esicregistration.php" class="text-danger">ESI
+                            registration, <a target="_blank" href="esicregistration.php" class="text-danger" style="text-decoration:none">ESI
                                 registration</a> GST registration, Trademark registration, GST / Income tax return
-                            filing and many more. You may get in touch with our compliance manager on <a target="_blank"
-                                href="tel:9987705688" class="text-danger">9987705688</a> or email <a target="_blank"
-                                href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a>
+                            filing and many more. You may get in touch with our compliance manager on <a target="_self"
+                                href="tel:9987705688" class="text-danger" style="text-decoration:none">9987705688</a> or email <a target="_blank"
+                                href="mailto:info@sachinenterprise.in" class="text-danger" style="text-decoration:none">info@sachinenterprise.in</a>
                             for free consultation and to know more about the services provided by us.</label>
                     </div>
                 </div>
@@ -232,7 +233,7 @@ echo 'connection failed';
       <h2 style="text-align:center">Simple Prices | No Surprises</h2>
       <div class="card-body">
         <div class="row">
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
@@ -241,7 +242,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; PF Registration (employees less than 20)</label>
+                    <ul>
+                    <li> PF Registration (employees less than 20).</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -250,7 +253,7 @@ echo 'connection failed';
                 </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
@@ -259,9 +262,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; PF Registration (employees less than 20)</label>
-                    <label for="">&#8226; PF Return (ECR) for 1 year</label>
-
+                    <ul>
+                    <li> Registration (employees less than 20).</li>
+                    <li> Return (ECR) for 1 year.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -270,7 +274,7 @@ echo 'connection failed';
                 </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4  py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
@@ -279,9 +283,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; PF Registration (employees less than 50)</label>
-                    <label for="">&#8226; PF Return (ECR) for 1 year</label>
-
+                  <ul>
+                    <li> PF Registration (employees less than 50).</li>
+                    <li> PF Return (ECR) for 1 year.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->

@@ -57,17 +57,17 @@ echo 'connection failed';
       <div class="card" style="border:none">
         <div class="card-body">
           <div class="row">
-            <div class="col-4 pt-5">
+            <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
               <h2 class="title">Modify</h2>
               <h4 class="subtitle">GST Registation</h4>
               <p></p>
               <label for="">Wish to update any details in GST Registration Certificate? Get details modified through us.
                 Prices starting at<strong> INR 499/- only.</strong></label>
             </div>
-            <div class="col-4">
-              <img src="../../sachinenterprise/assets/images/employee images/images_18-3.jpg" alt="">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+              <img src="assets/images/employee images/images_18-3.jpg" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
               <div class="card">
                 <div class=" shadow bg-white rounded">
                   <div class="card-header text-center" style="background-color:red; color:white">
@@ -119,7 +119,7 @@ echo 'connection failed';
     </div>
   </div>
 
-  <div class="pricing pricing-1  shape-bg">
+  <div class="pricing pricing-1">
     <div class="container">
       <div class="default-section-title default-section-title-middle">
         <h3 class="pt-5">GST Modification</h3>
@@ -127,7 +127,7 @@ echo 'connection failed';
       <div class="setion-content">
         <div class="row justify-content-center pt-5">
           <div class="col-8 ">
-            <label for="">After receipt of <a target="_blank" href="gstregistration.php" class="text-danger">GST
+            <label for="">After receipt of <a target="_blank" href="gstregistration.php" class="text-danger" style="text-decoration:none">GST
                 Registration</a> Certificate, if you wish to modify any fields such as name, address, email ID, contact
               details, you need to apply for GST Modification request.</label>
           </div>
@@ -143,8 +143,8 @@ echo 'connection failed';
           <div class="col-8 pb-5">
             <label>Non-Core Fields include email ID, Phone number, any minor changes, while Core Fields include Change
               in Address, Add a place of Business etc.You may get in touch with our compliance manager on <a
-                target="_blank" href="tel:9987705688" class="text-danger">9987705688 </a> or email <a target="_blank"
-                href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free
+                target="_self" href="tel:9987705688" class="text-danger" style="text-decoration:none">9987705688 </a> or email <a target="_blank"
+                href="mailto:info@sachinenterprise.in" class="text-danger" style="text-decoration:none">info@sachinenterprise.in</a> for free
               consultation.</label>
           </div>
         </div>
@@ -157,7 +157,7 @@ echo 'connection failed';
     <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
       <div class="row ">
-        <div class="col-4">
+        <div class="col-sm-12 col-md-12 col-lg-4 py-2">
           <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ESSENTIAL</h4>
@@ -167,8 +167,10 @@ echo 'connection failed';
             <form>
               <div class="card-body">
                 <div class="form-group pt-2">
-                  <label for="">&#8226; GST Modification in Non-Core Fields like email ID, Phone number, any minor
-                    changes</label>
+                  <ul>
+                  <li> GST Modification in Non-Core Fields like email ID, Phone number, any minor
+                    changes.</li>
+                    </ul>
                 </div>
               </div>
               <!-- /.card-body -->
@@ -179,7 +181,7 @@ echo 'connection failed';
             </form>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-12 col-lg-4 py-2">
           <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ENHANCED</h4>
@@ -189,8 +191,10 @@ echo 'connection failed';
             <form>
               <div class="card-body">
                 <div class="form-group pt-2">
-                  <label for="">&#8226; GST Modification in Core Fields like Change in Address, Add a place of
-                    Business</label>
+                  <ul>
+                  <li> GST Modification in Core Fields like Change in Address, Add a place of
+                    Business.</li>
+              </ul>
                 </div>
               </div>
               <!-- /.card-body -->
@@ -201,7 +205,7 @@ echo 'connection failed';
             </form>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-12 col-lg-4  py-2">
           <div class="card h-100 ">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ULTIMATE</h4>
@@ -210,7 +214,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
               <div class="form-group pt-2">
-                <label for="">&#8226; Any other GST Modification involving approvals</label>
+                <ul>
+                <li> Any other GST Modification involving approvals.</li>
+                </ul>
               </div>
             </div>
             <!-- /.card-body -->

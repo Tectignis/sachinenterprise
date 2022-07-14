@@ -56,16 +56,16 @@ echo 'connection failed';
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4 pt-5">
+          <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                 <h2 class="title">Get</h2>
                 <h4 class="subtitle">MSME Registation</h4>
                 <p></p>
                 <label for="">Claim your access to Government Subsidies, Priority Lending and a quick start up. Register for MSME/Udyog Aadhar at <strong>INR 1499/- only.</strong></label>
                 </div>
-                <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/images_12-3.jpg" alt="">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                <img src="assets/images/employee images/images_12-3.jpg" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">
               <div class="shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
@@ -116,7 +116,7 @@ echo 'connection failed';
       </div>
     </div>
 
-    <div class="pricing pricing-1 pt-10 shape-bg">
+    <div class="pricing pricing-1 pt-10">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3 class="pt-5">MSME/Udyog Aadhar Registration</h3>
@@ -184,7 +184,7 @@ echo 'connection failed';
                         </div>
                              <div class="row justify-content-center pt-3">
                                 <div class="col-8 pb-5">
-                                    <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Registering for SSI/MSME is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a>!</label>
+                                    <label><a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none">sachinenterprise.in</a> is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Registering for SSI/MSME is easy, seamless, cheapest and quickest with <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none">sachinenterprise.in</a>!</label>
                                 </div>
                         </div>
                         
@@ -195,7 +195,7 @@ echo 'connection failed';
       <h2 style="text-align:center">MSME Registration Fees</h2>
       <div class="card-body">
         <div class="row">
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
@@ -204,7 +204,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; SSI/MSME Registration</label>
+                    <ul>
+                    <li> SSI/MSME Registration.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -213,7 +215,7 @@ echo 'connection failed';
                 </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
@@ -222,7 +224,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226;  Registration (employees lPFess than 20)</label>
+                    <ul>
+                       <li> Registration (employees lPFess than 20).</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -231,7 +235,7 @@ echo 'connection failed';
                 </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4  py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
@@ -240,9 +244,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; eXpress SSI/MSME Registration (within 24 hours)</label>
-                    <label for="">&#8226; eXpress Trademark (1 application 1 class) (start ups, proprietorship & small business)</label>
-
+                  <ul>
+                    <li> eXpress SSI/MSME Registration (within 24 hours).</li>
+                    <li> eXpress Trademark (1 application 1 class) (start ups, proprietorship & small business).</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->

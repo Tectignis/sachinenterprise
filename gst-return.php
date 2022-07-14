@@ -68,7 +68,7 @@ echo 'connection failed';
                 </div>
                 </div>
                 <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/return-img/img.png" alt="sachinenterprise, sachinenterprise.in">
+                <img src="assets/images/return-img/img.png" alt="sachinenterprise, sachinenterprise.in">
                 </div>
             <div class="col-4">
             <div class="card ">
@@ -121,7 +121,7 @@ echo 'connection failed';
       </div>
     </div>
 
-    <div class="pricing pricing-1 pt-100 shape-bg">
+    <div class="pricing pricing-1 pt-100 ">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3>GST Return File</h3>
@@ -133,7 +133,7 @@ echo 'connection failed';
                         <label>GST return filing is completely an online process in India. GST filing 
                              is very easy and quick process. However, it is necessary that returns are filed correctly and error-free to ensure that GST credit can be passed onto the next stage.
                              All you need is GST website login credentials to get started. Once your 
-                  <a target="_blank" class="text-danger" href="http:gstregistration.php"> GST registration</a> is done, to file GST return is mandatory. Non-filing of of the same entail heavy penalties.</label>
+                  <a target="_blank" class="text-danger" style="text-decoration:none" href="http:gstregistration.php"> GST registration</a> is done, to file GST return is mandatory. Non-filing of of the same entail heavy penalties.</label>
                 </div>
             </div>
                         <div class="row justify-content-center pt-3">
@@ -170,7 +170,7 @@ echo 'connection failed';
                           <div class="row justify-content-center pt-3">
                           <div class="col-8">
           <label>sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing online GST Returns is easy, seamless, cheapest and quickest with sachinenterprise.in Apart from online return filing under GST services, 
-         sachinenterprise.in also helps you to file Income Tax Returns, TDS Returns, PF Returns and ESI Returns easily.  Contact Ebizfiling to know about GST Return filing process. Inquire for GST return filing service provider for Online GST return, Find out when to file GST return. You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a> for free consultation.
+         sachinenterprise.in also helps you to file Income Tax Returns, TDS Returns, PF Returns and ESI Returns easily.  Contact Ebizfiling to know about GST Return filing process. Inquire for GST return filing service provider for Online GST return, Find out when to file GST return. You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688" style="text-decoration:none"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in" style="text-decoration:none">info@sachinenterprise.in</a> for free consultation.
         </label>
         </div>
     </div>
@@ -193,7 +193,9 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                  <label for="">&#8226; Filing of one NIL GST return (GSTR 3B or GSTR 1)</label>
+                    <ul>
+                  <li> Filing of one NIL GST return (GSTR 3B or GSTR 1).</li>
+                  </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -211,7 +213,9 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
-                  <label for="">&#8226; GST Annual Return (GSTR 9 or 9A or 9B)</label>
+                    <ul>
+                  <li> GST Annual Return (GSTR 9 or 9A or 9B).</li>
+                  </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->
@@ -229,7 +233,9 @@ echo 'connection failed';
               </div>
                 <div class="card-body">
                   <div class="form-group ">
-                  <label class="card-text">&#8226; GST Returns for one year (all returns included)</label>
+                    <ul>
+                    <li> GST Returns for one year (all returns included).</li>
+                  </ul>
                   </div>
                 </div>
                 <!-- /.card-body -->

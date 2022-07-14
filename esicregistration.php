@@ -58,16 +58,16 @@ echo 'connection failed';
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4 pt-5">
+          <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                 <h2 class="title">Apply</h2>
                 <h4 class="subtitle">ESI Registation</h4>
                 <p></p>
                 <label for="">Extend medical benefits to your employees. Register for ESIC. Prices start from <strong>INR 5999/- only.</strong></label>
                 </div>
-                <div class="col-4">
-                <img src="../../sachinenterprise/assets/images/employee images/images_11.jpg" alt="">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                <img src="assets/images/employee images/images_11.jpg" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">
               <div class="shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
@@ -119,7 +119,7 @@ echo 'connection failed';
       </div>
     </div>
     
-    <div class="pricing pricing-1  shape-bg">
+    <div class="pricing pricing-li">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
                 <h3 class="pt-5">ESIC Registration</h3>
@@ -194,8 +194,8 @@ echo 'connection failed';
                         <div class="row justify-content-center pt-3">
                     <div class="col-8 pb-5">
                         <label>There are two contribution periods each of <b>six months</b> duration and two corresponding benefit periods also of six months duration.
-                        <a target="_blank" href="esicregistration.php" class="text-danger">ESIC registration</a> is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
-                            sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_blank" href="tel:9987705688" class="text-danger"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger">info@sachinenterprise.in</a> for free consultation.</label>
+                        <a target="_blank" href="esicregistration.php" class="text-danger" style="text-decoration:none">ESIC registration</a> is a statutory responsibility of the employers of the factory. It is mandatory according to the rules and regulation of the ESI Act 1948.
+                            sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. ESIC registration in India is easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from an ESI Registration, <a target="_blank" href="http://demo.sachinenterprise.in" class="text-danger" style="text-decoration:none">sachinenterprise.in</a> also helps you with PF Registration, <a target="_blank" href="pf-return.php" class="text-danger" style="text-decoration:none">PF Returns </a>, <a target="_blank" href="esi-return.php" class="text-danger" style="text-decoration:none">ESI Returns </a>, Trademark Registration and a host of other services easily. You may get in touch with our compliance manager on  <a target="_self" href="tel:9987705688" class="text-danger" style="text-decoration:none"> 9987705688</a> or email  <a target="_blank" href="mailto:info@sachinenterprise.in" class="text-danger" style="text-decoration:none">info@sachinenterprise.in</a> for free consultation.</label>
                           </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@ echo 'connection failed';
       <h2 style="text-align:center">Simple Prices | No Surprises</h2>
       <div class="card-body">
         <div class="row">
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
@@ -215,7 +215,9 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; ESIC Registration (employees less than 20)</label>
+                    <ul>
+                    <li> ESIC Registration (employees less than 20). </li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -224,7 +226,7 @@ echo 'connection failed';
                 </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
@@ -233,9 +235,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; ESIC Registration (employees less than 20)</label>
-                    <label for="">&#8226; ESIC Return (ECR) for 1 year</label>
-
+                    <ul>
+                    <li> ESIC Registration (employees less than 20).</li>
+                    <li> ESIC Return (ECR) for 1 year.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
@@ -244,7 +247,7 @@ echo 'connection failed';
                 </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-md-12 col-lg-4  py-2">
             <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
@@ -253,9 +256,10 @@ echo 'connection failed';
             </div>
             <div class="card-body">
                   <div class="form-group pt-2">
-                    <label for="">&#8226; ESIC Registration (employees less than 50)</label>
-                    <label for="">&#8226; ESIC Return (ECR) for 1 year</label>
-
+                    <ul>
+                    <li> ESIC Registration (employees less than 50).</li>
+                    <li> ESIC Return (ECR) for 1 year.</li>
+                    </ul>
                   </div>
                 </div>
                  <!-- /.card-body -->
