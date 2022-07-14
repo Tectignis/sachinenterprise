@@ -134,7 +134,7 @@ echo 'connection failed';
     </div>
     <div class="setion-content">
       <div class="row justify-content-center pt-5">
-        <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+        <div class="col-8">
           <label><b>GST Registration</b> is applicable on all goods and services except Petroleum products as of now.
             Goods & Service Tax (GST) is a consolidated tax, which essentially means that State and Central Indirect
             taxes have been merged. Entire country now operates under a uniform tax system. It now replaces service tax,
