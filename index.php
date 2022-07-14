@@ -68,7 +68,7 @@ include("include/config.php");
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="about-img-area">
                         <div class="about-img-1">
-                            <img src="assets/images/about/img.png" alt="image">
+                            <img src="assets/images/about/undraw_operating_system_re_iqsc.svg" alt="image">
                         </div>
                         <div class="about-img-2">
                             <!-- <img src="assets/images/about/img1.png" alt="image"> -->
@@ -103,6 +103,13 @@ include("include/config.php");
                                         <i class="flaticon-support"></i>
                                         <h2><span class="odometer" data-count="300">00</span><sup>+</sup></h2>
                                         <p>Happy Clients</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+                                    <div class="fun-facts-card">
+                                        <i class="flaticon-project-plan"></i>
+                                        <h2><span class="odometer" data-count="700">00</span><sup>+</sup></h2>
+                                        <p>Project Completed</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
@@ -354,7 +361,7 @@ include("include/config.php");
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class=" justify-content-center">
                         <div class="testimonial-card">
-                            <i class="flaticon-right-quote"></i>
+                            <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
                             <div class="stars">
                                 <ul>
                                     <li><i class="fas fa-star"></i></li>
