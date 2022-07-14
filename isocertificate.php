@@ -218,7 +218,7 @@ include("include/config.php");
         </div>
         <div class="setion-content">
             <div class="row justify-content-center pt-5">
-                <div class="col-6 pt-5">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-6 pt-5">
                     <label for=""><i class="fas fa-check"></i> Business Registration Proof: Certificate of Incorporation
                         or GST certificate or MSME certificate or Trademark certificate, etc. (Any One)</label>
                     <label for=""><i class="fas fa-check"></i> Letter Head or Visiting Card (Any One).</label>
@@ -227,7 +227,7 @@ include("include/config.php");
                     <label for=""><i class="fas fa-check"></i> Business Activity/Scope (Which is to be written on
                         certificate).</label>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-6 pt-5">
                     <img src="assets\images\employee images\doc.png" alt="">
                 </div>
             </div>
