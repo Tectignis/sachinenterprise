@@ -2,26 +2,26 @@
 include("../include/config.php");
 
 if(isset($_POST['dnkidno'])){
-    $query=mysqli_query($conn,"select callback.id,callback.name as nm,callback.phonenumber as phn,leads.email as em,leads.services as ser,leads.description as des from callback inner join leads on callback.id =leads.id  where callback.id='".$_POST['dnkidno']."'");
+    $query=mysqli_query($conn,"select callback.id,callback.name as nm,callback.phonenumber as phn,enquiry.email as em,enquiry.service as ser,enquiry.description as des from callback inner join enquiry on callback.id =enquiry.id  where callback.id='".$_POST['dnkidno']."'");
     $row=mysqli_fetch_array($query);
     
-    echo '<div class="header">
-    
-    <div class="modal-header">
+    echo '<div class="modal-header">
+     
+   
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
   </div>
-  <form method="post" action="modalform22.php">
+  <form method="post" action="getacall.php">
   <div class="modal-body body1">
       <div class="row">   
       <div class="col-4">
       <b> Name :</b><br>
       </div>
       <div class="col-8">
-      <p> '.$row['nm'].'</p>
+       <p> '.$row['nm'].' </p>
       </div>
       </div>
   
@@ -39,16 +39,16 @@ if(isset($_POST['dnkidno'])){
       <b> Email :</b><br>
       </div>
       <div class="col-8">
-      <p>'.$row['email'].'</p>
+      <p>'.$row['em'].'</p>
       </div>
-      </div>
+      </div>  
   
       <div class="row">   
        <div class="col-4">
       <b> Service :</b><br>
       </div>
       <div class="col-8">
-      <p> '.$row['service'].' </p>
+      <p> '.$row['ser'].' </p>
       </div>
       </div>
   
@@ -57,15 +57,15 @@ if(isset($_POST['dnkidno'])){
       <b> Description :</b><br>
       </div>
       <div class="col-8">
-      <p> '.$row['description'].' </p>
+      <p> '.$row['des'].' </p>
       </div>
       </div>
   </div>
   
-  <div class="modal-footer">
-  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-  <button type="button" class="btn btn-primary">Save</button>
-</div>
+  <div class="modal-footer justify-content-between">
+              <button type="button" class="btn btn-default" data-dismiss="modal" name="close">Close</button>
+              <button type="submit" class="btn btn-primary" name="submit" >Save</button>
+            </div>
   </form>';
   }
 
@@ -88,7 +88,7 @@ if(isset($_POST['dnkidno1'])){
 
             <form method="post">
             
-                    <div class="modal-body ">
+<div class="modal-body ">
 			<div class="container">
     <div class="row">   
     
@@ -131,11 +131,11 @@ if(isset($_POST['dnkidno1'])){
             </form>';
 }
 
-if(isset($_POST['compsubmit'])){
-$id=$_POST['leadsid'];
+if(isset($_POST['save'])){
+$id=$_POST['id'];
 $email=$_POST['email'];
-$services=$_POST['service'];
+$service=$_POST['service'];
 $description=$_POST['description'];
-$sql=mysqli_query($conn,"UPDATE `enquiry` SET `email`='$email',`service`='$services',`description`='$description' WHERE id='$id'");
+$sql=mysqli_query($conn,"UPDATE `enquiry` SET `email`='$email',`service`='$service',`description`='$description' WHERE id='$id'");
 }
 ?>
