@@ -204,10 +204,17 @@
                 <h3>What Our Client Say About Us</h3>
             </div>
             <div class="section-content">
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="row">
+            <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from `testimonial`");
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
+                        
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class=" justify-content-center">
                         <div class="testimonial-card">
-                            <i class="flaticon-right-quote"></i>
+                            <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
                             <div class="stars">
                                 <ul>
                                     <li><i class="fas fa-star"></i></li>
@@ -218,65 +225,22 @@
                                     <li><span>4.0</span></li>
                                 </ul>
                             </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
+                            <p><?php echo $arr['message'];?></p>
                             <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc1.jpg" alt="image">
+                            <img src="admin/logo/<?php echo $arr['image'];?>" style="height:60px; width:60px;" alt="image">
                                 <div class="testimonial-footer-intro">
-                                    <h4>Jhon Abraham</h4>
-                                    <p>Manager, Elan</p>
+                                    <h4><?php echo $arr['name'];?></h4>
+                                    <p><?php echo $arr['position'];?></p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><span>5.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc2.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
-                                    <h4>Sen Watson</h4>
-                                    <p>Manager, Econ</p>
-                                </div>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="testimonial-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc3.jpg" alt="image">
-                                <div class="testimonial-footer-intro">
-                                    <h4>Alex Alina</h4>
-                                    <p>Manager, Alox</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                         </div>
+                    <?php  } ?>
+                    
+                         </div>
+                   
+                    
                 </div>
             </div>
         </div>
