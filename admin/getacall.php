@@ -1,25 +1,27 @@
 <?php
 include("../include/config.php");
+
+
 if(isset($_GET['gen'])){
   $id=mysqli_real_escape_string($conn,$_GET['gen']);
-  $sql=mysqli_query($conn,"update leads set `is_sales`='1' where id='$id'");
+  $sql=mysqli_query($conn,"update enquiry set `call_id`='1' where id='$id'");
   if($sql==1){
    header("location:getacall.php");
   }
 
-  if(isset($_GET['delid'])){
-    $id=mysqli_real_escape_string($conn,$_GET['delid']);
-    $sql=mysqli_query($conn,"delete from enquiry where id='$id'");
-    
   
-    if($sql=1){
-        header("location:getacall.php");
-    }
-    }
-
 
 }
-$sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phonenumber,leads.email,leads.services,leads.description from callback inner join leads on callback.id =leads.id ");
+if(isset($_GET['delid'])){
+  $id=mysqli_real_escape_string($conn,$_GET['delid']);
+  $sql=mysqli_query($conn,"delete from enquiry where id='$id'");
+  
+  if($sql=1){
+      header("location:getacall.php");
+  }
+  }
+
+$sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phonenumber,enquiry.email,enquiry.service, enquiry.description from callback inner join enquiry on callback.id=enquiry.id ");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -133,7 +135,7 @@ $sql2=mysqli_query($conn,"select callback.id as did,callback.name,callback.phone
                            <a class="btn btn-info btn-xs dnkediti1" data-id="<?php echo $arr['did']?>" type="button" data-toggle="modal"  data-target="#myModal"><i class="fas fa-edit"></i></a> 
                           
                           
-                           <a href="getacall.php"><button type="button"  class="btn btn-danger btn-xs delete_quotation" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
+                           <a href="getacall.php?delid=<?php echo $arr['did']?>"><button type="button"  class="btn btn-danger btn-xs delete_quotation" style="color: aliceblue"> <i class="fas fa-trash"></i> </button></a>
                        </td>
                         </tr>
                           <?php $count++;   } ?>
