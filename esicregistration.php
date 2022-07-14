@@ -237,7 +237,7 @@ echo 'connection failed';
                   <div class="form-group pt-2">
                     <ul>
                     <li> ESIC Registration (employees less than 20).</li>
-                    <li> ESIC Return (ECR) for 1 year./li>
+                    <li> ESIC Return (ECR) for 1 year.</li>
                     </ul>
                   </div>
                 </div>
