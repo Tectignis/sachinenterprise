@@ -36,7 +36,7 @@ include("include/config.php");
             <div class="uni-banner-text">
                 <h1>Our Services</h1>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li>Services</li>
                 </ul>
             </div>
