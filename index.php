@@ -68,7 +68,7 @@ include("include/config.php");
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="about-img-area">
                         <div class="about-img-1">
-                            <img src="assets/images/about/img.png" alt="image">
+                            <img src="assets/images/about/undraw_operating_system_re_iqsc.svg" alt="image">
                         </div>
                         <div class="about-img-2">
                             <!-- <img src="assets/images/about/img1.png" alt="image"> -->
@@ -167,9 +167,6 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>UPDATE</h4>
-<<<<<<< HEAD
-                                        <p>You can Update your Documents.</p>
-=======
                                         <p>You can Update your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
@@ -186,7 +183,6 @@ include("include/config.php");
                                     <div class="features-card-text">
                                         <h4>CHANGES</h4>
                                         <p>You can changes your Application.</p>
->>>>>>> 777e39efcf5372cab7c46d5fa1a873f9688a38e3
                                     </div>
                                 </div>
                             </div>
