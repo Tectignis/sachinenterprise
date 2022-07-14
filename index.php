@@ -167,7 +167,26 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>UPDATE</h4>
+<<<<<<< HEAD
                                         <p>You can Update your Documents.</p>
+=======
+                                        <p>You can Update your Application.<label class="invisible">invisible</label></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                <div class="features-card">
+                                    <div class="features-icon-area">
+                                        <div class="features-card-icons">
+                                            <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
+                                            <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
+                                            <i class="flaticon-support-1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="features-card-text">
+                                        <h4>CHANGES</h4>
+                                        <p>You can changes your Application.</p>
+>>>>>>> 777e39efcf5372cab7c46d5fa1a873f9688a38e3
                                     </div>
                                 </div>
                             </div>
@@ -182,22 +201,7 @@ include("include/config.php");
                                     </div>
                                     <div class="features-card-text">
                                         <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card">
-                                    <div class="features-icon-area">
-                                        <div class="features-card-icons">
-                                            <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
-                                            <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
-                                            <i class="flaticon-support-1"></i>
-                                        </div>
-                                    </div>
-                                    <div class="features-card-text">
-                                        <h4>RENEW</h4>
-                                        <p>You can Renew your Documents.</p>
+                                        <p>You can Renew your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>
