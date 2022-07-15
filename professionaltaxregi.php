@@ -1,6 +1,9 @@
 <?php
 include("include/config.php");
 
+$sql=mysqli_query($conn,"select * from `general_setting`");
+ $arr=mysqli_fetch_array($sql)
+
 ?>
 
 <!DOCTYPE html>
@@ -32,8 +35,8 @@ include("include/config.php");
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
     </script>
-    <title>Anwa - Cleaning Company HTML Template</title>
-    <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+    <title>Sachin Enterprise - Professional Tax Service</title>
+    <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
 <style>

@@ -20,6 +20,13 @@ echo 'connection failed';
 }
 ?>
 
+<?php
+
+                        $sql=mysqli_query($conn,"select * from `general_setting`");
+                         $arr=mysqli_fetch_array($sql)
+                    
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -44,8 +51,9 @@ echo 'connection failed';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
-    <title>Anwa - Cleaning Company HTML Template</title>
-    <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+    <title>Sachin Enterprise - Tds Return</title>
+    <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
+
 </head>
 
 <body>
@@ -95,7 +103,7 @@ echo 'connection failed';
                        <option value="" disabled selected hidden>Select Service:</option>
                        <option>Pancard</option>
                        <option>Gumasta</option>
-                       <option>Gozette</option>
+                       <option>Gazette</option>
                        <option>Gst Registration</option>
                        <option>Income Tax Return File</option>
                        <option>Passport</option>

@@ -19,6 +19,10 @@ echo 'connection failed';
 }
 
 ?>
+<?php
+$sql=mysqli_query($conn,"select * from `general_setting`");
+ $arr=mysqli_fetch_array($sql)
+?>
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -51,8 +55,8 @@ echo 'connection failed';
   </script>
 
 
-  <title>Anwa - Cleaning Company HTML Template</title>
-  <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+<title>Sachin Enterprise - passport service</title>
+    <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
 <body>
@@ -96,22 +100,7 @@ echo 'connection failed';
                         <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1"
                           placeholder="Phone" minlength="10" maxlength="10" required>
                       </div>
-                      <div class="form-group pt-2">
-                        <select required class="form-control" name="service" id="servicesid">
-                          <option value="" disabled selected hidden>Select Service:</option>
-                          <option>Pancard</option>
-                          <option>Gumasta</option>
-                          <option>Gozette</option>
-                          <option>Gst Registration</option>
-                          <option>Income Tax Return File</option>
-                          <option>Passport</option>
-                          <option>Udhyog Aadhar</option>
-                          <option>FSSAI License</option>
-                          <option>Rent Agreement</option>
-                          <option>ISO Certificate</option>
-                          <option>Professional Tax Registation</option>
-                        </select>
-                      </div>
+                     
                     </div>
                     <!-- /.card-body -->
                     <div class="card-footer" style="background:white; border:none; text-align:center">

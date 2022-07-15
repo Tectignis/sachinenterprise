@@ -36,7 +36,7 @@
     <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
-    <!-- Navbar -->
+    <!-- Navbar -->[]
     <?php include"include/header.php" ?>
 
     <!-- Main Sidebar Container -->

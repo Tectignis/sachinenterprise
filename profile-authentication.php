@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="zxx">
 <head>
 <meta charset="UTF-8">
@@ -17,8 +19,9 @@
 <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-<title>Anwa - Cleaning Company HTML Template</title>
+<title>Sachin Enterprises -profile authintication </title>
 <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+
 </head>
 <body>
 
