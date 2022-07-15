@@ -16,7 +16,7 @@ include("include/config.php");
             <div class="col-sm-5 col-md-5 col-lg-5 col-5">
                 <div class="topbar-right-side">
                     <div class="account">
-                        <a href="profile-authentication.php" style="text-decoration:none"><i class="fas fa-user"></i> Login</a>
+                        <a href="admin/adminlogin.php" style="text-decoration:none"><i class="fas fa-user"></i> Login</a>
                     </div>
 
                 </div>
@@ -121,9 +121,6 @@ include("include/config.php");
                                     </li>
                                     <li class="nav-item">
                                         <a href="fassai-service.php" class="nav-link dropdown-toggle">FSSAI License</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="Services.php" class="nav-link dropdown-toggle">Rent Agreement</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="isocertificate.php" class="nav-link dropdown-toggle">ISO

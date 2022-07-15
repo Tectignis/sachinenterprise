@@ -288,7 +288,7 @@ include("include/config.php");
                 <div class="row">
                     <?php 
                         
-                        $sql=mysqli_query($conn,"select * from `services`");
+                        $sql=mysqli_query($conn,"select * from `services` limit 6");
                     
                          while($arr=mysqli_fetch_array($sql)){
                         ?>

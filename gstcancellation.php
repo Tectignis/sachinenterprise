@@ -19,6 +19,12 @@ else
 echo 'connection failed';
 }
 ?>
+<?php
+include("include/config.php");
+                        $sql=mysqli_query($conn,"select * from `general_setting`");
+                         $arr=mysqli_fetch_array($sql)
+                    
+?>
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -43,8 +49,8 @@ echo 'connection failed';
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-  <title>Anwa - Cleaning Company HTML Template</title>
-  <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+  <title>Sachin Enterprise - GST Cancellation</title>
+  <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
 <body>
@@ -92,7 +98,7 @@ echo 'connection failed';
                           <option value="" disabled selected hidden>Select Service:</option>
                           <option>Pancard</option>
                           <option>Gumasta</option>
-                          <option>Gozette</option>
+                          <option>Gazette</option>
                           <option>Gst Registration</option>
                           <option>Income Tax Return File</option>
                           <option>Passport</option>

@@ -1,6 +1,14 @@
 ﻿<?php 
 include("include/config.php"); 
 ?>
+
+<?php
+include("include/config.php");
+                        $sql=mysqli_query($conn,"select * from `general_setting`");
+                         $arr=mysqli_fetch_array($sql)
+                    
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -21,8 +29,8 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <title>Anwa - Cleaning Company HTML Template</title>
-    <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+    <title>Sachin Enterprise - services</title>
+  <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
 <body>
