@@ -96,22 +96,7 @@ echo 'connection failed';
                         <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1"
                           placeholder="Phone" minlength="10" maxlength="10" required>
                       </div>
-                      <div class="form-group pt-2">
-                        <select required class="form-control" name="service" id="servicesid">
-                          <option value="" disabled selected hidden>Select Service:</option>
-                          <option>Pancard</option>
-                          <option>Gumasta</option>
-                          <option>Gazette</option>
-                          <option>Gst Registration</option>
-                          <option>Income Tax Return File</option>
-                          <option>Passport</option>
-                          <option>Udhyog Aadhar</option>
-                          <option>FSSAI License</option>
-                          <option>Rent Agreement</option>
-                          <option>ISO Certificate</option>
-                          <option>Professional Tax Registation</option>
-                        </select>
-                      </div>
+                     
                     </div>
                     <!-- /.card-body -->
                     <div class="card-footer" style="background:white; border:none; text-align:center">
