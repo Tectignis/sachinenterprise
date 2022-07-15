@@ -3284,5 +3284,7 @@ a.meanmenu-reveal {
 }
 
 .nice-select .list 
-{ max-height: 200px; 
-overflow: scroll; }
+{ 
+  max-height: 300px; 
+overflow: scroll; 
+}
