@@ -2,8 +2,7 @@
 include("include/config.php");
                         $sql=mysqli_query($conn,"select * from `general_setting`");
                          $arr=mysqli_fetch_array($sql)
-                    
-?>
+     ?>
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -12,7 +11,6 @@ include("include/config.php");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="admin/plugins/fontawesome-free/css/all.min.css">
 
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -26,13 +24,14 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <title>Sachin Enterprise - Index</title>
-    <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
+    <title>sachin Enterprise - Index</title>
+  <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
 <body>
-    <?php include("include/header.php"); ?>
 
+<?php include("include/header.php"); ?>
+   
     <div class="main-banner main-banner-bg">
         <div class="container-fluid">
             <div class="row align-items-center">
@@ -41,13 +40,13 @@ include("include/config.php");
                         <h6>WELCOME TO SACHIN ENTERPRISE SERVICES !</h6>
                         <h1>Enroll to avail benefits from our site</h1>
                         <p>Online services are now available at our site , which is the one stop source for all
-                            government services. </p>
+                            government services.</p>
                         <a class="default-button" href="services.php"><span>Our Services</span></a>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="main-banner-img">
-                        <img src="assets/images/banner/undraw_design_notes_re_eklr.svg" alt="image">
+                    <img src="assets/images/banner/undraw_design_notes_re_eklr.svg" alt="image">
                     </div>
                 </div>
             </div>
@@ -60,11 +59,12 @@ include("include/config.php");
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="about-img-area">
                         <div class="about-img-1">
-                            <img src="assets/images/about/undraw_operating_system_re_iqsc.svg" alt="image">
+                        <img src="assets/images/about/undraw_operating_system_re_iqsc.svg" alt="image">
                         </div>
                         <div class="about-img-2">
-                            <!-- <img src="assets/images/about/img1.png" alt="image"> -->
-
+                            <img src="assets/images/about/a1-2.jpg" alt="image">
+                            <a class="video-popup" href="../../watch-9.html?v=0qNsC-NLuhM"><i
+                                    class="flaticon-play-button"></i></a>
                         </div>
                     </div>
                 </div>
@@ -76,12 +76,11 @@ include("include/config.php");
                         </div>
                         <p>SACHIN ENTERPRISE SERVICES is an Indian company established in 2016 headquartered in New
                             Mumbai, India.</p>
-
                         <div class="about-list">
                             <ul>
                                 <li><i class="far fa-check-square"></i>Welcome to the official website of SACHIN
                                     ENTERPRISE SERVICES.</li>
-                                <li><i class="far fa-check-square"></i>The purpose of this portal is to facilitate the
+                                <li><i class="far fa-check-square"></i> The purpose of this portal is to facilitate the
                                     listing of online services provided by various government entities under one
                                     platform.</li>
                             </ul>
@@ -111,6 +110,7 @@ include("include/config.php");
         </div>
     </div>
 
+
     <div class="features features-bg pt-100">
         <div class="container">
             <div class="row">
@@ -118,7 +118,6 @@ include("include/config.php");
                     <div class="default-section-title">
                         <h6>FEATURES SERVICES</h6>
                         <h3>We provides all government Services across the india..</h3>
-
                     </div>
                 </div>
                 <div class="col-xxl-8 col-xl-12 col-lg-12 col-md-12 col-12">
@@ -134,7 +133,7 @@ include("include/config.php");
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>APPLY</h4>
+                                    <h4>APPLY</h4>
                                         <p>You can Apply for our several services.</p>
                                     </div>
                                 </div>
@@ -149,9 +148,8 @@ include("include/config.php");
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>UPDATE</h4>
-                                        <p>You can Update your Application.<label class="invisible">invisible</label>
-                                        </p>
+                                    <h4>UPDATE</h4>
+                                        <p>You can Update your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>
@@ -165,7 +163,7 @@ include("include/config.php");
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>CHANGES</h4>
+                                    <h4>CHANGES</h4>
                                         <p>You can changes your Application.</p>
                                     </div>
                                 </div>
@@ -176,11 +174,11 @@ include("include/config.php");
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
-                                            <i class="flaticon-support-1"></i>
+                                            <i class="flaticon-bag"></i>
                                         </div>
                                     </div>
                                     <div class="features-card-text">
-                                        <h4>RENEW</h4>
+                                    <h4>RENEW</h4>
                                         <p>You can Renew your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
@@ -190,94 +188,8 @@ include("include/config.php");
                 </div>
             </div>
         </div>
-    </div>
+</div>
 
-    <!-- <div class="booking booking-1">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-10">
-<div class="booking-content">
-<div class="default-section-title">
-<h3>Book A Service</h3>
-</div>
-<div class="section-content">
-<form>
-<div class="row">
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Your Name">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="Email" class="form-control" placeholder="Email Address">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Zip Code">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<input type="text" class="form-control" placeholder="Mobile Number">
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<select class="form-select" aria-label="Default select example">
-<option selected="" disabled="">Choose A Service</option>
-<option value="1">Room Cleaning</option>
-<option value="2">Office Cleaning</option>
-<option value="3">Ground Cleaning</option>
-</select>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<div class="booking-form-content">
-<button class="default-button" type="submit"><span>Submit Details</span></button>
-</div>
-</div>
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div> -->
-
-
-    <!-- <div class="section-content">
-
-                <div class="row">
-                    <?php 
-                        
-                        $sql=mysqli_query($conn,"select * from `services`");
-                         while($arr=mysqli_fetch_array($sql)){
-                        ?>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="service-card">
-                            <div class="service-img">
-                                <a href="service-details.php"><?php echo $arr['image'];?></a>
-                            </div>
-                            <div class="service-card-text">
-                                <div class="service-card-icon">
-                                    <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
-                                    <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
-                                    <i class="flaticon-residential"></i>
-                                </div>
-                                <h4><a href="service-details.php"><?php echo $arr['title'];?></a></h4>
-                                <p><?php echo $arr['description'];?></p>
-                                <a class="read-more-btn" href="service-details.php">Apply</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <?php  } ?>
-                </div>
-
-            </div> -->
     <div class="service ptb-100">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
@@ -286,126 +198,73 @@ include("include/config.php");
             </div>
             <div class="section-content">
                 <div class="row">
-                    <?php 
+                <?php 
                         
                         $sql=mysqli_query($conn,"select * from `services` limit 6");
-                    
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="service-card">
-                            <!-- <div class="service-img">
-<a href="service-details.html"><img src="admin/logo/<?php echo $arr['image'];?>" style="height:350px; width:420px;" alt="image"></a>
-</div> -->
-                            <div class="service-card-text" style="height:400px; width:420px;">
+                        
+                            <div class="service-card-text">
                                 <div class="service-card-icon">
                                     <img class="shape1" src="assets/images/shape/shape-2.png" alt="image">
                                     <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
                                     <i class="<?php echo $arr['logo'];?>"></i>
                                 </div>
-                                <h4><a href="service-details.html"><?php echo $arr['title'];?></a></h4>
-                                <p style="
-    height: 120px;
-"><?php echo $arr['description'];?></p>
-                                <div style="margin-top: 40px;">
-                                    <a class="read-more-btn" href="<?php echo $arr['link'];?>">Apply</a>
-                                </div>
-
+                                <h4><a href="service-details.html"><?php echo $arr['title'];?> </a></h4>
+                                <p><?php echo $arr['description'];?></p>
+                                <a class="read-more-btn" href="service-details.html">Apply</a>
                             </div>
                         </div>
                     </div>
                     <?php  } ?>
+
                 </div>
             </div>
         </div>
-        <div class="testimonial ptb-100">
-            <div class="container">
-                <div class="default-section-title default-section-title-middle">
-                    <h6>Testimonials</h6>
-                    <h3>What Our Client Say About Us</h3>
-                </div>
-                <div class="section-content">
-                    <div class="row">
-                        <?php 
+    </div>
+    
+
+
+    <div class="testimonial ptb-100">
+        <div class="container">
+            <div class="default-section-title default-section-title-middle">
+                <h6>Testimonials</h6>
+                <h3>What Our Client Say About Us</h3>
+            </div>
+            <div class="section-content">
+                <div class="row justify-content-center">
+                <?php 
                         
                         $sql=mysqli_query($conn,"select * from `testimonial`");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
 
-                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                            <div class=" justify-content-center">
-                                <div class="testimonial-card">
-                                    <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
-                                    <div class="stars">
-                                        <ul>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="fas fa-star"></i></li>
-                                            <li><i class="far fa-star"></i></li>
-                                            <li><span>4.0</span></li>
-                                        </ul>
-                                    </div>
-                                    <p><?php echo $arr['message'];?></p>
-                                    <div class="testimonial-footer">
-                                        <img src="admin/logo/<?php echo $arr['image'];?>"
-                                            style="height:60px; width:60px;" alt="image">
-                                        <div class="testimonial-footer-intro">
-                                            <h4><?php echo $arr['name'];?></h4>
-                                            <p><?php echo $arr['position'];?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <?php  } ?>
-
-                    </div>
-                    <!-- <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="testimonial-card">
                             <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
+                           
+                            <p><?php echo $arr['message'];?></p>
                             <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc3.jpg" alt="image">
+                                <img src="assets/images/testimonial/tc1.jpg" alt="image">
                                 <div class="testimonial-footer-intro">
-                                    <h4>Alex Alina</h4>
-                                    <p>Manager, Alox</p>
+                                    <h4><?php echo $arr['name'];?></h4>
+                                    <p><?php echo $arr['position'];?></p>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+                    <?php   } ?>
                 </div>
             </div>
         </div>
     </div>
 
+
     <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>
 
-    <div class="popup">
-        <div class="popup-content">
-            <button class="close-btn" id="popup-close"><i class="fas fa-times"></i></button>
-            <form>
-                <!-- <div class="input-group search-box">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                </div> -->
-            </form>
-        </div>
-    </div>
-
-    <div class="go-top"><img src="assets/images/png/002-top.png" alt=""></div>
 
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-7.js"></script>

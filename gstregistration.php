@@ -56,6 +56,8 @@ include("include/config.php");
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
   </script>
 
+ 
+
 
   <title>Sachin Enterprise - GST Registation</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
@@ -102,9 +104,9 @@ include("include/config.php");
                         <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1"
                           placeholder="Phone" minlength="10" maxlength="10" required>
                       </div>
-                      <div class="form-group pt-2">
-                        <select required class="form-control" name="service" id="servicesid">
-                          <option value="" disabled selected hidden>Select Service:</option>
+                      <div class="form-group pt-2 ">
+                        <select class="form-control" name="service" id="servicesid">
+                          <option disabled selected hidden>Select Service:</option>
                           <option>Pancard</option>
                           <option>Gumasta</option>
                           <option>Gazette</option>
