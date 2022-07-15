@@ -1,3 +1,24 @@
+<?php
+include("include/config.php");
+
+if(isset($_POST['send'])){
+
+ 
+  $email=$_POST['email'];
+
+  $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`email`) 
+  VALUES ('$name',)");
+  if($sql==1){
+    header("location:fassai-service.php");
+    }
+    else
+    echo 'connection failed';
+    }
+    ?>
+
+
+  
+
 <?php 
       include("include/config.php");                  
                         $sql=mysqli_query($conn,"select * from `general_setting`");
@@ -57,8 +78,8 @@
 <div class="footer-links footer-newsletter">
  <h3>Subscribe</h3>
 <p>Subscribe To Our Get a Call To Get Our Update News!</p>
-<form>
-<input type="text" class="form-control" placeholder="Your Email">
+<form method="post">
+<input type="text" class="form-control"  name="email"placeholder="Your Email">
 <button class="default-button" type="submit"><span>Send</span></button>
 </form>
 </div>
