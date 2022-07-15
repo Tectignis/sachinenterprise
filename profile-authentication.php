@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
-<title>Anwa - Cleaning Company HTML Template</title>
+<title>Sachin Enterprises </title>
 <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
 <body>

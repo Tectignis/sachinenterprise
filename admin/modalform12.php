@@ -24,7 +24,7 @@ if(isset($_POST['dnkidno'])){
        <p> '.$row['nm'].' </p>
       </div>
       </div>
-  
+    
       <div class="row">   
        <div class="col-4">
       <b> Mobile No :</b><br>
