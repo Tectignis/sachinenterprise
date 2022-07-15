@@ -70,7 +70,7 @@
 
 <div class="copyright bg-000000">
     <div class="container">
-        <p>Copyright &copy; 2021. <strong>TECTIGNIS IT SOLUTION</strong> All Rights Reserved By <a target="_blank"
-                href="https://tectignis.in/">tectignis.in </a></p>
+        <p>Copyright &copy; 2022. <strong>SACHIN ENTERPRISE</strong> All Rights Reserved .</p>
+        <!-- <a target="_blank" href="https://tectignis.in/">tectignis.in </a> -->
     </div>
 </div>
