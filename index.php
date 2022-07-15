@@ -52,7 +52,7 @@ include("include/config.php");
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="main-banner-img">
-                        <img src="assets/images/banner/img2.png" alt="image">
+                        <img src="assets/images/banner/undraw_design_notes_re_eklr.svg" alt="image">
                     </div>
                 </div>
             </div>
