@@ -19,6 +19,10 @@ echo 'connection failed';
 }
 
 ?>
+<?php
+$sql=mysqli_query($conn,"select * from `general_setting`");
+ $arr=mysqli_fetch_array($sql)
+?>
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -51,8 +55,8 @@ echo 'connection failed';
   </script>
 
 
-  <title>Anwa - Cleaning Company HTML Template</title>
-  <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+<title>Sachin Enterprise - passport service</title>
+    <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
 <body>
