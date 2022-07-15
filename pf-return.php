@@ -91,7 +91,7 @@ echo 'connection failed';
                     <input type="email" class="form-control" name="email" id="exampleInputPassword1" placeholder="Email">
                   </div>
                   <div class="form-group pt-2">
-                  <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  <input type="text" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
                   </div>
                   <div class="form-group pt-2">
                 
