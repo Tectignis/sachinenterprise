@@ -71,7 +71,7 @@ echo 'connection failed';
                 <h5 class="subtitle  ">TDS Returns</h5>
                 <p></p>
                 <div class="text-box">
-                <p>File error-free GST Return File and in-time. Get your GST return filings done through experts sachinenterprise.in 
+                <p>File error-free TDS Return File and in-time. Get your TDS return filings done through experts sachinenterprise.in 
                         Prices start at <strong>INR <span class="package__price">499</span>/- only.</strong></p>
 
                 </div>
