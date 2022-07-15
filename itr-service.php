@@ -41,7 +41,7 @@ include("include/config.php");
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4 pt-5">
+          <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                 <h2 class="title ">File</h2>
                 <h5 class="subtitle  ">Income Tax Return</h5>
                 <p></p>
@@ -49,10 +49,10 @@ include("include/config.php");
                   <label for="">Filing of Income Tax return is necessary if you have earned any income. File your ITR with sachinenterprise at <strong>INR 1999/- only.</strong></label>
                 </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4 col-md-4 col-lg-4">
                 <img src="assets/images/employee images/CAF-Header-image.png" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card ">
             <div class=" shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
