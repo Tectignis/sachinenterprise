@@ -23,13 +23,7 @@
 </head>
 
 <body>
-
-
-
-
-
     <?php include("include/header.php"); ?>
-
 
     <div class="uni-banner">
         <div class="container">
@@ -42,8 +36,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="about about-1 ptb-100">
         <div class="container-fluid">
             <div class="row align-items-center">
@@ -75,10 +67,9 @@
                                 <li><i class="far fa-check-square"></i>The purpose of this portal is to facilitate the
                                     listing of online services provided by various government entities under one
                                     platform.</li>
-
                             </ul>
                         </div>
-                        <a class="default-button" href="about.html"><span>Read More</span></a>
+                        <a class="default-button" href="about.php"><span>Read More</span></a>
                         <div class="fun-facts-area">
                             <div class="row justify-content-center">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
@@ -102,8 +93,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="features features-bg pt-100">
         <div class="container">
             <div class="row">
@@ -143,7 +132,8 @@
                                     </div>
                                     <div class="features-card-text">
                                         <h4>UPDATE</h4>
-                                        <p>You can Update your Documents.<label class="invisible">Text invisible</label></p>
+                                        <p>You can Update your Documents.<label class="invisible">Text invisible</label>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +150,7 @@
                                         <h4>CHANGES</h4>
                                         <p>You can changes your Application.</p>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
@@ -174,9 +164,10 @@
                                     </div>
                                     <div class="features-card-text">
                                         <h4>RENEW</h4>
-                                        <p>You can renew your Application.<label class="invisible">Text invisible</label></p>
+                                        <p>You can renew your Application.<label class="invisible">Text
+                                                invisible</label></p>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -185,11 +176,6 @@
             </div>
         </div>
     </div>
-
-
-   
-
-
     <div class="testimonial ptb-100">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
@@ -198,51 +184,46 @@
             </div>
             <div class="section-content">
                 <div class="row">
-            <?php 
-                        
+                    <?php 
                         $sql=mysqli_query($conn,"select * from `testimonial`");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
-                        
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                    <div class=" justify-content-center">
-                        <div class="testimonial-card">
-                            <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
-                            </div>
-                            <p><?php echo $arr['message'];?></p>
-                            <div class="testimonial-footer">
-                            <img src="admin/logo/<?php echo $arr['image'];?>" style="height:60px; width:60px;" alt="image">
-                                <div class="testimonial-footer-intro">
-                                    <h4><?php echo $arr['name'];?></h4>
-                                    <p><?php echo $arr['position'];?></p>
+                        <div class=" justify-content-center">
+                            <div class="testimonial-card">
+                                <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
+                                <div class="stars">
+                                    <ul>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="far fa-star"></i></li>
+                                        <li><span>4.0</span></li>
+                                    </ul>
+                                </div>
+                                <p><?php echo $arr['message'];?></p>
+                                <div class="testimonial-footer">
+                                    <img src="admin/logo/<?php echo $arr['image'];?>" style="height:60px; width:60px;"
+                                        alt="image">
+                                    <div class="testimonial-footer-intro">
+                                        <h4><?php echo $arr['name'];?></h4>
+                                        <p><?php echo $arr['position'];?></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        </div>
-                         </div>
+                    </div>
                     <?php  } ?>
-                    
-                         </div>
-                   
-                    
+
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
 
     <?php include("include/newsletter.php"); ?>
     <?php include("include/footer.php"); ?>
-
 
     <div class="popup">
         <div class="popup-content">
@@ -257,7 +238,6 @@
     </div>
 
     <div class="go-top"><img src="assets/images/png/002-top.png" alt=""></div>
-
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-7.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>

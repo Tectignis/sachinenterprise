@@ -117,7 +117,7 @@ echo 'connection failed';
       </div>
     </div>
   </div>
-  <!-- </div> -->
+  </div>
   <div class="container">
     <div class="row">
       <div class="default-section-title default-section-title-middle">
@@ -143,7 +143,7 @@ echo 'connection failed';
       </div>
     </div>
   </div>
-  <!-- </div> -->
+  </div>
   <div class="container pb-5">
     <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">

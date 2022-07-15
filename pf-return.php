@@ -58,7 +58,7 @@ echo 'connection failed';
       <div class="card" style="border:none">
         <div class="card-body">
         <div class="row">
-          <div class="col-4 pt-5">
+          <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                 <h2 class="title ">File Your</h2>
                 <h5 class="subtitle  ">Pf Returns</h5>
                 <p></p>
@@ -66,10 +66,10 @@ echo 'connection failed';
                   <label for="">File error-free PF Returns and in-time. File your PF returns through experts sachinenterprise. Prices start at  <strong>INR 999/- only.</strong></label>
                 </div>
                 </div>
-                <div class="col-4">
-                <img src="../../sachinenterprise\assets\images\return-img/pfimg.jpg" alt="sachinenterprise">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                <img src="assets\images\return-img/pfimg.jpg" alt="sachinenterprise">
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card ">
             <div class=" shadow bg-white rounded">
               <div class="card-header text-center" style="background-color:red; color:white">
@@ -194,7 +194,7 @@ echo 'connection failed';
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
         <div class="row ">
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class="card h-100 " >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
@@ -214,7 +214,7 @@ echo 'connection failed';
                 </div>
             </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4 py-2">
             <div class=" card h-100" >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
@@ -234,7 +234,7 @@ echo 'connection failed';
                 </div>
             </div>
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-12 col-lg-4  py-2">
             <div class=" card h-100" >
               <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>

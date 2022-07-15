@@ -31,12 +31,7 @@ include("include/config.php");
 </head>
 
 <body>
-
-
-
     <?php include("include/header.php"); ?>
-
-
 
     <div class="main-banner main-banner-bg">
         <div class="container-fluid">
@@ -58,9 +53,6 @@ include("include/config.php");
             </div>
         </div>
     </div>
-
-
-
 
     <div class="about about-1 ptb-100">
         <div class="container-fluid">
@@ -92,7 +84,6 @@ include("include/config.php");
                                 <li><i class="far fa-check-square"></i>The purpose of this portal is to facilitate the
                                     listing of online services provided by various government entities under one
                                     platform.</li>
-
                             </ul>
                         </div>
                         <a class="default-button" href="about.php"><span>Read More</span></a>
@@ -103,13 +94,6 @@ include("include/config.php");
                                         <i class="flaticon-support"></i>
                                         <h2><span class="odometer" data-count="300">00</span><sup>+</sup></h2>
                                         <p>Happy Clients</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-6">
-                                    <div class="fun-facts-card">
-                                        <i class="flaticon-project-plan"></i>
-                                        <h2><span class="odometer" data-count="700">00</span><sup>+</sup></h2>
-                                        <p>Project Completed</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
@@ -126,7 +110,6 @@ include("include/config.php");
             </div>
         </div>
     </div>
-
 
     <div class="features features-bg pt-100">
         <div class="container">
@@ -209,7 +192,6 @@ include("include/config.php");
         </div>
     </div>
 
-
     <!-- <div class="booking booking-1">
 <div class="container">
 <div class="row justify-content-center">
@@ -266,10 +248,8 @@ include("include/config.php");
 </div> -->
 
 
-
-
-
     <!-- <div class="section-content">
+
                 <div class="row">
                     <?php 
                         
@@ -306,7 +286,6 @@ include("include/config.php");
             </div>
             <div class="section-content">
                 <div class="row">
-
                     <?php 
                         
                         $sql=mysqli_query($conn,"select * from `services`");
@@ -336,20 +315,9 @@ include("include/config.php");
                         </div>
                     </div>
                     <?php  } ?>
-
-
-
-
                 </div>
-
             </div>
-
         </div>
-
-
-
-
-
         <div class="testimonial ptb-100">
             <div class="container">
                 <div class="default-section-title default-section-title-middle">
@@ -364,7 +332,7 @@ include("include/config.php");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
 
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                             <div class=" justify-content-center">
                                 <div class="testimonial-card">
                                     <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
@@ -422,10 +390,8 @@ include("include/config.php");
         </div>
     </div>
 
-
     <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>
-
 
     <div class="popup">
         <div class="popup-content">
