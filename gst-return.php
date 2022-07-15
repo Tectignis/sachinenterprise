@@ -94,7 +94,7 @@ echo 'connection failed';
                        <option value="" disabled selected hidden>Select Service:</option>
                        <option>Pancard</option>
                        <option>Gumasta</option>
-                       <option>Gozette</option>
+                       <option>Gazette</option>
                        <option>Gst Registration</option>
                        <option>Income Tax Return File</option>
                        <option>Passport</option>
