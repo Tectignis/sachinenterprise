@@ -18,7 +18,8 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <title>Sachin Enterprises </title>
-<link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+<link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
+
 
 </head>
 <body>
