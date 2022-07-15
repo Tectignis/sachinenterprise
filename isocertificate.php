@@ -1,6 +1,28 @@
 <?php
 include("include/config.php");
 
+if(isset($_POST['submit'])){
+
+ 
+  $name=$_POST['name'];
+  $phonenumber=$_POST['phonenumber'];
+  $email=$_POST['email'];
+  $service=$_POST['service'];
+
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
+  VALUES ('$name','$phonenumber','$email','$service')");
+
+if($sql==1){
+header("location:isocertificate.php");
+}
+else
+echo 'connection failed';
+}
+?>
+
+<?php
+include("include/config.php");
+
 $sql=mysqli_query($conn,"select * from `general_setting`");
  $arr=mysqli_fetch_array($sql)
 ?>
@@ -127,25 +149,25 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                                         <h4 class="card-title">Start With Confidence</h4>
                                         <h6>CA/CS Assisted | 4.8/5 Rating</h6>
                                     </div>
-                                    <form action="">
+                                    <form method="post">
                                         <div class="card-body">
                                             <div class="form-group pt-2">
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                <input type="text" class="form-control" name="name" id="exampleInputEmail1"
                                                     placeholder="Name" required>
                                             </div>
                                             <div class="form-group pt-2">
-                                                <input type="email" class="form-control" id="exampleInputPassword1"
+                                                <input type="email" class="form-control" name="email" id="exampleInputPassword1"
                                                     placeholder="Email" required>
                                             </div>
                                             <div class="form-group pt-2">
-                                                <input type="tel" class="form-control" id="exampleInputPassword1"
+                                                <input type="text" class="form-control" name="phonenumber" id="exampleInputPassword1"
                                                     placeholder="Phone" minlength="10" maxlength="10" required>
                                             </div>
                                         </div>
                                         <!-- /.card-body -->
                                         <div class="card-footer"
                                             style="background:white; border:none; text-align:center">
-                                            <button type="submit" class="btn btn-warning">GET STARTED</button>
+                                            <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
                                         </div>
 
                                     </form>
