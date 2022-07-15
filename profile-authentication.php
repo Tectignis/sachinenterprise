@@ -1,4 +1,10 @@
-﻿
+﻿<?php
+include("include/config.php");
+
+$sql=mysqli_query($conn,"select * from `general_setting`");
+$arr=mysqli_fetch_array($sql)
+
+?>
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -20,7 +26,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 <title>Sachin Enterprises -profile authintication </title>
-<link rel="icon" type="image/png" href="assets/images/fav-icon.png">
+<link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 
 </head>
 <body>
