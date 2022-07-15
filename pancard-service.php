@@ -1,6 +1,28 @@
 <?php
 include("include/config.php");
 
+if(isset($_POST['submit'])){
+
+ 
+  $name=$_POST['name'];
+  $phonenumber=$_POST['phonenumber'];
+  $email=$_POST['email'];
+  $service=$_POST['service'];
+
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
+  VALUES ('$name','$phonenumber','$email','$service')");
+
+if($sql==1){
+header("location:pancard-service.php");
+}
+else
+echo 'connection failed';
+}
+?>
+
+<?php
+include("include/config.php");
+
 $sql=mysqli_query($conn,"select * from `general_setting`");
  $arr=mysqli_fetch_array($sql)
 
@@ -132,7 +154,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                                         only.</strong></label>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-md-4 col-lg-4"">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
                             <img src="assets/images/employee images/CAF-Header-image.png" alt="">
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-4">
@@ -142,25 +164,43 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                                         <h4 class="card-title">Get the Pan Registration</h4>
                                         <h6>CA/CS Assisted | 4.8/5 Rating</h6>
                                     </div>
-                                    <form action="">
+                                    <form method="post">
                                         <div class="card-body">
                                             <div class="form-group pt-2">
                                                 <input type="text" class="form-control" id="exampleInputEmail1"
-                                                    placeholder="Name">
+                                                  name="name"  placeholder="Name">
                                             </div>
                                             <div class="form-group pt-2">
                                                 <input type="email" class="form-control" id="exampleInputPassword1"
-                                                    placeholder="Email">
+                                                name="email"  placeholder="Email">
                                             </div>
                                             <div class="form-group pt-2">
-                                                <input type="tel" class="form-control" id="exampleInputPassword1"
-                                                    placeholder="Phone" minlength="10" maxlength="10">
+                                                <input type="text" class="form-control" id="exampleInputPassword1"
+                                                name="phonenumber"  placeholder="Phone" minlength="10" maxlength="10">
                                             </div>
+
+                                            <div class="form-group pt-2">
+                
+                <select required class="form-control" name="service" id="servicesid" >
+                       <option value="" disabled selected hidden>Select Service:</option>
+                       <option>Pancard</option>
+                       <option>Gumasta</option>
+                       <option>Gazette</option>
+                       <option>Gst Registration</option>
+                       <option>Income Tax Return File</option>
+                       <option>Passport</option>
+                       <option>Udhyog Aadhar</option>
+                       <option>FSSAI License</option>
+                       <option>Rent Agreement</option>
+                       <option>ISO Certificate</option>
+                       <option>Professional Tax Registation</option>
+                       </select> 
+             </div>
                                         </div>
                                         <!-- /.card-body -->
                                         <div class="card-footer"
                                             style="background:white; border:none; text-align:center">
-                                            <button type="submit" class="btn btn-warning">GET STARTED</button>
+                                            <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
                                         </div>
 
                                     </form>
