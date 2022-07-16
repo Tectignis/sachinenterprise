@@ -77,7 +77,7 @@ echo 'connection failed';
                 </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="assets\images\return-img/tdsimg.jpg" alt="">
+                <img src="assets\images\return-img\ezgif.com-gif-maker (2).webp" alt="sachinenterprises">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card ">

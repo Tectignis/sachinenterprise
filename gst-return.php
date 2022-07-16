@@ -74,7 +74,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="assets/images/return-img/img.png" alt="sachinenterprise, sachinenterprise.in">
+                <img src="assets\images\return-img\ezgif.com-gif-maker (3).webp" alt="sachinenterprise, sachinenterprise.in">
                 </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card ">
