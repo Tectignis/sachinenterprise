@@ -1,6 +1,12 @@
 <?php
 include("include/config.php");
 ?>
+<?php 
+      include("include/config.php");                  
+                        $sql=mysqli_query($conn,"select * from `general_setting`");
+                    
+                      $arr=mysqli_fetch_array($sql)
+                        ?>
 
 <div class="topbar">
     <div class="container">
@@ -31,7 +37,7 @@ include("include/config.php");
         <div class="main-responsive-nav">
             <div class="container">
                 <div class="mobile-nav">
-                    <a href="index.php" class="logo"><img src="assets/images/logo.png" alt="logo"></a>
+                    <a href="index.php" class="logo"><img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="logo" style="height:74px;"></a>
                     <ul class="menu-sidebar menu-small-device">
                         <li><button class="popup-button"><i class="fas fa-search"></i></button></li>
                     </ul>
@@ -43,7 +49,7 @@ include("include/config.php");
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light ">
                     <a class="navbar-brand" href="index.php">
-                        <img src="assets/images/companylogo/SE_logo.png" alt="logo" style="height: 75px; width: 75px;">
+                        <img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="logo" style="height: 75px; width: 75px;">
                     </a>
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav">
