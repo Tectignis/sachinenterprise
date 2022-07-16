@@ -153,7 +153,7 @@ include("include/config.php");
   <div class="container pb-5">
     <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-sm-12 col-md-12 col-lg-4 py-2">
           <div class="card">
             <div class="card-header text-center" style="background-color:#000080; color:white">
