@@ -7,10 +7,11 @@ if(isset($_POST['submit'])){
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
+  $service=$_POST['service'];
  
 
-$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
-  VALUES ('$name','$phonenumber','$email')");
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
+  VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
 header("location:gstmodification.php");
@@ -181,8 +182,8 @@ include("include/config.php");
               </div>
               <!-- /.card-body -->
               <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                <button type="submit" class="btn btn-warning" class="btn btn-warning" data-bs-toggle="modal"
-                  data-bs-target="#exampleModal">Get a call</button>
+              <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
+                call</button>
               </div>
             </form>
           </div>
@@ -205,8 +206,8 @@ include("include/config.php");
               </div>
               <!-- /.card-body -->
               <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                <button type="submit" class="btn btn-warning" class="btn btn-warning" data-bs-toggle="modal"
-                  data-bs-target="#exampleModal">Get a call</button>
+              <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
+                call</button>
               </div>
             </form>
           </div>
@@ -227,8 +228,8 @@ include("include/config.php");
             </div>
             <!-- /.card-body -->
             <div class="card-footer" style="background-color:white; border:none; text-align:center">
-              <button type="submit" class="btn btn-warning" class="btn btn-warning" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">Get a call</button>
+            <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
+                call</button>
             </div>
           </div>
         </div>

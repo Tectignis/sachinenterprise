@@ -79,16 +79,16 @@ include("include/config.php");
                     <h4 class="card-title">Start With Confidence</h4>
                     <h6>CA/CS Assisted | 4.8/5 Rating</h6>
                   </div>
-              <form action="">
+              <form method="POST">
                 <div class="card-body">
                     <div class="form-group pt-2">
-                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
+                      <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="Name" required>
                     </div>
                     <div class="form-group pt-2">
-                       <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" required>
+                       <input type="email" name="email" class="form-control" id="exampleInputPassword1" placeholder="Email" required>
                     </div>
                     <div class="form-group pt-2">
-                        <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10" required>
+                        <input type="tel" name="phonenumber" class="form-control" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10" required>
                     </div>
                     <div class="form-group pt-2">
                       <select required class="form-control" name="service" id="servicesid" >
@@ -109,7 +109,7 @@ include("include/config.php");
               </div>
                     <!-- /.card-body -->
                     <div class="card-footer" style="background:white; border:none; text-align:center">
-                            <button type="submit" class="btn btn-warning">GET STARTED</button>
+                            <button type="submit" class="btn btn-warning" name="submit">GET STARTED</button>
                     </div>
               
               </form>
