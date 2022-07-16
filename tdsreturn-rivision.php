@@ -13,12 +13,13 @@ $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`ser
   VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
-header("location:.tdsreturn-rivision.php");
+header("location:tdsreturn-rivision.php");
 }
 else
 echo 'connection failed';
 }
 ?>
+
 <?php
 
 $sql=mysqli_query($conn,"select * from `general_setting`");
@@ -74,7 +75,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="assets\images\return-img\rivision.jpg" alt="sachinenterprise">
+                <img src="assets\images\return-img\ezgif.com-gif-maker (1).webp" alt="sachinenterprise">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card ">
@@ -92,7 +93,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                     <input type="email" class="form-control" name="email" id="exampleInputPassword1" placeholder="Email">
                   </div>
                   <div class="form-group pt-2">
-                  <input type="tel" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
+                  <input type="text" class="form-control" name="phonenumber" id="exampleInputPassword1" placeholder="Phone" minlength="10" maxlength="10">
                   </div>
                   <div class="form-group pt-2">
                 
@@ -209,7 +210,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
+                  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
             </div>
             </div>
@@ -231,7 +232,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
+                  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
             </div>
             </div>
@@ -255,7 +256,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer" style="background-color:white; border:none; text-align:center">
-                  <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a Call</button>
                 </div>
             </div>
             </div>
