@@ -60,11 +60,6 @@ include("include/config.php");
                         <div class="about-img-1">
                         <img src="assets/images/about/undraw_operating_system_re_iqsc.svg" alt="image">
                         </div>
-                        <div class="about-img-2">
-                            <img src="assets/images/about/a1-2.jpg" alt="image">
-                            <a class="video-popup" href="../../watch-9.html?v=0qNsC-NLuhM"><i
-                                    class="flaticon-play-button"></i></a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">

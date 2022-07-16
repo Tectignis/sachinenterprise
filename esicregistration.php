@@ -71,7 +71,7 @@ include("include/config.php");
                 <label for="">Extend medical benefits to your employees. Register for ESIC. Prices start from <strong>INR 5999/- only.</strong></label>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="assets/images/employee images/images_11.jpg" alt="">
+                  <img src="assets\images\registration images\images_11.webp" alt="">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">

@@ -53,7 +53,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
 
     <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
-   <title>Sachin Enterprise - Pancard Service</title>
+    <title>Sachin Enterprise - Pancard Service</title>
     <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -68,7 +68,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
 
 </head>
 <style>
-      a:hover,
+    a:hover,
     a:focus {
         text-decoration: none;
         outline: none;
@@ -155,7 +155,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
-                            <img src="assets/images/employee images/CAF-Header-image.png" alt="">
+                            <img src="assets\images\registration images\CAF-Header-image.webp" alt="">
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="card ">
@@ -168,39 +168,41 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                                         <div class="card-body">
                                             <div class="form-group pt-2">
                                                 <input type="text" class="form-control" id="exampleInputEmail1"
-                                                  name="name"  placeholder="Name">
+                                                    name="name" placeholder="Name">
                                             </div>
                                             <div class="form-group pt-2">
                                                 <input type="email" class="form-control" id="exampleInputPassword1"
-                                                name="email"  placeholder="Email">
+                                                    name="email" placeholder="Email">
                                             </div>
                                             <div class="form-group pt-2">
                                                 <input type="text" class="form-control" id="exampleInputPassword1"
-                                                name="phonenumber"  placeholder="Phone" minlength="10" maxlength="10">
+                                                    name="phonenumber" placeholder="Phone" minlength="10"
+                                                    maxlength="10">
                                             </div>
 
                                             <div class="form-group pt-2">
-                
-                <select required class="form-control" name="service" id="servicesid" >
-                       <option value="" disabled selected hidden>Select Service:</option>
-                       <option>Pancard</option>
-                       <option>Gumasta</option>
-                       <option>Gazette</option>
-                       <option>Gst Registration</option>
-                       <option>Income Tax Return File</option>
-                       <option>Passport</option>
-                       <option>Udhyog Aadhar</option>
-                       <option>FSSAI License</option>
-                       <option>Rent Agreement</option>
-                       <option>ISO Certificate</option>
-                       <option>Professional Tax Registation</option>
-                       </select> 
-             </div>
+
+                                                <select required class="form-control" name="service" id="servicesid">
+                                                    <option value="" disabled selected hidden>Select Service:</option>
+                                                    <option>Pancard</option>
+                                                    <option>Gumasta</option>
+                                                    <option>Gazette</option>
+                                                    <option>Gst Registration</option>
+                                                    <option>Income Tax Return File</option>
+                                                    <option>Passport</option>
+                                                    <option>Udhyog Aadhar</option>
+                                                    <option>FSSAI License</option>
+                                                    <option>Rent Agreement</option>
+                                                    <option>ISO Certificate</option>
+                                                    <option>Professional Tax Registation</option>
+                                                </select>
+                                            </div>
                                         </div>
                                         <!-- /.card-body -->
                                         <div class="card-footer"
                                             style="background:white; border:none; text-align:center">
-                                            <button type="submit" name="submit" class="btn btn-warning">GET STARTED</button>
+                                            <button type="submit" name="submit" class="btn btn-warning">GET
+                                                STARTED</button>
                                         </div>
 
                                     </form>
@@ -320,98 +322,110 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 </div>
             </div>
             <div class="container pb-5">
-        <h3 class="pt-5 text-center">FREQUENTLY ASKED QUESTIONS</h3>
-        <div class="row">
-            <div class="col-md-12 pt-3">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
-                            <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
-                                    aria-expanded="true" aria-controls="collapseOne">
-                                    What is a PAN Card?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
-                            aria-labelledby="headingOne">
-                            <div class="panel-body">
-                                <p>PAN Card or Permanent Account Number card is a ten-character alphanumeric identifier physical card issued by the income tax department to individuals. This card includes the name, date of birth, and photograph of the person and serves as an identity proof of the person. This card is valid for a lifetime and is unaffected by any change in address. PAN card is essential for all taxpayers and is required for financial transactions and is also used to track the inflow and outflow of money.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What are the benefits of having a PAN Card?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                            aria-labelledby="headingTwo">
-                            <div class="panel-body">
-                                <ul>
-                                <li> Filing Income Tax Return</li>
-                                <li> Tax deduction</li>
-                                <li> Claim Tax Refund</li>
-                                <li> Open a Demat Account</li>
-                                <li> Purchase and Sale of property</li>
-                                <li> Buying vehicles, company’s shares, securities</li>
-                                <li> Financial transaction of more than Rs. 50,000</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    What are the documents required for a PAN Card?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                            aria-labelledby="headingThree">
-                            <div class="panel-body">
-                                <p>An ISO certification only certifies standards , it has got nothing to do with permits and licenses. Even though you might have an ISO certification, you still need government and authority permission, permits and licenses to work your business.</p>
+                <h3 class="pt-5 text-center">FREQUENTLY ASKED QUESTIONS</h3>
+                <div class="row">
+                    <div class="col-md-12 pt-3">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion"
+                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            What is a PAN Card?
+                                        </a>
+                                    </h4>
                                 </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingFour">
-                            <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Why does my company need an iso standard?
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
-                            aria-labelledby="headingFour">
-                            <div class="panel-body">
-                            <ul>
-                            <b>Individual Applicant</b>
-                            <li>Identity proof like Aadhaar, Voter ID, Driving License</li>
-                            <li> Address proof</li>
-                            </ul>
-                            <ul>
-                            <b>Indian Companies</b>
-                                <li> Registration Certificate copy.</li>
-                            </ul>
-                            <ul>
-                            <b>Firms and Limited Liability Partnerships</b>
-                            <li> Registration Certificate copy</li>
-                            <li> Partnership Deed copy</li>
-                            </ul>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <p>PAN Card or Permanent Account Number card is a ten-character alphanumeric
+                                            identifier physical card issued by the income tax department to individuals.
+                                            This card includes the name, date of birth, and photograph of the person and
+                                            serves as an identity proof of the person. This card is valid for a lifetime
+                                            and is unaffected by any change in address. PAN card is essential for all
+                                            taxpayers and is required for financial transactions and is also used to
+                                            track the inflow and outflow of money.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            What are the benefits of having a PAN Card?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li> Filing Income Tax Return</li>
+                                            <li> Tax deduction</li>
+                                            <li> Claim Tax Refund</li>
+                                            <li> Open a Demat Account</li>
+                                            <li> Purchase and Sale of property</li>
+                                            <li> Buying vehicles, company’s shares, securities</li>
+                                            <li> Financial transaction of more than Rs. 50,000</li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            What are the documents required for a PAN Card?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <p>An ISO certification only certifies standards , it has got nothing to do with
+                                            permits and licenses. Even though you might have an ISO certification, you
+                                            still need government and authority permission, permits and licenses to work
+                                            your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                            data-parent="#accordion" href="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            Why does my company need an iso standard?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                                    aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <b>Individual Applicant</b>
+                                            <li>Identity proof like Aadhaar, Voter ID, Driving License</li>
+                                            <li> Address proof</li>
+                                        </ul>
+                                        <ul>
+                                            <b>Indian Companies</b>
+                                            <li> Registration Certificate copy.</li>
+                                        </ul>
+                                        <ul>
+                                            <b>Firms and Limited Liability Partnerships</b>
+                                            <li> Registration Certificate copy</li>
+                                            <li> Partnership Deed copy</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
         </div>
     </div>
     </div>

@@ -68,7 +68,7 @@ include("include/config.php");
                 <label for="">Claim your access to Government Subsidies, Priority Lending and a quick start up. Register for MSME/Udyog Aadhar at <strong>INR 1499/- only.</strong></label>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                <img src="assets/images/employee images/images_12-3.jpg" alt="">
+                  <img src="assets\images\registration images\images_12-3.webp" alt="">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">

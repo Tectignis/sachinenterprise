@@ -142,7 +142,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                             <label for="">Online professional tax registration</label>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
-                            <img src="assets/images/employee images/CAF-Header-image.png" alt="">
+                            <img src="assets\images\registration images\CAF-Header-image.webp" alt="">
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="card ">
@@ -205,7 +205,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
         </div>
         <div class="setion-content">
             <div class="row justify-content-center pt-5">
-                <div class="col-lg-12 col-md-12 col-sm12 col-6">                                                                                             
+                <div class="col-lg-6 col-md-12 col-sm-12 col-6">                                                                                             
                     <label for=""><i class="fas fa-check"></i> In case of delay in obtaining the registration
                         certificate, a penalty of ? 5 per day in case of the employer and ₹ 2 per day in case of a
                         non-employed individual shall be imposed.</label>
@@ -222,8 +222,8 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                         professional tax payable.</label>
                        
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12 pt-5">
-                    <img src="assets\images\employee images\penalty.jpg" alt="">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-6 pt-5 justify-content-center">
+                    <img src="assets\images\registration images\penalty.webp" alt="">
                 </div>
             </div>
         </div>

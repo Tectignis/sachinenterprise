@@ -7,10 +7,10 @@ if(isset($_POST['submit'])){
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
-  $service=$_POST['service'];
+  
 
-$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
-  VALUES ('$name','$phonenumber','$email','$service')");
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
+  VALUES ('$name','$phonenumber','$email')");
 
 if($sql==1){
 header("location:isocertificate.php");
@@ -140,7 +140,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                             <label for="">Online ISO Certification (All Types Of ISO)</label>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
-                            <img src="assets/images/employee images/CAF-Header-image.png" alt="">
+                            <img src="assets\images\registration images\CAF-Header-image.webp" alt="">
                         </div>
                         <div class="col-sm-12 col-md-12 col-lg-4">
                             <div class="card ">
@@ -242,17 +242,18 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
         </div>
         <div class="setion-content">
             <div class="row justify-content-center pt-5">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-6 pt-5">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-6 pt-5">
                     <label for=""><i class="fas fa-check"></i> Business Registration Proof: Certificate of Incorporation
                         or GST certificate or MSME certificate or Trademark certificate, etc. (Any One)</label>
                     <label for=""><i class="fas fa-check"></i> Letter Head or Visiting Card (Any One).</label>
+                    <br>
                     <label for=""><i class="fas fa-check"></i> Sales Invoice, Purchase Invoice, Receipt, Bill (Any
                         One).</label>
                     <label for=""><i class="fas fa-check"></i> Business Activity/Scope (Which is to be written on
                         certificate).</label>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-6 pt-5">
-                    <img src="assets\images\employee images\doc.png" alt="">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-6 pt-5">
+                    <img src="assets\images\registration images\doc.webp" alt="">
                 </div>
             </div>
         </div>

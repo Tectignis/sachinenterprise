@@ -52,11 +52,6 @@ include("include/config.php");
                         <div class="about-img-1">
                             <img src="assets/images/about/undraw_referral_re_0aji.svg" alt="image">
                         </div>
-                        <!-- <div class="about-img-2">
-                            <img src="assets/images/about/a1-2.jpg" alt="image">
-                            <a class="video-popup" href="../../watch-9.html?v=0qNsC-NLuhM"><i
-                                    class="flaticon-play-button"></i></a>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -77,7 +72,6 @@ include("include/config.php");
                                     platform.</li>
                             </ul>
                         </div>
-                        <a class="default-button" href="about.php"><span>Read More</span></a>
                         <div class="fun-facts-area">
                             <div class="row justify-content-center">
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
@@ -200,16 +194,6 @@ include("include/config.php");
                         <div class=" justify-content-center">
                             <div class="testimonial-card">
                                 <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
-                                <div class="stars">
-                                    <ul>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="far fa-star"></i></li>
-                                        <li><span>4.0</span></li>
-                                    </ul>
-                                </div>
                                 <p><?php echo $arr['message'];?></p>
                                 <div class="testimonial-footer">
                                     <img src="admin/logo/<?php echo $arr['image'];?>" style="height:60px; width:60px;"

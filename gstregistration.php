@@ -82,7 +82,7 @@ include("include/config.php");
               </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 ">
-              <img src="assets/images/employee images/CAF-Header-image.png" alt="">
+              <img src="assets\images\registration images\CAF-Header-image.webp" alt="">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
               <div class="card ">

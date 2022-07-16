@@ -72,7 +72,7 @@ include("include/config.php");
                 Prices starting at<strong> INR 499/- only.</strong></label>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
-              <img src="assets/images/employee images/images_18-3.jpg" alt="">
+              <img src="assets\images\registration images\images_18-3.webp" alt="">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
               <div class="card">
@@ -182,7 +182,7 @@ include("include/config.php");
               </div>
               <!-- /.card-body -->
               <div class="card-footer" style="background-color:white; border:none; text-align:center">
-              <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
+              <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
                 call</button>
               </div>
             </form>
@@ -206,7 +206,7 @@ include("include/config.php");
               </div>
               <!-- /.card-body -->
               <div class="card-footer" style="background-color:white; border:none; text-align:center">
-              <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
+              <button  type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
                 call</button>
               </div>
             </form>
@@ -228,7 +228,7 @@ include("include/config.php");
             </div>
             <!-- /.card-body -->
             <div class="card-footer" style="background-color:white; border:none; text-align:center">
-            <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Get a
                 call</button>
             </div>
           </div>

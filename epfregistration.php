@@ -70,7 +70,7 @@ include("include/config.php");
                     <label for="">Extend Social Security to your employees. Register for Provident Fund. Prices starting <strong>INR 5999/- only.</strong></label>
                   </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
-                     <img src="assets/images/employee images/images_33-3.jpg" alt="">
+                    <img src="assets\images\registration images\images_33-3.webp" alt="">
                 </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card">
