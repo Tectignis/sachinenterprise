@@ -6,10 +6,11 @@ if(isset($_POST['submit'])){
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
+  $service=$_POST['service'];
  
 
-$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`) 
-  VALUES ('$name','$phonenumber','$email')");
+$sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
+  VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
 header("location:gstregistration.php");

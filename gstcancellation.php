@@ -1,6 +1,5 @@
 <?php
 include("include/config.php");
-
 if(isset($_POST['submit'])){
 
  
@@ -8,16 +7,18 @@ if(isset($_POST['submit'])){
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
   $service=$_POST['service'];
+ 
 
 $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
   VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
-header("location:gstcancellation.php");
+header("location:gstmodification.php");
 }
 else
 echo 'connection failed';
 }
+
 ?>
 <?php
 include("include/config.php");
