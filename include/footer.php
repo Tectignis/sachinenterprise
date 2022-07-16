@@ -1,23 +1,3 @@
-<?php
-include("include/config.php");
-
-if(isset($_POST['send'])){
-
- 
-  $email=$_POST['email'];
-
-  $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`email`) 
-  VALUES ('$name',)");
-  if($sql==1){
-    header("location:fassai-service.php");
-    }
-    else
-    echo 'connection failed';
-    }
-    ?>
-
-
-  
 
 <?php 
       include("include/config.php");                  
