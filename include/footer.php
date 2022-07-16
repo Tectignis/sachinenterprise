@@ -104,8 +104,8 @@ if(isset($_POST['send'])){
 
 
   
-
-<?php 
+ 
+ <?php 
       include("include/config.php");                  
                         $sql=mysqli_query($conn,"select * from `general_setting`");
                     
