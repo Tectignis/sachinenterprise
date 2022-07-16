@@ -142,10 +142,12 @@ include("include/config.php");
             </div>
         </div>
     </div>
+    <div class="container">
     <div class="google-map">
-        <iframe class="g-map" src=""></iframe>
+    <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.1608566784093!2d73.09553702316866!3d19.012632245941212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9c13dc51fbf%3A0xb18b2a5f3ac839c0!2sSachin%20Enterprise!5e0!3m2!1sen!2sin!4v1657889041055!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.009846023751!2d73.09052!3d19.0196132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc4393822ca49e8bb!2sTECTIGNIS%20IT%20SOLUTIONS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1657888506118!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
     </div>
-
+    </div>
     <?php include("include/newsletter.php"); ?>
     <?php include("include/footer.php"); ?>
 

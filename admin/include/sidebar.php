@@ -57,6 +57,14 @@
               </a>
             </li>
             <li class="nav-item">
+              <a href="subscribe.php" class="nav-link">
+                <i class="nav-icon fas fa-envelope text-white"></i>
+                <p>
+               Subscribe
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
              <a href="#" class="nav-link">
              <i class="nav-icon fas fa-user-cog text-blue"></i>
              <p>

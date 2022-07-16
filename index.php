@@ -27,7 +27,6 @@ include("include/config.php");
     <title>sachin Enterprise - Index</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
-
 <body>
 
 <?php include("include/header.php"); ?>
