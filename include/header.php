@@ -37,7 +37,7 @@ include("include/config.php");
         <div class="main-responsive-nav">
             <div class="container">
                 <div class="mobile-nav">
-                    <a href="index.php" class="logo"><img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="logo" style="height:74px;"></a>
+                    <a href="index.php" class="logo"><img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="logo" style="height:50px;"></a>
                     <ul class="menu-sidebar menu-small-device">
                         <li><button class="popup-button"><i class="fas fa-search"></i></button></li>
                     </ul>
