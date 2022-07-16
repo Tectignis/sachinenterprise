@@ -5,7 +5,7 @@ include("include/config.php");
       include("include/config.php");                  
                         $sql=mysqli_query($conn,"select * from `general_setting`");
                     
-                      $arr=mysqli_fetch_array($sql)
+                          $arr=mysqli_fetch_array($sql)
                         ?>
 
 <div class="topbar">
