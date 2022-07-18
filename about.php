@@ -26,10 +26,49 @@ include("include/config.php");
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sachin Enterprise - About</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
-
+<style>
+    .ratingCheck{
+display:flex;
+transform: rotateY(180deg);
+}
+.ratingCheck label{
+    display:block;
+    width:20px;
+    background:transperent;
+}
+.ratingCheck label:before{
+    content:'\f005';
+    font-family: FontAwesome;
+    position: relative;
+    display: block;
+    font-size:15px;
+}
+.ratingCheck label:after{
+    content:"\f005";
+    font-family: FontAwesome;
+    position: absolute;
+    display: block;
+    font-size:15px;
+    color:#ff344f;
+    top:0;
+    opacity:0;
+    transition:.5s;
+    text-shadow:0 2px 5px rgba(0,0,0,.5);
+}
+.ratingCheck input{
+    display:none;
+}
+.ratingCheck>.fff {
+    color:#ffd31d;
+}
+.pagination .active .fa-circle{
+  color:#ff344f !important;
+}
+</style>
 <body>
     <?php include("include/header.php"); ?>
 
@@ -193,6 +232,27 @@ include("include/config.php");
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class=" justify-content-center">
                             <div class="testimonial-card">
+                            <div class="stars">
+                        <ul class="ratings ratings-three">
+                                                   
+                                                   <li class="ratingCheck">
+                                                   <input type="radio" id="stars5" name="rate" value="5">
+                                                   <label for="stars5" <?php if( ($arr['rating'] >=5)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars4" name="rate" value="4">
+                                                   <label for="stars4" <?php if( ($arr['rating'] >= 4)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars3" name="rate" value="3" >
+                                                   <label for="stars3" <?php if( ($arr['rating'] >= 3)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars2" name="rate" value="2">
+                                                   <label for="stars2" <?php if( ($arr['rating'] >= 2)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars1" name="rate" value="1" >
+                                                   <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars1" name="rate" value="1" >
+                                                   <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
+                                                   
+                                                   </li>
+                                                   <li><span><?php echo $arr['rating'];?>.0</span></li>
+                                               </ul>
+                         </div>
                        
                                 <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
                                 <p><?php echo $arr['message'];?></p>
