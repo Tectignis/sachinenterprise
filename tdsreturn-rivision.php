@@ -197,7 +197,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
             <div class="card h-100 " >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
-                <h3 class="text-danger"><strong >₹ 999/-</strong></h3>
+                <h3 class="text-danger"><strong >₹ 799/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
                 <div class="card-body">
@@ -240,7 +240,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
             <div class=" card h-100" >
               <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
-                <h3 class="text-danger"><strong >₹ 2499/-</strong></h3>
+                <h3 class="text-danger"><strong >₹ 2299/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
               <form>
