@@ -204,7 +204,7 @@ echo 'connection failed';
             <div class="card h-100 " >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
-                <h3 class="text-danger"><strong >₹ 999/-</strong></h3>
+                <h3 class="text-danger"><strong >₹ 799/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
                 <div class="card-body">
@@ -224,7 +224,7 @@ echo 'connection failed';
             <div class=" card h-100" >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
-                <h3 class="text-danger"><strong>₹ 8999/-</strong></h3>
+                <h3 class="text-danger"><strong>₹ 7999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
                 <div class="card-body">
@@ -244,7 +244,7 @@ echo 'connection failed';
             <div class=" card h-100" >
               <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
-                <h3 class="text-danger"><strong >₹ 13999/-</strong></h3>
+                <h3 class="text-danger"><strong >₹ 12999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
                 <div class="card-body">

@@ -101,7 +101,7 @@ include("include/config.php");
                                         <a href="pf-return.php" class="nav-link dropdown-toggle">PF Return </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="esi-return.php" class="nav-link dropdown-toggle">ESI Return </a>
+                                        <a href="esi-return.php" class="nav-link dropdown-toggle">ESIC Return </a>
                                     </li>
 
                                 </ul>

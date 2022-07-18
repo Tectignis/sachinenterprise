@@ -52,7 +52,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
-    <title>Sachin Enterprise - Esi Return </title>
+    <title>Sachin Enterprise - Esic Return </title>
     <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
@@ -68,10 +68,10 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
         <div class="row">
           <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                 <h2 class="title ">File Your</h2>
-                <h5 class="subtitle  ">ESI Returns</h5>
+                <h5 class="subtitle  ">ESIC Returns</h5>
                 <p></p>
                 <div class="text-box">
-                  <label for="">File error-free ESI Returns and in-time. File your ESI returns through experts sachinenterpraise.in Prices start at<strong>INR 999/- only.</strong></label>
+                  <label for="">File error-free ESIC Returns and in-time. File your ESIC returns through experts sachinenterpraise.in Prices start at<strong>INR 999/- only.</strong></label>
                 </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
@@ -88,7 +88,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
               <div class="card-body">
                   <div class="form-group pt-2">
                     <input type="text" class="form-control" name="name" id="exampleInputEmail1" placeholder="Name">
-                  </div>
+                  </div> 
                   <div class="form-group pt-2">
                     <input type="email" class="form-control" name="email" id="exampleInputPassword1" placeholder="Email">
                   </div>
@@ -134,7 +134,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
    
         <div class="container pt-5">
             <div class="default-section-title default-section-title-middle">
-                <h3>What is an ESI Return File?</h3>
+                <h3>What is an ESIC Return File?</h3>
                 <br>
                 <h4>Your need to know</h4>
             </div>
@@ -143,31 +143,31 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 <div class="row justify-content-center pt-3">
                     <div class="col-8">
                     
-                        <h5>Employees’ State Insurance(ESI):</h5>
+                        <h5>Employees’ State Insurance(ESIC):</h5>
                         
-         <label> Employee State Insurance is a self-financing social security scheme and health insurance plan for Indian workers, offering medical and disablement benefits. Governed by the ESI Act, 1948, it is managed by Employees’ State Insurance Corporation (ESIC) under the Ministry of Labour and Employment. ESIC is expected to manage the fund as per the rules and regulations set forth by the Act.
+         <label> Employee State Insurance is a self-financing social security scheme and health insurance plan for Indian workers, offering medical and disablement benefits. Governed by the ESIC Act, 1948, it is managed by Employees’ State Insurance Corporation (ESIC) under the Ministry of Labour and Employment. ESIC is expected to manage the fund as per the rules and regulations set forth by the Act.
 </label>
 </div>
 </div>
              <div class="row justify-content-center pt-3">
                     <div class="col-8">
-           <h5>Applicability of ESI:</h5>
-           <label>The ESIC is applicable on all the establishments having 10 or more workers and is beneficial to all the employees earning Rs.15, 000/- or less per month as wages, employer must contribute 3.25 percent and employee must contributes 0.75 percent towards ESI.</label>
+           <h5>Applicability of ESIC:</h5>
+           <label>The ESIC is applicable on all the establishments having 10 or more workers and is beneficial to all the employees earning Rs.15, 000/- or less per month as wages, employer must contribute 3.25 percent and employee must contributes 0.75 percent towards ESIC.</label>
             </div>
             </div>
                    <div class="row justify-content-center pt-3">
                     <div class="col-8">
-           <h5>Due date for filing ESI Return:</h5>
-           <label>The employer needs to pay ESI return on a monthly basis, and the due dates are also fixed as follows:
+           <h5>Due date for filing ESIC Return:</h5>
+           <label>The employer needs to pay ESIC return on a monthly basis, and the due dates are also fixed as follows:
                 </label>
-            <lable>The due date for ESI return filing is 15th of subsequent month.</label>
+            <lable>The due date for ESIC return filing is 15th of subsequent month.</label>
             </div>
             </div> 
 
                     <div class="row justify-content-center pt-3">
                     <div class="col-8">
             <h5>
-            Why sachinenterprise as your service provider for ESI return?</h5>
+            Why sachinenterprise as your service provider for ESIC return?</h5>
           
             <label>sachinenterprise.in is an eminent business platform and a progressive concept, which helps end-to-end incorporation, compliance, advisory, and management consultancy services to clients in India and abroad. Filing ESI Returns is easy, seamless, cheapest and quickest with sachinenterprise.in! Apart from ESI returns, sachinenterprise.in! also helps you to file Income Tax Returns, <a target="_blank" class="text-danger" href="http:tds-return.php" style="text-decoration:none"> TDS returns </a>, <a target="_blank" class="text-danger" href="http:gst-return.php" style="text-decoration:none"> GST Returns </a> and <a target="_blank" class="text-danger" href="http:pf-return.php" style="text-decoration:none"> PF Returns </a> easily. 
                 You may get in touch with our compliance manager on <a class="text-danger" href="tel:9987705688" style="text-decoration:none"> 09987705688</a> or email <a target="_blank" class="text-danger" href="http://demo.sachinenterprise.in" style="text-decoration:none">info@sachinenterprise.in</a> for free consultation.</label>
@@ -177,12 +177,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
             </div>
         </div>
    
-  
-
-
-
-
-
 
         <div class="container pt-5">
             <h2 style="text-align:center">Simple Prices | No Surprises</h2>
@@ -192,13 +186,13 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
             <div class="card h-100 " >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ESSENTIAL</h4>
-                <h3 class="text-danger"><strong >₹ 999/-</strong></h3>
+                <h3 class="text-danger"><strong >₹ 799/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
                     <ul>
-                  <li> 1 ESI Return (ESI) upto 10 employees</li>
+                  <li> 1 ESIC Return (ESIC) upto 10 employees</li>
                   </ul>
                   </div>
                 </div>
@@ -212,13 +206,13 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
             <div class=" card h-100" >
               <div class="card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ENHANCED</h4>
-                <h3 class="text-danger"><strong>₹ 8999/-</strong></h3>
+                <h3 class="text-danger"><strong>₹ 7999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
                 <div class="card-body">
                   <div class="form-group pt-2">
                     <ul>
-                  <li> One Year ESI Returns upto 20 employees</li>
+                  <li> One Year ESIC Returns upto 20 employees</li>
                   </ul>
                   </div>
                 </div>
@@ -232,13 +226,13 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
             <div class=" card h-100" >
               <div class=" card card-header text-center" style="background-color:#000080; color:white">
                 <h4 class="card-title">ULTIMATE</h4>
-                <h3 class="text-danger"><strong >₹ 13999/-</strong></h3>
+                <h3 class="text-danger"><strong >₹ 12999/-</strong></h3>
                 <label for="">(All Inclusive)</label>
               </div>
                 <div class="card-body">
                   <div class="form-group ">
                     <ul>
-                  <li> One Year ESI Returns upto 50 employees</li>
+                  <li> One Year ESIC Returns upto 50 employees</li>
                   </ul>
                   </div>
                 </div>
