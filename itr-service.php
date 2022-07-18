@@ -73,7 +73,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                 <h5 class="subtitle  ">Income Tax Return</h5>
                 <p></p>
                 <div class="text-box">
-                  <label for="">Filing of Income Tax return is necessary if you have earned any income. File your ITR with sachinenterprise at <strong>INR 1999/- only.</strong></label>
+                  <label for="">Filing of Income Tax return is necessary if you have earned any income. File your ITR with sachinenterprise at <strong>INR 999/- only.</strong></label>
                 </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">

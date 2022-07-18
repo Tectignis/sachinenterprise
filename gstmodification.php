@@ -3,13 +3,11 @@ include("include/config.php");
 
 if(isset($_POST['submit'])){
 
- 
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
   $service=$_POST['service'];
  
-
 $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
   VALUES ('$name','$phonenumber','$email','$service')");
 
@@ -20,6 +18,7 @@ else
 echo 'connection failed';
 }
 ?>
+
 <?php
 include("include/config.php");
                         $sql=mysqli_query($conn,"select * from `general_setting`");
@@ -57,7 +56,6 @@ include("include/config.php");
 <body>
 
   <?php include("include/header.php"); ?>
-
 
   <div class="shadow-lg">
     <div class="container">
@@ -125,7 +123,6 @@ include("include/config.php");
       </div>
     </div>
   </div>
-
   <div class="pricing pricing-1">
     <div class="container">
       <div class="default-section-title default-section-title-middle">
@@ -158,8 +155,6 @@ include("include/config.php");
       </div>
     </div>
   </div>
-
-
   <div class="container pb-5">
     <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
@@ -192,7 +187,7 @@ include("include/config.php");
           <div class="card h-100">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ENHANCED</h4>
-              <h3 class="text-danger"><strong>₹ 1499/-</strong></h3>
+              <h3 class="text-danger"><strong>₹ 599/-</strong></h3>
               <label for="">(All Inclusive)</label>
             </div>
             <form>
@@ -216,7 +211,7 @@ include("include/config.php");
           <div class="card h-100 ">
             <div class="card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ULTIMATE</h4>
-              <h3 class="text-danger"><strong>₹ 1799/-</strong></h3>
+              <h3 class="text-danger"><strong>₹ 1599/-</strong></h3>
               <label for="">(All Inclusive)</label>
             </div>
             <div class="card-body">
@@ -238,7 +233,6 @@ include("include/config.php");
   </div>
   </div>
 
-
   <?php include("include/newsletter.php");?>
   <?php include("include/footer.php"); ?>
 
@@ -256,7 +250,6 @@ include("include/config.php");
   </div>
 
   <div class="go-top"><img src="assets/images/png/002-top.png" alt=""></div>
-
 
   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-7.js"></script>
   <script src="assets/js/jquery-3.6.0.min.js"></script>

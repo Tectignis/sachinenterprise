@@ -2,13 +2,11 @@
 include("include/config.php");
 if(isset($_POST['submit'])){
 
- 
   $name=$_POST['name'];
   $phonenumber=$_POST['phonenumber'];
   $email=$_POST['email'];
   $service=$_POST['service'];
  
-
 $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`service`) 
   VALUES ('$name','$phonenumber','$email','$service')");
 
@@ -18,8 +16,8 @@ header("location:gstregistration.php");
 else
 echo 'connection failed';
 }
-
 ?>
+
 <?php
 include("include/config.php");
                         $sql=mysqli_query($conn,"select * from `general_setting`");
@@ -57,9 +55,6 @@ include("include/config.php");
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
   </script>
 
- 
-
-
   <title>Sachin Enterprise - GST Registation</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
@@ -78,7 +73,7 @@ include("include/config.php");
               <p></p>
               <div class="text-box">
                 <label for="">Make your business GST Compliant. Never lose on GST input credit ever. Obtain your
-                  <strong>GST Registration</strong> Online at <strong>INR 1999/- only.</strong></label>
+                  <strong>GST Registration</strong> Online at <strong>INR 599/- only.</strong></label>
               </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 ">
@@ -135,8 +130,6 @@ include("include/config.php");
       </div>
     </div>
   </div>
-
-
   <div class="container">
     <div class="default-section-title default-section-title-middle">
       <h3 class="pt-5">GST Registration</h3>
@@ -240,11 +233,6 @@ include("include/config.php");
       </div>
     </div>
   </div>
-
-
-
-  <!-- </div> -->
-
   <div class="container pb-5">
     <h2 style="text-align:center">Simple Prices | No Surprises</h2>
     <div class="card-body">
@@ -253,7 +241,7 @@ include("include/config.php");
           <div class="card h-100">
             <div class="card card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ESSENTIAL</h4>
-              <h3 class="text-danger"><strong>₹ 1999/-</strong></h3>
+              <h3 class="text-danger"><strong>₹ 599/-</strong></h3>
               <label for="">(All Inclusive)</label>
             </div>
             <div class="card-body">
@@ -274,7 +262,7 @@ include("include/config.php");
           <div class=" card h-100">
             <div class="card card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ENHANCED</h4>
-              <h3 class="text-danger"><strong>₹ 3299/-</strong></h3>
+              <h3 class="text-danger"><strong>₹ 2999/-</strong></h3>
               <label for="">(All Inclusive)</label>
             </div>
             <div class="card-body">
@@ -296,7 +284,7 @@ include("include/config.php");
           <div class=" card  h-100">
             <div class=" card card-header text-center" style="background-color:#000080; color:white">
               <h4 class="card-title">ULTIMATE</h4>
-              <h3 class="text-danger"><strong>₹ 8099/-</strong></h3>
+              <h3 class="text-danger"><strong>₹ 6999/-</strong></h3>
               <label for="">(All Inclusive)</label>
             </div>
             <div class="card-body">
@@ -318,20 +306,8 @@ include("include/config.php");
     </div>
   </div>
 
-
-
-  <!-- </div> -->
-
-
-
-
-
-
-
-
   <?php include("include/newsletter.php");?>
   <?php include("include/footer.php"); ?>
-
 
   <div class="popup">
     <div class="popup-content">

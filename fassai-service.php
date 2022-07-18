@@ -13,7 +13,7 @@ $sql=mysqli_query($conn,"INSERT INTO `enquiry`(`name`,`phonenumber`,`email`,`ser
   VALUES ('$name','$phonenumber','$email','$service')");
 
 if($sql==1){
-header("location:fassai-service.php");
+header("location:Fssai-service.php");
 }
 else
 echo 'connection failed';
@@ -52,7 +52,7 @@ $arr=mysqli_fetch_array($sql)
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
-   <title>Sachin Enterprise - Fassai Service</title>
+   <title>Sachin Enterprise - Fssai Service</title>
     <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
@@ -67,11 +67,11 @@ $arr=mysqli_fetch_array($sql)
         <div class="card-body">
         <div class="row">
           <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
-                <h2 class="title ">Fassai Licence</h2>
-                <h5 class="subtitle  ">Fassai registration</h5>
+                <h2 class="title ">Fssai Licence</h2>
+                <h5 class="subtitle  ">Fssai registration</h5>
                 <p></p>
                 <div class="text-box">
-                  <label for="">Make your business fassai Compliant. Never lose on fassai input credit ever. Obtain your <strong>Fassai Registration</strong> Online at  <strong>INR 1999/- only.</strong></label>
+                  <label for="">Make your business Fssai Compliant. Never lose on Fssai input credit ever. Obtain your <strong>Fssai Registration</strong> Online at  <strong>INR 999/- only.</strong></label>
                 </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4">
@@ -113,7 +113,7 @@ $arr=mysqli_fetch_array($sql)
         
     <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h3 class="pt-5">Fassai Licence</h3>
+                <h3 class="pt-5">Fssai Licence</h3>
             </div>
             <div class="setion-content">
                 <div class="row justify-content-center pt-5">

@@ -29,7 +29,11 @@ include("include/config.php");
     <title>Sachin Enterprise - About</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
-
+<style>
+    .checked{
+        color:orange;   
+    }
+</style>
 <body>
     <?php include("include/header.php"); ?>
 
@@ -193,6 +197,11 @@ include("include/config.php");
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class=" justify-content-center">
                             <div class="testimonial-card">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                                 <i class="flaticon-right-q<?php echo $arr['name'];?>uote"></i>
                                 <p><?php echo $arr['message'];?></p>
                                 <div class="testimonial-footer">

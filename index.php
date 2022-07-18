@@ -27,6 +27,11 @@ include("include/config.php");
     <title>sachin Enterprise - Index</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
+<style>
+    .checked{
+        color:orange;
+    }
+</style>
 <body>
 
 <?php include("include/header.php"); ?>
@@ -45,7 +50,7 @@ include("include/config.php");
                 </div>
                 <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="main-banner-img">
-                    <img src="assets/images/banner/undraw_design_notes_re_eklr.svg" alt="image">
+                    <img src="assets\images\banner\undraw_pay_online_re_aqe6.svg" alt="image">
                     </div>
                 </div>
             </div>
@@ -105,7 +110,7 @@ include("include/config.php");
     </div>
 
 
-    <div class="features features-bg pt-100">
+    <div class="features features-bg">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-4 col-xl-12 col-lg-12 col-md-12 col-12">
@@ -118,60 +123,60 @@ include("include/config.php");
                     <div class="features-card-area">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card fmt-0">
-                                    <div class="features-icon-area">
+                                <div class="features-card fmt-0 row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-customer-support"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>APPLY</h4>
                                         <p>You can Apply for our several services.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card fmt-0">
-                                    <div class="features-icon-area">
+                                <div class="features-card fmt-0 row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-appointment"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>UPDATE</h4>
                                         <p>You can Update your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card">
-                                    <div class="features-icon-area">
+                                <div class="features-card row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-support-1"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>CHANGES</h4>
                                         <p>You can changes your Application.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card">
-                                    <div class="features-icon-area">
+                                <div class="features-card row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-bag"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>RENEW</h4>
                                         <p>You can Renew your Application.<label class="invisible">invisible</label></p>
                                     </div>
@@ -206,9 +211,9 @@ include("include/config.php");
                                     <img class="shape2" src="assets/images/shape/shape-2-1.png" alt="image">
                                     <i class="<?php echo $arr['logo'];?>"></i>
                                 </div>
-                                <h4><a href="service-details.html"><?php echo $arr['title'];?> </a></h4>
+                                <h4><a href="<?php echo $arr['link'];?>"><?php echo $arr['title'];?> </a></h4>
                                 <p><?php echo $arr['description'];?></p>
-                                <a class="read-more-btn" href="service-details.html">Apply</a>
+                                <a class="read-more-btn" href="<?php echo $arr['link'];?>">Apply</a>
                             </div>
                         </div>
                     </div>
@@ -228,6 +233,7 @@ include("include/config.php");
                 <h3>What Our Client Say About Us</h3>
             </div>
             <div class="section-content">
+          
                 <div class="row justify-content-center">
                 <?php 
                         
@@ -237,6 +243,11 @@ include("include/config.php");
 
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="testimonial-card">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
                             <i class="flaticon-right-quote"></i>
                            
                             <p><?php echo $arr['message'];?></p>
