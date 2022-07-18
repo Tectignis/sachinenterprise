@@ -24,8 +24,49 @@ $arr=mysqli_fetch_array($sql)
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Sachin Enterprises -testimonial </title>
 <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
+<style>
+.ratingCheck{
+display:flex;
+transform: rotateY(180deg);
+}
+.ratingCheck label{
+    display:block;
+    cursor: pointer;
+    width:20px;
+    background:white;
+}
+.ratingCheck label:before{
+    content:'\f005';
+    font-family: FontAwesome;
+    position: relative;
+    display: block;
+    font-size:15px;
+}
+.ratingCheck label:after{
+    content:"\f005";
+    font-family: FontAwesome;
+    position: absolute;
+    display: block;
+    font-size:15px;
+    color:#ff344f;
+    top:0;
+    opacity:0;
+    transition:.5s;
+    text-shadow:0 2px 5px rgba(0,0,0,.5);
+}
+.ratingCheck input{
+    display:none;
+}
+.ratingCheck>.fff {
+    color:#ffd31d;
+}
+.pagination .active .fa-circle{
+  color:#ff344f !important;
+}
+</style>
 </head>
 
 <body>
@@ -52,152 +93,52 @@ $arr=mysqli_fetch_array($sql)
                 <h6>s</h6>
                 <h3>What Our Client Say About Us</h3>
             </div>
+            
             <div class="section-content">
                 <div class="row justify-content-center">
+                <?php 
+                        $sql=mysqli_query($conn,"select * from `testimonial`");
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="-card">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
+                                
+                              
+                                <ul class="ratings ratings-three">
+                                                   
+                                                    <li class="ratingCheck">
+                                                    <input type="radio" id="stars5" name="rate" value="5">
+                                                    <label for="stars5" <?php if( ($arr['rating'] >=5)){ ?>class="fff"<?php } ?>></label>
+                                                    <input type="radio" id="stars4" name="rate" value="4">
+                                                    <label for="stars4" <?php if( ($arr['rating'] >= 4)){ ?>class="fff"<?php } ?>></label>
+                                                    <input type="radio" id="stars3" name="rate" value="3" >
+                                                    <label for="stars3" <?php if( ($arr['rating'] >= 3)){ ?>class="fff"<?php } ?>></label>
+                                                    <input type="radio" id="stars2" name="rate" value="2">
+                                                    <label for="stars2" <?php if( ($arr['rating'] >= 2)){ ?>class="fff"<?php } ?>></label>
+                                                    <input type="radio" id="stars1" name="rate" value="1" >
+                                                    <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
+                                                    <input type="radio" id="stars1" name="rate" value="1" >
+                                                    <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
+                                                    
+                                                    </li>
+                                                    <li><span><?php echo $arr['rating'];?>.0</span></li>
+                                                </ul>
                             </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="-footer">
-                                <img src="assets/images//tc1.jpg" alt="image">
+                            <p>“ <?php echo $arr['message'];?>”</p>
+                            <div class="-footer" style="text-align:left">
+                                <img src="assets\images\testimonial\tc2.webp"   alt="sachinenterprises">
                                 <div class="-footer-intro">
-                                    <h4>Jhon Abraham</h4>
-                                    <p>Manager, Elan</p>
+                                    <h4><?php echo $arr['name'];?></h4>
+                                    <p><?php echo $arr['position'];?></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><span>5.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="-footer">
-                                <img src="assets/images//tc2.jpg" alt="image">
-                                <div class="-footer-intro">
-                                    <h4>Sen Watson</h4>
-                                    <p>Manager, Econ</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="-footer">
-                                <img src="assets/images//tc3.jpg" alt="image">
-                                <div class="-footer-intro">
-                                    <h4>Alex Alina</h4>
-                                    <p>Manager, Alox</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="-footer">
-                                <img src="assets/images//tc4.jpg" alt="image">
-                                <div class="-footer-intro">
-                                    <h4>Jhon Doe</h4>
-                                    <p>Manager, Elan</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><span>5.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="-footer">
-                                <img src="assets/images//tc5.jpg" alt="image">
-                                <div class="-footer-intro">
-                                    <h4>Sen Herry</h4>
-                                    <p>Manager, Bcon</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="far fa-star"></i></li>
-                                    <li><span>4.0</span></li>
-                                </ul>
-                            </div>
-                            <p>“ Lorem ipsum dolor sit amet, consectetur dolore adipiscing elitsed eiusmod tempor set
-                                incididunt labore dolore magna aliqua Quis ipsum.”</p>
-                            <div class="-footer">
-                                <img src="assets/images//tc6.jpg" alt="image">
-                                <div class="-footer-intro">
-                                    <h4>Jacky Smith</h4>
-                                    <p>Manager, Aloy</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php } ?>
+                    
+                    
                 </div>
             </div>
         </div>
