@@ -101,7 +101,7 @@ transform: rotateY(180deg);
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="-card">
+                        <div class="-card h-100">
                             <i class="flaticon-right-quote"></i>
                             <div class="stars">
                                 
