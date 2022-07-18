@@ -87,58 +87,58 @@ transform: rotateY(180deg);
     </div>
 
 
-    <div class=" ptb-100">
+
+    <div class="testimonial ptb-100">
         <div class="container">
             <div class="default-section-title default-section-title-middle">
-                <h6>s</h6>
+                <h6>Testimonials</h6>
                 <h3>What Our Client Say About Us</h3>
             </div>
-            
             <div class="section-content">
+          
                 <div class="row justify-content-center">
                 <?php 
+                        
                         $sql=mysqli_query($conn,"select * from `testimonial`");
                          while($arr=mysqli_fetch_array($sql)){
                         ?>
+
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="-card">
-                            <i class="flaticon-right-quote"></i>
-                            <div class="stars">
-                                
-                              
-                                <ul class="ratings ratings-three">
+                        <div class="testimonial-card">
+                        <div class="stars">
+                        <ul class="ratings ratings-three">
                                                    
-                                                    <li class="ratingCheck">
-                                                    <input type="radio" id="stars5" name="rate" value="5">
-                                                    <label for="stars5" <?php if( ($arr['rating'] >=5)){ ?>class="fff"<?php } ?>></label>
-                                                    <input type="radio" id="stars4" name="rate" value="4">
-                                                    <label for="stars4" <?php if( ($arr['rating'] >= 4)){ ?>class="fff"<?php } ?>></label>
-                                                    <input type="radio" id="stars3" name="rate" value="3" >
-                                                    <label for="stars3" <?php if( ($arr['rating'] >= 3)){ ?>class="fff"<?php } ?>></label>
-                                                    <input type="radio" id="stars2" name="rate" value="2">
-                                                    <label for="stars2" <?php if( ($arr['rating'] >= 2)){ ?>class="fff"<?php } ?>></label>
-                                                    <input type="radio" id="stars1" name="rate" value="1" >
-                                                    <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
-                                                    <input type="radio" id="stars1" name="rate" value="1" >
-                                                    <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
-                                                    
-                                                    </li>
-                                                    <li><span><?php echo $arr['rating'];?>.0</span></li>
-                                                </ul>
-                            </div>
-                            <p>“ <?php echo $arr['message'];?>”</p>
-                            <div class="-footer" style="text-align:left">
-                                <img src="admin/logo/<?php echo $arr['image'];?>" alt="sachinenterprises">
-                                <div class="-footer-intro">
+                                                   <li class="ratingCheck">
+                                                   <input type="radio" id="stars5" name="rate" value="5">
+                                                   <label for="stars5" <?php if( ($arr['rating'] >=5)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars4" name="rate" value="4">
+                                                   <label for="stars4" <?php if( ($arr['rating'] >= 4)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars3" name="rate" value="3" >
+                                                   <label for="stars3" <?php if( ($arr['rating'] >= 3)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars2" name="rate" value="2">
+                                                   <label for="stars2" <?php if( ($arr['rating'] >= 2)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars1" name="rate" value="1" >
+                                                   <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
+                                                   <input type="radio" id="stars1" name="rate" value="1" >
+                                                   <label for="stars1" <?php if( ($arr['rating'] >= 1)){ ?>class="fff"<?php } ?>></label>
+                                                   
+                                                   </li>
+                                                   <li><span><?php echo $arr['rating'];?>.0</span></li>
+                                               </ul>
+                         </div>
+                            <i class="flaticon-right-quote"></i>
+                           
+                            <p><?php echo $arr['message'];?></p>
+                            <div class="testimonial-footer">
+                                <img src="assets/images/testimonial/tc1.jpg" alt="image">
+                                <div class="testimonial-footer-intro">
                                     <h4><?php echo $arr['name'];?></h4>
                                     <p><?php echo $arr['position'];?></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <?php } ?>
-                    
-                    
+                    <?php   } ?>
                 </div>
             </div>
         </div>
