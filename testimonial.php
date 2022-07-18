@@ -128,7 +128,7 @@ transform: rotateY(180deg);
                             </div>
                             <p>“ <?php echo $arr['message'];?>”</p>
                             <div class="-footer" style="text-align:left">
-                                <img src="assets\images\testimonial\tc2.webp"   alt="sachinenterprises">
+                                <img src="admin/logo/<?php echo $arr['image'];?>" alt="sachinenterprises">
                                 <div class="-footer-intro">
                                     <h4><?php echo $arr['name'];?></h4>
                                     <p><?php echo $arr['position'];?></p>
