@@ -137,7 +137,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                         <div class="col-sm-8 col-md-8 col-lg-4 pt-5">
                             <h2 class="title ">ISO Certification</h2>
                             <p></p>
-                            <label for="">Online ISO Certification (All Types Of ISO)</label>
+                            <label for="">Online ISO Certification (All Types Of ISO).</label>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <img src="assets\images\registration images\CAF-Header-image.webp" alt="">

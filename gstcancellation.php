@@ -67,7 +67,7 @@ include("include/config.php");
               <h4 class="subtitle">GST Registation</h4>
               <p></p>
               <label for="">Easily cancel your GST Registration. Get cancellation done through sachinenterprise. Prices
-                start at <strong>INR 1499/- only.</strong></label>
+                start at <strong>INR 299/- only.</strong></label>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
               <img src="assets\images\registration images\CAF-Header-image.webp" alt="">

@@ -105,7 +105,7 @@ include("include/config.php");
     </div>
 
 
-    <div class="features features-bg pt-100">
+    <div class="features features-bg">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-4 col-xl-12 col-lg-12 col-md-12 col-12">
@@ -118,60 +118,60 @@ include("include/config.php");
                     <div class="features-card-area">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card fmt-0">
-                                    <div class="features-icon-area">
+                                <div class="features-card fmt-0 row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-customer-support"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>APPLY</h4>
                                         <p>You can Apply for our several services.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card fmt-0">
-                                    <div class="features-icon-area">
+                                <div class="features-card fmt-0 row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-appointment"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>UPDATE</h4>
                                         <p>You can Update your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card">
-                                    <div class="features-icon-area">
+                                <div class="features-card row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-support-1"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>CHANGES</h4>
                                         <p>You can changes your Application.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card">
-                                    <div class="features-icon-area">
+                                <div class="features-card row mx-1">
+                                    <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
                                             <img class="shape2" src="assets/images/shape/shape-1-1.jpg" alt="image">
                                             <i class="flaticon-bag"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text">
+                                    <div class="features-card-text col-8">
                                     <h4>RENEW</h4>
                                         <p>You can Renew your Application.<label class="invisible">invisible</label></p>
                                     </div>

@@ -132,11 +132,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
     }
 </style>
 
-
 <body>
-
-
-
     <?php include("include/header.php"); ?>
 
     <div class="shadow">
@@ -150,7 +146,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                             <p></p>
                             <div class="text-box">
                                 <label for="">Make your business Pancard Compliant. Never lose on pancard input credit
-                                    ever. Obtain your <strong>Pancard Registration</strong> Online at <strong>INR 499/-
+                                    ever. Obtain your <strong>Pancard Registration</strong> Online at <strong>INR 399/-
                                         only.</strong></label>
                             </div>
                         </div>
@@ -214,7 +210,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
             </div>
         </div>
     </div>
-
     <div class="container">
         <div class="default-section-title default-section-title-middle">
             <h3 class="pt-5">PAN Card Registration</h3>
@@ -242,7 +237,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                             href="http://demo.sachinenterprise.in">info@sachinenterprise.in</a>. </label>
                 </div>
             </div>
-
             <div class="row justify-content-center pt-3">
                 <div class="col-8">
                     <h4>The benefit of Pan Card Agent Registration Service</h4>
@@ -258,7 +252,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                         agent.</label>
                 </div>
             </div>
-
             <div class="row justify-content-center pt-3">
                 <div class="col-8">
                     <h4>Eligibility Criteria</h4>
@@ -276,7 +269,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                         and provide two passport size photographs.</label>
                 </div>
             </div>
-
             <div class="row justify-content-center pt-3 ">
                 <div class="col-8">
                     <h4>How to apply for a PAN Card Agency through sachinenterprise</h4>
@@ -287,7 +279,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                         customers.</label>
                 </div>
             </div>
-
             <div class="row justify-content-center pt-3">
                 <div class="col-8">
                     <h4>Why choose sachinenterprise for Pan Card Agency?</h4>
@@ -298,7 +289,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                         of the other key features of our PAN card agent registration service include:</label>
                 </div>
             </div>
-
             <div class="row justify-content-center pt-3">
                 <div class="col-8">
                     <label>1. Commission on each PAN card application</label>
@@ -431,11 +421,8 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
     </div>
     </div>
 
-
-
     <?php include("include/newsletter.php");?>
     <?php include("include/footer.php"); ?>
-
 
     <div class="popup">
         <div class="popup-content">
@@ -450,7 +437,6 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
     </div>
 
     <div class="go-top"><img src="assets/images/png/002-top.png" alt=""></div>
-
 
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-7.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>

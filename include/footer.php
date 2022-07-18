@@ -116,7 +116,7 @@ if(isset($_POST['send'])){
 <div class="row">
 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
 <div class="footer-logo-area">
-<a href="index.php"><img src="admin/logo/<?php echo $arr['select_logo'];?>" alt="image" style="height:55px; width:55px"></a>
+<a href="index.php"><img src="admin/logo/<?php echo $arr['select_footerlogo'];?>" alt="image" style="height:55px; width:55px"></a>
 <p>One stop source for all government services.</p>
 <div class="footer-social-icons">
 <span>Follow Us:</span>

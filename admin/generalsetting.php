@@ -6,12 +6,18 @@ if(isset($_POST['update'])){
   $loc="logo/".$select_logo;
   move_uploaded_file($filedet,$loc);
 
+  $select_footerlogo = $_FILES['select_footerlogo']['name'];
+  $filedet=$_FILES['select_footerlogo']['tmp_name'];
+  $loc="logo/".$select_footerlogo;
+  move_uploaded_file($filedet,$loc);
+
   $sidebar_header=$_POST['sidebar_header'];
   $contact_email_message=$_POST['contact_email_message'];
   $address=$_POST['address'];
   $contact_phone=$_POST['contact_phone'];
   $contact_email=$_POST['contact_email'];
   $google_map=$_POST['google_map'];
+  
   $select_favicon = $_FILES['select_favicon']['name'];
   $filedett=$_FILES['select_favicon']['tmp_name'];
   $loc="logo/".$select_favicon;
@@ -29,6 +35,16 @@ if(!empty(($_FILES['select_logo']['tmp_name']))){
 }
 if(!empty(($_FILES['select_favicon']['tmp_name']))){
   $sql="UPDATE `general_setting` SET select_favicon='$select_favicon',`sidebar_header`='$sidebar_header',`contact_email_message`='$contact_email_message',`address`='$address',`contact_phone`='$contact_phone',`contact_email`='$contact_email',`google_map`='$google_map' where id='1'";
+  if(mysqli_query($conn, $sql)){
+    echo"<script>alert('Successfully Updated');</script>";
+  }
+  else{
+    echo"<script>alert('Not Updated');</script>";
+
+}
+}
+if(!empty(($_FILES['select_footerlogo']['tmp_name']))){
+  $sql="UPDATE `general_setting` SET select_footerlogo='$select_footerlogo',`sidebar_header`='$sidebar_header',`contact_email_message`='$contact_email_message',`address`='$address',`contact_phone`='$contact_phone',`contact_email`='$contact_email',`google_map`='$google_map' where id='1'";
   if(mysqli_query($conn, $sql)){
     echo"<script>alert('Successfully Updated');</script>";
   }
@@ -151,6 +167,24 @@ if(!empty(($_FILES['select_favicon']['tmp_name']))){
                     <label for="exampleInputEmail1">Select Favicon</label>
                     
                     <input type="file" class="form-control" name="select_favicon" id="exampleInputEmail1" value="" placeholder="Enter email">
+                  </div>
+                  <?php   } ?>
+                  <?php 
+                        
+                        $sql=mysqli_query($conn,"select * from `general_setting` where id='1'");
+                     $count=1;
+                         while($arr=mysqli_fetch_array($sql)){
+                        ?>
+                  <div class="form-group">
+                
+                    <label for="exampleInputEmail1" class="col-12">Footer Favicon</label>
+                    <img src="logo/<?php echo $arr['select_footerlogo'];?>" alt="select_footerlogo"  width="100" height="100">
+                  </div>
+                 
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Select Footer Logo</label>
+                    
+                    <input type="file" class="form-control" name="select_footerlogo" id="exampleInputEmail1" value="" placeholder="Enter email">
                   </div>
                   <?php   } ?>
                   <div class="form-group">

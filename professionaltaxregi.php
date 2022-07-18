@@ -139,7 +139,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
                             <h2 class="title ">Professional</h2>
                             <h5 class="subtitle">Tax Registation</h5>
                             <p></p>
-                            <label for="">Online professional tax registration</label>
+                            <label for="">Online professional tax registration.Obtain your <strong>Professional Tax Registration</strong> Online at <strong>INR 699/- Only.</strong></label>
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
                             <img src="assets\images\registration images\CAF-Header-image.webp" alt="">
