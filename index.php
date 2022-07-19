@@ -303,7 +303,7 @@ transform: rotateY(180deg);
                            
                             <p><?php echo $arr['message'];?></p>
                             <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc1.jpg" alt="image">
+                            <img src="admin/logo/<?php echo $arr['image'];?>" alt="sachinenterprise">
                                 <div class="testimonial-footer-intro">
                                     <h4><?php echo $arr['name'];?></h4>
                                     <p><?php echo $arr['position'];?></p>
