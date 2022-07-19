@@ -55,7 +55,7 @@ include("include/config.php");
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
   </script>
 
-  <title>Sachin Enterprise - GST Registation INR 599/- Only 4 days</title>
+  <title>Sachin Enterprise - GST Registration INR 599/- Only 4 days</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 
