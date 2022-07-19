@@ -97,13 +97,6 @@ if(isset($_POST['send'])){
     }
     ?>
 
-
-
-
-
-
-
-  
  
  <?php 
       include("include/config.php");                  
