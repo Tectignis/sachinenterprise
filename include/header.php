@@ -22,7 +22,7 @@ include("include/config.php");
             <div class="col-sm-5 col-md-5 col-lg-5 col-5">
                 <div class="topbar-right-side">
                     <div class="account">
-                    <a href="https://www.facebook.com/tectignisofficial/" target="_blank" style="text-decoration:none;"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/tectignisofficial/" target="_blank" style="text-decoration:none;"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.instagram.com/tectignisofficial/" target="_blank" style="text-decoration:none" ><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
