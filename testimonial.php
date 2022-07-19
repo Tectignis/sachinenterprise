@@ -25,7 +25,7 @@ $arr=mysqli_fetch_array($sql)
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Sachin Enterprises -testimonial-4 days </title>
+    <title>Sachin Enterprises - testimonial- 4 days </title>
 <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 <style>
 .ratingCheck{
