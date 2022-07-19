@@ -25,7 +25,7 @@ $arr=mysqli_fetch_array($sql)
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Sachin Enterprises -testimonial </title>
+    <title>Sachin Enterprises -testimonial-4 days </title>
 <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 <style>
 .ratingCheck{
@@ -130,7 +130,7 @@ transform: rotateY(180deg);
                            
                             <p><?php echo $arr['message'];?></p>
                             <div class="testimonial-footer">
-                                <img src="assets/images/testimonial/tc1.jpg" alt="image">
+                                <img src="admin/logo/<?php echo $arr['image'];?>" alt="sachinenterprise">
                                 <div class="testimonial-footer-intro">
                                     <h4><?php echo $arr['name'];?></h4>
                                     <p><?php echo $arr['position'];?></p>
