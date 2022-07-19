@@ -34,9 +34,8 @@ transform: rotateY(180deg);
 }
 .ratingCheck label{
     display:block;
-    cursor: pointer;
     width:20px;
-    background:white;
+    background:transperent;
 }
 .ratingCheck label:before{
     content:'\f005';
@@ -77,10 +76,10 @@ transform: rotateY(180deg);
     <div class="uni-banner">
         <div class="container">
             <div class="uni-banner-text">
-                <h1>s</h1>
+                <h1>Testimonial</h1>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>s</li>
+                    <li><a href="index.php">Home</a></li>
+                    <li>Testimonials</li>
                 </ul>
             </div>
         </div>
