@@ -57,7 +57,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
     </script>
-    <title>Sachin Enterprise - Professional Tax Service</title>
+    <title>Sachin Enterprise - Professional Tax Service INR 699/- Only 4 days</title>
     <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 

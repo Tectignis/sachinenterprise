@@ -49,7 +49,7 @@ include("include/config.php");
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
 
-  <title>Sachin Enterprise - GST Modification</title>
+  <title>Sachin Enterprise - GST Modification INR 499/- Only 4 days</title>
   <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 </head>
 

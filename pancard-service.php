@@ -53,7 +53,7 @@ $sql=mysqli_query($conn,"select * from `general_setting`");
 
     <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script> -->
-    <title>Sachin Enterprise - Pancard Service</title>
+    <title>Sachin Enterprise - Pancard Service INR 399/- Only 4 days</title>
     <link rel="icon" type="image/png" href="admin/logo/<?php echo $arr['select_favicon'];?>">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"

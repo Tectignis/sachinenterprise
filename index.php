@@ -187,8 +187,8 @@ transform: rotateY(180deg);
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                <div class="features-card row mx-1">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mr-0 pr-0">
+                                <div class="features-card row mx-1 mr-0 pr-0">
                                     <div class="features-icon-area col-4">
                                         <div class="features-card-icons">
                                             <img class="shape1" src="assets/images/shape/shape-1.png" alt="image">
@@ -196,9 +196,9 @@ transform: rotateY(180deg);
                                             <i class="flaticon-support-1"></i>
                                         </div>
                                     </div>
-                                    <div class="features-card-text col-8">
+                                    <div class="features-card-text col-8 mr-0 pr-0">
                                     <h4>CHANGES</h4>
-                                        <p>You can changes your Application.</p>
+                                        <p>You can changes your Application.<label class="invisible">invisible</label></p>
                                     </div>
                                 </div>
                             </div>
